@@ -1,0 +1,1 @@
+Those notebooks were kindly provided by jakevdp over on his github's page contaning the full documentation of the Python Data Science Handbook: https://github.com/jakevdp/PythonDataScienceHandbook
