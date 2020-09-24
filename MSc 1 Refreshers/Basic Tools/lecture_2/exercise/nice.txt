@@ -1,0 +1,231 @@
+49473:FR	06000	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49474:FR	06001 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49475:FR	06002 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49476:FR	06003 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49477:FR	06004 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49478:FR	06005 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49479:FR	06006 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49480:FR	06007 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49481:FR	06008 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49482:FR	06009 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49483:FR	06010 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49484:FR	06011 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49485:FR	06012 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49486:FR	06013 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49487:FR	06016 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49488:FR	06032 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49489:FR	06033 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49490:FR	06034 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49491:FR	06035 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49492:FR	06036 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49493:FR	06044 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49494:FR	06045 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49495:FR	06046 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49496:FR	06047 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49497:FR	06048 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49498:FR	06049 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49499:FR	06050 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49500:FR	06053 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49501:FR	06071 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49502:FR	06073 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49503:FR	06078 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49504:FR	06079 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49505:FR	06082 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49506:FR	06083 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49507:FR	06084 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49508:FR	06085 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49509:FR	06099 CEDEX 1	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49510:FR	06100	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49511:FR	06101 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49512:FR	06102 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49513:FR	06103 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49514:FR	06105 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49515:FR	06106 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49516:FR	06107 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49517:FR	06108 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49518:FR	06109 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49556:FR	06170 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49557:FR	06171 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49558:FR	06172 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49559:FR	06173 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49560:FR	06175 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49561:FR	06177 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49562:FR	06180 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49563:FR	06181 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49564:FR	06182 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49565:FR	06183 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49566:FR	06184 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49567:FR	06185 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49568:FR	06186 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49569:FR	06187 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49570:FR	06189 CEDEX 2	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49571:FR	06190	Roquebrune-Cap-Martin	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7641	7.4821	5
+49572:FR	06200	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49573:FR	06201 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49574:FR	06202 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49575:FR	06203 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49576:FR	06204 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49577:FR	06205 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49578:FR	06206 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49579:FR	06209 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49593:FR	06230	Saint-Jean-Cap-Ferrat	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.6892	7.3324	5
+49594:FR	06230	Villefranche-sur-Mer	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7039	7.3109	5
+49595:FR	06231 CEDEX	Villefranche-sur-Mer	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7039	7.3109	5
+49596:FR	06232 CEDEX	Villefranche-sur-Mer	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7039	7.3109	5
+49597:FR	06233 CEDEX	Villefranche-sur-Mer	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7039	7.3109	5
+49598:FR	06234 CEDEX	Villefranche-sur-Mer	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7039	7.3109	5
+49599:FR	06235 CEDEX	Villefranche-sur-Mer	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7039	7.3109	5
+49600:FR	06236 CEDEX	Villefranche-sur-Mer	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7039	7.3109	5
+49601:FR	06237 CEDEX	Villefranche-sur-Mer	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7039	7.3109	5
+49602:FR	06238 CEDEX	Villefranche-sur-Mer	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7039	7.3109	5
+49603:FR	06239 CEDEX	Villefranche-sur-Mer	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7039	7.3109	5
+49604:FR	06240	Beausoleil	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.749	7.417	5
+49615:FR	06260	Auvare	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9874	6.9145	5
+49616:FR	06260	Puget-Rostang	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9731	6.9132	5
+49617:FR	06260	Saint-Antonin	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9078	6.9826	5
+49618:FR	06260	Saint-Léger	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9975	6.8269	5
+49619:FR	06260	Pierlas	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0309	7.0329	5
+49620:FR	06260	La Penne	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9285	6.9489	5
+49621:FR	06260	Puget-Théniers	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9546	6.8911	5
+49622:FR	06260	Lieuche	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9927	7.0152	5
+49623:FR	06260	La Croix-sur-Roudoule	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9848	6.8725	5
+49624:FR	06260	Ascros	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9177	7.0147	5
+49625:FR	06260	Rigaud	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9911	6.9916	5
+49629:FR	06281 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49630:FR	06282 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49631:FR	06283 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49632:FR	06284 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49633:FR	06286 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49634:FR	06287 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49635:FR	06288 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49636:FR	06289 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49637:FR	06290 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49638:FR	06292 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49639:FR	06293 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49640:FR	06294 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49641:FR	06295 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49642:FR	06299 CEDEX 3	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49643:FR	06300	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49644:FR	06301 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49645:FR	06302 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49646:FR	06303 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49647:FR	06304 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49648:FR	06305 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49649:FR	06306 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49650:FR	06309 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49651:FR	06310	Beaulieu-sur-Mer	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7076	7.3329	5
+49652:FR	06320	Cap-d’Ail	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7219	7.4069	5
+49653:FR	06320	La Turbie	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7451	7.401	5
+49655:FR	06340	Drap	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7561	7.3206	5
+49656:FR	06340	Cantaron	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7586	7.3188	5
+49657:FR	06340	La Trinité	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7415	7.3135	5
+49658:FR	06341 CEDEX	La Trinité	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7415	7.3135	5
+49659:FR	06342 CEDEX	La Trinité	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7415	7.3135	5
+49660:FR	06343 CEDEX	La Trinité	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7415	7.3135	5
+49661:FR	06344 CEDEX	La Trinité	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7415	7.3135	5
+49662:FR	06345 CEDEX	La Trinité	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7415	7.3135	5
+49663:FR	06348 CEDEX	La Trinité	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7415	7.3135	5
+49664:FR	06349 CEDEX	La Trinité	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7415	7.3135	5
+49665:FR	06352 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49666:FR	06353 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49667:FR	06354 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49668:FR	06357 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49669:FR	06358 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49670:FR	06359 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49671:FR	06360	Èze	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7167	7.3667	5
+49672:FR	06364 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49673:FR	06369 CEDEX 4	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49680:FR	06380	Sospel	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8785	7.4484	5
+49681:FR	06380	Moulinet	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9421	7.415	5
+49682:FR	06390	Berre-les-Alpes	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8333	7.3333	5
+49683:FR	06390	Bendejun	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8333	7.3	5
+49684:FR	06390	Châteauneuf-Villevieille	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8167	7.3	5
+49685:FR	06390	Contes	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8128	7.3144	5
+49686:FR	06390	Coaraze	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8632	7.2942	5
+49687:FR	06391 CEDEX	Contes	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8128	7.3144	5
+49688:FR	06392 CEDEX	Contes	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8128	7.3144	5
+49700:FR	06420	La Tour	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9447	7.1827	5
+49701:FR	06420	Marie	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0294	7.1346	5
+49702:FR	06420	Tournefort	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9414	7.1582	5
+49703:FR	06420	Roubion	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0833	7.05	5
+49704:FR	06420	Valdeblore	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0712	7.172	5
+49705:FR	06420	Bairols	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9787	7.1267	5
+49706:FR	06420	Roure	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0833	7.0833	5
+49707:FR	06420	Clans	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9959	7.148	5
+49708:FR	06420	Ilonse	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0294	7.0985	5
+49709:FR	06420	Rimplas	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0667	7.1333	5
+49710:FR	06420	Saint-Sauveur-sur-Tinée	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0833	7.1	5
+49711:FR	06420	Isola	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.1833	7.05	5
+49712:FR	06430	Tende	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0857	7.5934	5
+49713:FR	06430	La Brigue	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0617	7.6167	5
+49714:FR	06440	Lucéram	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8831	7.36	5
+49715:FR	06440	Peille	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8059	7.4043	5
+49716:FR	06440	Blausasc	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8057	7.3648	5
+49717:FR	06440	Peillon	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7786	7.3828	5
+49718:FR	06440	Touët-de-l’Escarène	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.85	7.3667	5
+49719:FR	06440	L’Escarène	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8365	7.3546	5
+49720:FR	06450	Roquebillière	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0125	7.3075	5
+49721:FR	06450	Belvédère	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0141	7.3225	5
+49722:FR	06450	Utelle	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9166	7.2442	5
+49723:FR	06450	Venanson	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.053	7.2545	5
+49724:FR	06450	La Bollène-Vésubie	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9894	7.3275	5
+49725:FR	06450	Lantosque	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9741	7.3117	5
+49726:FR	06450	Saint-Martin-Vésubie	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.07	7.2555	5
+49730:FR	06470	Villeneuve-d’Entraunes	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.1177	6.7983	5
+49731:FR	06470	Beuil	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.1	6.9833	5
+49732:FR	06470	Châteauneuf-d’Entraunes	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.1273	6.8326	5
+49733:FR	06470	Saint-Martin-d’Entraunes	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.1414	6.7617	5
+49734:FR	06470	Péone	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.1165	6.9064	5
+49735:FR	06470	Daluis	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0214	6.8074	5
+49736:FR	06470	Sauze	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0879	6.8359	5
+49737:FR	06470	Guillaumes	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.0833	6.85	5
+49738:FR	06470	Entraunes	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.1889	6.7489	5
+49740:FR	06500	Sainte-Agnès	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7994	7.466	5
+49741:FR	06500	Menton	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7765	7.5043	5
+49742:FR	06500	Castillon	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8338	7.472	5
+49743:FR	06500	Castellar	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8035	7.4961	5
+49744:FR	06500	Gorbio	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7868	7.4426	5
+49745:FR	06501 CEDEX	Menton	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7765	7.5043	5
+49746:FR	06502 CEDEX	Menton	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7765	7.5043	5
+49747:FR	06503 CEDEX	Menton	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7765	7.5043	5
+49748:FR	06504 CEDEX	Menton	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7765	7.5043	5
+49749:FR	06505 CEDEX	Menton	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7765	7.5043	5
+49750:FR	06506 CEDEX	Menton	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7765	7.5043	5
+49751:FR	06507 CEDEX	Menton	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7765	7.5043	5
+49752:FR	06508 CEDEX	Menton	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7765	7.5043	5
+49777:FR	06540	Fontan	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.004	7.5541	5
+49778:FR	06540	Saorge	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9875	7.5529	5
+49779:FR	06540	Breil-sur-Roya	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9434	7.5147	5
+49807:FR	06660	Saint-Dalmas-le-Selvage	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.2833	6.8667	5
+49808:FR	06660	Saint-Étienne-de-Tinée	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	44.25	6.9167	5
+49809:FR	06666 CEDEX 9	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49810:FR	06670	La Roquette-sur-Var	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.822	7.2106	5
+49811:FR	06670	Duranus	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8927	7.258	5
+49812:FR	06670	Colomars	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7541	7.2198	5
+49813:FR	06670	Levens	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8604	7.2265	5
+49814:FR	06670	Saint-Martin-du-Var	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8181	7.1903	5
+49815:FR	06670	Castagniers	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7932	7.2329	5
+49816:FR	06670	Saint-Blaise	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8214	7.2378	5
+49817:FR	06690	Tourrette-Levens	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7875	7.2736	5
+49827:FR	06710	Touët-sur-Var	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9472	7.0055	5
+49828:FR	06710	Thiéry	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9781	7.0294	5
+49829:FR	06710	Malaussène	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9273	7.1306	5
+49830:FR	06710	Massoins	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9414	7.1254	5
+49831:FR	06710	Villars-sur-Var	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9369	7.0974	5
+49834:FR	06730	Saint-André-de-la-Roche	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7333	7.2833	5
+49840:FR	06790	Aspremont	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7854	7.2446	5
+49850:FR	06825 CEDEX 9	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49851:FR	06826 CEDEX 9	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49852:FR	06829 CEDEX 9	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49853:FR	06830	Bonson	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8601	7.189	5
+49854:FR	06830	Revest-les-Roches	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.883	7.1532	5
+49855:FR	06830	Gilette	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8479	7.1635	5
+49856:FR	06830	Toudon	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.9	7.1138	5
+49857:FR	06830	Tourette-du-Château	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8833	7.1333	5
+49858:FR	06831 CEDEX 9	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49859:FR	06833 CEDEX 9	Nice	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7031	7.2661	5
+49872:FR	06910	Pierrefeu	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.873	7.0813	5
+49874:FR	06910	Roquesteron	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8667	7	5
+49876:FR	06910	Sigale	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8712	6.9672	5
+49877:FR	06910	Cuébris	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.8868	7.0191	5
+49892:FR	06950	Falicon	Provence-Alpes-Côte d'Azur	93	Alpes-Maritimes	06	Arrondissement de Nice	062	43.7479	7.2776	5

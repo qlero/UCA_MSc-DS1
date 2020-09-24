@@ -1,0 +1,316 @@
+﻿BASIC TOOLS CLASS 2
+
+Work done before the Practical Work Part
+
+This is a short report of the commands used for each exercise in the session (lecture 2).
+
+> cd 'Programming/UCA/MSc 1 Refreshers/Basic Tools/lecture_2'
+> ls -l
+	-rw-rw-r-- 1 quentin quentin 439137 sept. 24 13:15 'Lecture_2_Basic tools.pdf'
+	-rw-rw-r-- 1 quentin quentin    108 sept. 24 13:44  practical_work.txt
+> touch test_file.txt
+> vim test_file.txt 
+	Wrote some stuff
+> ls -la
+	drwxrwxr-x 2 quentin quentin   4096 sept. 24 13:51  .
+	drwxrwxr-x 3 quentin quentin   4096 sept. 24 13:43  ..
+	-rw-rw-r-- 1 quentin quentin 439137 sept. 24 13:15 'Lecture_2_Basic tools.pdf'
+	-rw-rw-r-- 1 quentin quentin     88 sept. 24 13:51  .~lock.practical_work.txt#
+	-rw-rw-r-- 1 quentin quentin    396 sept. 24 13:51  practical_work.txt
+	-rw-rw-r-- 1 quentin quentin     84 sept. 24 13:49  test_file.txt
+> chmod o+w 'test_file.txt'
+> ls -l
+	-rw-rw-r-- 1 quentin quentin 439137 sept. 24 13:15 'Lecture_2_Basic tools.pdf'
+	-rw-rw-r-- 1 quentin quentin    396 sept. 24 13:51  practical_work.txt
+	-rw-rw-rw- 1 quentin quentin     84 sept. 24 13:49  test_file.txt
+> chmod o-r 'test_file.txt'
+> myVar="Hello World!"
+> echo $myVar
+	Hello World!
+> read user_name
+	Quentin
+> read -p "What is your name?" other_user_name
+	What is your name?Quentin
+> echo $user_name
+	Quentin
+> echo $other_user_name	
+	Quentin
+> myVar="a"
+> case $myVar in "a")
+> echo "a"
+> ;;
+> "b")
+> echo "b"
+> ;;
+> esac
+	a
+> [ 2 -eq 3 ] && echo "smth"
+
+> [ 2 -eq 3 ] || echo "smth"
+	smth
+> echo $( 3 + 2 )
+	3: command not found
+> echo $(( 3 + 2 ))
+	5
+> x=1;y=0
+> [ ! $x -eq 1 ] || echo "number is not null"
+	number is not null
+> myfunc()
+> {
+> echo "myfunc was called as: $@"
+> x=2
+> }
+> x=1
+> echo "x is $x"
+	x is 1
+> myfunc 1 2 3
+	myfunc was called as: 1 2 3
+> touch test_script.sh
+> vim test_script.sh
+
+
+
+
+
+
+
+> chmod a+x test_script.sh
+> ./test_script.sh "HELLO" 10
+	HELLO 1 time
+	HELLO 2  time
+	HELLO 3  time
+	HELLO 4  time
+	HELLO 5  time
+	HELLO 6  time
+	HELLO 7  time
+	HELLO 8  time
+	HELLO 9  time
+	HELLO 10  time
+
+Basic Tools:
+
+1.
+> cd 'Programming/UCA/MSc 1 Refreshers/Basic Tools'
+> mkdir lecture_1
+> mv ./copyme ./lecture_1/copyme
+
+2.
+> cd lecture_2
+> mv ./test_script.sh ./exercise/test_script.sh
+
+3. 4. 5.
+> cd exercise
+> touch file.1.1.1.txt
+> vim file.1.1.1.txt
+> cat file.1.1.1.txt 
+	"Hello"
+	"Hello"
+	"Hello"
+	"world"
+	"world"
+	"*"
+> less file.1.1.1.txt
+
+
+
+
+
+
+
+
+
+
+
+6. 7. 8.
+> tree ~/
+	
+	Command 'tree' not found, but can be installed with:
+	
+	sudo snap install tree  # version 1.8.0+pkg-3fd6, or
+	sudo apt  install tree  # version 1.8.0-1
+	
+	See 'snap info tree' for additional versions.
+> sudo apt install tree
+> sudo apt install tree
+	[sudo] password for quentin: 
+	Reading package lists... Done
+	Building dependency tree       
+	Reading state information... Done
+	The following packages were automatically installed and are no longer required:
+	  libfprint-2-tod1 libllvm9 python3-click python3-colorama
+	Use 'sudo apt autoremove' to remove them.
+	The following NEW packages will be installed:
+	  tree
+	0 upgraded, 1 newly installed, 0 to remove and 49 not upgraded.
+	Need to get 43,0 kB of archives.
+	After this operation, 115 kB of additional disk space will be used.
+	Get:1 http://fr.archive.ubuntu.com/ubuntu focal/universe amd64 tree amd64 1.8.0-1 [43,0 kB]
+	Fetched 43,0 kB in 0s (229 kB/s)  
+	Selecting previously unselected package tree.
+	(Reading database ... 196427 files and directories currently installed.
+	)
+	Preparing to unpack .../tree_1.8.0-1_amd64.deb ...
+	Unpacking tree (1.8.0-1) ...
+	Setting up tree (1.8.0-1) ...
+	Processing triggers for man-db (2.9.1-1) …
+> tree ~/
+	displays the full tree of directories and files under ~/
+> tree /etc > tree_folder_structure
+> less tree_folder_structure
+	/etc
+	├── acpi
+	│   ├── asus-keyboard-backlight.sh
+	│   ├── asus-wireless.sh
+	│   ├── events
+	│   │   ├── asus-keyboard-backlight-down
+	│   │   ├── asus-keyboard-backlight-up
+	│   │   ├── asus-wireless-off
+	│   │   ├── asus-wireless-on
+	│   │   ├── ibm-wireless
+	│   │   ├── lenovo-undock
+	│   │   ├── thinkpad-cmos
+	│   │   └── tosh-wireless
+	│   ├── ibm-wireless.sh
+	│   ├── tosh-wireless.sh
+	│   └── undock.sh
+	├── adduser.conf
+	├── alsa
+	│   └── conf.d
+	│       ├── 10-samplerate.conf -> /usr/share/alsa/alsa.conf.d/10-samplerate.conf
+	│       ├── 10-speexrate.conf -> /usr/share/alsa/alsa.conf.d/10-speexrate.conf
+	│       ├── 50-arcam-av-ctl.conf -> /usr/share/alsa/alsa.conf.d/50-arcam-av-ctl.conf
+	│       ├── 50-jack.conf -> /usr/share/alsa/alsa.conf.d/50-jack.conf
+	│       ├── 50-oss.conf -> /usr/share/alsa/alsa.conf.d/50-oss.conf
+	│       ├── 50-pulseaudio.conf -> /usr/share/alsa/alsa.conf.d/50-pulseaudio.conf
+	│       ├── 60-upmix.conf -> /usr/share/alsa/alsa.conf.d/60-upmix.conf
+	│       ├── 60-vdownmix.conf -> /usr/share/alsa/alsa.conf.d/60-vdownmix.conf
+	│       ├── 98-usb-stream.conf -> /usr/share/alsa/alsa.conf.d/98-usb-stream.conf
+	│       ├── 99-pulseaudio-default.conf.example
+	│       └── 99-pulse.conf -> /usr/share/alsa/alsa.conf.d/pulse.conf
+	├── alternatives
+
+Zip files
+
+9. I use vim
+
+10.
+> wget http://download.geonames.org/export/zip/FR.zip
+	--2020-09-24 15:13:36--  http://download.geonames.org/export/zip/FR.zip
+	Resolving download.geonames.org (download.geonames.org)... 188.40.33.19
+	Connecting to download.geonames.org (download.geonames.org)|188.40.33.19|:80... connected.
+	HTTP request sent, awaiting response... 200 OK
+	Length: 656006 (641K) [application/zip]
+	Saving to: ‘FR.zip’
+	
+	FR.zip            100%[============>] 640,63K   820KB/s    in 0,8s    
+	
+	2020-09-24 15:13:44 (820 KB/s) - ‘FR.zip’ saved [656006/656006]
+> ls
+	file.1.1.1.txt  FR.zip  test_script.sh  tree_folder_structure
+> unzip FR.zip -d ./
+	Archive:  FR.zip
+	  inflating: ./readme.txt            
+	  inflating: ./FR.txt
+
+11.
+> less FR.zip
+	Archive:  FR.zip
+	 Length   Method    Size  Cmpr    Date    Time   CRC-32   Name
+	--------  ------  ------- ---- ---------- ----- --------  ----
+	    2734  Defl:N     1116  59% 2020-09-24 03:22 542665e1  readme.txt
+	 5342316  Defl:N   654652  88% 2020-09-24 03:22 bda7faba  FR.txt
+	--------          -------  ---                            -------
+	 5345050           655768  88%                            2 files
+Less <file>.zip seems to describe the content of the .zip file without having to extract its content. It is likely accessing a registry of the .zip content.
+> less FR.txt
+	This file seems to contain tabular data.
+> less readme.txt
+	Contains a description of the file: “This readme describes the GeoNames Postal Code dataset.
+	The main GeoNames gazetteer data extract is here: http://download.geonames.org/export/dump/”
+	“The data format is tab-delimited text in utf8 encoding, with the following fields :
+	
+	country code      : iso country code, 2 characters
+	postal code       : varchar(20)
+	place name        : varchar(180)
+	admin name1       : 1. order subdivision (state) varchar(100)
+	admin code1       : 1. order subdivision (state) varchar(20)
+	admin name2       : 2. order subdivision (county/province) varchar(100)
+	admin code2       : 2. order subdivision (county/province) varchar(20)
+	admin name3       : 3. order subdivision (community) varchar(100)
+	admin code3       : 3. order subdivision (community) varchar(20)
+	latitude          : estimated latitude (wgs84)
+	longitude         : estimated longitude (wgs84)
+	accuracy          : accuracy of lat/lng from 1=estimated, 4=geonameid, 6=centroid of 	addresses or shape”
+
+12.
+> grep -rnw ./FR.txt -e '01000'
+
+13.
+> grep -rnw ./FR.txt -e 'Nice' > nice.txt
+
+Files administration
+
+14. 
+> mv ./FR.txt ./french_zipcodes.txt
+
+15.
+> ls -l french_zipcodes.txt
+	-rw-rw-r-- 1 quentin quentin 5342316 sept. 24 03:22 french_zipcodes.txt
+
+16.
+> chmod u+rwx french_zipcodes.txt
+> chmod u-x french_zipcodes.txt
+> chmod u-w french_zipcodes.txt
+
+17.
+> chmod u=rwx,g=r,o-r french_zipcodes.txt
+
+18.
+> chmod g=r '/Programming/UCA/MSc 1 Refreshers/Basic Tools/lecture_2/exercise'
+> chmod g=r french_zipcodes.txt
+So the group user can delete the file, we need to give write access to the directory
+
+Shell Script:
+
+19.
+> hello=”Hello World!”
+> echo $hello
+	Hello World!
+
+20.
+> LONG_FILES_LIST="ls"
+> cd ..
+> cd ..
+> $LONG_FILES_LIST
+	copyme
+
+21.
+> read -p  "What is your name? " user_name; echo "$user_name" > user_reply.txt
+
+22.
+> vim hello.sh
+
+
+
+
+
+
+
+
+> chmod u+w hello.sh
+> ./hello.sh
+
+23.
+> vim msg_err.sh
+
+
+
+
+
+> chmod u+x ./msg_err.sh
+> ./msg_err.sh "file_err.txt"
+	Normal Message
+
+24.
+>
+
