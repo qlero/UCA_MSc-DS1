@@ -1,12 +1,15 @@
 ### EXERCISE 1
-# 1.a ####
+
+# 1.a ###
 v <- seq(1, 10, 0.5)
-# 1.b ####
+
+# 1.b ###
 foo <- function(vec) {
   return(sort(vec, decreasing = TRUE))
 }
-z <- foo(v) 
-# 1.c ####
+z <- foo(v)
+
+# 1.c ###
 set.seed(123)
 sampleFromV <- sample(v, 100, replace=TRUE, prob=runif(19))
 mostOccuring <- sort(table(sampleFromV), decreasing=TRUE)[1]
@@ -14,9 +17,10 @@ print(mostOccuring) # with this seed, 3 occurred 13 times
 hist(sampleFromV, 
      main="Sampling with replacements",
      col="yellow",
-     breaks=19,
+     breaks=19*2,
      freq=TRUE)
-#1.d ####
+
+#1.d ###
 gaussianMatrix <- matrix(rnorm(7*8,mean=0,sd=1), 7, 8)
 #incr <- function(x) {                                                   
 #  if (x < 0) {return(x+1)} 
@@ -26,8 +30,8 @@ gaussianMatrix <- matrix(rnorm(7*8,mean=0,sd=1), 7, 8)
 incrGaussianMatrix <- ifelse(gaussianMatrix<mean(gaussianMatrix),
                              gaussianMatrix+1,
                              gaussianMatrix)
-#
-#1.e ####
+
+#1.e ###
 data <- iris
 dataToPlot <- data[1:length(data)-1]
 boxplot(dataToPlot)
@@ -38,29 +42,32 @@ pairs(dataToPlot,
       pch = as.numeric(iris$Species),  
       col = as.numeric(iris$Species),
       lower.panel=NULL)
-#1.f ####
+
+#1.f ###
 x = seq(0, 1000, by = 1)
 y1 = rgamma(x, 1)
-plot(density(y1), col=2, lwd=3)
+plot(density(y1), col=3, lwd=3)
 y2 = rgamma(x, 2)
-lines(density(y2), col = 3, lwd=3)
+lines(density(y2), col = 2, lwd=3)
 y3 = rgamma(x, 3)
-lines(density(y2), col = 6, lwd=3)
+lines(density(y2), col = 6, lwd=3, lty=3)
 y4 = rgamma(x, 4)
-lines(density(y2), col = 5, lwd=2, lty=2)
+lines(density(y2), col = 5, lwd=2, lty=4)
 
 ###############################################################################
 
 ### EXERCISE 2
 install.packages("nycflights13")
 install.packages("tidyverse")
-library(dplyr)    
+library(dplyr)  
+
 # 2.a ###
 data <- as.data.frame(nycflights13::flights)
 df_130408 <- filter(data, month==4, day==8)
 ordered_delay_df_130408 <- df_130408[order(df_130408$dep_delay),]
 lowest_delay <- head(ordered_delay_df_130408,1)
 lowest_delay
+
 # 2.b ###
 delay4h_flights <- filter(data, dep_delay>4*60) 
 max_mean_df <- data %>% 
@@ -70,6 +77,7 @@ max_mean_df <- data %>%
   filter(dep_delay==max(dep_delay, na.rm=TRUE)) %>%
   arrange(month)
 head(max_mean_df)
+
 # 2.c ###
 LAX_arrivals <- data %>%  
   filter(dest=="LAX") %>%
@@ -80,21 +88,36 @@ head(LAX_arrivals)
 ###############################################################################
 
 ### EXERCISE 3
+
 # 3.a ###
 people_df <- data.frame(age=runif(100,20,40),
                         weight=runif(100,50.0,90.0),
                         graduated=(rnorm(100,0,1)<0.2257))
-# no 3.b
-# 3.c ###
+
+# 3.b ###
 columns = c(1,2,3)
 rows = seq(1,nrow(people_df))
 for (i in seq(1,5)) {
     people_df[sample(rows,1),sample(columns,1)]=NA
 }
-# 3.d ###
-names(people_df)[-1] <- "Driving_License"
+
+# 3.c ###
+names(people_df)[length(people_df)] <- "Driving_License"
 sum(is.na(people_df))
 people_df <- na.omit(people_df)
 sum(is.na(people_df))
 
-# send to Giulia Marchello
+# 3.d ###
+fst_2_cols = people_df[1:2]
+min_max_norm <- function(x) {
+  return((x - min(x)) / (max(x) - min(x)))
+}
+min_max_norm_df <- as.data.frame(lapply(fst_2_cols, min_max_norm))
+head(min_max_norm_df)
+
+# 3.e ###
+z_standardize <- function(x) {
+  return((x-mean(x))/sd(x))
+}
+z_standardized_df <- as.data.frame(lapply(fst_2_cols, z_standardize))
+head(z_standardized_df)
