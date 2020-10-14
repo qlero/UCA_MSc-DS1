@@ -2,6 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks
 
+# Specific files
+Food_Inspections.csv
+
 # R
 .RData
 
@@ -11,7 +14,6 @@
 
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
-Food_Inspections.csv
 
 # IPython
 profile_default/

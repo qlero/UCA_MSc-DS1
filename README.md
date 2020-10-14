@@ -1,6 +1,5 @@
-This is a generic repository for the courses and classes taken at UCA, MSc Data Science - Year 1.
+Repository of UCA MSc Data Science & Artificial Intelligence Year 1 (2020-2021) classes.
 
 __TO DO__
 
-1. Upload pdf of exercises in Basic Algebra and Basic Probabilities
-2. Upload notes of course 4 of Basic Algebra and Basic Probabilities
+1. Finish exercises lecture_3 large dataset with R
