@@ -6,9 +6,9 @@
 Food_Inspections.csv
 
 # R
-.RData
-.Rhistory
-.zip
+*.RData
+*.Rhistory
+*.zip
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
