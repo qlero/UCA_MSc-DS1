@@ -1,0 +1,79 @@
+---
+title: "lecture_4"
+author: "QLR"
+date: "11/3/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE}
+# LIBRARY IMPORTS
+
+library(dslabs)
+```
+
+## R Markdown
+
+This is an R Markdown document to follow the lecture 4 of the MSc in Data Science & AI at Université Côte-d'Azur. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+```{r murders}
+summary(murders)
+```
+
+```{r iris}
+summary(iris)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+
+#plot(rnorm(100,1,2))
+```
+
+```{r}
+plot(iris[1:4],col=iris$Species)
+```
+
+### Knitr Table
+
+```{r echo=FALSE, results='asis'}
+library(knitr)
+kable(mtcars[1:5,], caption="A knitr table.")
+```
+
+### CMD
+
+```{cmd}
+dir
+```
+
+## Introduction 
+This is a report on 2010 gun murder rates obtained from FBI reports. The original data was obtained from [this Wikipedia page](https://en.wikipedia.org/wiki/Murder_in_the_United_States_by_state). We are going to use the following library: 
+```{r loading-libs, message=FALSE} 
+library(tidyverse) 
+``` 
+### Download the data here
+[data](https://github.com/rairizarry/murders/blob/master/rdas/murders.rda)
+and load the data: 
+```{r} 
+load("./murders.rda") 
+``` 
+## Murder rate by state 
+We note the large state to state variability by generating a barplot showing the murder rate by state: 
+```{r murder-rate-by-state, echo=FALSE} 
+murders %>% mutate(abb = reorder(abb, rate)) %>% 
+  ggplot(aes(abb, rate)) + geom_bar(width = 0.5, stat = "identity", color = "black") + coord_flip() 
+```
