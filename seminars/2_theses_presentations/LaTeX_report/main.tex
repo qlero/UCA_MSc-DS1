@@ -1,0 +1,113 @@
+\documentclass[a4paper]{article} 
+
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{wrapfig}
+
+\input{head}
+\begin{document}
+
+%-------------------------------
+%	TITLE SECTION
+%-------------------------------
+
+\fancyhead[C]{}
+\hrule \medskip % Upper rule
+\begin{minipage}{0.24\textwidth} 
+\raggedright
+\footnotesize
+Quentin Le Roux \hfill
+\end{minipage}
+\begin{minipage}{0.5\textwidth} 
+\centering 
+\large 
+Seminar 1 "Histopathology" - 1-page Summary
+\end{minipage}
+\begin{minipage}{0.245\textwidth} 
+\raggedleft
+\today
+\end{minipage}
+\hrule 
+\bigskip
+
+%-------------------------------
+%	CONTENTS
+%-------------------------------
+
+The seminar covered an \textbf{Core Elements of AI}, presenting short summaries of ongoing research at the 3iA Côte d'Azur Institute. 
+
+\section{Marco Gori, 3iA International Chair -- Keynote}
+MArco Gori from the University of Siena presented a "\textit{Mathematical Framework for Unifying Learning and Reasoning}", which goal was to bridge logic and real-valued constraints in the real of machine learning and Symbolic Inference. To do so a new communication protocol is introduced along with a parsimony principle.
+
+\section{Presentations from 3iA members}
+Five minutes were allotted to each speaker.
+\\\\
+\textbf{Serena Villata}, "\textit{Artificial Argumentation for Humans}": The goal is to mine argumentative structures from text data (different settings) to support the explanation of the outcome of a deliberation process. Applications can be found in policy-making, counter-argumentation against disinformation, fallacy detection in political debates and speeches.
+\\\\
+\textbf{Fabien Gandon}, "\textit{Formalizing Knowledge and Designing Algorithms to Support the Interactions of Different Forms of Artificial Intelligence and natural intelligence on the Web}": The research aims at obtaining knowledge from the Web to predict access to data for and by AI to optimize data crawling. Application can be the following: turning a REST API into a SPARQL DB, predict from a URL whether there will be relevant data or not.
+\\\\
+\textbf{François Delarue}, "\textit{Mean-Field Systems in Artificial Intelligence}": The research seeks to explore the application of mean-field theory to machine learning.
+\\\\
+\textbf{Jean-Daniel Boissonnat}, "\textit{Topological Data Analysis}": The work showcased aims at applying geometric models and topology to perform data analysis (e.g. considering data as points in high dimensions) and obtain a multi-scale topological view of the data.
+\\\\
+\textbf{Xavier Pennec}, "\textit{Geometric Statistics and Geometric Subspace Learning}": The presentation showcased how researchers deal with data non-linearity and how geometry has a key role in statistical learning. "Curvature and singularities have an influence on estimation by affecting the empirical mean in Riemannian and Affine Manifolds."
+\\\\
+\textbf{Carlos Simpson}, "\textit{AI for the Enumeration of Finite Structures}": The presentation covers the problem of classification and enumeration of finite semigroups. It relates to deep learning as one can train a machine to predict the best choice of hypothesis to make at each step of the enumeration proof.
+\\\\
+\textbf{Jean-Charles Régin}, "\textit{Decision Intelligence}": This presentation covers the aims of the Decision Intelligence Chair headed by Jean-Charles Régin. The Chair's goal is mainly the development of algorithms and data structures like Multi-Valued Decision Diagrams for solving multi-objective and multi-scale problems.
+\\\\
+\textbf{Andrea Tettamanzi}, "\textit{Towards an Evolutionary Epistemology of Ontology Learning}": This presentation covered a framework to perform axiom testing from assertions shaped as RDF triples (a form of inductive reasoning).
+\\\\
+\textbf{Maurizio Filippone}, "\textit{Machine Learning at the Speed of Light}": This presentation explores one way to circumvent the ever-increasing demand for computing power that we face today, and the fact that technology bottle-necking is a future worry. Instead of using transistor-based computing, the paper covers an optical processing unit that uses lasers as primary source of computing.
+\\\\
+\textbf{Marco Lorenzi}, "\textit{Interpretability and Security of Statistical Learning}": The presentation covered three topics: modeling heterogeneous data, dynamic system learning, and federated learning. The concept of security was covered in the latter case as federated learning involved heterogeneous and uncertain data, raising fairness and security issues that pair with the open-source front-end framework that it is based upon.
+\\\\
+\textbf{Charles Bouveyron}, \textit{Presentation of the 3iA Chair}: The presentation highlights that many issues still plagues the research field of artificial intelligence, notably handling data heterogeneity, unsupervised learning, learning form small data, and overall reliability and interpretability of models and algorithms. The Chair presented during the talk has already provided some preliminary results: learning with complex and heterogeneous data, and learning with high-dimensional data.
+\\\\
+\textbf{Rémi Flamary}, "\textit{Optimal Transport for Machine Learning}": The research showcased covers the search for the best way to transport mass between two distributions in an optimal way (Optimal Transport). 
+
+\section{Elevator Pitches from 3iA PhD students and Post-Docs}
+One minute was allotted to each speaker.
+\\\\
+\textbf{Raphaël Gazzotti}, "\textit{Covid on the Web: Extracting and Publishing Data from Covid Scientific Literature}": The goal of this project is to build a way to process data and derive workable dataset that can be easily queried, browsed and analyzed for biomedical research.
+\\\\
+\textbf{Hai Huang}, "\textit{Crawling and Indexing Linked Open Data}": The goal of this research is to infer from URL links whether relevant data can be queried.
+\\\\
+\textbf{Santiago Marro}, "\textit{Argument-Based Explanatory Dialogues for Medicine}": This research aims at understanding persuasive essays and assess the quality of arguments, and in turn generate persuasive essays given a topic. 
+\\\\
+\textbf{Edouard Balzin}, "\textit{Towards the Mathematics of Neural Networks}": This project aims at formalizing the mathematics used in Neural Network (how to better represent them, etc.)
+\\\\
+\textbf{Boris Shminke}, "\textit{Neural Networks for Semigroups}": This research aims at offering a probabilistic solution to the Cayley Table Completion problem
+\\\\
+\textbf{Cedric Vincent-Cuaz}, "\textit{Graph Dictionary Learning with Gromov-Wasserstein Distances}": This research aims at minimizing a measure called the Gromov-Wasserstein distance between graphs of different shapes.
+\\\\
+\textbf{Athanasios Vasileiadis}, "\textit{Fictitious Play With Exploration Noise and Reinforcement Learning}"
+\\\\
+\textbf{Nicolas Guigui}, "\textit{Geometric Methods for Statistical Analysis of Shape Trajectories}": The goal of this research is to use a concept of prior knowledge in order to interpret and work on the deformation of geometric shapes.
+\\\\
+\textbf{Dingge Liang}, "\textit{A Deep Latent Recommender System Based on Ratings and Reviews}": This project is working on a new kind of recommendation system based on deep neural network.
+\\\\
+\textbf{Giulia Marchello}, "\textit{The Dynamic Latent Block Model (dLBM)}": This research aims at developing a new kind of cell for machine learning, based on the SEM-Gibbs algorithm.
+\\\\
+\textbf{Irene Balelli} (presentation given by Marco Lorenzi), "\textit{Federated Generative Modeling of Variability in Heterogeneous Multi-View Datasets}": This project aims at developing a new federated learning paradigm in order to address the two main challenges of multi-centric biomedical studies: heterogeneous distribution of datasets across centers, complex multi-view high dimensional data.
+\\\\
+\textbf{Etrit Haxholli}, "\textit{Exploring Latent Dnamical Models for Failure Prediction in Time-Series of High-dimensional and Heterogeneous Data}": This project explores latent dynamical models for predicting failures in time series (e.g. neural ODEs applied to time series such as EEG data collected from mice).
+\\\\
+\textbf{Ali Ballout}, "\textit{Active Learning for Axiom Discovery}": The objective of this research is to overcome the knowledge acquisition bottleneck by using active learning and symbolic reasoning to make the automatic discovery of axioms possible. To do so, the research attempts to apply machine learning methods to predict the fitness of candidate axioms along with active learning.
+\\\\
+\textbf{Thu Huong Nguyen}, "\textit{A Grammatical Evolution Approach to Class Disjointness Axiom Discovery}": the objective of this research is learning aclass disjointness axioms (CDAs are important to check the correctness of a knowledge base and to derive new knowledge) from RDF datasets such as DBPedia. 
+\\\\
+\textbf{Ahmed Amine Djebri}, "\textit{Publishing Uncertainty on the Semantic Web: Blurring the LOD Bubbles}": This research aims at making uncertainty representable, publishable, discoverable and transferable.
+\\\\
+\textbf{Bogdan Bozyrskiy} (presentation done by Maurizio Filippone), "\textit{Bayesian Neural Networks Trained with Target Propagation}": This research explores a way to train Bayesian neural networks: target propagation (mostly to decouple highly nested optimization problem). 
+\\\\
+\textbf{Fabroni Yann}, "\textit{Free-Rider Attack on Model Aggregation in Federated Learning}": The goal of this research is to better handle free-rider attacks during model aggregation in the context of federated learning.
+\\\\
+\textbf{Antonia Ettorre}, "\textit{AI for Education and Training}": The project aims at providing intelligent services in pedagogical web environment by applying machine learning and automated reasoning method to exploit a knowledge graph. One outcome for instance is predicting outcomes of user interactions with learning materials.
+\\\\
+\textbf{Yann Thanwerdas}, "\textit{Geometric Statistics on Covariance and Correlation Matrices}": This research aims at using geometric statistics to better represent and process covariance and correlation matrices.
+
+
+\end{document}
+
+%doc by Quentin Le Roux

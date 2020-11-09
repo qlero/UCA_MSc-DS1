@@ -1,0 +1,77 @@
+\documentclass[a4paper]{article} 
+
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{wrapfig}
+
+\input{head}
+\begin{document}
+
+%-------------------------------
+%	TITLE SECTION
+%-------------------------------
+
+\fancyhead[C]{}
+\hrule \medskip % Upper rule
+\begin{minipage}{0.24\textwidth} 
+\raggedright
+\footnotesize
+Quentin Le Roux \hfill
+\end{minipage}
+\begin{minipage}{0.5\textwidth} 
+\centering 
+
+Seminar 3 -- Recommender Systems -- 1-page Summary
+\end{minipage}
+\begin{minipage}{0.245\textwidth} 
+\raggedleft
+\today
+\end{minipage}
+\hrule 
+\bigskip
+
+%-------------------------------
+%	CONTENTS
+%-------------------------------
+
+The seminar covered the topic of \textbf{Recommender Systems: an industrial perspective}, presented by Boris Shminke from CNRS (Laboratoire J.A. Dieudonné).
+
+\section{What are recommender systems (RS)?}
+
+A RS \textit{returns a curated collection of item to a user based on a context and their request(s) while learning in an iterative from their choices and preferences}. A specific type is considered here: "\textbf{item2user}".
+
+RS differ from search systems as their responses are not ranked [lists]. RS offer no ideal ordering and recommendations are personally tailored to the user. RS are also not considered advertising as a user has implicitly agreed to consume content. The goal being to show related, consumable content. User preferences can either be \textit{explicit} (e.g. reviews, stars) or \textit{implicit} (e.g. viewing, purchasing).
+
+Mentioned above, RS work within a context: a set of user-independent factors that will nonetheless influence the recommendation results (e.g. time, which can be hierarchically split further such as hour-day-season). 
+
+%How to build a RS: collect preferences of users for items. predict unknown preferences. profit
+
+\section{Matrix Completion Problem}
+
+Matrix Completion is one way to answer the need for RS as it is a way to represent input data: 
+\begin{quote}
+Given a list of $m$ users ${u_1, ..., u_n}$ and $n$ items ${i_1, ..., i_n}$, the user preferences toward the items can be represented as a matrix of dimensions $m \times n$ matrix $A$, where each entry is either a rating or incomplete.
+\end{quote}
+A bilinear model can be applied to fill the matrix (i.e. finding the user’s preference for an item) by applying: $$r_{u, i} = \langle x^u, y^i \rangle= \underset{j=1}{\overset{K}{\sum}x_j^uy_j^i} \Leftrightarrow R = XY^T$$ with $x^u$ a representation of a user's preferences and $y^i$ a representation of the preferences attributed to an item, both in a K-dimensional latent space.
+Such a technique helps compute a user preferences for each single item and find recommendations for users. Other techniques such as Singular Value Decomposition (SVD) can be used to ease the process by performing dimensionality reduction.
+\\\\
+\textbf{Remark}: [B. Shminke] "Bilinear models are a king of neural network."
+
+\section{Recommendation Engine Architecture, i.e. How to Build One?}
+The construction of a RS involves a three-stage architecture:
+
+\subsection{Candidate Selection}
+Candidate selection is performed on a sizeable number of items (c. $10^6$ to $10^9$ items). This phase involves clustering (with matrix factorisation or KNN) to cast users and items in a lower dimensional latent space.
+
+\subsection{Ranking}
+Neural Networks are preferred for their task effectiveness. This phase tries to bridge both technical and business needs. Indeed, the RS is trained to correspond to multiple business-centered criteria (e.g. promoting new releases, following trends, etc.) as well as meeting concepts of coverage, diversity, etc. 
+\begin{quote}
+Precision alone is not sufficient!
+\end{quote}
+\subsection{Re-Ranking}
+Re-ranking corresponds to a phase where trade-off are made (and new training periods can be run) between losing precision in order to gain a better handling on other criteria as mentioned above. It can be considered fine-tuning.
+\\\\
+In conclusion, a given example of RS building is as such: selecting candidates with SVD, ranking recommendations with a two-tower neural network, re-ranking for improving diversity of recommendations.
+\end{document}
+
+%doc by Quentin Le Roux
