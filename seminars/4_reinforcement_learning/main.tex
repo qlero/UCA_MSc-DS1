@@ -1,0 +1,75 @@
+\documentclass[a4paper]{article} 
+
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{wrapfig}
+
+\input{head}
+\begin{document}
+
+%-------------------------------
+%	TITLE SECTION
+%-------------------------------
+
+\fancyhead[C]{}
+\hrule \medskip % Upper rule
+\begin{minipage}{0.24\textwidth} 
+\raggedright
+\footnotesize
+Quentin Le Roux \hfill
+\end{minipage}
+\begin{minipage}{0.5\textwidth} 
+\centering 
+
+Seminar 4 -- Reinforcement Learning-- 1-page Summary
+\end{minipage}
+\begin{minipage}{0.245\textwidth} 
+\raggedleft
+\today
+\end{minipage}
+\hrule 
+\bigskip
+
+%-------------------------------
+%	CONTENTS
+%-------------------------------
+
+The seminar covered the topic of \textbf{An Introduction to Reinforcement Learning and Deep RL} (RL), presented by Lucile Sassatelli (UCA, CNRS, I3S, IUF)
+
+\section{Main Concepts}
+RL is a a \textbf{branch of machine learning} aimed at teaching an agent (or several) to react to a dynamic environment in order to to maximize some return. A RL has the following elements:
+\begin{itemize}
+  \item An \textbf{agent}, which can chose to take one of many possible actions ($a \in \mathcal{A}$) depending on an environment
+  \item An \textbf{environment}, which can be in many states ($s \in \mathcal{S}$) -- evolution is random or partly action-dependent. The transition between states follows a model (which can be described by transition probabilities if the environment has the markov property $P(S_{t+1}|S_1,…,S_t) = P[S_{t+1}|S_t]$
+  \item An agent \textbf{observes} and reacts to the environment. Once an action is taken, the environment delivers a \textbf{reward} ($r\in\mathcal{S}$) 
+\end{itemize}
+$\Rightarrow$ this system is described in episodes $(S_0, A_0, R_0), ..., (S_t, A_t, R_t)$
+\\\\
+The agent's behaviour is described by a \textbf{policy function} $\pi(.)$ indicating which action to take in state s. $\pi$ can be deterministic or stochastic. The formal objective of a RL process is to maximize the reward associated to the action the action takes in a dynamic environment:
+\\
+$$\pi(.) = \underset{\pi}{argmax}\,\mathbb{E}_{s\in\mathcal{S}, a\sim\pi(.)}[\underset{t=0}{\overset{+\infty}{\sum}}\gamma^t.r_t]$$
+With $\gamma$ a discount factor, $r$ a reward. $\pi(.)$ impacts the system's episodes.
+\\
+Two other functions are involved: the \textbf{action value function} ($Q_{\pi}(s, a) = \mathbb{E}_\pi[G_t|S_t=s, A_t=a]$), which helps choose the action, and the \textbf{state value function} ($V_\pi(s')=\mathbb{E}_\pi[G_{t+1}|S_{t+1}=s']$), which predicts the cumulated discounted sum of future rewards.
+
+
+\section{Tabular Methods}
+
+Tabular method refer to problems in which the state and action spaces are small enough for approximate value functions too be represented as arrays and tables. Many methods are thus availables:
+\begin{itemize}
+  \item \textbf{Multi-armed bandis}: An action q has an expected reward: $a_\ast(a)\overset{.}{=}\mathbb{E}[R_t|A_t=a]$
+  \item \textbf{Monte Carlo methods}: Predicts an entire trajectory of episodes based on an input policy $\pi$. There are two possible ways for control: 1) on-policies (evaluation and improvement on the policy used to generate data), 2) off-policies (evaluation and improvement on a different target policy)
+  \item \textbf{Temporal-Difference learning}: Method involving bootstrapping that does not require a final outcome to be computed (it also has on and off policies ways of control)
+  \item \textbf{Tabular Q-Learning}: All $(S, A)$ pairs are tracked in a dictionary
+\end{itemize}
+
+\section{Functions Approximation}
+Value function can be approximated such that, given a weight factor $w$: $\hat{v}(s, w)\approxv_\pi(s)$. It is suited to partially observable problems and can be achieved via different methods (e.g. semi-gradient methods using on and off policy controls, policy gradient methods)
+
+\section{Perspectives on Deep Reinforcement Learning}
+
+Massive improvement have happened over the last five years. However, deep RL is not plug and play: DRL can be sample inefficient and fair competitors can be hard to find. RL requires a reward function to design while Local optima are very hard to escape, overfitting risk is high and reproducibility is hard.
+
+\end{document}
+
+%doc by Quentin Le Roux
