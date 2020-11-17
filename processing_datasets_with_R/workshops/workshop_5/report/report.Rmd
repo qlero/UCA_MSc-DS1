@@ -1,0 +1,250 @@
+---
+title: "workshop"
+author: "Quentin Le Roux"
+date: "11/17/2020"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+library(dplyr)
+library(ggplot2)
+library(reshape)
+library(gapminder)
+library(purrr)
+```
+
+# Exercise 1
+
+1. Download the dataset and show the summary.
+
+```{r dataset_1, echo=FALSE}
+data <- read.csv("winequality-red.csv", sep=";", header=TRUE)
+class(data)
+summary(data)
+```
+
+2. Add the variable “label” for alcohol percentage (alcohol variable) to group the alcohol concentration in the following way:
+
+Light < 9; 9 ≤ Medium < 12 ; Strong ≥ 12
+
+```{r labels}
+data$label = ""
+data$label[data$alcohol<9]="Light"
+data$label[9<=data$alcohol & data$alcohol<12]="Medium"
+data$label[data$alcohol>=12]="Strong"
+```
+
+3. How many Light, Medium and Strong wines there are in the dataset?
+
+```{r label_count, echo=FALSE}
+table(data$label)
+```
+
+4. Create a barplot for the 3 levels variable “label” where the color of bars depends on the level of the alcohol concentration, with title: “Alcohol concentration”
+
+```{r barplot_1, echo=FALSE}
+ggplot(data, aes(x=as.factor(label), fill=as.factor(label) )) +  
+  geom_bar(alpha=0.6) +
+  scale_fill_brewer(palette = "Set1", name="Alcohol concentration") +
+  xlab("Alcohol level") + ylab("Count") + 
+  ggtitle("Alcohol concentration")
+```
+
+5. Show histograms for fixed.acidity by label
+
+```{r hist_1, echo=FALSE}
+ggplot(data, aes(x=fixed.acidity, fill=label)) +
+  geom_histogram(alpha=0.6, binwidth=1) + #, position = 'identity'
+  scale_fill_brewer(palette = "Set1", name="Alcohol concentration") +
+  labs(fill="") + xlab("Acidity") + ylab("Frequency")
+```
+
+6. Create a density plot taking into account the citric.acid for the three level of the variable “label”
+
+```{r density_1, echo=FALSE}
+ggplot(data, aes(x=citric.acid, fill=label)) +
+  geom_density(alpha=0.2) +
+  scale_fill_brewer(palette = "Set1") +
+  xlab("Citric Acid Amount") + ylab("Density") + 
+  ggtitle("Citric Acid Amount Between Kind of Red Wines") + 
+  theme_classic()
+```
+
+7. Create a boxplot for the overall dataset (Consider the Log Scale)
+
+```{r boxplot_1, echo=FALSE}
+logData <- data %>% map_if(is.numeric, function(x) log1p(x)) %>%
+  as.data.frame
+meltData <- melt(logData)
+ggplot(meltData, aes(factor(variable), value)) +
+  geom_boxplot() + facet_wrap(~variable, scale="free") + 
+  xlab("Variables") + ylab("Values (Log Scale)") +
+  ggtitle("Boxplot Overview of the Red Wine Dataset")
+
+```
+
+8. Create a scatter plot quality and alcohol where the color of points varies depending on the following quality ranges (2,4],(4,6],(6,8]. Add a dashed line for the median. Give a title to the plot and to the x and y axes (Use geom_jitter() instead of geom_point())
+
+```{r scatter_1, echo=FALSE}
+new_data <- data %>% mutate(quality_range=case_when(
+  quality>2 & quality<=4 ~ "(2,4]",
+  quality>4 & quality<=6 ~ "(4,6]",
+  quality>6 ~ "(6,8]"
+))
+ggplot(new_data, aes(quality, alcohol)) + geom_jitter(aes(colour = quality_range)) + 
+  xlab("Quality Range") + ylab("Alcohol Content") +
+  ggtitle("Scatter Plot Overview of the Quality of Red Whine depending on Alcohol") + stat_summary(fun.y=median, geom="line", colour="black", linetype=2)
+```
+
+
+# Exercise 2
+
+1. Load the dataset gapminder from the package gapminder
+
+```{r dataset_2, echo=FALSE}
+gapdata <- gapminder
+```
+
+2. Create a tibble 5×4 containing the number of observation per continent, the number of countries per continent and the average of life expectation.
+
+```{r tibble, echo=FALSE}
+tibbled_data <- gapdata %>% group_by(continent) %>% summarize(
+  observations = n(),
+  number_countries = n_distinct(country),
+  average_lifespan = mean(lifeExp)
+)
+tibbled_data
+```
+
+3. Show the columns of country, year, lifeExp and add a variable that represents the year of life expectancy gained with respect to 1957, for each country, until 1963.
+
+```{r lifespan_gain, echo=FALSE}
+lifespan_gain <- gapdata %>% select(country, year, lifeExp) %>%
+  filter(year == 1957 | year == 1962) %>% #no 1963 date
+  group_by(country) %>%
+  mutate(lifeExp_gain_since_1957 = lifeExp - sum(if_else(year==1957,lifeExp,0))) %>%
+  filter(year != 1957)
+lifespan_gain
+```
+
+4. What was the most populous European country in 1992? Modify the population variable by dividing it by 106. Show the results sorted according to population in a descending order.
+
+The most populous country was :
+```{r pop_max, echo=FALSE}
+pop_max <- gapdata  %>% filter(year==1992) %>% arrange(desc(pop))
+head(pop_max, 1)[1]
+```
+
+```{r pop_max_table, echo=FALSE}
+pop_max <- pop_max %>% mutate(pop=pop/106)
+pop_max
+```
+
+5. Draw a scatterplot of gdpPercap and lifeExp where the color of points depends on the continent. Overall also a smooth line (loess) with its confidence intervals. Give the plot a title and axis labels. *Hint: log scale x axis*
+
+```{r scatter_2, echo=FALSE}
+logPopMax <- pop_max %>% map_at("gdpPercap", function(x) log1p(x)) %>%
+  as.data.frame
+ggplot(logPopMax, aes(gdpPercap, lifeExp)) + geom_point(aes(colour = continent)) + geom_smooth(method = loess) + 
+  xlab("GDP per Capita (Log Scale)") + ylab("Life Expectancy") +
+  ggtitle("Life Expectancy vs. GDP per Capital in 1992")
+```
+
+# Exercise 3
+1. Select a dataset and variables to be used for clustering:
+  - Iris dataset, variable Species not included.
+  - mtcars dataset, considering only the following variables : ‘mpg’,‘disp’, ‘wt’.
+
+```{r dataset_3, echo=FALSE}
+iris_data <- iris %>% select(-"Species")
+mtcars_data <- mtcars %>% select("mpg", "disp", "wt")
+available_datasets <- c("iris", "mtcars")
+```
+
+2. Indicate the desired number of clusters to be used and display the results in a scatterplot where colors depend on clusters. *Hint : add runtime: shiny to the YAML-Header.*
+
+```{r shinapp, echo=FALSE}
+shinyApp(
+
+# Define UI for application that draws a histogram
+ui <- fluidPage(
+    
+    pageWithSidebar(
+        headerPanel('K-means clustering example'),
+        sidebarPanel(
+          uiOutput("selIn1"),
+          uiOutput("selIn2"),
+          uiOutput("selIn3"),
+          uiOutput("clusters")
+        ),
+        mainPanel(
+          plotOutput('plot1')
+        )
+    )
+    
+),
+
+# Define server logic required to draw a histogram
+server <- function(input, output) {
+    
+    output$selIn1=renderUI({
+      selectInput('dataset', 'Select a dataset', available_datasets,
+                  selected=available_datasets[1])
+    })
+    
+    output$selIn2 <- renderUI({
+      if (input$dataset=="iris"){
+        dat = iris_data
+      } else {
+        dat = mtcars_data
+      }
+      selectInput('xcol', 'Select first variable for clustering',
+                  colnames(dat), selected=colnames(dat)[1])
+    })
+    
+    output$selIn3 <- renderUI({
+      if (input$dataset=="iris"){
+        dat = iris_data
+      } else {
+        dat = mtcars_data
+      }
+      selectInput('ycol', 'Select second variable for clustering',
+                  colnames(dat), selected=colnames(dat)[2])
+    })
+    
+    output$clusters <- renderUI({
+        numericInput('clusters', 'Number of clusters', 
+                     3, min = 1, max = 9)
+    })
+    
+    selectedData <- reactive({
+      if (input$dataset=="iris"){
+        dat = iris_data
+      } else {
+        dat = mtcars_data
+      }
+      dat[, c(input$xcol, input$ycol)]
+    })
+    
+    clusters <- reactive({
+        kmeans(selectedData(), input$clusters)
+    })
+    
+    output$plot1 <- renderPlot({
+        palette(c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3",
+                  "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999"))
+        par(mar=c(5.1, 4.1, 4.1, 8.1), xpd=TRUE)
+        plot(selectedData(),
+             col = clusters()$cluster,
+             pch = 17, cex = 2, alpha = 0.5)
+        points(clusters()$centers, col="black", pch = 17, cex = 3, lwd = 5)
+        legend("topright", title="Clusters", inset=c(-0.3, 0), legend=c(paste("Cluster", 1:input$clusters),"Centroids"), pch=c(rep.int(17,input$clusters),17), col=c(1:input$clusters,"black"))
+    })
+    
+},
+  
+  options = list(height = 800)
+)
+```
