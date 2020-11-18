@@ -1,0 +1,1162 @@
+---
+title: "Data Manipulation and Visualization with R"
+author: "Aline Menin"
+date: "November 10, 2020"
+output:
+  beamer_presentation:
+    theme: "Madrid"
+    colortheme: "beaver"
+    includes:
+      in_header: "preamble.tex"
+---
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Overview of R and RStudio
+## What is R?
+
+:::: {.columns data-latex=""}
+::: {.column data-latex="{\linewidth}"}
+  R is a \ctext{free} software environment for \ctext{statistical computing} and \ctext{graphics}
+  \vskip1em
+  We can download it at \url{https://www.r-project.org/}
+  \vskip1em
+  \small R for Beginners: https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf
+::: 
+::: {.column data-latex="{\linewidth}"}
+  It allows us to do
+ 
+  - arithmetic calculations;
+  - data manipulation;
+  - a large variety of graphics;
+  - scripts to automatize data treating;
+  - numeric modeling and simulation;
+  - a large variety of statistical treatments;
+  - reports, web pages, interactive applications, and slideshows.
+:::
+::::
+
+## Why should we use R?
+:::: {.columns data-latex=""}
+::: {.column data-latex="{\linewidth}"}
+  It can replace the functions of 
+  
+  - a calculator;
+  - a spreadsheet;
+  - a programming language;
+  - a statistical software;
+  - a reports and presentation editor.
+:::
+
+::: {.column data-latex="{\linewidth}"}
+  \includegraphics[width=\linewidth]{figs/whyR.png}
+:::
+::::
+
+\vskip2em
+Although R is quite cumbersome at first, it quickly reveals itself as an incredible asset compared to spreadsheets. 
+
+## How to use R?
+To simplify the usage of R, we normally use it via an adapted editor: \ctext{RStudio} 
+\tiny (Download at https://rstudio.com/products/rstudio/download/)
+
+\vskip2em
+\normalsize
+
+:::: {.columns data-latex=""}
+::: {.column data-latex="{\linewidth}"}
+  RStudio contains four windows:
+  
+  - the \textcolor{darkred}{Source} (top left)
+  - the \textcolor{darkred}{Console} (bottom left)
+  - the \textcolor{darkred}{Environment, History, ...} (top right)
+  - the \textcolor{darkred}{Files, Plots, Packages, Help, ...} (bottom right)
+:::
+
+::: {.column data-latex="{\linewidth}"}
+  \includegraphics[width=\linewidth]{figs/rstudio.png}
+:::
+::::
+
+## Packages
+
+R packages are collections of functions and datasets developed by the community. They increase the power of R by improving existing base R functionalities or by adding new ones. To install a package in R, we run the following command:
+
+::: {.tcolorbox data-latex=""}
+\small
+\centering install.packages("package_name")
+:::
+
+Then, we must include the package into our script by using:
+
+::: {.tcolorbox data-latex=""}
+\small
+\centering library(package_name)
+:::
+
+
+## Packages
+
+We start by using the \ctext{tidyverse} package, which is a collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures. It contains
+
+  - the \textcolor{darkred}{readr} package for reading/writing data tables, which is based on
+  - the \textcolor{darkred}{tibble} package for establishing the data format;
+  - the \textcolor{darkred}{dplyr} package for computing aggregate statistics in datasets;
+  - the \textcolor{darkred}{tidyr} package for reshaping datasets according to our needs; 
+  - the \textcolor{darkred}{stringr} package for manipulating strings; and
+  - the \textcolor{darkred}{ggplot2} package for producing nice looking and configurable graphics.
+  
+::: {.tcolorbox data-latex=""}
+  \small
+  install.packages("tidyverse")
+
+	library(tidyverse)
+:::
+
+# Data Manipulation
+
+## Data import: \texttt{readr}
+
+The package provides different methods according to the data format:
+
+- \ctext{read\_csv()}: comma separated (CSV) files; uses comma (\ctext{,}) as field separator and dot (\ctext{.}) as decimal point (English format).
+- \ctext{read\_csv2()}: comma separated (CSV) files; uses semi-colon (\ctext{;}) as field separator and comma (\ctext{,}) as decimal point (French format).
+- \ctext{read\_delim()}: generic and customizable method for reading files with specific field separators (e.g., tabs). 
+  
+\vfill
+\scriptsize
+::: {.tcolorbox data-latex=""}
+  More information at \url{https://readr.tidyverse.org/}
+:::
+
+## The data
+
+The results of the presidential election of 2017 in France, round 2.
+
+\vskip1em
+\scriptsize
+```{r, echo=TRUE}
+  round_2 <- read_csv('data/results_pres_elections_dept_2017_round_2.csv')
+```
+
+\tiny
+::: {.tcolorbox data-latex=""}
+\ctext{Note} that names of variables containing white spaces are put in between \ctext{backticks}, which \ctext{must be used} to access it later.
+:::
+
+## Data format: \texttt{data.frame}
+\scriptsize
+A data frame is a table or a two-dimensional array-like structure in which each column contains values of one variable and each row contains one set of values from each column.
+
+- The column names should be non-empty.
+- The row names should be unique.
+- The data stored in a data frame can be of numeric, factor or character type.
+- Each column should contain same number of data items.
+
+\tiny
+```{r, echo=FALSE}
+  as.data.frame(round_2)
+```
+
+## Data format: \texttt{tibble}
+\vskip.5em
+\tiny
+```{r, echo=TRUE}
+  class(round_2)
+```
+\scriptsize
+The \ctext{readr} package stores data in an object of type \ctext{tibble} (\ctext{tbl}) that is a modern definition of the data.frame.
+
+<!-- \tiny -->
+<!-- Tibbles have a refined print method that shows only the first 10 rows, and all the columns that fit on screen, which makes it much easier to work with large data. -->
+\vskip1em
+\tiny
+```{r, echo=FALSE}
+  options(tibble.print_max = 10)
+  round_2
+```
+
+```{r, echo=TRUE}
+  round_2$region_name # use the $ symbol to access variables
+```
+
+## Manipulating data with \texttt{dplyr}
+
+The \ctext{dplyr} package provides useful functions to manipulate the content of a tibble:
+
+- \ctext{select()}: picks variables (columns) from a tibble
+- \ctext{filter()}: picks rows from a tibble based on their values
+- \ctext{arrange()}: changes the ordering of the rows according to one or several variables
+- \ctext{mutate()}: adds new variables that are functions of existing variables
+- \ctext{summarise()}: reduces multiple values down to a single summary (e.g., sum, mean)
+- \ctext{\{inner, left, right, full, semi, anti, nest\}\_join()}: join two tibbles by mutating, filtering or nesting them
+- \ctext{bind\_\{rows, cols\}}: combine tibbles by binding their rows or columns 
+
+\vfill
+\scriptsize
+::: {.tcolorbox data-latex=""}
+  More information at \url{https://dplyr.tidyverse.org/}
+:::
+
+<!-- about the select function -->
+## \texttt{dplyr::select()}
+
+::: {.center data-latex=""}
+\includegraphics[width=.5\linewidth]{figs/dplyr_select.png}
+:::
+
+We can select variables based on their \ctext{names}
+
+\vskip1em
+\tiny
+```{r, echo=TRUE}
+  round_2 %>% select(region_name, `LE PEN`, MACRON)
+```
+
+## \texttt{dplyr::select()}
+
+::: {.center data-latex=""}
+\includegraphics[width=.5\linewidth]{figs/dplyr_select.png}
+:::
+
+We can select variables based on their names, \ctext{positions}
+
+\vskip1em
+\tiny
+```{r, echo=TRUE}
+  round_2 %>% select(1:5)
+```
+
+\vfill
+::: {.tcolorbox data-latex=""}
+\ctext{Note} that in R, the first index is \ctext{1}, \ctext{not 0} as for the remaining programming languages
+:::
+
+
+## \texttt{dplyr::select()}
+
+::: {.center data-latex=""}
+\includegraphics[width=.5\linewidth]{figs/dplyr_select.png}
+:::
+
+We can select variables based on their names, positions, by \ctext{excluding variables}
+
+\vskip1em
+\tiny
+```{r, echo=TRUE}
+  round_2 %>% select(-c(3:7), -region_code)
+```
+
+## \texttt{dplyr::select()}
+
+Further, these helpers select variables by \ctext{matching patterns in their names}:
+
+- \ctext{starts\_with()}: starts with a prefix
+- \ctext{ends\_with()}: ends with a suffix
+- \ctext{contains()}: contains a literal string
+
+\vskip1em
+\tiny
+```{r, echo=TRUE}
+  round_2 %>% select(contains("vote"))
+```
+
+<!-- about the filter function -->
+## \texttt{dplyr::filter()}
+::: {.center data-latex=""}
+\includegraphics[width=.5\linewidth]{figs/dplyr_filter.png}
+:::
+
+The \ctext{filter()} function is used to subset a data frame, retaining all rows that satisfy the given conditions. 
+
+Useful functions and operators to build filtering expressions:
+
+- Arithmetic operators: ==, >, >=, etc.
+- Logical operators: &, |, !, xor()
+- Missing Values: is.na()
+- Range: between()
+- Comparison (with tolerance): near()
+
+\vfill
+\tiny
+::: {.tcolorbox data-latex=""}
+\ctext{Note} that in R, missing values are identified by the logical constant \ctext{NA} (Not Available).
+:::
+
+## \texttt{dplyr::filter()}
+Filtering by one criterion
+\vskip1em
+\tiny
+```{r, echo=TRUE}
+  round_2 %>% filter(region_name == "Provence-Alpes-Côte d'Azur")
+```
+
+\vfill
+::: {.tcolorbox data-latex=""}
+\ctext{Note} that R is case-sensitive: it differentiate between capital and lower-case letters.
+:::
+
+
+## \texttt{dplyr::filter()}
+Filtering by multiple criteria within a single logical expression
+
+\tiny
+```{r, echo=TRUE}
+  round_2 %>% filter(registered_voters > 100000 & present_voters > 100000)
+```
+
+<!-- ## Combining \texttt{dplyr::select()} and \texttt{dplyr::filter()} -->
+<!-- Filtering by multiple criteria within a single logical expression and keep only relevant variables -->
+
+<!-- \vskip1em -->
+<!-- \tiny -->
+<!-- ```{r, echo=TRUE} -->
+<!--   round_2 %>%  -->
+<!--     filter(registered_voters > 100000 & present_voters > 100000) %>% -->
+<!--     select(region_name, registered_voters, present_voters, `LE PEN`, MACRON)  -->
+<!-- ``` -->
+
+## \texttt{dplyr::arrange()}
+::: {.center data-latex=""}
+\includegraphics[width=.5\linewidth]{figs/dplyr_arrange.png}
+:::
+
+\vskip1em
+\tiny
+```{r, echo=TRUE}
+  round_2 %>% 
+    arrange(registered_voters)
+```
+
+\vfill
+::: {.tcolorbox data-latex=""}
+\ctext{Note} that the default behavior is to arrange values in an ascending order. For descending order use the function \ctext{desc()}
+:::
+
+
+## \texttt{dplyr::mutate()}
+::: {.center data-latex=""}
+\includegraphics[width=.5\linewidth]{figs/dplyr_mutate.png}
+:::
+
+The \ctext{mutate()} function adds new variables and preserves existing ones.
+
+\scriptsize
+Useful functions:
+
+- Mathematical operations: +, -, \texttt{log()}
+- \texttt{lead()}, \texttt{lag()}: recovers the value in the next and previous rows, respectively
+- \texttt{dense\_rank()}, \texttt{min\_rank()}, \texttt{percent\_rank()}, \texttt{row\_number()}, \texttt{cume\_dist()}, \texttt{ntile()}: ranking functions
+- \texttt{cumsum()}, \texttt{cummean()}, \texttt{cummin()}, \texttt{cummax()}, \texttt{cumany()}, \texttt{cumall()}: cumulative sums, products, and extremes
+- \texttt{na\_if()}, \texttt{coalesce()}: transform value into NA and find the first non-NA value of a set of rows, respectively
+- \texttt{if\_else()}, \texttt{recode()}, \texttt{case\_when()}: replace values with condition 
+
+\vfill
+\tiny
+::: {.tcolorbox data-latex=""}
+\ctext{Note} that new variables \ctext{overwrite} existing variables of same name.
+:::
+
+## \texttt{dplyr::mutate()}
+Creating a new variable that gives the voting rate per department
+\vskip1em
+\tiny
+```{r, echo=TRUE}
+  round_2 %>% 
+    mutate(voting_rate = present_voters/registered_voters) %>%
+    select(c(1:4), voting_rate, everything()) 
+```
+
+## \texttt{dplyr::mutate()}
+Creating a new variable that gives the rank of department according to the number of votes for Emmanuel Macron
+\vskip1em
+\tiny
+```{r, echo=TRUE}
+  round_2 %>% 
+    mutate(rank = min_rank(desc(MACRON))) %>%
+    select(dept_name, MACRON, rank) %>%
+    arrange(rank)
+```
+
+
+<!-- summarise function -->
+## \texttt{dplyr::summarise()}
+::: {.center data-latex=""}
+\includegraphics[width=.5\linewidth]{figs/dplyr_summarise.png}
+:::
+
+The \ctext{summarise()} function creates a new dataset. It will have one or more rows for each combination of grouping variables; if there are no grouping variables, the output will have a single row summarizing all observations in the input dataset.
+
+\vskip1em
+\scriptsize
+
+
+Useful functions:
+
+- Center: \texttt{mean()}, \texttt{median()}
+- Spread: \texttt{sd()}, \texttt{IQR()}, \texttt{mad()}
+- Range: \texttt{min()}, \texttt{max()}, \texttt{quantile()}
+- Position: \texttt{first()}, \texttt{last()}, \texttt{nth()}
+- Count: \texttt{n()}, \texttt{n\_distinct()}
+- Logical: \texttt{any()}, \texttt{all()}
+
+## \texttt{dplyr::summarise()}
+
+:::: {.columns data-latex=""}
+::: {.minipage data-latex="[t]{.4\linewidth}"}
+Recovering the total number of votes over the country
+\vskip.5em
+\tiny
+```{r, echo=TRUE}
+  round_2 %>% 
+    summarise(total_votes = sum(votes_cast))
+```
+:::
+\qquad
+::: {.minipage data-latex="[t]{.6\linewidth}"}
+Total number of votes per region
+\vskip.5em
+\tiny
+```{r, echo=TRUE}
+  round_2 %>% group_by(region_name) %>%
+    summarise(total_votes = sum(votes_cast))
+```
+:::
+::::
+
+\vfill
+::: {.tcolorbox data-latex=""}
+The \ctext{group\_by()} function takes an existing tibble and converts it into a grouped tibble where operations are performed "by group". The \ctext{ungroup()} function removes grouping.
+:::
+
+
+<!-- join function -->
+## \texttt{dplyr::left\_join()} 
+\scriptsize
+The \ctext{left\_join()} function joins tibbles \texttt{x} and \texttt{y} by returning all rows from \texttt{x}, and all columns from \texttt{x} and \texttt{y}
+
+\vskip.5em
+\tiny
+```{r, echo=TRUE} 
+  geo_data <- read_csv("data/coordinates_regions_2016.csv") 
+
+  round_2 %>% left_join(geo_data, by=c("region_code"="insee_reg")) %>% 
+    select(region_code, region_name, latitude, longitude, everything())
+```
+
+## \texttt{dplyr::bind\_rows()} 
+\scriptsize
+Using \texttt{dplyr::bind\_rows()} function, we combine combine two tibbles to obtain a single tibble with results from both rounds of the presidential election. 
+
+\vskip1em
+\tiny
+```{r, echo=TRUE, results='hide', message=FALSE}
+  round_1 <- read_csv('data/results_pres_elections_dept_2017_round_1.csv')
+
+  results <- round_1 %>% mutate(round = "Round 1") %>%
+      bind_rows(round_2 %>% mutate(round = "Round 2"))
+```
+
+```{r, echo=FALSE}
+  results %>% arrange(region_code) %>% select(region_code, region_name, round, c(ARTHAUD:POUTOU), everything())
+```
+
+\vfill
+::: {.tcolorbox data-latex=""}
+\ctext{Note} that the \ctext{bind\_rows()} function match tibbles' columns \ctext{by name}, and any missing columns will be filled with \ctext{NA}.
+:::
+
+## Tidying messy data with \texttt{tidyr}
+
+\scriptsize
+In a tidy dataset
+
+- Every column is a variable
+- Every row is an observation
+- Every cell is a single value
+
+\vskip1em
+There are five main categories of \ctext{tidyr} functions:
+
+- \ctext{Pivotting} functions convert between long and wide formats: \texttt{gather()}, \texttt{spread()}
+- \ctext{Rectangling} functions turns deeply nested lists (as from JSON) into tidy tibbles: \texttt{unnest\_longer()}, \texttt{unnest\_wider()}
+- \ctext{Nesting} functions convert grouped data into a form where each group becomes a single row containing a nested data frame: \texttt{nest()}, \texttt{unnest()}
+- \ctext{Splitting} and \ctext{combining} character columns: \texttt{separate()}, \texttt{extract()}, \texttt{unite()}
+- Treating \ctext{missing values}: \texttt{complete()}, \texttt{drop\_na()}, \texttt{fill()}, \texttt{replace\_na()}
+
+\vfill
+\tiny
+::: {.tcolorbox data-latex=""}
+More information at https://tidyr.tidyverse.org/
+:::
+
+## \texttt{tidyr::gather()}
+
+\vskip1em
+\tiny
+```{r, echo=TRUE}
+  round_2 %>% gather(candidate, votes, c(`LE PEN`, MACRON)) %>%
+    arrange(region_name, dept_name) %>%
+    select(region_name, candidate, votes, everything())
+```
+
+<!-- \vskip1em -->
+<!-- \ctext{To note:} the original data have been previously manipulated and tidied up with the \ctext{gather()} function -->
+
+## Why should we use \texttt{tidyr}?
+\scriptsize Example 1. Calculating the number of votes per candidate and department
+\vfill
+\tiny
+
+::::{.columns data-latex=""}
+:::{.column data-latex="{\linewidth}"}
+Using the input data format
+\vskip1em
+```{r, echo=TRUE}
+  round_2 %>% group_by(region_name) %>% 
+    summarise(votesLePen = sum(`LE PEN`), 
+              votesMacron = sum(MACRON), 
+              .groups='drop')
+```
+:::
+:::{.column data-latex="{\linewidth}"}
+Using the data format after applying \texttt{tidyr::gather()}
+\vskip1em
+<!-- gather data for following examples -->
+```{r, echo=FALSE}
+  round_2 <- round_2 %>% gather(candidate, votes, c(`LE PEN`, MACRON)) %>%
+    arrange(region_name) %>%
+    select(region_name, candidate, votes, everything())
+```
+```{r, echo=TRUE}
+  round_2 %>% group_by(region_name, candidate) %>% 
+    summarise(votes = sum(votes), 
+              .groups='drop')
+```
+:::
+::::
+
+## Why should we use \texttt{tidyr}?
+
+\scriptsize Example 2. Identifying the winner candidate per department
+\vfill
+\tiny
+```{r, echo=TRUE}
+  round_2 %>%
+    group_by(dept_name) %>%
+    mutate(rank = min_rank(desc(votes))) %>%
+    arrange(dept_name, rank) %>%
+    mutate(winner = if_else(rank == 1, TRUE, FALSE)) %>%
+    select(dept_name, candidate, votes, rank, winner)
+```
+
+## \texttt{tidyr::spread()}
+
+\tiny
+```{r, echo=TRUE}
+  round_2 %>% spread(candidate, votes) %>%
+    select(region_name, `LE PEN`, MACRON, everything())
+```
+
+## Manipulating strings with \texttt{stringr}
+
+\scriptsize
+The \ctext{stringr} package provides a set of functions designed to ease the process of manipulating strings, which play a big role in many data cleaning and presentation tasks.
+
+The package provides six main categories of functions:
+
+- \ctext{Detect matches} with a given pattern: \texttt{str\_detect()}, detects the presence or absence of a pattern in a string; \texttt{str\_which()}, find positions matching a pattern; \texttt{str\_count()}, count the number of matches in a string.
+- \ctext{Subset strings}: \texttt{str\_sub()}, extract and replace substrings from a character vector; \texttt{str\_subset()} and \texttt{str\_extract()}, keep and extract matching patterns from a string, respectively; \texttt{str\_match()}, extract matched groups.
+- \ctext{Manage lenghts} of strings: \texttt{str\_length()}, the length of a string; \texttt{str\_pad()}, pad a string; \texttt{str\_trunc()}, truncate a character string; \texttt{str\_trim()}, remove extra white spaces from a string; \texttt{str\_wrap()}, wrap strings into nicely formatted paragraphs.
+- \ctext{Mutate strings}: \texttt{str\_replace()}, replace matched patterns in a string.
+- \ctext{Join and split}: \texttt{str\_split()}, split up a string into pieces; \texttt{str\_glue()}, interpolate strings.
+- \ctext{Order strings}: \texttt{str\_order()}, order or sort a character vector.
+
+\vfill
+\tiny
+::: {.tcolorbox data-latex=""}
+  More information at https://stringr.tidyverse.org/
+:::
+
+<!-- ## Example of use for \texttt{stringr::str\_glue()} -->
+<!-- \tiny -->
+<!-- ```{r, echo=TRUE} -->
+<!--   round_2 %>% select(region_name, candidate, votes) %>% -->
+<!--     group_by(region_name, candidate) %>% -->
+<!--     summarise(total = sum(votes)) %>% -->
+<!--     mutate(message = str_glue("Candidate {candidate} received {total} votes in region {region_name}")) -->
+<!-- ``` -->
+
+# Abstract Data Visualization 
+
+## Visualizing data with \texttt{ggplot2}
+\scriptsize
+\ctext{ggplot2} is a system for creating graphics by describing their syntax through a grammar of atomic elements:
+
+- The \ctext{data}
+- Geometric objects (point, lines, rectangles, bars, etc) (\ctext{geom\_*})
+
+  \scriptsize - Mapping between data and geometric aesthetics (\ctext{aes()})
+- Scales to define the extent and transformations of the graph (\ctext{scales\_})
+- A coordinate system to define the link between scales (\ctext{coord\_})
+- The decoration components: labels (\ctext{labs()}) and legends (\ctext{guides()})
+- Possibly, components to decompose graphs (\ctext{facets})
+
+\vfill
+These elements are combined as additional properties of graphics via the operator \ctext{+} 
+
+::: {.tcolorbox data-latex=""}
+  More information at https://ggplot2.tidyverse.org/
+:::
+
+## The data
+
+The data must follow a \ctext{tidy} structure, which means:
+
+- 1 row = 1 observation
+- 1 column = 1 homogeneous and consistent variable
+
+\vskip1em
+\tiny
+
+```{r, echo=TRUE}
+  plot_df <- round_2 %>% group_by(region_code, region_name, candidate) %>%
+    summarise(votes = sum(votes))
+```
+
+```{r echo=FALSE}
+  plot_df
+```
+
+\vfill
+
+```{r, echo=TRUE}
+  plot <- ggplot(plot_df)
+```
+
+## The layers and geometric components
+
+A \ctext{ggplot2} graphic consists of layers that combine data, aesthetic mapping, a geometric object (\ctext{geom}), a statistical transformation (\ctext{stat}), and a position adjustment. 
+
+\vfill
+:::: {.columns data-latex="[t]"}
+::: {.minipage data-latex="[t]{.32\linewidth}"}
+  \includegraphics[width=\linewidth]{figs/geom_part1.png}
+:::
+::: {.minipage data-latex="[t]{.32\linewidth}"}
+  \includegraphics[width=\linewidth]{figs/geom_part2.png}
+:::
+::: {.minipage data-latex="[t]{.35\linewidth}"}
+  \includegraphics[width=\linewidth]{figs/geom_part3.png}
+:::
+::::
+\vfill
+
+\tiny
+::: {.tcolorbox data-latex=""}
+  A list of available geometric components: https://ggplot2.tidyverse.org/reference/index.html#section-layer-geoms
+:::
+
+## The aesthetics
+
+\scriptsize
+The variables are mapped to generic (\ctext{x}, \ctext{y}, \ctext{color}) and specific (\ctext{linetype}, \ctext{shape}, \ctext{xmin}) properties of the \ctext{geom} component.
+
+\ctext{e.g.} The \ctext{geom\_col()} requires \ctext{x} and \ctext{y}. Further, it can be customized with specific properties (\ctext{alpha},\ctext{color}, \ctext{fill}, \ctext{position}) 
+
+\vskip1em
+\tiny
+```{r, echo=TRUE}
+  plot <- plot +
+    geom_col(aes(x = region_name, y = votes, fill = candidate), 
+             position = 'dodge') 
+```
+
+```{r, echo=FALSE, fig.height=4}
+  plot
+```
+
+::: {.tcolorbox data-latex=""}
+\ctext{Note} that the \ctext{ggplot2} package provides the function \ctext{ggplot} (without the 2)
+:::
+
+## The scales
+\scriptsize
+The \ctext{scales} package provides methods for automatically determining breaks and labels for axes and legends. 
+
+\vskip.5em
+\tiny
+
+```{r, echo = TRUE, eval=FALSE}
+  install.packages("scales")
+```
+
+```{r, echo=TRUE, message=FALSE}
+  library(scales)
+
+  plot <- plot + 
+    scale_y_continuous(labels = number_format(scale = 1/1000000, suffix = 'M'))
+    
+```
+```{r, echo=FALSE, fig.height=4.5}
+  plot
+```
+
+## The scales: color
+\scriptsize
+You can use predefined sequential, diverging, and qualitative color scales based on https://colorbrewer2.org/ created by Cynthia Brewer
+
+\vskip.5em
+\tiny
+
+```{r, echo=TRUE, message=FALSE,  fig.height=4.5}
+  plot + scale_fill_brewer(palette = 'Set1')        
+    
+```
+
+\vfill
+::: {.tcolorbox data-latex=""}
+More information at https://rdrr.io/cran/RColorBrewer/man/ColorBrewer.html
+:::
+
+## The scales: color
+\scriptsize
+Or you can use a manual color scale
+
+\vskip.5em
+\tiny
+```{r, echo=TRUE, message=FALSE}
+  plot <- plot + 
+    scale_fill_manual(values = c('#003171', '#ffea00'))        
+    
+```
+```{r, echo=FALSE, fig.height=4.5}
+  plot
+```
+
+## Decoration components: theme
+\scriptsize
+Themes are a powerful way to customize the non-data components of your plots.
+
+You can include a predefined theme element (\ctext{theme\_gray()}, \ctext{theme\_bw()}, \ctext{theme\_dark()}, etc), and use the \ctext{theme()} element to customize single components.
+
+\vskip1em
+\tiny
+```{r, echo=TRUE}
+
+  plot <- plot + theme_bw() +
+    theme(axis.text.x = element_text(angle = 60, hjust = 1)) 
+```
+```{r, echo=FALSE, fig.height=4.5}
+  plot
+```
+
+::: {.tcolorbox data-latex=""}
+  List of available themes https://ggplot2.tidyverse.org/reference/ggtheme.html
+:::
+
+## Decoration components: title and legends
+\scriptsize
+The \ctext{labs()} function allows to include information such as the \ctext{title}, \ctext{subtitle}, and \ctext{caption} of a graphic, and axis' \ctext{labels}.
+
+\vskip1em
+\tiny
+```{r, echo=TRUE}
+
+  plot <- plot + labs(title = "Presidential elections of 2017", 
+            subtitle = "Votes per region and candidate", 
+            caption = "Data source: https://www.data.gouv.fr/en/posts/les-donnees-des-elections/",
+            y = "Number of votes", x = "Region") +
+        guides(fill = guide_legend(title = 'Candidate'))
+```
+
+```{r, echo=FALSE, fig.height=4.5}
+  plot
+```
+
+## Summarized chunk code of the bar chart
+
+\scriptsize
+```{r, echo=TRUE, results='hide', fig.show='hide'}
+  ggplot(plot_df) +
+    geom_col(aes(x = region_name, y = votes, fill = candidate), # geometric object
+             position = 'dodge') +
+    scale_y_continuous(labels = number_format(scale = 1/1000000, # y axis format
+                                              suffix = 'M')) +
+    scale_fill_manual(values = c('#003171', '#ffea00')) +        # fill colors
+    theme_bw() +  # theme
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),     
+          legend.position = 'bottom') +
+    labs(title = "Presidential elections of 2017",        # title and labels
+        subtitle = "Votes per region and candidate", 
+        caption = "Data source: https://www.data.gouv.fr/
+                  en/posts/les-donnees-des-elections/",
+        y = "Number of votes", x = "Region") +
+     guides(fill = guide_legend(title = 'Candidate'))            # legend
+```
+
+## Combining geometric objects
+\scriptsize
+We can combine several geometric objects to represent different variables.
+
+1. We prepare the data that we want to visualize
+
+\vfill
+\tiny
+```{r, echo=TRUE}
+  missing_votes <- round_2 %>% 
+      distinct(region_code, dept_code, .keep_all = TRUE) %>% # keep only one observation per department
+      group_by(region_code, region_name) %>%
+      summarise(blank_ballot = sum(blank_ballot), null_ballot = sum(null_ballot), 
+                absent_voters = sum(absent_voters)) %>%
+      gather(category, value, c(3:5)) 
+```
+
+```{r, echo=FALSE}
+  print(missing_votes %>% arrange(region_code))
+```
+
+::: {.tcolorbox data-latex=""}
+  \ctext{Note} that the \ctext{distinct()} function modifies the tibble, keeping only the variable(s) given as argument. Use the option \ctext{.keep\_all = TRUE} to also keep the remaining variables.
+:::
+
+## Combining geometric objects
+\scriptsize
+2. We combine two or more geometric objects (e.g. \ctext{geom\_col()} and \ctext{geom\_line()})
+
+\vfill
+
+```{r bar_lines_plot, echo=TRUE, message=FALSE, eval=FALSE}
+    ggplot(plot_df, aes(x = region_name)) + # common aesthetics
+      geom_col(aes(y = votes, fill = candidate), position = 'dodge') +
+      # geom_line object for a second variable
+      geom_line(data = missing_votes, # new data
+                aes(y = value, 
+                    linetype = category, 
+                    group = category)) + # aesthetics
+      scale_y_continuous(labels = number_format(scale = 1/1000000, 
+                                                suffix = 'M')) +
+      scale_fill_manual(values = c('#003171', '#ffea00')) +
+      theme_bw() + theme(axis.text.x = element_text(angle = 60, hjust = 1), 
+                         legend.position = 'right') +
+      labs(title = "Presidential elections of 2017", 
+           y = "Number of votes", x = "Region") +
+      guides(fill = guide_legend(title = 'Candidate'),
+             linetype = guide_legend(title = '')) + # title of linetype legend
+      scale_linetype_discrete(labels = c("Absent Voters", "Blank Ballot", 
+                                         "Null Ballot")) # labels for each linetype
+```
+
+## Combining geometric objects
+
+```{r bar_lines_plot_out, ref.label="bar_lines_plot", echo=FALSE, fig.height=6}
+```
+
+## Decomposition components: facets
+\scriptsize
+Facets split up the data by one or more variables and plot the subsets of data together.
+\vskip1em
+
+\tiny
+```{r, echo=FALSE}
+  print(results %>% arrange(region_code) %>% select(region_code, region_name, round, c(ARTHAUD:POUTOU), everything()), n = 5)
+```
+
+\vskip1em
+```{r, echo=TRUE}
+  results <- results %>%
+    gather(candidate, votes, c(ARTHAUD:POUTOU)) %>%
+    group_by(region_code, region_name, candidate, round) %>%
+    summarise(votes = sum(votes), .groups='drop')
+```
+
+```{r, echo=FALSE}
+  print(results %>% arrange(region_code), n = 5)
+```
+
+## Decomposition components: facets
+
+<!-- \tiny -->
+<!-- ```{r, echo=TRUE} -->
+<!--   missing_votes <- results %>%  -->
+<!--       distinct(region_code, round, .keep_all = TRUE) %>% # keep one observation per region and round -->
+<!--       select(region_code, region_name, round, blank_ballot, null_ballot, absent_voters) %>%  -->
+<!--       gather(type, value, c(4:6))  -->
+<!-- ``` -->
+
+<!-- ```{r, echo=FALSE} -->
+<!--   print(missing_votes %>% arrange(region_code), n = 5) -->
+
+<!-- ``` -->
+<!-- \vskip1em -->
+\tiny
+```{r facet_plot, echo=TRUE, eval=FALSE}
+ ggplot(results, aes(x = region_name)) +
+    geom_col(aes(y = votes, fill = candidate), 
+             position = 'fill') + # to generate stacked bars
+    scale_y_continuous(labels = percent_format()) + # y axis format as percent
+    scale_fill_brewer(palette = 'Paired') +
+    theme_bw() + theme(legend.position = 'bottom') +
+    labs(title = "Results of presidential elections of 2017",
+                    y = "Proportion of votes", x = "Region") +
+    guides(fill = guide_legend(title = 'Candidate'),
+           linetype = guide_legend(title = '')) + 
+    scale_linetype_discrete(labels = c("Absent Voters", "Blank Ballot", "Null Ballot")) +
+    # define cols as the number of different values for the variable "round"
+    facet_grid(cols = vars(round)) + 
+    coord_flip() # flip coordinate system
+```
+
+## Decomposition components: facets
+
+```{r facet_plot_out, ref.label="facet_plot", echo=FALSE, fig.height=6, warning=FALSE}
+ 
+```
+
+# Geospatial Data
+
+## What is geospatial data?
+
+Geospatial data describe objects, events, or phenomena that have a location on the surface of the earth (Stock and Guesgen, 2016). It consists of:
+
+- \ctext{Location} information (usually coordinates on the earth) static in the short-term (e.g., the locations of a road, an earthquake event, etc) dynamic (e.g., a moving vehicle or pedestrian, the spread of an infectious disease)
+- \ctext{Attribute} information (the characteristics of the object, event or phenomenon concerned)
+- \ctext{Temporal} information (the time or life span at which the location and attributes exist)
+
+## Geospatial data format
+
+The data follows a standard encoding of geographical information into a computer file: the \ctext{GIS (Geographical Information System) file format}. 
+
+One of the most popular GIS vector file format is the \ctext{Shapefile}. It is a nontopological format for storing the geometric location and attribute information of geographical features. It stores information via a collection of at least three files:
+
+- \ctext{.shp — shape format}: the feature geometry itself
+- \ctext{.shx — shape index format}: a positional index of the feature geometry to allow seeking forwards and backwards quickly
+- \ctext{.dbf — attribute format} columnar attributes for each shape
+
+## Geographical features
+
+Geographical features are often expressed as vectors, by considering those features as geometric shapes. Their geometry varies according to the feature type:
+
+- \ctext{Points} are used to represent geographical features that can be expressed by a single point of reference, e.g. wells, peaks, etc.
+- \ctext{Lines} are used to represent linear features such as rivers, roads, etc.
+- \ctext{Polygons} are used to represent geographical features that cover a particular area of the earth's surface, e.g. lakes, buildings, etc.
+
+::: {.center data-latex=""}
+\includegraphics[width=.3\linewidth]{figs/geospatial_features.png}
+:::
+
+# Geospatial Data in R
+
+## The package \texttt{sf}
+\scriptsize
+
+R uses the \ctext{Simple Features} standard, which specifies a common storage and access model of geographic features.
+
+The package \ctext{sf} provides simple features access for R. It represents simple features as records in a tibble with a geometry list-column.
+
+\vskip.5em
+\tiny
+```{r, echo=TRUE, eval=FALSE}
+  install.packages('sf')
+```
+
+```{r, echo=TRUE, message=FALSE, results='hide'}
+  library(sf)
+  regions_sf <- st_read('data/shapefile/contours-geographiques-des-regions-2019.shp') 
+```
+
+```{r, echo=FALSE}
+  regions_sf <- regions_sf %>% mutate(insee_reg = as.numeric(insee_reg)) %>% filter(!(insee_reg %in% c(1:6)))
+  print(regions_sf, n=5)
+```
+
+<!-- \tiny -->
+::: {.tcolorbox data-latex=""}
+Installation tutorial: https://r-spatial.github.io/sf/
+:::
+
+## Geospatial data manipulation
+
+\tiny
+```{r, echo=TRUE}
+  data_sf <- regions_sf %>% 
+    left_join(plot_df, by = c('insee_reg'='region_code'))
+
+  as_tibble(data_sf) # print sf objects in a nice format
+```
+
+\vfill
+::: {.tcolorbox data-latex=""}
+\ctext{Note} that every aforementioned package for data manipulation can also be used for geospatial datasets
+:::
+
+## Static thematic maps with \texttt{ggplot2}
+
+\ctext{ggplot2} provides a set of geom (\ctext{geom\_sf()}), stat (\ctext{stat\_sf()}), and coord (\ctext{coord\_sf()}) components to visualize sf objects.
+
+The \ctext{geom\_sf()} will draw different geometric objects depending on what simple features are present in the data: you can get points, lines, or polygons.
+
+\vskip1em
+\tiny
+```{r geom_sf_plot, echo=TRUE, eval=FALSE}
+    ggplot(data_sf) +
+      geom_sf(aes(fill = votes)) +
+      facet_grid(cols = vars(candidate)) +
+      scale_fill_viridis_c(name = 'Number of Votes',
+                           labels = number_format(scale = 1/1000000, suffix = 'M')) +
+      guides(fill = guide_colourbar(title.position = 'top')) +
+      theme_minimal() +
+      theme(legend.position = "bottom", legend.key.width = unit(2, 'cm'))
+    
+```
+
+\vfill
+\tiny
+::: {.tcolorbox data-latex=""}
+The \ctext{viridis} scales provide color maps that are perceptually uniform in both color and black-and-white, and are designed to be perceived by viewers with common forms of color blindness
+:::
+
+## Static thematic maps with \texttt{ggplot2}
+
+```{r geom_sf_out, ref.label="geom_sf_plot", echo=FALSE, fig.height=6}
+
+```
+
+<!-- comment that ggplot2 is generic and therefore limited. So to have nicer thematic maps, specific packages such as cartography may be used -->
+
+## Dynamic thematic maps with \texttt{leaflet}
+
+\scriptsize
+\ctext{Leaflet} is one of the most popular open-source JavaScript libraries for interactive maps.
+
+\tiny
+```{r, echo=TRUE, eval=FALSE}
+  install.packages('leaflet')
+```
+
+```{r, echo=TRUE}
+  library(leaflet)
+
+  plot_df <- round_2 %>% distinct(region_code, dept_code, .keep_all = TRUE) %>% 
+      group_by(region_code, region_name) %>%
+      summarise(present_voters = sum(present_voters), registered_voters = sum(registered_voters), 
+                voting_rate = present_voters/registered_voters, .groups = "drop") 
+
+  plot_sf <- regions_sf %>%  left_join(plot_df, by = c('insee_reg'='region_code'))
+  
+  quants <- quantile(plot_sf$voting_rate, probs = seq(from = 0, to = 1, by = 0.2))
+  
+  color_scale <- colorBin("YlOrRd", domain = plot_sf$voting_rate, bins = quants)
+  
+  map_leaflet <- leaflet(data = plot_sf) %>%
+    addProviderTiles(providers$OpenStreetMap) %>%
+    addPolygons(fillColor = ~color_scale(voting_rate), fillOpacity = 0.7,
+      color = "white", weight = .5, opacity = 1, dashArray = "3") %>%
+    addLegend(pal = color_scale, values = ~voting_rate, opacity = 0.7,
+              title = "Voting rate", position = "topright")
+```
+
+The \ctext{htmlwidgets} package allows to save the graphic as an HTML object for further use.
+```{r, echo = TRUE, eval=FALSE}
+  install.packages('htmlwidgets')
+```
+
+```{r, echo=TRUE}
+  library(htmlwidgets)
+  saveWidget(map_leaflet, "leaflet_map.html")
+  
+```
+
+<!-- open the leaflet map on the browser -->
+
+## Dynamic thematic maps with \texttt{leaflet}
+\href{leaflet_map.html}{\includegraphics[height=.99\textheight]{figs/leaflet_output.png}}
+
+# Interactive Visualization Dashboards
+
+## Shiny from RStudio (R Shiny)
+
+\scriptsize
+\ctext{Shiny} is a R package for building interactive web apps directly from R.
+
+\href{https://shiny.rstudio.com/gallery/}{\includegraphics[height=.9\textheight]{figs/Shiny_gallery.png}}
+
+## Why should we use R Shiny?
+
+\scriptsize
+- If you know R, R Shiny is easy to pick up.
+
+- R Shiny provides built-in basic visualizations, mostly using the \ctext{ggplot2} library. 
+  
+  \scriptsize - The ggplot2 objects can be integrated with the \ctext{Plotly} or \ctext{bokeh} libraries to allow interactivity
+  
+  \scriptsize - JavaScript can be also integrated (i.e. the d3.js library) for producing more powerful visualizations
+
+- RStudio provides a number of options for \ctext{hosting} Shiny apps (only one is free/open-source)
+
+- Beyond hosting costs, R Shiny is completely free.
+
+- Since Shiny is totally integrated with R, the dashboard can easily re-run analyses based on user input
+  
+  \scriptsize - Possibly the main advantage of using R Shiny
+  
+However
+
+  - if you are not a relatively experienced R user, learning how to use R Shiny can be difficult.
+
+## JavaScript-based Visualizations (d3.js)
+\scriptsize
+\ctext{D3} (Data Driven Documents) is a JavaScript library developed by Mike Bostock and huge community of volunteer developers for manipulating documents based on data. 
+
+\href{https://observablehq.com/@d3/gallery}{\includegraphics[height=.9\textheight]{figs/d3_gallery.png}}
+
+## Why should we use d3.js?
+
+\scriptsize
+- If you want to go beyond static graphics and create powerful and fully interactive visualizations, d3 is your choice.
+
+- d3 relies completely on you, the developer, to specify what you want to see. 
+<!-- You’re likely to reach the limitations of your imagination and sanity long before you stump JavaScript. -->
+- It can be difficult to learn d3, but once we understand how d3 creates, selects, and manipulates SVG objects, the more advanced d3 actions are simply extensions of those principles.
+
+- If you can host a website, you can host d3.
+
+- d3 is an open-source library and, therefore, free for everyone.
+
+However
+
+  - there is no such a thing as whipping up a wuick d3 dashboard. Even the most basic dashboard can take hundreds of lines of code. But, for commonly used chart, you can usually find reusable code with a few Google searches.
+  
+  - JavaScript is not very easy for beginners.
+  
+# More about D3 in the next class
+
+## Cheatsheets
+
+::::{.columns data-latex=""}
+
+:::{.column data-latex="{\linewidth}"}
+\scriptsize Data manipulation \vskip1em
+
+\href{cheatsheets/readr.pdf}{\includegraphics[width=.48\linewidth]{cheatsheets/readr.pdf}} \hfill
+\href{cheatsheets/dplyr.pdf}{\includegraphics[width=.48\linewidth]{cheatsheets/dplyr.pdf}} 
+
+\href{cheatsheets/tidyr.pdf}{\includegraphics[width=.48\linewidth]{cheatsheets/tidyr.pdf}} \hfill
+\href{cheatsheets/strings.pdf}{\includegraphics[width=.48\linewidth]{cheatsheets/strings.pdf}}
+
+:::
+
+:::{.column data-latex="{\linewidth}"}
+\centering
+\scriptsize Data visualization \vskip1em
+\href{cheatsheets/ggplot2.pdf}{\includegraphics[width=.5\linewidth]{cheatsheets/ggplot2.pdf}} \vfill
+\href{cheatsheets/sf.pdf}{\includegraphics[width=.5\linewidth]{cheatsheets/sf.pdf}} \vfill
+\href{cheatsheets/leaflet.pdf}{\includegraphics[width=.5\linewidth]{cheatsheets/leaflet.pdf}}
+:::
+
+::::
+

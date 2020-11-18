@@ -5,7 +5,9 @@
 # Specific files
 Food_Inspections.csv
 311_small.csv
-wasabi-artist-dump.json
+wasabi_albums.csv
+wasabi_artists.csv
+population.csv
 
 # R
 *.RData

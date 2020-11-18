@@ -1,0 +1,79 @@
+% \usepackage[dvipsnames]{xcolor}
+% \usecolortheme[named=\color{Mahogany}]{structure}
+
+% \definecolor{steelblue}{rgb}{0.275,0.5,0.7} 
+\usepackage{listings}
+\usepackage[listings]{tcolorbox}
+
+% These options will be applied to all `tcolorboxes`
+\tcbset{%
+	noparskip,
+	colback=gray!10, %background color of the box
+%	colframe=gray!40, %color of frame and title background
+	colframe=white,
+	coltext=black, %color of body text
+	coltitle=black, %color of title text 
+	fonttitle=\bfseries,
+	fontupper=\ttfamily\tiny,
+	alerted/.style={coltitle=red, 
+		colframe=gray!40},
+	example/.style={coltitle=black, 
+		colframe=green!20,             
+		colback=green!5}
+}
+
+\definecolor{darkred}{rgb}{0.8,0,0}
+\newcommand{\ctext}[1]{\textcolor{darkred}{#1}}
+% \renewcommand{\url}[1]{\textcolor{steelblue}{\underline{#1}}}
+
+%\setbeamertemplate{itemize item}{\color{darkred}$\bullet$}
+\setbeamercolor{item projected}{bg=darkred}
+
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+\makeatletter
+\newcommand\titlegraphicii[1]{\def\inserttitlegraphicii{#1}}
+\titlegraphicii{}
+\setbeamertemplate{title page}
+{
+  \vbox{}
+   {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\hfill\inserttitlegraphicii\par}
+    \vskip3em
+  \begin{centering}
+    \begin{beamercolorbox}[sep=8pt,center, rounded=true, shadow=true]{title}
+      \usebeamerfont{title}\inserttitle\par%
+      \ifx\insertsubtitle\@empty%
+      \else%
+        \vskip0.25em%
+        {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+      \fi%     
+    \end{beamercolorbox}%
+    \vskip1em\par
+    \begin{beamercolorbox}[sep=8pt,center]{author}
+      \usebeamerfont{author}\insertauthor 
+      \vskip1em
+      I3S, Inria
+    \end{beamercolorbox}
+    \vfill
+    \begin{beamercolorbox}[sep=8pt,center]{date}
+      \usebeamerfont{date}\insertdate
+    \end{beamercolorbox}%\vskip0.5em
+  \end{centering}
+  %\vfill
+}
+\makeatother
+\titlegraphic{\hspace{.5\linewidth}
+\includegraphics[height=.5cm, clip]{figs/logos/uca-logo.png} \hfill
+\includegraphics[height=.5cm, clip]{figs/logos/i3s.png} \hfill
+\includegraphics[height=.5cm, clip]{figs/logos/inria.png} \hfill
+\includegraphics[height=.5cm, clip]{figs/logos/cnrs.png} \hfill
+\includegraphics[height=.5cm, clip]{figs/logos/wimmics.jpg}}
