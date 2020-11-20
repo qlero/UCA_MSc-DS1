@@ -1,0 +1,120 @@
+---
+title: "lecture_4_statistical_inference_2"
+author: "QLR"
+date: "11/20/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Exercise 3
+
+Let $X_1,...,X_n\sim t_3$ where $n=25$. Let $\theta=T(F)=\frac{(q_{.75}-q_{.25})}{1.34}$ where $q_p$ denotes the $p^{th}$ quantile. Do a simulation to compare the coverage and length of the following confidence intervals for $\theta$: 
+
+- Normal interval with standard error from the bootstrap
+- Boostrap percentile interval
+- pivotal bootstrap interval
+
+## Simulating our sample confidence interval
+
+### Declaring the estimator function:
+
+```{r estimator_function}
+estimator <- function(dat) {
+  est <- (quantile(dat, 0.75)-quantile(dat, 0.25))/1.34
+  return(est)
+}
+```
+
+### Simulating our random variables:
+
+```{r simulation}
+# Estimating Theta
+n <- 25
+data <- rt(n, 3)
+theta_hat <- estimator(data)
+
+# declaring a confidence interval
+alpha <- 0.05
+```
+
+### Bootstrapping from our sample
+
+```{r bootstraping}
+B=1000
+theta_record <- vector(length=B)
+
+for (i in 1:B) {
+  dat_ <- sample(data, replace=TRUE)
+  theta_record[i] <- estimator(dat_)
+}
+```
+
+an approximate $1-\alpha$ confidence interval for $T(F)$ is $T(\hat{F}_n)\pm \mathcal{z}_{\alpha/2}.\hat{se}$
+
+### Normal-based interval
+
+For a 95 percent confidence interval $\mathcal{z}_{\alpha/2}=\mathcal{z}_{.05/2}\approx 1.96$
+
+```{r normal_based}
+se = sd(theta_record)
+z = qnorm(1-alpha/2)
+confidence_interval_norm = c(theta_hat - z*se, theta_hat + z*se)
+
+confidence_interval_norm
+```
+
+### Bootstrap percentile confidence interval
+
+The bootstrap percentile interval is defined by $C_n=(\theta^\ast_{\alpha/2}, \theta^\ast_{1-\alpha/2})$
+
+```{r bootstrap_percentile}
+bootstrap_percentile_interval = c(quantile(theta_record, alpha/2), 
+                                  quantile(theta_record, 1-alpha/2))
+
+bootstrap_percentile_interval
+```
+
+### Bootstrap pivotal confidence interval
+
+The bootstrap percentile interval is defined by $C_n=(2\hat{\theta}_n-\hat{\theta}^\ast_{1-\alpha/2}, 2\hat{\theta}_n-\hat{\theta}^\ast_{\alpha/2})$
+
+```{r bootstrap_pivotal}
+bootstrap_pivotal_interval = c(2*theta_hat - quantile(theta_record, 1-alpha/2),
+                               2*theta_hat - quantile(theta_record, alpha/2))
+
+bootstrap_pivotal_interval
+```
+
+## Comparing the coverage
+
+We do a series of simulation to compare the coverage and length of the previous confidence interval
+
+```{r comparing_coverage}
+n_2=100
+theta_hat_2=c()
+for (i in 1:1000){
+  data_2 = rt(n_2, 3)
+  theta_hat_2[i] <- as.numeric(estimator(data_2))
+}
+
+check_interval <- function(x, ci) {
+  N_rep <- length(x)
+  ratio <- sum(x>ci[1] & x<ci[2])/N_rep
+  return(ratio)
+}
+```
+
+```{r comparing_nci}
+check_interval(theta_hat_2, confidence_interval_norm)
+```
+
+```{r comparing_perc}
+check_interval(theta_hat_2, bootstrap_percentile_interval)
+```
+
+```{r comparing_pivci}
+check_interval(theta_hat_2, bootstrap_pivotal_interval)
+```

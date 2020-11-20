@@ -1,0 +1,299 @@
+---
+title: "Boostrap Exercises"
+author: "Mariana Chaves Espinoza"
+date: "11/19/2020"
+output:
+  html_document:
+    code_download: yes
+    highlight: tango
+    number_sections: no
+    theme: flatly
+    toc: TRUE
+    toc_float: TRUE
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r message=FALSE}
+library(dplyr)
+```
+
+# Exercise 3
+
+Let $X_1,...,X_n \sim t_3$ where $n = 25$. Let $\theta = T(F) = (q_{75} − q_{25})/1.34$ where $q_p$ denotes the pth quantile. Do a simulation to compare the coverage and length of the following confidence intervals for $\theta$: (i) Normal interval with standard error from the bootstrap, (ii) bootstrap percentile interval, and (iii) pivotal bootstrap interval.
+
+## Simulation and puntual estimator
+
+```{r}
+#Data
+N = 25
+dat = rt(N, 3)
+
+#Estimator
+theta_hat = as.numeric((quantile(dat,0.75) - quantile(dat,0.25))/1.34)
+theta_hat
+
+```
+
+### Bootstraping
+```{r}
+#Bootstrap
+B = 1000
+store_theta = vector(length = B)
+for (i in 1:B){
+  dat_ = sample(dat, replace = TRUE)
+  store_theta[i]=(quantile(dat_,0.75) - quantile(dat_,0.25))/1.34
+}
+```
+
+### Confidence intervals
+
+To calculate the 95% confidence interval we define $\alpha=5$
+
+```{r}
+alpha = 0.05 
+```
+
+
+#### Normal interval
+
+$$T_n \pm z_{\alpha/2} \hat{se_{boot}}$$
+
+```{r}
+se=sd(store_theta)
+z=qnorm(1 - alpha/2)
+CI_norm = c(theta_hat-z*se, theta_hat+z*se)
+CI_norm
+```
+
+#### Pivotal interval
+
+Let $\theta^*_\beta$ denote the $\beta$ sample quantile of $(\hat{\theta^*}_{n,1}...\hat{\theta^*}_{n,B})$ 
+
+$$C_n = (2\hat{\theta_n}-\hat{\theta^*}_{1-\alpha/2} , 2\hat{\theta_n}-\hat{\theta^*}_{\alpha/2})$$
+
+```{r}
+theta_l=quantile(store_theta, 1 - alpha / 2) %>% as.numeric()
+theta_u=quantile(store_theta, alpha / 2) %>%  as.numeric()
+CI_pivotal=c(2*theta_hat-theta_l, 2*theta_hat-theta_u)
+CI_pivotal
+```
+
+#### Percentile quantile
+
+$$C_n = (\theta^*_{\alpha/2},\theta^*_{1-\alpha/2})$$
+```{r}
+#Percentile interval
+CI_percentile=quantile(store_theta,c(alpha/2,1-alpha/2)) %>% as.numeric()
+CI_percentile
+```
+
+
+### Coverage of the confidence intervals
+
+```{r}
+
+#Data
+N = 25
+
+theta_hat_2=c()
+for (i in 1:1000) {
+  dat = rt(N, 3)  
+  theta_hat_2[i] = as.numeric((quantile(dat,0.75) - quantile(dat,0.25))/1.34)
+}
+
+check_in_CI = function(x, CI){
+  n_rep=length(x)
+  return (sum(x>CI[1] & x<CI[2])/n_rep)
+  
+}
+
+check_in_CI(theta_hat_2,CI_norm)
+check_in_CI(theta_hat_2,CI_percentile)
+check_in_CI(theta_hat_2,CI_pivotal)
+
+
+```
+
+
+
+## Variation of the coverage
+
+Now let's see how the confidence intervals' coverage changes given to the randomness of our sample.We can observe in 10 iterations how the coverage varies.
+
+```{r}
+
+coverage = c()
+for (i in 1:10){
+  #Data
+  N = 25
+  dat = rt(N, 3)
+  
+  #Estimator
+  theta_hat = as.numeric((quantile(dat,0.75) - quantile(dat,0.25))/1.34)
+  theta_hat
+  
+  #Bootstrap
+  B = 1000
+  store_theta = vector(length = B)
+  for (i in 1:B){
+    dat_ = sample(dat, replace = TRUE)
+    store_theta[i]=(quantile(dat_,0.75) - quantile(dat_,0.25))/1.34
+  }
+  
+  #Normal CI
+  se=sd(store_theta)
+  z=qnorm(1 - alpha/2)
+  CI_norm = c(theta_hat-z*se, theta_hat+z*se)
+  
+  #Pivotal CI
+  theta_l=quantile(store_theta, 1 - alpha / 2)
+  theta_u=quantile(store_theta, alpha / 2)
+  CI_pivotal=c(2*theta_hat-theta_l, 2*theta_hat-theta_u)
+  
+  #Percentile CI
+  CI_percentile=quantile(store_theta,c(alpha/2,1-alpha/2))
+  
+  #Check coverage
+  theta_hat_2=c()
+  for (i in 1:1000) {
+    dat = rt(N, 3)  
+    theta_hat_2[i] = as.numeric((quantile(dat,0.75) - quantile(dat,0.25))/1.34)
+  }
+  
+  coverage = coverage %>% rbind(c(check_in_CI(theta_hat_2,CI_norm),
+                                  check_in_CI(theta_hat_2,CI_pivotal),
+                                  check_in_CI(theta_hat_2,CI_percentile)))
+
+}
+
+colnames(coverage) = c('Normal CI', 'Pivotal CI', 'Percentile CI')
+coverage %>% as_tibble()
+
+```
+
+
+## Coverage with increased sample size
+
+Now we use a sample size of 1000 instead of 25, and we measure the coverage in 10 iterations.
+
+```{r}
+coverage = c()
+for (i in 1:10){
+  #Data
+  N = 1000
+  dat = rt(N, 3)
+  
+  #Estimator
+  theta_hat = as.numeric((quantile(dat,0.75) - quantile(dat,0.25))/1.34)
+  theta_hat
+  
+  #Bootstrap
+  B = 1000
+  store_theta = vector(length = B)
+  for (i in 1:B){
+    dat_ = sample(dat, replace = TRUE)
+    store_theta[i]=(quantile(dat_,0.75) - quantile(dat_,0.25))/1.34
+  }
+  
+  #Normal CI
+  se=sd(store_theta)
+  z=qnorm(1 - alpha/2)
+  CI_norm = c(theta_hat-z*se, theta_hat+z*se)
+  
+  #Pivotal CI
+  theta_l=quantile(store_theta, 1 - alpha / 2)
+  theta_u=quantile(store_theta, alpha / 2)
+  CI_pivotal=c(2*theta_hat-theta_l, 2*theta_hat-theta_u)
+  
+  #Percentile CI
+  CI_percentile=quantile(store_theta,c(alpha/2,1-alpha/2))
+  
+  #Check coverage
+  theta_hat_2=c()
+  for (i in 1:1000) {
+    dat = rt(N, 3)  
+    theta_hat_2[i] = as.numeric((quantile(dat,0.75) - quantile(dat,0.25))/1.34)
+  }
+  
+  coverage = coverage %>% rbind(c(check_in_CI(theta_hat_2,CI_norm),
+                                  check_in_CI(theta_hat_2,CI_pivotal),
+                                  check_in_CI(theta_hat_2,CI_percentile)))
+
+}
+
+colnames(coverage) = c('Normal CI', 'Pivotal CI', 'Percentile CI')
+coverage %>% as_tibble()
+```
+
+
+# Exercise 6
+
+Let $X_1, ...,X_n$ $Normal(\mu, 1)$. Let $\theta = e^{\mu}$ and let $\hat{\theta} = e^\bar{X}$. Create a data set (using $\mu = 5$)  consisting of $n=100$ observations.
+```{r}
+#Data
+N = 100
+dat = rnorm(N, mean = 5, sd = 1)
+```
+
+## a
+
+Use the bootstrap to get the se and 95 percent confidence interval
+for $\theta$.
+
+```{r}
+#Estimator
+theta_hat = exp(mean(dat))
+
+#Bootstrap
+B = 1000
+store_theta = vector(length = B)
+for (i in 1:B){
+  dat_ = sample(dat, replace = TRUE)
+  store_theta[i]=exp(mean(dat_))
+}
+
+#Confidence interval
+alpha = 0.05 
+z=qnorm(1 - alpha/2)
+se=sd(store_theta)
+c(theta_hat-z*se, theta_hat+z*se)
+```
+
+## b
+
+Plot a histogram of the bootstrap replications. This is an estimate
+of the distribution of $\hat{\theta}$. Compare this to the true sampling distribution
+of $\hat{\theta}$.
+
+
+Due to the central limit theorem we can assume that $\bar{X}$ follows a normal distribution $\mu=5$ and $sd = 1/\sqrt{n} = 1/\sqrt{100}$. Therefore we can assume $e^{\bar{X}}$ follows a log-normal distribution with $\mu = 5$, $sd = 1/\sqrt{100}$
+```{r}
+x=seq(80,200,length=100)
+y=dlnorm(x, mean=5, sd=1/sqrt(N))
+hist(store_theta, freq = FALSE, main = "Bootstrap repetitions compared to a log-normal distribution", breaks = 50)
+lines(x,y, col="blue", lwd=2)
+```
+
+
+## Bonus
+
+Let's see what happens when we use several repetitions of the data (NOT USING BOOTSTRAP REPETITIONS). In this case we can see that our estimator follows the expected distribution. 
+```{r}
+
+N = 100
+theta_hat_2=c()
+for (i in 1:10000){
+  dat = rnorm(N, mean = 5, sd = 1)
+  theta_hat_2[i] = exp(mean(dat))
+}
+
+hist(theta_hat_2, freq = FALSE, main = "Sample repetitions compared to a log-normal distribution", breaks = 50)
+lines(x,y, col="blue", lwd=2)
+
+```
+
+## Conclusion
+Bootstrap confidence intervals can be quite off depending on the type of distribution of your data.   
+
+
