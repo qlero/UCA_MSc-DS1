@@ -3,819 +3,887 @@
 "2","argentina",1960,"countryfolk",1,21993386.6
 "3","argentina",1960,"rock",1,21993386.6
 "4","argentina",1970,"rock",7,25663601.5
-"5","argentina",1970,"hiphop",1,25663601.5
-"6","argentina",1970,"countryfolk",1,25663601.5
-"7","argentina",1980,"metal",2,29994547.2
-"8","argentina",1980,"rock",21,29994547.2
-"9","argentina",1980,"hiphop",3,29994547.2
-"10","argentina",1980,"countryfolk",3,29994547.2
-"11","argentina",1990,"countryfolk",8,34586241
-"12","argentina",1990,"hiphop",12,34586241
-"13","argentina",1990,"rock",47,34586241
-"14","argentina",1990,"metal",9,34586241
-"15","argentina",2000,"electro",2,40566072.4210526
-"16","argentina",2000,"hiphop",15,40566072.4210526
-"17","argentina",2000,"countryfolk",7,40566072.4210526
-"18","argentina",2000,"rock",61,40566072.4210526
-"19","argentina",2000,"metal",12,40566072.4210526
-"20","australia",1960,"rock",2,11272847.7
-"21","australia",1960,"countryfolk",1,11272847.7
-"22","australia",1960,"hiphop",2,11272847.7
-"23","australia",1970,"hiphop",7,13671400
-"24","australia",1970,"rock",10,13671400
-"25","australia",1980,"jazz",1,15709690
-"26","australia",1980,"metal",1,15709690
-"27","australia",1980,"electro",1,15709690
-"28","australia",1980,"hiphop",12,15709690
-"29","australia",1980,"rock",29,15709690
-"30","australia",1990,"electro",2,17990310
-"31","australia",1990,"hiphop",19,17990310
-"32","australia",1990,"countryfolk",6,17990310
-"33","australia",1990,"metal",14,17990310
-"34","australia",1990,"rock",59,17990310
-"35","australia",2000,"electro",13,21810626.5263158
-"36","australia",2000,"hiphop",94,21810626.5263158
-"37","australia",2000,"countryfolk",20,21810626.5263158
-"38","australia",2000,"rock",126,21810626.5263158
-"39","australia",2000,"jazz",1,21810626.5263158
-"40","australia",2000,"metal",37,21810626.5263158
-"41","austria",1970,"rock",2,7552151
-"42","austria",1970,"hiphop",5,7552151
-"43","austria",1980,"hiphop",8,7572987.6
-"44","austria",1980,"metal",1,7572987.6
-"45","austria",1980,"rock",7,7572987.6
-"46","austria",1980,"countryfolk",1,7572987.6
-"47","austria",1990,"countryfolk",2,7895965
-"48","austria",1990,"electro",1,7895965
-"49","austria",1990,"rock",7,7895965
-"50","austria",1990,"hiphop",7,7895965
-"51","austria",1990,"metal",10,7895965
-"52","austria",2000,"countryfolk",4,8374455.36842105
-"53","austria",2000,"metal",20,8374455.36842105
-"54","austria",2000,"rock",19,8374455.36842105
-"55","austria",2000,"electro",8,8374455.36842105
-"56","austria",2000,"hiphop",17,8374455.36842105
-"57","azerbaijan",2000,"hiphop",1,8932460.89473684
-"58","bahamas, the",1970,"countryfolk",1,187413.7
-"59","bahamas, the",2000,"hiphop",1,345387.368421053
-"60","bangladesh",2000,"rock",1,145539173.421053
-"61","belarus",1990,"metal",1,10163173.8
-"62","belarus",2000,"metal",5,9605621.84210526
-"63","belarus",2000,"rock",4,9605621.84210526
-"64","belarus",2000,"hiphop",1,9605621.84210526
-"65","belgium",1960,"hiphop",1,9406315.1
-"66","belgium",1960,"jazz",1,9406315.1
-"67","belgium",1970,"rock",1,9769116.6
-"68","belgium",1980,"metal",1,9871514.5
-"69","belgium",1980,"rock",1,9871514.5
-"70","belgium",1980,"hiphop",4,9871514.5
-"71","belgium",1980,"electro",3,9871514.5
-"72","belgium",1990,"hiphop",10,10112122.1
-"73","belgium",1990,"jazz",1,10112122.1
-"74","belgium",1990,"metal",7,10112122.1
-"75","belgium",1990,"rock",11,10112122.1
-"76","belgium",1990,"electro",9,10112122.1
-"77","belgium",1990,"countryfolk",1,10112122.1
-"78","belgium",2000,"countryfolk",3,10823678.6315789
-"79","belgium",2000,"jazz",1,10823678.6315789
-"80","belgium",2000,"metal",14,10823678.6315789
-"81","belgium",2000,"electro",11,10823678.6315789
-"82","belgium",2000,"hiphop",18,10823678.6315789
-"83","belgium",2000,"rock",20,10823678.6315789
-"84","belize",2000,"hiphop",1,314961.684210526
-"85","bermuda",1990,"rock",1,59777.2
-"86","bermuda",1990,"hiphop",1,59777.2
-"87","bermuda",2000,"hiphop",2,64266.0526315789
-"88","bermuda",2000,"rock",1,64266.0526315789
-"89","bosnia and herzegovina",1980,"rock",2,4365084.5
-"90","bosnia and herzegovina",1990,"rock",2,3988911.5
-"91","bosnia and herzegovina",2000,"rock",1,3634926.52631579
-"92","brazil",1960,"rock",2,82308166.7
-"93","brazil",1960,"jazz",1,82308166.7
-"94","brazil",1960,"hiphop",1,82308166.7
-"95","brazil",1960,"countryfolk",1,82308166.7
-"96","brazil",1970,"jazz",5,106185336.2
-"97","brazil",1970,"rock",8,106185336.2
-"98","brazil",1970,"hiphop",2,106185336.2
-"99","brazil",1970,"countryfolk",1,106185336.2
-"100","brazil",1980,"countryfolk",1,133682543.8
-"101","brazil",1980,"hiphop",8,133682543.8
-"102","brazil",1980,"metal",5,133682543.8
-"103","brazil",1980,"rock",26,133682543.8
-"104","brazil",1990,"metal",13,160713995.7
-"105","brazil",1990,"rock",32,160713995.7
-"106","brazil",1990,"countryfolk",1,160713995.7
-"107","brazil",1990,"hiphop",14,160713995.7
-"108","brazil",2000,"hiphop",26,193259710.894737
-"109","brazil",2000,"jazz",4,193259710.894737
-"110","brazil",2000,"metal",31,193259710.894737
-"111","brazil",2000,"countryfolk",2,193259710.894737
-"112","brazil",2000,"rock",48,193259710.894737
-"113","bulgaria",2000,"metal",1,7484034.89473684
-"114","canada",1960,"countryfolk",7,19499300.9
-"115","canada",1960,"rock",4,19499300.9
-"116","canada",1970,"jazz",1,22928791.4
-"117","canada",1970,"rock",27,22928791.4
-"118","canada",1970,"countryfolk",12,22928791.4
-"119","canada",1970,"hiphop",3,22928791.4
-"120","canada",1980,"rock",47,25788355.1
-"121","canada",1980,"metal",9,25788355.1
-"122","canada",1980,"hiphop",9,25788355.1
-"123","canada",1980,"countryfolk",16,25788355.1
-"124","canada",1990,"hiphop",29,29116018.5
-"125","canada",1990,"jazz",4,29116018.5
-"126","canada",1990,"metal",18,29116018.5
-"127","canada",1990,"rock",87,29116018.5
-"128","canada",1990,"countryfolk",32,29116018.5
-"129","canada",1990,"electro",2,29116018.5
-"130","canada",2000,"countryfolk",77,33695982.5263158
-"131","canada",2000,"electro",32,33695982.5263158
-"132","canada",2000,"metal",51,33695982.5263158
-"133","canada",2000,"rock",229,33695982.5263158
-"134","canada",2000,"hiphop",116,33695982.5263158
-"135","canada",2000,"jazz",11,33695982.5263158
-"136","chile",1960,"countryfolk",2,8893466
-"137","chile",1970,"countryfolk",2,10514016.8
-"138","chile",1970,"rock",1,10514016.8
-"139","chile",1980,"countryfolk",2,12198381.7
-"140","chile",1980,"rock",1,12198381.7
-"141","chile",1990,"countryfolk",2,14249596.6
-"142","chile",1990,"rock",4,14249596.6
-"143","chile",2000,"metal",4,16919700.3684211
-"144","chile",2000,"rock",9,16919700.3684211
-"145","chile",2000,"countryfolk",2,16919700.3684211
-"146","chile",2000,"hiphop",3,16919700.3684211
-"147","china",2000,"hiphop",1,1330057894.73684
-"148","china",2000,"rock",1,1330057894.73684
-"149","colombia",1980,"jazz",1,29654348.6
-"150","colombia",1980,"hiphop",1,29654348.6
-"151","colombia",1990,"hiphop",2,36071914
-"152","colombia",1990,"jazz",1,36071914
-"153","colombia",1990,"rock",3,36071914
-"154","colombia",2000,"rock",5,44609643
-"155","colombia",2000,"hiphop",5,44609643
-"156","costa rica",2000,"countryfolk",1,4507289.31578947
-"157","croatia",1970,"rock",2,4503836.2
-"158","croatia",1970,"hiphop",1,4503836.2
-"159","croatia",1980,"hiphop",2,4686913.9
-"160","croatia",1980,"rock",1,4686913.9
-"161","croatia",1990,"metal",1,4605147.4
-"162","croatia",1990,"rock",1,4605147.4
-"163","croatia",1990,"hiphop",2,4605147.4
-"164","croatia",2000,"rock",2,4271186.10526316
-"165","croatia",2000,"hiphop",2,4271186.10526316
-"166","croatia",2000,"metal",2,4271186.10526316
-"167","cuba",2000,"hiphop",1,11255496.8421053
-"168","cuba",2000,"metal",1,11255496.8421053
-"169","czech republic",1960,"countryfolk",1,9743802.9
-"170","czech republic",1960,"rock",1,9743802.9
-"171","czech republic",1960,"hiphop",2,9743802.9
-"172","czech republic",1970,"hiphop",1,10036899.6
-"173","czech republic",1970,"rock",2,10036899.6
-"174","czech republic",1970,"jazz",1,10036899.6
-"175","czech republic",1980,"rock",1,10331668.6
-"176","czech republic",1980,"hiphop",1,10331668.6
-"177","czech republic",1980,"countryfolk",2,10331668.6
-"178","czech republic",1990,"metal",10,10314935.6
-"179","czech republic",1990,"rock",9,10314935.6
-"180","czech republic",1990,"countryfolk",2,10314935.6
-"181","czech republic",1990,"hiphop",3,10314935.6
-"182","czech republic",2000,"hiphop",5,10394464.7368421
-"183","czech republic",2000,"metal",17,10394464.7368421
-"184","czech republic",2000,"rock",15,10394464.7368421
-"185","czech republic",2000,"electro",1,10394464.7368421
-"186","czech republic",2000,"countryfolk",3,10394464.7368421
-"187","denmark",1970,"rock",3,5039256.3
-"188","denmark",1980,"rock",3,5121168.4
-"189","denmark",1980,"hiphop",3,5121168.4
-"190","denmark",1980,"metal",5,5121168.4
-"191","denmark",1990,"countryfolk",2,5226887.1
-"192","denmark",1990,"metal",14,5226887.1
-"193","denmark",1990,"rock",10,5226887.1
-"194","denmark",1990,"electro",1,5226887.1
-"195","denmark",1990,"hiphop",8,5226887.1
-"196","denmark",2000,"hiphop",36,5533822.52631579
-"197","denmark",2000,"metal",25,5533822.52631579
-"198","denmark",2000,"countryfolk",6,5533822.52631579
-"199","denmark",2000,"electro",6,5533822.52631579
-"200","denmark",2000,"rock",27,5533822.52631579
-"201","dominican republic",2000,"hiphop",1,9567454.57894737
-"202","egypt, arab rep.",2000,"electro",1,82271868.2105263
-"203","el salvador",1990,"metal",1,5578842.9
-"204","el salvador",2000,"metal",1,6158180.57894737
-"205","estonia",1990,"metal",1,1464838.4
-"206","estonia",1990,"rock",1,1464838.4
-"207","estonia",1990,"hiphop",1,1464838.4
-"208","estonia",2000,"hiphop",10,1341910.52631579
-"209","estonia",2000,"metal",3,1341910.52631579
-"210","estonia",2000,"rock",10,1341910.52631579
-"211","estonia",2000,"countryfolk",1,1341910.52631579
-"212","estonia",2000,"electro",2,1341910.52631579
-"213","faroe islands",2000,"jazz",1,47755.1578947368
-"214","faroe islands",2000,"metal",3,47755.1578947368
-"215","faroe islands",2000,"countryfolk",1,47755.1578947368
-"216","faroe islands",2000,"hiphop",1,47755.1578947368
-"217","faroe islands",2000,"rock",1,47755.1578947368
-"218","finland",1970,"countryfolk",1,4690796.7
-"219","finland",1970,"rock",8,4690796.7
-"220","finland",1970,"hiphop",1,4690796.7
-"221","finland",1970,"jazz",1,4690796.7
-"222","finland",1980,"countryfolk",2,4880735.7
-"223","finland",1980,"hiphop",2,4880735.7
-"224","finland",1980,"rock",14,4880735.7
-"225","finland",1980,"metal",4,4880735.7
-"226","finland",1990,"hiphop",3,5088811.3
-"227","finland",1990,"metal",36,5088811.3
-"228","finland",1990,"rock",25,5088811.3
-"229","finland",1990,"countryfolk",2,5088811.3
-"230","finland",1990,"electro",1,5088811.3
-"231","finland",2000,"electro",4,5343368.78947368
-"232","finland",2000,"hiphop",119,5343368.78947368
-"233","finland",2000,"countryfolk",9,5343368.78947368
-"234","finland",2000,"rock",62,5343368.78947368
-"235","finland",2000,"metal",112,5343368.78947368
-"236","france",1960,"electro",1,49324172.3
-"237","france",1960,"jazz",1,49324172.3
-"238","france",1960,"countryfolk",1,49324172.3
-"239","france",1960,"rock",3,49324172.3
-"240","france",1960,"hiphop",11,49324172.3
-"241","france",1970,"countryfolk",1,53615026.8
-"242","france",1970,"electro",1,53615026.8
-"243","france",1970,"rock",11,53615026.8
-"244","france",1970,"hiphop",18,53615026.8
-"245","france",1970,"jazz",1,53615026.8
-"246","france",1980,"electro",1,56517299.1
-"247","france",1980,"countryfolk",1,56517299.1
-"248","france",1980,"hiphop",24,56517299.1
-"249","france",1980,"rock",15,56517299.1
-"250","france",1980,"metal",2,56517299.1
-"251","france",1990,"hiphop",53,59402304.1
-"252","france",1990,"metal",15,59402304.1
-"253","france",1990,"countryfolk",2,59402304.1
-"254","france",1990,"electro",4,59402304.1
-"255","france",1990,"rock",29,59402304.1
-"256","france",2000,"electro",31,64440873.0526316
-"257","france",2000,"hiphop",135,64440873.0526316
-"258","france",2000,"countryfolk",5,64440873.0526316
-"259","france",2000,"rock",74,64440873.0526316
-"260","france",2000,"jazz",4,64440873.0526316
-"261","france",2000,"metal",55,64440873.0526316
-"262","georgia",2000,"hiphop",1,3835334.89473684
-"263","germany",1960,"rock",5,75497034.4
-"264","germany",1960,"hiphop",4,75497034.4
-"265","germany",1960,"countryfolk",6,75497034.4
-"266","germany",1970,"countryfolk",8,78446317
-"267","germany",1970,"jazz",2,78446317
-"268","germany",1970,"metal",1,78446317
-"269","germany",1970,"electro",4,78446317
-"270","germany",1970,"hiphop",12,78446317
-"271","germany",1970,"rock",46,78446317
-"272","germany",1980,"countryfolk",10,78115794.7
-"273","germany",1980,"metal",27,78115794.7
-"274","germany",1980,"rock",66,78115794.7
-"275","germany",1980,"jazz",1,78115794.7
-"276","germany",1980,"electro",3,78115794.7
-"277","germany",1980,"hiphop",30,78115794.7
-"278","germany",1990,"electro",35,81244132.5
-"279","germany",1990,"hiphop",80,81244132.5
-"280","germany",1990,"countryfolk",11,81244132.5
-"281","germany",1990,"rock",100,81244132.5
-"282","germany",1990,"metal",85,81244132.5
-"283","germany",1990,"jazz",4,81244132.5
-"284","germany",2000,"hiphop",228,81943627.2631579
-"285","germany",2000,"jazz",10,81943627.2631579
-"286","germany",2000,"countryfolk",37,81943627.2631579
-"287","germany",2000,"electro",101,81943627.2631579
-"288","germany",2000,"rock",212,81943627.2631579
-"289","germany",2000,"metal",190,81943627.2631579
-"290","gibraltar",1990,"rock",1,29183.3
-"291","gibraltar",2000,"rock",1,33195.7894736842
-"292","greece",1960,"hiphop",1,8552966.3
-"293","greece",1970,"rock",2,9092496.5
-"294","greece",1970,"hiphop",1,9092496.5
-"295","greece",1970,"electro",2,9092496.5
-"296","greece",1970,"countryfolk",1,9092496.5
-"297","greece",1980,"rock",1,9893238.5
-"298","greece",1980,"hiphop",2,9893238.5
-"299","greece",1980,"electro",2,9893238.5
-"300","greece",1990,"countryfolk",1,10520353.6
-"301","greece",1990,"electro",1,10520353.6
-"302","greece",1990,"hiphop",1,10520353.6
-"303","greece",1990,"metal",7,10520353.6
-"304","greece",2000,"electro",2,10942437.5789474
-"305","greece",2000,"hiphop",4,10942437.5789474
-"306","greece",2000,"countryfolk",2,10942437.5789474
-"307","greece",2000,"rock",8,10942437.5789474
-"308","greece",2000,"jazz",1,10942437.5789474
-"309","greece",2000,"metal",18,10942437.5789474
-"310","guatemala",1980,"hiphop",1,8150594.7
-"311","guatemala",1990,"hiphop",1,10303011.7
-"312","guatemala",2000,"hiphop",1,14366594.7894737
-"313","hong kong sar, china",1980,"hiphop",1,5412910
-"314","hong kong sar, china",1990,"hiphop",1,6142450
-"315","hungary",1970,"rock",2,10519091.8
-"316","hungary",1980,"metal",1,10645628.7
-"317","hungary",1980,"rock",1,10645628.7
-"318","hungary",1990,"rock",5,10325239.6
-"319","hungary",1990,"hiphop",1,10325239.6
-"320","hungary",1990,"metal",4,10325239.6
-"321","hungary",2000,"rock",7,9996902.57894737
-"322","hungary",2000,"hiphop",1,9996902.57894737
-"323","hungary",2000,"metal",14,9996902.57894737
-"324","iceland",1980,"hiphop",1,240227.7
-"325","iceland",1980,"rock",1,240227.7
-"326","iceland",1990,"electro",2,266236.6
-"327","iceland",1990,"metal",1,266236.6
-"328","iceland",1990,"rock",3,266236.6
-"329","iceland",1990,"hiphop",4,266236.6
-"330","iceland",1990,"jazz",1,266236.6
-"331","iceland",2000,"countryfolk",8,313399.052631579
-"332","iceland",2000,"metal",4,313399.052631579
-"333","iceland",2000,"rock",11,313399.052631579
-"334","iceland",2000,"electro",5,313399.052631579
-"335","iceland",2000,"hiphop",10,313399.052631579
-"336","india",1970,"rock",1,617135472
-"337","india",1990,"hiphop",1,955159331.2
-"338","india",2000,"countryfolk",1,1212288539.47368
-"339","india",2000,"metal",1,1212288539.47368
-"340","indonesia",1990,"rock",1,195251542.3
-"341","indonesia",1990,"hiphop",2,195251542.3
-"342","indonesia",1990,"metal",1,195251542.3
-"343","indonesia",2000,"metal",1,239134290.684211
-"344","indonesia",2000,"rock",3,239134290.684211
-"345","indonesia",2000,"hiphop",2,239134290.684211
-"346","iran, islamic rep.",2000,"metal",2,73239265.2105263
-"347","iran, islamic rep.",2000,"rock",1,73239265.2105263
-"348","ireland",1960,"countryfolk",3,2872500
-"349","ireland",1960,"hiphop",1,2872500
-"350","ireland",1960,"rock",2,2872500
-"351","ireland",1970,"countryfolk",3,3162225
-"352","ireland",1970,"hiphop",1,3162225
-"353","ireland",1970,"rock",5,3162225
-"354","ireland",1980,"rock",15,3504841
-"355","ireland",1980,"hiphop",2,3504841
-"356","ireland",1980,"countryfolk",5,3504841
-"357","ireland",1990,"countryfolk",9,3616129
-"358","ireland",1990,"rock",19,3616129
-"359","ireland",1990,"hiphop",7,3616129
-"360","ireland",1990,"metal",4,3616129
-"361","ireland",2000,"countryfolk",15,4404254.21052632
-"362","ireland",2000,"electro",2,4404254.21052632
-"363","ireland",2000,"rock",35,4404254.21052632
-"364","ireland",2000,"hiphop",17,4404254.21052632
-"365","ireland",2000,"metal",5,4404254.21052632
-"366","israel",1960,"countryfolk",1,2506302
-"367","israel",1970,"rock",2,3392300
-"368","israel",1970,"hiphop",1,3392300
-"369","israel",1970,"countryfolk",1,3392300
-"370","israel",1980,"countryfolk",1,4199000
-"371","israel",1980,"jazz",1,4199000
-"372","israel",1990,"metal",2,5456100
-"373","israel",2000,"countryfolk",2,7518542.10526316
-"374","israel",2000,"electro",1,7518542.10526316
-"375","israel",2000,"rock",4,7518542.10526316
-"376","israel",2000,"hiphop",2,7518542.10526316
-"377","israel",2000,"metal",6,7518542.10526316
-"378","italy",1960,"rock",3,51884840
-"379","italy",1960,"hiphop",12,51884840
-"380","italy",1960,"metal",1,51884840
-"381","italy",1960,"countryfolk",1,51884840
-"382","italy",1970,"countryfolk",4,55172652.3
-"383","italy",1970,"rock",62,55172652.3
-"384","italy",1970,"metal",1,55172652.3
-"385","italy",1970,"jazz",1,55172652.3
-"386","italy",1970,"electro",1,55172652.3
-"387","italy",1970,"hiphop",29,55172652.3
-"388","italy",1980,"jazz",1,56571212.4
-"389","italy",1980,"metal",2,56571212.4
-"390","italy",1980,"hiphop",49,56571212.4
-"391","italy",1980,"rock",39,56571212.4
-"392","italy",1980,"countryfolk",4,56571212.4
-"393","italy",1990,"hiphop",84,56836808.6
-"394","italy",1990,"jazz",5,56836808.6
-"395","italy",1990,"metal",20,56836808.6
-"396","italy",1990,"rock",85,56836808.6
-"397","italy",1990,"electro",2,56836808.6
-"398","italy",1990,"countryfolk",7,56836808.6
-"399","italy",2000,"countryfolk",10,58946517.5789474
-"400","italy",2000,"jazz",7,58946517.5789474
-"401","italy",2000,"metal",68,58946517.5789474
-"402","italy",2000,"electro",14,58946517.5789474
-"403","italy",2000,"hiphop",132,58946517.5789474
-"404","italy",2000,"rock",137,58946517.5789474
-"405","jamaica",1960,"hiphop",5,1740637.2
-"406","jamaica",1970,"hiphop",16,2008320.5
-"407","jamaica",1970,"rock",1,2008320.5
-"408","jamaica",1980,"hiphop",12,2303386.5
-"409","jamaica",1990,"hiphop",18,2523172.5
-"410","jamaica",2000,"hiphop",24,2798020.15789474
-"411","japan",1960,"rock",1,98154457.2
-"412","japan",1970,"hiphop",1,110481300
-"413","japan",1970,"jazz",1,110481300
-"414","japan",1970,"rock",1,110481300
-"415","japan",1980,"metal",2,120222200
-"416","japan",1980,"hiphop",3,120222200
-"417","japan",1980,"rock",4,120222200
-"418","japan",1990,"electro",2,125146800
-"419","japan",1990,"hiphop",17,125146800
-"420","japan",1990,"rock",16,125146800
-"421","japan",1990,"jazz",1,125146800
-"422","japan",1990,"metal",3,125146800
-"423","japan",2000,"jazz",2,127492495.157895
-"424","japan",2000,"metal",10,127492495.157895
-"425","japan",2000,"rock",50,127492495.157895
-"426","japan",2000,"hiphop",62,127492495.157895
-"427","japan",2000,"electro",13,127492495.157895
-"428","kazakhstan",2000,"metal",1,16203742.2631579
-"429","korea, rep.",1990,"hiphop",2,44822354.9
-"430","korea, rep.",1990,"rock",1,44822354.9
-"431","korea, rep.",2000,"hiphop",15,49354439.1052632
-"432","latvia",1980,"rock",1,2579599.7
-"433","latvia",1990,"hiphop",1,2518773.2
-"434","latvia",1990,"rock",3,2518773.2
-"435","latvia",2000,"countryfolk",1,2134049.47368421
-"436","latvia",2000,"hiphop",2,2134049.47368421
-"437","latvia",2000,"metal",3,2134049.47368421
-"438","latvia",2000,"rock",5,2134049.47368421
-"439","liechtenstein",2000,"metal",2,35749.3157894737
-"440","lithuania",1980,"rock",1,3538185.3
-"441","lithuania",1990,"rock",3,3632126.4
-"442","lithuania",1990,"metal",1,3632126.4
-"443","lithuania",2000,"countryfolk",1,3147205.26315789
-"444","lithuania",2000,"rock",4,3147205.26315789
-"445","lithuania",2000,"hiphop",3,3147205.26315789
-"446","lithuania",2000,"metal",3,3147205.26315789
-"447","luxembourg",2000,"countryfolk",1,507882.894736842
-"448","luxembourg",2000,"electro",1,507882.894736842
-"449","luxembourg",2000,"rock",1,507882.894736842
-"450","malaysia",1970,"rock",1,12065864.1
-"451","malaysia",1990,"metal",1,20285878
-"452","malaysia",2000,"metal",2,27549325.5263158
-"453","malaysia",2000,"hiphop",1,27549325.5263158
-"454","mali",2000,"countryfolk",1,14707046.2631579
-"455","malta",1990,"metal",1,374471.8
-"456","malta",2000,"metal",1,420053.842105263
-"457","malta",2000,"rock",1,420053.842105263
-"458","mexico",1970,"hiphop",1,58788980
-"459","mexico",1980,"hiphop",10,75122989.6
-"460","mexico",1980,"metal",2,75122989.6
-"461","mexico",1980,"rock",5,75122989.6
-"462","mexico",1990,"metal",5,90827521.7
-"463","mexico",1990,"rock",18,90827521.7
-"464","mexico",1990,"electro",3,90827521.7
-"465","mexico",1990,"hiphop",25,90827521.7
-"466","mexico",2000,"countryfolk",1,112468334.210526
-"467","mexico",2000,"electro",6,112468334.210526
-"468","mexico",2000,"rock",38,112468334.210526
-"469","mexico",2000,"hiphop",51,112468334.210526
-"470","mexico",2000,"metal",8,112468334.210526
-"471","moldova",2000,"hiphop",1,2858804.10526316
-"472","morocco",2000,"countryfolk",1,32149378.8421053
-"473","morocco",2000,"metal",1,32149378.8421053
-"474","netherlands",1960,"rock",5,12198100.7
-"475","netherlands",1960,"hiphop",2,12198100.7
-"476","netherlands",1960,"countryfolk",4,12198100.7
-"477","netherlands",1970,"countryfolk",4,13582252.1
-"478","netherlands",1970,"rock",12,13582252.1
-"479","netherlands",1970,"hiphop",20,13582252.1
-"480","netherlands",1970,"jazz",1,13582252.1
-"481","netherlands",1980,"hiphop",21,14483892.7
-"482","netherlands",1980,"metal",1,14483892.7
-"483","netherlands",1980,"electro",1,14483892.7
-"484","netherlands",1980,"rock",12,14483892.7
-"485","netherlands",1990,"hiphop",23,15399813.1
-"486","netherlands",1990,"jazz",1,15399813.1
-"487","netherlands",1990,"countryfolk",1,15399813.1
-"488","netherlands",1990,"electro",2,15399813.1
-"489","netherlands",1990,"rock",24,15399813.1
-"490","netherlands",1990,"metal",9,15399813.1
-"491","netherlands",2000,"electro",7,16564072.4210526
-"492","netherlands",2000,"hiphop",40,16564072.4210526
-"493","netherlands",2000,"countryfolk",9,16564072.4210526
-"494","netherlands",2000,"rock",45,16564072.4210526
-"495","netherlands",2000,"jazz",3,16564072.4210526
-"496","netherlands",2000,"metal",32,16564072.4210526
-"497","new zealand",1970,"hiphop",1,3009660
-"498","new zealand",1970,"rock",2,3009660
-"499","new zealand",1980,"rock",3,3217070
-"500","new zealand",1980,"hiphop",1,3217070
-"501","new zealand",1990,"hiphop",2,3638560
-"502","new zealand",1990,"metal",3,3638560
-"503","new zealand",1990,"electro",2,3638560
-"504","new zealand",1990,"rock",4,3638560
-"505","new zealand",2000,"countryfolk",1,4311815.78947368
-"506","new zealand",2000,"metal",7,4311815.78947368
-"507","new zealand",2000,"rock",19,4311815.78947368
-"508","new zealand",2000,"electro",2,4311815.78947368
-"509","new zealand",2000,"hiphop",13,4311815.78947368
-"510","nicaragua",2000,"metal",1,5754679.68421053
-"511","niger",1990,"electro",1,9388141.6
-"512","nigeria",2000,"hiphop",1,156125598.736842
-"513","north macedonia",1990,"hiphop",1,1995266.4
-"514","north macedonia",1990,"rock",1,1995266.4
-"515","north macedonia",2000,"rock",1,2066243.15789474
-"516","north macedonia",2000,"electro",1,2066243.15789474
-"517","north macedonia",2000,"hiphop",1,2066243.15789474
-"518","norway",1970,"countryfolk",3,3986553.4
-"519","norway",1980,"countryfolk",5,4151180.4
-"520","norway",1980,"rock",2,4151180.4
-"521","norway",1980,"hiphop",2,4151180.4
-"522","norway",1980,"metal",3,4151180.4
-"523","norway",1990,"jazz",1,4347726.4
-"524","norway",1990,"metal",44,4347726.4
-"525","norway",1990,"countryfolk",8,4347726.4
-"526","norway",1990,"hiphop",8,4347726.4
-"527","norway",1990,"rock",15,4347726.4
-"528","norway",2000,"countryfolk",14,4862077.84210526
-"529","norway",2000,"jazz",2,4862077.84210526
-"530","norway",2000,"metal",67,4862077.84210526
-"531","norway",2000,"electro",11,4862077.84210526
-"532","norway",2000,"hiphop",34,4862077.84210526
-"533","norway",2000,"rock",40,4862077.84210526
-"534","pakistan",1990,"metal",1,122543855.6
-"535","pakistan",2000,"metal",1,176143236.894737
-"536","pakistan",2000,"hiphop",1,176143236.894737
-"537","panama",2000,"hiphop",2,3587594.73684211
-"538","peru",1990,"rock",3,24082046.1
-"539","peru",2000,"rock",4,28921384.5263158
-"540","philippines",1990,"metal",1,69035948.7
-"541","philippines",1990,"rock",4,69035948.7
-"542","philippines",2000,"metal",1,92498179.4210526
-"543","philippines",2000,"rock",3,92498179.4210526
-"544","philippines",2000,"countryfolk",1,92498179.4210526
-"545","philippines",2000,"hiphop",4,92498179.4210526
-"546","poland",1960,"rock",2,31171746
-"547","poland",1970,"hiphop",1,33881291.5
-"548","poland",1970,"rock",4,33881291.5
-"549","poland",1970,"countryfolk",1,33881291.5
-"550","poland",1980,"hiphop",1,36929122.5
-"551","poland",1980,"jazz",1,36929122.5
-"552","poland",1980,"rock",20,36929122.5
-"553","poland",1980,"metal",3,36929122.5
-"554","poland",1990,"jazz",1,38491748.2
-"555","poland",1990,"metal",22,38491748.2
-"556","poland",1990,"countryfolk",2,38491748.2
-"557","poland",1990,"hiphop",13,38491748.2
-"558","poland",1990,"rock",32,38491748.2
-"559","poland",2000,"jazz",2,38102932.3157895
-"560","poland",2000,"metal",47,38102932.3157895
-"561","poland",2000,"countryfolk",1,38102932.3157895
-"562","poland",2000,"hiphop",39,38102932.3157895
-"563","poland",2000,"rock",54,38102932.3157895
-"564","portugal",1960,"countryfolk",1,8924519.7
-"565","portugal",1970,"rock",1,9046655.2
-"566","portugal",1970,"countryfolk",1,9046655.2
-"567","portugal",1970,"hiphop",2,9046655.2
-"568","portugal",1980,"hiphop",2,9959453
-"569","portugal",1980,"countryfolk",3,9959453
-"570","portugal",1980,"rock",6,9959453
-"571","portugal",1990,"hiphop",4,10042926.9
-"572","portugal",1990,"metal",5,10042926.9
-"573","portugal",1990,"countryfolk",1,10042926.9
-"574","portugal",1990,"rock",11,10042926.9
-"575","portugal",2000,"electro",2,10446392.1052632
-"576","portugal",2000,"hiphop",8,10446392.1052632
-"577","portugal",2000,"metal",8,10446392.1052632
-"578","portugal",2000,"countryfolk",2,10446392.1052632
-"579","portugal",2000,"rock",11,10446392.1052632
-"580","puerto rico",1990,"hiphop",5,3669739
-"581","puerto rico",1990,"rock",1,3669739
-"582","puerto rico",2000,"metal",1,3662074.26315789
-"583","puerto rico",2000,"rock",2,3662074.26315789
-"584","puerto rico",2000,"hiphop",23,3662074.26315789
-"585","romania",1990,"metal",2,22732740.1
-"586","romania",2000,"rock",4,20660532.9473684
-"587","romania",2000,"hiphop",7,20660532.9473684
-"588","romania",2000,"metal",3,20660532.9473684
-"589","russian federation",1960,"countryfolk",1,125403000
-"590","russian federation",1970,"countryfolk",1,134010300
-"591","russian federation",1980,"metal",1,143342500
-"592","russian federation",1980,"rock",1,143342500
-"593","russian federation",1990,"hiphop",1,148179715.9
-"594","russian federation",1990,"metal",9,148179715.9
-"595","russian federation",1990,"rock",5,148179715.9
-"596","russian federation",2000,"countryfolk",2,143960392.315789
-"597","russian federation",2000,"metal",34,143960392.315789
-"598","russian federation",2000,"rock",12,143960392.315789
-"599","russian federation",2000,"electro",7,143960392.315789
-"600","russian federation",2000,"hiphop",12,143960392.315789
-"601","senegal",1980,"rock",1,6400823.2
-"602","senegal",1990,"hiphop",1,8561012.5
-"603","senegal",1990,"rock",1,8561012.5
-"604","senegal",1990,"countryfolk",1,8561012.5
-"605","senegal",2000,"countryfolk",1,12520271.7368421
-"606","senegal",2000,"hiphop",2,12520271.7368421
-"607","serbia",1990,"metal",1,7620980.4
-"608","serbia",1990,"rock",4,7620980.4
-"609","serbia",2000,"rock",4,7291656.94736842
-"610","serbia",2000,"hiphop",1,7291656.94736842
-"611","serbia",2000,"metal",3,7291656.94736842
-"612","singapore",2000,"metal",1,4870578.47368421
-"613","singapore",2000,"rock",1,4870578.47368421
-"614","slovak republic",1980,"hiphop",1,5137507.1
-"615","slovak republic",1980,"metal",1,5137507.1
-"616","slovak republic",1990,"metal",7,5348432
-"617","slovak republic",1990,"rock",3,5348432
-"618","slovak republic",2000,"hiphop",2,5397174.21052632
-"619","slovak republic",2000,"jazz",1,5397174.21052632
-"620","slovak republic",2000,"electro",1,5397174.21052632
-"621","slovak republic",2000,"rock",6,5397174.21052632
-"622","slovak republic",2000,"metal",11,5397174.21052632
-"623","slovenia",1990,"rock",1,1990440.7
-"624","slovenia",1990,"hiphop",1,1990440.7
-"625","slovenia",1990,"metal",1,1990440.7
-"626","slovenia",2000,"rock",1,2031793.78947368
-"627","slovenia",2000,"metal",3,2031793.78947368
-"628","south africa",1970,"rock",1,24896146.7
-"629","south africa",1980,"countryfolk",1,32237918.4
-"630","south africa",1980,"hiphop",2,32237918.4
-"631","south africa",1980,"rock",2,32237918.4
-"632","south africa",1990,"countryfolk",1,40807490.8
-"633","south africa",1990,"hiphop",3,40807490.8
-"634","south africa",1990,"jazz",1,40807490.8
-"635","south africa",1990,"rock",3,40807490.8
-"636","south africa",2000,"countryfolk",2,50900392.8421053
-"637","south africa",2000,"metal",2,50900392.8421053
-"638","south africa",2000,"rock",14,50900392.8421053
-"639","south africa",2000,"electro",2,50900392.8421053
-"640","south africa",2000,"hiphop",6,50900392.8421053
-"641","spain",1960,"countryfolk",1,31859808.3
-"642","spain",1960,"hiphop",5,31859808.3
-"643","spain",1970,"hiphop",7,35546935
-"644","spain",1970,"countryfolk",3,35546935
-"645","spain",1970,"metal",1,35546935
-"646","spain",1970,"rock",3,35546935
-"647","spain",1980,"hiphop",15,38307135.1
-"648","spain",1980,"metal",5,38307135.1
-"649","spain",1980,"rock",24,38307135.1
-"650","spain",1980,"countryfolk",4,38307135.1
-"651","spain",1990,"countryfolk",7,39618342.8
-"652","spain",1990,"hiphop",31,39618342.8
-"653","spain",1990,"metal",17,39618342.8
-"654","spain",1990,"rock",50,39618342.8
-"655","spain",2000,"hiphop",71,44898207.8421053
-"656","spain",2000,"jazz",2,44898207.8421053
-"657","spain",2000,"countryfolk",10,44898207.8421053
-"658","spain",2000,"electro",1,44898207.8421053
-"659","spain",2000,"rock",72,44898207.8421053
-"660","spain",2000,"metal",38,44898207.8421053
-"661","sweden",1960,"hiphop",1,7712185
-"662","sweden",1970,"countryfolk",2,8179524.2
-"663","sweden",1970,"hiphop",6,8179524.2
-"664","sweden",1970,"rock",11,8179524.2
-"665","sweden",1980,"hiphop",16,8366940.7
-"666","sweden",1980,"metal",7,8366940.7
-"667","sweden",1980,"countryfolk",4,8366940.7
-"668","sweden",1980,"electro",1,8366940.7
-"669","sweden",1980,"rock",16,8366940.7
-"670","sweden",1990,"countryfolk",6,8756643
-"671","sweden",1990,"electro",3,8756643
-"672","sweden",1990,"metal",76,8756643
-"673","sweden",1990,"rock",52,8756643
-"674","sweden",1990,"hiphop",49,8756643
-"675","sweden",1990,"jazz",1,8756643
-"676","sweden",2000,"electro",25,9369447
-"677","sweden",2000,"hiphop",147,9369447
-"678","sweden",2000,"countryfolk",16,9369447
-"679","sweden",2000,"rock",112,9369447
-"680","sweden",2000,"jazz",2,9369447
-"681","sweden",2000,"metal",150,9369447
-"682","switzerland",1970,"hiphop",1,6280239.7
-"683","switzerland",1970,"rock",4,6280239.7
-"684","switzerland",1980,"hiphop",1,6468532.2
-"685","switzerland",1980,"metal",2,6468532.2
-"686","switzerland",1980,"electro",1,6468532.2
-"687","switzerland",1980,"rock",7,6468532.2
-"688","switzerland",1990,"electro",1,6977835.6
-"689","switzerland",1990,"rock",11,6977835.6
-"690","switzerland",1990,"hiphop",3,6977835.6
-"691","switzerland",1990,"metal",9,6977835.6
-"692","switzerland",2000,"electro",4,7785479.94736842
-"693","switzerland",2000,"metal",17,7785479.94736842
-"694","switzerland",2000,"rock",19,7785479.94736842
-"695","switzerland",2000,"hiphop",11,7785479.94736842
-"696","switzerland",2000,"jazz",1,7785479.94736842
-"697","tanzania",2000,"countryfolk",1,43767139.8421053
-"698","thailand",2000,"hiphop",1,66651133
-"699","trinidad and tobago",1990,"hiphop",1,1247726.3
-"700","tunisia",2000,"countryfolk",1,10558774.5263158
-"701","tunisia",2000,"metal",2,10558774.5263158
-"702","turkey",1960,"hiphop",1,30670805.5
-"703","turkey",1970,"hiphop",3,38863593.7
-"704","turkey",1970,"countryfolk",2,38863593.7
-"705","turkey",1980,"hiphop",5,48558707.7
-"706","turkey",1980,"rock",2,48558707.7
-"707","turkey",1980,"countryfolk",2,48558707.7
-"708","turkey",1990,"metal",2,58062868.5
-"709","turkey",1990,"rock",8,58062868.5
-"710","turkey",1990,"countryfolk",4,58062868.5
-"711","turkey",1990,"hiphop",16,58062868.5
-"712","turkey",2000,"countryfolk",4,72053544.8947368
-"713","turkey",2000,"electro",2,72053544.8947368
-"714","turkey",2000,"hiphop",23,72053544.8947368
-"715","turkey",2000,"metal",7,72053544.8947368
-"716","turkey",2000,"rock",21,72053544.8947368
-"717","ukraine",1980,"metal",1,50848987.4
-"718","ukraine",1990,"metal",4,51312386.9
-"719","ukraine",2000,"hiphop",2,46399183.4210526
-"720","ukraine",2000,"metal",8,46399183.4210526
-"721","ukraine",2000,"rock",2,46399183.4210526
-"722","united kingdom",1960,"countryfolk",23,54069360
-"723","united kingdom",1960,"rock",79,54069360
-"724","united kingdom",1960,"jazz",1,54069360
-"725","united kingdom",1960,"electro",1,54069360
-"726","united kingdom",1960,"hiphop",28,54069360
-"727","united kingdom",1970,"countryfolk",34,56114475.4
-"728","united kingdom",1970,"rock",267,56114475.4
-"729","united kingdom",1970,"metal",6,56114475.4
-"730","united kingdom",1970,"hiphop",44,56114475.4
-"731","united kingdom",1970,"jazz",12,56114475.4
-"732","united kingdom",1980,"hiphop",146,56575535.8
-"733","united kingdom",1980,"jazz",7,56575535.8
-"734","united kingdom",1980,"countryfolk",25,56575535.8
-"735","united kingdom",1980,"electro",14,56575535.8
-"736","united kingdom",1980,"metal",31,56575535.8
-"737","united kingdom",1980,"rock",315,56575535.8
-"738","united kingdom",1990,"hiphop",184,57950978.5
-"739","united kingdom",1990,"jazz",13,57950978.5
-"740","united kingdom",1990,"metal",44,57950978.5
-"741","united kingdom",1990,"electro",55,57950978.5
-"742","united kingdom",1990,"countryfolk",40,57950978.5
-"743","united kingdom",1990,"rock",397,57950978.5
-"744","united kingdom",2000,"countryfolk",110,62388151.4736842
-"745","united kingdom",2000,"electro",134,62388151.4736842
-"746","united kingdom",2000,"hiphop",398,62388151.4736842
-"747","united kingdom",2000,"jazz",23,62388151.4736842
-"748","united kingdom",2000,"metal",108,62388151.4736842
-"749","united kingdom",2000,"rock",653,62388151.4736842
-"750","united states",1960,"countryfolk",168,192498900
-"751","united states",1960,"metal",1,192498900
-"752","united states",1960,"electro",1,192498900
-"753","united states",1960,"hiphop",73,192498900
-"754","united states",1960,"jazz",29,192498900
-"755","united states",1960,"rock",135,192498900
-"756","united states",1970,"countryfolk",193,215025900
-"757","united states",1970,"rock",282,215025900
-"758","united states",1970,"hiphop",80,215025900
-"759","united states",1970,"jazz",33,215025900
-"760","united states",1980,"countryfolk",183,236963600
-"761","united states",1980,"electro",9,236963600
-"762","united states",1980,"metal",115,236963600
-"763","united states",1980,"rock",466,236963600
-"764","united states",1980,"jazz",33,236963600
-"765","united states",1980,"hiphop",168,236963600
-"766","united states",1990,"electro",36,264538600
-"767","united states",1990,"hiphop",526,264538600
-"768","united states",1990,"countryfolk",398,264538600
-"769","united states",1990,"rock",1006,264538600
-"770","united states",1990,"jazz",54,264538600
-"771","united states",1990,"metal",262,264538600
-"772","united states",2000,"countryfolk",685,305679830
-"773","united states",2000,"electro",169,305679830
-"774","united states",2000,"hiphop",1341,305679830
-"775","united states",2000,"jazz",82,305679830
-"776","united states",2000,"metal",554,305679830
-"777","united states",2000,"rock",2045,305679830
-"778","uruguay",1970,"rock",1,2839566.9
-"779","uruguay",1980,"rock",1,3001818.5
-"780","uruguay",1990,"hiphop",2,3211551.2
-"781","uruguay",1990,"rock",1,3211551.2
-"782","uruguay",2000,"hiphop",1,3363388.68421053
-"783","uruguay",2000,"rock",2,3363388.68421053
-"784","venezuela, rb",1980,"hiphop",1,17130747.6
-"785","venezuela, rb",1980,"metal",1,17130747.6
-"786","venezuela, rb",1990,"rock",1,21696099.7
-"787","venezuela, rb",1990,"hiphop",3,21696099.7
-"788","venezuela, rb",2000,"electro",1,27704879.5263158
-"789","venezuela, rb",2000,"hiphop",3,27704879.5263158
-"790","venezuela, rb",2000,"metal",2,27704879.5263158
-"791","venezuela, rb",2000,"rock",1,27704879.5263158
-"792","vietnam",2000,"metal",2,87385255.5263158
-"793","world",1960,"hiphop",14,3300129243.8
-"794","world",1960,"rock",14,3300129243.8
-"795","world",1960,"electro",1,3300129243.8
-"796","world",1960,"countryfolk",12,3300129243.8
-"797","world",1970,"jazz",2,4023441813.3
-"798","world",1970,"metal",1,4023441813.3
-"799","world",1970,"hiphop",22,4023441813.3
-"800","world",1970,"countryfolk",23,4023441813.3
-"801","world",1970,"rock",68,4023441813.3
-"802","world",1980,"hiphop",45,4804490235.5
-"803","world",1980,"jazz",2,4804490235.5
-"804","world",1980,"countryfolk",16,4804490235.5
-"805","world",1980,"electro",5,4804490235.5
-"806","world",1980,"metal",36,4804490235.5
-"807","world",1980,"rock",82,4804490235.5
-"808","world",1990,"countryfolk",56,5662612197.6
-"809","world",1990,"electro",21,5662612197.6
-"810","world",1990,"metal",134,5662612197.6
-"811","world",1990,"rock",215,5662612197.6
-"812","world",1990,"hiphop",124,5662612197.6
-"813","world",1990,"jazz",4,5662612197.6
-"814","world",2000,"countryfolk",224,6845287530.63158
-"815","world",2000,"electro",143,6845287530.63158
-"816","world",2000,"hiphop",737,6845287530.63158
-"817","world",2000,"jazz",20,6845287530.63158
-"818","world",2000,"metal",630,6845287530.63158
-"819","world",2000,"rock",1112,6845287530.63158
-"820","zambia",2000,"hiphop",1,13492239
+"5","argentina",1970,"countryfolk",1,25663601.5
+"6","argentina",1970,"hiphop",1,25663601.5
+"7","argentina",1980,"countryfolk",3,29994547.2
+"8","argentina",1980,"metal",2,29994547.2
+"9","argentina",1980,"rock",21,29994547.2
+"10","argentina",1980,"hiphop",2,29994547.2
+"11","argentina",1980,"punk",2,29994547.2
+"12","argentina",1990,"punk",2,34586241
+"13","argentina",1990,"metal",9,34586241
+"14","argentina",1990,"hiphop",12,34586241
+"15","argentina",1990,"countryfolk",8,34586241
+"16","argentina",1990,"rock",47,34586241
+"17","argentina",2000,"hiphop",14,40566072.4210526
+"18","argentina",2000,"electro",2,40566072.4210526
+"19","argentina",2000,"punk",3,40566072.4210526
+"20","argentina",2000,"countryfolk",7,40566072.4210526
+"21","argentina",2000,"rock",61,40566072.4210526
+"22","argentina",2000,"metal",12,40566072.4210526
+"23","australia",1960,"hiphop",2,11272847.7
+"24","australia",1960,"rock",2,11272847.7
+"25","australia",1960,"countryfolk",1,11272847.7
+"26","australia",1970,"hiphop",7,13671400
+"27","australia",1970,"rock",10,13671400
+"28","australia",1980,"rock",29,15709690
+"29","australia",1980,"hiphop",12,15709690
+"30","australia",1980,"metal",1,15709690
+"31","australia",1980,"electro",1,15709690
+"32","australia",1980,"jazz",1,15709690
+"33","australia",1980,"punk",4,15709690
+"34","australia",1990,"metal",14,17990310
+"35","australia",1990,"hiphop",18,17990310
+"36","australia",1990,"electro",2,17990310
+"37","australia",1990,"rock",59,17990310
+"38","australia",1990,"countryfolk",6,17990310
+"39","australia",1990,"punk",4,17990310
+"40","australia",2000,"countryfolk",19,21810626.5263158
+"41","australia",2000,"punk",12,21810626.5263158
+"42","australia",2000,"rock",126,21810626.5263158
+"43","australia",2000,"metal",37,21810626.5263158
+"44","australia",2000,"jazz",1,21810626.5263158
+"45","australia",2000,"electro",13,21810626.5263158
+"46","australia",2000,"hiphop",87,21810626.5263158
+"47","austria",1970,"hiphop",5,7552151
+"48","austria",1970,"rock",2,7552151
+"49","austria",1980,"countryfolk",1,7572987.6
+"50","austria",1980,"hiphop",8,7572987.6
+"51","austria",1980,"rock",7,7572987.6
+"52","austria",1980,"metal",1,7572987.6
+"53","austria",1990,"electro",1,7895965
+"54","austria",1990,"rock",7,7895965
+"55","austria",1990,"countryfolk",2,7895965
+"56","austria",1990,"metal",10,7895965
+"57","austria",1990,"hiphop",7,7895965
+"58","austria",2000,"metal",20,8374455.36842105
+"59","austria",2000,"hiphop",17,8374455.36842105
+"60","austria",2000,"countryfolk",4,8374455.36842105
+"61","austria",2000,"electro",8,8374455.36842105
+"62","austria",2000,"rock",19,8374455.36842105
+"63","austria",2000,"punk",1,8374455.36842105
+"64","azerbaijan",2000,"hiphop",1,8932460.89473684
+"65","bahamas",1970,"countryfolk",1,187413.7
+"66","bahamas",2000,"hiphop",1,345387.368421053
+"67","bangladesh",2000,"rock",1,145539173.421053
+"68","belarus",1990,"metal",1,10163173.8
+"69","belarus",2000,"rock",4,9605621.84210526
+"70","belarus",2000,"metal",5,9605621.84210526
+"71","belarus",2000,"hiphop",1,9605621.84210526
+"72","belgium",1960,"jazz",1,9406315.1
+"73","belgium",1960,"hiphop",1,9406315.1
+"74","belgium",1970,"rock",1,9769116.6
+"75","belgium",1980,"electro",3,9871514.5
+"76","belgium",1980,"metal",1,9871514.5
+"77","belgium",1980,"rock",1,9871514.5
+"78","belgium",1980,"hiphop",4,9871514.5
+"79","belgium",1990,"metal",7,10112122.1
+"80","belgium",1990,"jazz",1,10112122.1
+"81","belgium",1990,"hiphop",10,10112122.1
+"82","belgium",1990,"countryfolk",1,10112122.1
+"83","belgium",1990,"electro",9,10112122.1
+"84","belgium",1990,"rock",11,10112122.1
+"85","belgium",2000,"countryfolk",3,10823678.6315789
+"86","belgium",2000,"metal",14,10823678.6315789
+"87","belgium",2000,"jazz",1,10823678.6315789
+"88","belgium",2000,"electro",11,10823678.6315789
+"89","belgium",2000,"hiphop",18,10823678.6315789
+"90","belgium",2000,"rock",20,10823678.6315789
+"91","belgium",2000,"punk",3,10823678.6315789
+"92","belize",2000,"hiphop",1,314961.684210526
+"93","bermuda",1990,"rock",1,59777.2
+"94","bermuda",1990,"hiphop",1,59777.2
+"95","bermuda",2000,"hiphop",2,64266.0526315789
+"96","bermuda",2000,"rock",1,64266.0526315789
+"97","bosnia and herz.",1980,"rock",2,4365084.5
+"98","bosnia and herz.",1990,"rock",2,3988911.5
+"99","bosnia and herz.",2000,"rock",1,3634926.52631579
+"100","brazil",1960,"jazz",1,82308166.7
+"101","brazil",1960,"rock",2,82308166.7
+"102","brazil",1960,"hiphop",1,82308166.7
+"103","brazil",1960,"countryfolk",1,82308166.7
+"104","brazil",1970,"rock",8,106185336.2
+"105","brazil",1970,"countryfolk",1,106185336.2
+"106","brazil",1970,"hiphop",2,106185336.2
+"107","brazil",1970,"jazz",5,106185336.2
+"108","brazil",1980,"hiphop",8,133682543.8
+"109","brazil",1980,"punk",2,133682543.8
+"110","brazil",1980,"rock",26,133682543.8
+"111","brazil",1980,"countryfolk",1,133682543.8
+"112","brazil",1980,"metal",5,133682543.8
+"113","brazil",1990,"punk",1,160713995.7
+"114","brazil",1990,"metal",13,160713995.7
+"115","brazil",1990,"hiphop",14,160713995.7
+"116","brazil",1990,"countryfolk",1,160713995.7
+"117","brazil",1990,"rock",32,160713995.7
+"118","brazil",2000,"hiphop",26,193259710.894737
+"119","brazil",2000,"jazz",4,193259710.894737
+"120","brazil",2000,"rock",48,193259710.894737
+"121","brazil",2000,"countryfolk",2,193259710.894737
+"122","brazil",2000,"metal",31,193259710.894737
+"123","brazil",2000,"punk",1,193259710.894737
+"124","bulgaria",2000,"metal",1,7484034.89473684
+"125","canada",1960,"rock",4,19499300.9
+"126","canada",1960,"countryfolk",7,19499300.9
+"127","canada",1970,"rock",27,22928791.4
+"128","canada",1970,"countryfolk",12,22928791.4
+"129","canada",1970,"hiphop",3,22928791.4
+"130","canada",1970,"jazz",1,22928791.4
+"131","canada",1980,"rock",47,25788355.1
+"132","canada",1980,"metal",9,25788355.1
+"133","canada",1980,"countryfolk",16,25788355.1
+"134","canada",1980,"hiphop",9,25788355.1
+"135","canada",1990,"jazz",4,29116018.5
+"136","canada",1990,"hiphop",27,29116018.5
+"137","canada",1990,"punk",5,29116018.5
+"138","canada",1990,"rock",87,29116018.5
+"139","canada",1990,"metal",18,29116018.5
+"140","canada",1990,"electro",2,29116018.5
+"141","canada",1990,"countryfolk",32,29116018.5
+"142","canada",2000,"jazz",11,33695982.5263158
+"143","canada",2000,"hiphop",110,33695982.5263158
+"144","canada",2000,"rock",229,33695982.5263158
+"145","canada",2000,"electro",31,33695982.5263158
+"146","canada",2000,"metal",51,33695982.5263158
+"147","canada",2000,"countryfolk",76,33695982.5263158
+"148","canada",2000,"punk",19,33695982.5263158
+"149","chile",1960,"countryfolk",2,8893466
+"150","chile",1970,"countryfolk",2,10514016.8
+"151","chile",1970,"rock",1,10514016.8
+"152","chile",1980,"countryfolk",2,12198381.7
+"153","chile",1980,"rock",1,12198381.7
+"154","chile",1990,"countryfolk",2,14249596.6
+"155","chile",1990,"rock",4,14249596.6
+"156","chile",2000,"metal",4,16919700.3684211
+"157","chile",2000,"hiphop",3,16919700.3684211
+"158","chile",2000,"rock",9,16919700.3684211
+"159","chile",2000,"countryfolk",2,16919700.3684211
+"160","china",2000,"hiphop",1,1330057894.73684
+"161","china",2000,"rock",1,1330057894.73684
+"162","colombia",1980,"hiphop",1,29654348.6
+"163","colombia",1980,"jazz",1,29654348.6
+"164","colombia",1990,"rock",3,36071914
+"165","colombia",1990,"jazz",1,36071914
+"166","colombia",1990,"hiphop",2,36071914
+"167","colombia",2000,"hiphop",5,44609643
+"168","colombia",2000,"rock",5,44609643
+"169","costa rica",2000,"countryfolk",1,4507289.31578947
+"170","croatia",1970,"rock",2,4503836.2
+"171","croatia",1970,"hiphop",1,4503836.2
+"172","croatia",1980,"rock",1,4686913.9
+"173","croatia",1980,"hiphop",1,4686913.9
+"174","croatia",1980,"punk",1,4686913.9
+"175","croatia",1990,"hiphop",1,4605147.4
+"176","croatia",1990,"metal",1,4605147.4
+"177","croatia",1990,"rock",1,4605147.4
+"178","croatia",1990,"punk",1,4605147.4
+"179","croatia",2000,"metal",2,4271186.10526316
+"180","croatia",2000,"hiphop",1,4271186.10526316
+"181","croatia",2000,"punk",1,4271186.10526316
+"182","croatia",2000,"rock",2,4271186.10526316
+"183","cuba",2000,"metal",1,11255496.8421053
+"184","cuba",2000,"hiphop",1,11255496.8421053
+"185","czechia",1960,"hiphop",2,9743802.9
+"186","czechia",1960,"rock",1,9743802.9
+"187","czechia",1960,"countryfolk",1,9743802.9
+"188","czechia",1970,"jazz",1,10036899.6
+"189","czechia",1970,"rock",2,10036899.6
+"190","czechia",1970,"hiphop",1,10036899.6
+"191","czechia",1980,"hiphop",1,10331668.6
+"192","czechia",1980,"countryfolk",2,10331668.6
+"193","czechia",1980,"rock",1,10331668.6
+"194","czechia",1990,"hiphop",3,10314935.6
+"195","czechia",1990,"countryfolk",2,10314935.6
+"196","czechia",1990,"metal",8,10314935.6
+"197","czechia",1990,"rock",9,10314935.6
+"198","czechia",2000,"countryfolk",3,10394464.7368421
+"199","czechia",2000,"punk",1,10394464.7368421
+"200","czechia",2000,"electro",1,10394464.7368421
+"201","czechia",2000,"rock",15,10394464.7368421
+"202","czechia",2000,"hiphop",7,10394464.7368421
+"203","czechia",2000,"metal",16,10394464.7368421
+"204","denmark",1970,"rock",3,5039256.3
+"205","denmark",1980,"metal",5,5121168.4
+"206","denmark",1980,"rock",3,5121168.4
+"207","denmark",1980,"hiphop",3,5121168.4
+"208","denmark",1990,"electro",1,5226887.1
+"209","denmark",1990,"countryfolk",2,5226887.1
+"210","denmark",1990,"rock",10,5226887.1
+"211","denmark",1990,"hiphop",8,5226887.1
+"212","denmark",1990,"metal",14,5226887.1
+"213","denmark",2000,"hiphop",36,5533822.52631579
+"214","denmark",2000,"electro",6,5533822.52631579
+"215","denmark",2000,"metal",25,5533822.52631579
+"216","denmark",2000,"countryfolk",6,5533822.52631579
+"217","denmark",2000,"rock",27,5533822.52631579
+"218","dominican rep.",2000,"hiphop",1,9567454.57894737
+"219","egypt",2000,"electro",1,82271868.2105263
+"220","el salvador",1990,"metal",1,5578842.9
+"221","el salvador",2000,"metal",1,6158180.57894737
+"222","estonia",1990,"hiphop",1,1464838.4
+"223","estonia",1990,"rock",1,1464838.4
+"224","estonia",1990,"metal",1,1464838.4
+"225","estonia",2000,"metal",3,1341910.52631579
+"226","estonia",2000,"countryfolk",1,1341910.52631579
+"227","estonia",2000,"rock",10,1341910.52631579
+"228","estonia",2000,"electro",2,1341910.52631579
+"229","estonia",2000,"hiphop",10,1341910.52631579
+"230","faroe is.",2000,"jazz",1,47755.1578947368
+"231","faroe is.",2000,"rock",1,47755.1578947368
+"232","faroe is.",2000,"hiphop",1,47755.1578947368
+"233","faroe is.",2000,"countryfolk",1,47755.1578947368
+"234","faroe is.",2000,"metal",3,47755.1578947368
+"235","finland",1970,"jazz",1,4690796.7
+"236","finland",1970,"rock",8,4690796.7
+"237","finland",1970,"countryfolk",1,4690796.7
+"238","finland",1970,"hiphop",1,4690796.7
+"239","finland",1980,"countryfolk",2,4880735.7
+"240","finland",1980,"rock",14,4880735.7
+"241","finland",1980,"hiphop",2,4880735.7
+"242","finland",1980,"metal",4,4880735.7
+"243","finland",1990,"electro",1,5088811.3
+"244","finland",1990,"rock",25,5088811.3
+"245","finland",1990,"countryfolk",2,5088811.3
+"246","finland",1990,"punk",2,5088811.3
+"247","finland",1990,"hiphop",3,5088811.3
+"248","finland",1990,"metal",36,5088811.3
+"249","finland",2000,"metal",112,5343368.78947368
+"250","finland",2000,"punk",2,5343368.78947368
+"251","finland",2000,"hiphop",119,5343368.78947368
+"252","finland",2000,"countryfolk",9,5343368.78947368
+"253","finland",2000,"electro",4,5343368.78947368
+"254","finland",2000,"rock",62,5343368.78947368
+"255","france",1960,"rock",3,49324172.3
+"256","france",1960,"jazz",1,49324172.3
+"257","france",1960,"electro",1,49324172.3
+"258","france",1960,"hiphop",11,49324172.3
+"259","france",1960,"countryfolk",1,49324172.3
+"260","france",1970,"jazz",1,53615026.8
+"261","france",1970,"countryfolk",1,53615026.8
+"262","france",1970,"electro",1,53615026.8
+"263","france",1970,"rock",11,53615026.8
+"264","france",1970,"hiphop",18,53615026.8
+"265","france",1980,"rock",15,56517299.1
+"266","france",1980,"countryfolk",1,56517299.1
+"267","france",1980,"punk",1,56517299.1
+"268","france",1980,"electro",1,56517299.1
+"269","france",1980,"hiphop",24,56517299.1
+"270","france",1980,"metal",2,56517299.1
+"271","france",1990,"metal",15,59402304.1
+"272","france",1990,"countryfolk",2,59402304.1
+"273","france",1990,"rock",29,59402304.1
+"274","france",1990,"hiphop",53,59402304.1
+"275","france",1990,"electro",4,59402304.1
+"276","france",1990,"punk",1,59402304.1
+"277","france",2000,"hiphop",134,64440873.0526316
+"278","france",2000,"electro",31,64440873.0526316
+"279","france",2000,"rock",74,64440873.0526316
+"280","france",2000,"countryfolk",5,64440873.0526316
+"281","france",2000,"punk",5,64440873.0526316
+"282","france",2000,"jazz",4,64440873.0526316
+"283","france",2000,"metal",55,64440873.0526316
+"284","georgia",2000,"hiphop",1,3835334.89473684
+"285","germany",1960,"rock",5,75497034.4
+"286","germany",1960,"hiphop",4,75497034.4
+"287","germany",1960,"countryfolk",6,75497034.4
+"288","germany",1970,"jazz",2,78446317
+"289","germany",1970,"countryfolk",8,78446317
+"290","germany",1970,"electro",4,78446317
+"291","germany",1970,"metal",1,78446317
+"292","germany",1970,"rock",46,78446317
+"293","germany",1970,"hiphop",12,78446317
+"294","germany",1980,"jazz",1,78115794.7
+"295","germany",1980,"hiphop",30,78115794.7
+"296","germany",1980,"countryfolk",10,78115794.7
+"297","germany",1980,"electro",2,78115794.7
+"298","germany",1980,"rock",66,78115794.7
+"299","germany",1980,"metal",27,78115794.7
+"300","germany",1980,"punk",2,78115794.7
+"301","germany",1990,"hiphop",79,81244132.5
+"302","germany",1990,"rock",100,81244132.5
+"303","germany",1990,"jazz",4,81244132.5
+"304","germany",1990,"electro",35,81244132.5
+"305","germany",1990,"metal",85,81244132.5
+"306","germany",1990,"punk",8,81244132.5
+"307","germany",1990,"countryfolk",10,81244132.5
+"308","germany",2000,"hiphop",226,81943627.2631579
+"309","germany",2000,"jazz",10,81943627.2631579
+"310","germany",2000,"rock",212,81943627.2631579
+"311","germany",2000,"punk",23,81943627.2631579
+"312","germany",2000,"electro",99,81943627.2631579
+"313","germany",2000,"metal",190,81943627.2631579
+"314","germany",2000,"countryfolk",35,81943627.2631579
+"315","gibraltar",1990,"rock",1,29183.3
+"316","gibraltar",2000,"rock",1,33195.7894736842
+"317","greece",1960,"hiphop",1,8552966.3
+"318","greece",1970,"hiphop",1,9092496.5
+"319","greece",1970,"countryfolk",1,9092496.5
+"320","greece",1970,"electro",2,9092496.5
+"321","greece",1970,"rock",2,9092496.5
+"322","greece",1980,"electro",2,9893238.5
+"323","greece",1980,"hiphop",2,9893238.5
+"324","greece",1980,"rock",1,9893238.5
+"325","greece",1990,"metal",7,10520353.6
+"326","greece",1990,"electro",1,10520353.6
+"327","greece",1990,"hiphop",1,10520353.6
+"328","greece",1990,"countryfolk",1,10520353.6
+"329","greece",2000,"jazz",1,10942437.5789474
+"330","greece",2000,"hiphop",4,10942437.5789474
+"331","greece",2000,"countryfolk",2,10942437.5789474
+"332","greece",2000,"electro",2,10942437.5789474
+"333","greece",2000,"metal",18,10942437.5789474
+"334","greece",2000,"rock",8,10942437.5789474
+"335","guatemala",1980,"hiphop",1,8150594.7
+"336","guatemala",1990,"hiphop",1,10303011.7
+"337","guatemala",2000,"hiphop",1,14366594.7894737
+"338","hong kong",1980,"hiphop",1,5412910
+"339","hong kong",1990,"hiphop",1,6142450
+"340","hungary",1970,"rock",2,10519091.8
+"341","hungary",1980,"metal",1,10645628.7
+"342","hungary",1980,"rock",1,10645628.7
+"343","hungary",1990,"rock",5,10325239.6
+"344","hungary",1990,"punk",1,10325239.6
+"345","hungary",1990,"metal",4,10325239.6
+"346","hungary",2000,"metal",14,9996902.57894737
+"347","hungary",2000,"hiphop",1,9996902.57894737
+"348","hungary",2000,"rock",7,9996902.57894737
+"349","iceland",1980,"rock",1,240227.7
+"350","iceland",1980,"hiphop",1,240227.7
+"351","iceland",1990,"electro",2,266236.6
+"352","iceland",1990,"metal",1,266236.6
+"353","iceland",1990,"rock",3,266236.6
+"354","iceland",1990,"hiphop",4,266236.6
+"355","iceland",1990,"jazz",1,266236.6
+"356","iceland",2000,"hiphop",10,313399.052631579
+"357","iceland",2000,"electro",5,313399.052631579
+"358","iceland",2000,"punk",1,313399.052631579
+"359","iceland",2000,"countryfolk",8,313399.052631579
+"360","iceland",2000,"rock",11,313399.052631579
+"361","iceland",2000,"metal",4,313399.052631579
+"362","india",1970,"rock",1,617135472
+"363","india",1990,"hiphop",1,955159331.2
+"364","india",2000,"countryfolk",1,1212288539.47368
+"365","india",2000,"metal",1,1212288539.47368
+"366","indonesia",1990,"metal",1,195251542.3
+"367","indonesia",1990,"rock",1,195251542.3
+"368","indonesia",1990,"hiphop",2,195251542.3
+"369","indonesia",2000,"metal",1,239134290.684211
+"370","indonesia",2000,"rock",3,239134290.684211
+"371","indonesia",2000,"hiphop",2,239134290.684211
+"372","iran",2000,"rock",1,73239265.2105263
+"373","iran",2000,"metal",2,73239265.2105263
+"374","ireland",1960,"hiphop",1,2872500
+"375","ireland",1960,"rock",2,2872500
+"376","ireland",1960,"countryfolk",3,2872500
+"377","ireland",1970,"countryfolk",3,3162225
+"378","ireland",1970,"hiphop",1,3162225
+"379","ireland",1970,"rock",5,3162225
+"380","ireland",1980,"countryfolk",5,3504841
+"381","ireland",1980,"rock",15,3504841
+"382","ireland",1980,"hiphop",2,3504841
+"383","ireland",1990,"rock",19,3616129
+"384","ireland",1990,"hiphop",7,3616129
+"385","ireland",1990,"metal",4,3616129
+"386","ireland",1990,"countryfolk",9,3616129
+"387","ireland",2000,"metal",5,4404254.21052632
+"388","ireland",2000,"hiphop",17,4404254.21052632
+"389","ireland",2000,"countryfolk",15,4404254.21052632
+"390","ireland",2000,"electro",2,4404254.21052632
+"391","ireland",2000,"rock",35,4404254.21052632
+"392","israel",1960,"countryfolk",1,2506302
+"393","israel",1970,"hiphop",1,3392300
+"394","israel",1970,"countryfolk",1,3392300
+"395","israel",1970,"rock",2,3392300
+"396","israel",1980,"countryfolk",1,4199000
+"397","israel",1980,"jazz",1,4199000
+"398","israel",1990,"metal",2,5456100
+"399","israel",2000,"hiphop",1,7518542.10526316
+"400","israel",2000,"electro",1,7518542.10526316
+"401","israel",2000,"rock",4,7518542.10526316
+"402","israel",2000,"countryfolk",2,7518542.10526316
+"403","israel",2000,"metal",6,7518542.10526316
+"404","israel",2000,"punk",1,7518542.10526316
+"405","italy",1960,"hiphop",12,51884840
+"406","italy",1960,"rock",3,51884840
+"407","italy",1960,"countryfolk",1,51884840
+"408","italy",1960,"metal",1,51884840
+"409","italy",1970,"hiphop",29,55172652.3
+"410","italy",1970,"countryfolk",4,55172652.3
+"411","italy",1970,"electro",1,55172652.3
+"412","italy",1970,"jazz",1,55172652.3
+"413","italy",1970,"metal",1,55172652.3
+"414","italy",1970,"rock",62,55172652.3
+"415","italy",1980,"punk",2,56571212.4
+"416","italy",1980,"metal",2,56571212.4
+"417","italy",1980,"hiphop",49,56571212.4
+"418","italy",1980,"jazz",1,56571212.4
+"419","italy",1980,"countryfolk",4,56571212.4
+"420","italy",1980,"rock",39,56571212.4
+"421","italy",1990,"hiphop",84,56836808.6
+"422","italy",1990,"jazz",5,56836808.6
+"423","italy",1990,"countryfolk",7,56836808.6
+"424","italy",1990,"electro",2,56836808.6
+"425","italy",1990,"rock",85,56836808.6
+"426","italy",1990,"metal",20,56836808.6
+"427","italy",1990,"punk",8,56836808.6
+"428","italy",2000,"electro",14,58946517.5789474
+"429","italy",2000,"countryfolk",10,58946517.5789474
+"430","italy",2000,"punk",13,58946517.5789474
+"431","italy",2000,"metal",68,58946517.5789474
+"432","italy",2000,"hiphop",128,58946517.5789474
+"433","italy",2000,"jazz",7,58946517.5789474
+"434","italy",2000,"rock",137,58946517.5789474
+"435","jamaica",1960,"hiphop",5,1740637.2
+"436","jamaica",1970,"rock",1,2008320.5
+"437","jamaica",1970,"hiphop",16,2008320.5
+"438","jamaica",1980,"hiphop",12,2303386.5
+"439","jamaica",1990,"hiphop",18,2523172.5
+"440","jamaica",2000,"hiphop",24,2798020.15789474
+"441","japan",1960,"rock",1,98154457.2
+"442","japan",1970,"rock",1,110481300
+"443","japan",1970,"hiphop",1,110481300
+"444","japan",1970,"jazz",1,110481300
+"445","japan",1980,"punk",1,120222200
+"446","japan",1980,"rock",4,120222200
+"447","japan",1980,"metal",2,120222200
+"448","japan",1980,"hiphop",2,120222200
+"449","japan",1990,"punk",1,125146800
+"450","japan",1990,"metal",3,125146800
+"451","japan",1990,"jazz",1,125146800
+"452","japan",1990,"electro",2,125146800
+"453","japan",1990,"hiphop",16,125146800
+"454","japan",1990,"rock",16,125146800
+"455","japan",2000,"hiphop",61,127492495.157895
+"456","japan",2000,"rock",50,127492495.157895
+"457","japan",2000,"electro",13,127492495.157895
+"458","japan",2000,"punk",2,127492495.157895
+"459","japan",2000,"jazz",2,127492495.157895
+"460","japan",2000,"metal",10,127492495.157895
+"461","kazakhstan",2000,"metal",1,16203742.2631579
+"462","latvia",1980,"rock",1,2579599.7
+"463","latvia",1990,"hiphop",1,2518773.2
+"464","latvia",1990,"rock",3,2518773.2
+"465","latvia",2000,"punk",1,2134049.47368421
+"466","latvia",2000,"metal",3,2134049.47368421
+"467","latvia",2000,"countryfolk",1,2134049.47368421
+"468","latvia",2000,"hiphop",2,2134049.47368421
+"469","latvia",2000,"rock",5,2134049.47368421
+"470","liechtenstein",2000,"metal",2,35749.3157894737
+"471","lithuania",1980,"rock",1,3538185.3
+"472","lithuania",1990,"metal",1,3632126.4
+"473","lithuania",1990,"rock",3,3632126.4
+"474","lithuania",2000,"hiphop",3,3147205.26315789
+"475","lithuania",2000,"countryfolk",1,3147205.26315789
+"476","lithuania",2000,"metal",3,3147205.26315789
+"477","lithuania",2000,"rock",4,3147205.26315789
+"478","luxembourg",2000,"rock",1,507882.894736842
+"479","luxembourg",2000,"electro",1,507882.894736842
+"480","luxembourg",2000,"countryfolk",1,507882.894736842
+"481","macedonia",1990,"rock",1,1995266.4
+"482","macedonia",1990,"hiphop",1,1995266.4
+"483","macedonia",2000,"electro",1,2066243.15789474
+"484","macedonia",2000,"hiphop",1,2066243.15789474
+"485","macedonia",2000,"rock",1,2066243.15789474
+"486","malaysia",1970,"rock",1,12065864.1
+"487","malaysia",1990,"metal",1,20285878
+"488","malaysia",2000,"metal",2,27549325.5263158
+"489","malaysia",2000,"hiphop",1,27549325.5263158
+"490","mali",2000,"countryfolk",1,14707046.2631579
+"491","malta",1990,"metal",1,374471.8
+"492","malta",2000,"rock",1,420053.842105263
+"493","malta",2000,"metal",1,420053.842105263
+"494","mexico",1970,"hiphop",1,58788980
+"495","mexico",1980,"hiphop",10,75122989.6
+"496","mexico",1980,"rock",5,75122989.6
+"497","mexico",1980,"metal",2,75122989.6
+"498","mexico",1990,"rock",18,90827521.7
+"499","mexico",1990,"metal",5,90827521.7
+"500","mexico",1990,"electro",3,90827521.7
+"501","mexico",1990,"hiphop",25,90827521.7
+"502","mexico",2000,"countryfolk",1,112468334.210526
+"503","mexico",2000,"rock",38,112468334.210526
+"504","mexico",2000,"electro",6,112468334.210526
+"505","mexico",2000,"punk",2,112468334.210526
+"506","mexico",2000,"hiphop",49,112468334.210526
+"507","mexico",2000,"metal",8,112468334.210526
+"508","moldova",2000,"hiphop",1,2858804.10526316
+"509","morocco",2000,"countryfolk",1,32149378.8421053
+"510","morocco",2000,"metal",1,32149378.8421053
+"511","netherlands",1960,"countryfolk",4,12198100.7
+"512","netherlands",1960,"rock",5,12198100.7
+"513","netherlands",1960,"hiphop",2,12198100.7
+"514","netherlands",1970,"jazz",1,13582252.1
+"515","netherlands",1970,"rock",12,13582252.1
+"516","netherlands",1970,"countryfolk",4,13582252.1
+"517","netherlands",1970,"hiphop",20,13582252.1
+"518","netherlands",1980,"metal",1,14483892.7
+"519","netherlands",1980,"hiphop",21,14483892.7
+"520","netherlands",1980,"punk",1,14483892.7
+"521","netherlands",1980,"electro",1,14483892.7
+"522","netherlands",1980,"rock",12,14483892.7
+"523","netherlands",1990,"countryfolk",1,15399813.1
+"524","netherlands",1990,"metal",9,15399813.1
+"525","netherlands",1990,"jazz",1,15399813.1
+"526","netherlands",1990,"hiphop",23,15399813.1
+"527","netherlands",1990,"electro",2,15399813.1
+"528","netherlands",1990,"rock",24,15399813.1
+"529","netherlands",1990,"punk",1,15399813.1
+"530","netherlands",2000,"countryfolk",9,16564072.4210526
+"531","netherlands",2000,"metal",32,16564072.4210526
+"532","netherlands",2000,"electro",7,16564072.4210526
+"533","netherlands",2000,"jazz",3,16564072.4210526
+"534","netherlands",2000,"punk",1,16564072.4210526
+"535","netherlands",2000,"hiphop",39,16564072.4210526
+"536","netherlands",2000,"rock",45,16564072.4210526
+"537","new zealand",1970,"hiphop",1,3009660
+"538","new zealand",1970,"rock",2,3009660
+"539","new zealand",1980,"rock",3,3217070
+"540","new zealand",1980,"hiphop",1,3217070
+"541","new zealand",1990,"hiphop",2,3638560
+"542","new zealand",1990,"electro",2,3638560
+"543","new zealand",1990,"rock",4,3638560
+"544","new zealand",1990,"metal",3,3638560
+"545","new zealand",2000,"hiphop",13,4311815.78947368
+"546","new zealand",2000,"electro",2,4311815.78947368
+"547","new zealand",2000,"metal",7,4311815.78947368
+"548","new zealand",2000,"rock",19,4311815.78947368
+"549","new zealand",2000,"punk",2,4311815.78947368
+"550","new zealand",2000,"countryfolk",1,4311815.78947368
+"551","nicaragua",2000,"metal",1,5754679.68421053
+"552","niger",1990,"electro",1,9388141.6
+"553","niger",2000,"rock",1,16239420.6842105
+"554","nigeria",2000,"hiphop",1,156125598.736842
+"555","norway",1970,"countryfolk",3,3986553.4
+"556","norway",1980,"rock",2,4151180.4
+"557","norway",1980,"countryfolk",5,4151180.4
+"558","norway",1980,"hiphop",2,4151180.4
+"559","norway",1980,"metal",3,4151180.4
+"560","norway",1990,"hiphop",8,4347726.4
+"561","norway",1990,"countryfolk",8,4347726.4
+"562","norway",1990,"rock",15,4347726.4
+"563","norway",1990,"metal",44,4347726.4
+"564","norway",1990,"jazz",1,4347726.4
+"565","norway",2000,"electro",11,4862077.84210526
+"566","norway",2000,"rock",40,4862077.84210526
+"567","norway",2000,"metal",67,4862077.84210526
+"568","norway",2000,"punk",3,4862077.84210526
+"569","norway",2000,"countryfolk",13,4862077.84210526
+"570","norway",2000,"hiphop",34,4862077.84210526
+"571","norway",2000,"jazz",2,4862077.84210526
+"572","pakistan",1990,"metal",1,122543855.6
+"573","pakistan",2000,"metal",1,176143236.894737
+"574","pakistan",2000,"hiphop",1,176143236.894737
+"575","panama",1970,"rock",1,1723248.6
+"576","panama",1990,"punk",1,2715709.9
+"577","panama",2000,"hiphop",2,3587594.73684211
+"578","panama",2000,"punk",1,3587594.73684211
+"579","peru",1990,"rock",3,24082046.1
+"580","peru",2000,"rock",4,28921384.5263158
+"581","philippines",1990,"rock",4,69035948.7
+"582","philippines",1990,"metal",1,69035948.7
+"583","philippines",2000,"countryfolk",1,92498179.4210526
+"584","philippines",2000,"rock",3,92498179.4210526
+"585","philippines",2000,"hiphop",4,92498179.4210526
+"586","philippines",2000,"metal",1,92498179.4210526
+"587","poland",1960,"rock",2,31171746
+"588","poland",1970,"hiphop",1,33881291.5
+"589","poland",1970,"rock",4,33881291.5
+"590","poland",1970,"countryfolk",1,33881291.5
+"591","poland",1980,"rock",20,36929122.5
+"592","poland",1980,"jazz",1,36929122.5
+"593","poland",1980,"punk",2,36929122.5
+"594","poland",1980,"hiphop",1,36929122.5
+"595","poland",1980,"metal",3,36929122.5
+"596","poland",1990,"punk",1,38491748.2
+"597","poland",1990,"metal",22,38491748.2
+"598","poland",1990,"jazz",1,38491748.2
+"599","poland",1990,"rock",32,38491748.2
+"600","poland",1990,"countryfolk",2,38491748.2
+"601","poland",1990,"hiphop",14,38491748.2
+"602","poland",2000,"countryfolk",1,38102932.3157895
+"603","poland",2000,"punk",1,38102932.3157895
+"604","poland",2000,"rock",54,38102932.3157895
+"605","poland",2000,"metal",47,38102932.3157895
+"606","poland",2000,"hiphop",38,38102932.3157895
+"607","poland",2000,"jazz",2,38102932.3157895
+"608","portugal",1960,"countryfolk",1,8924519.7
+"609","portugal",1970,"hiphop",2,9046655.2
+"610","portugal",1970,"rock",1,9046655.2
+"611","portugal",1970,"countryfolk",1,9046655.2
+"612","portugal",1980,"countryfolk",3,9959453
+"613","portugal",1980,"rock",6,9959453
+"614","portugal",1980,"hiphop",2,9959453
+"615","portugal",1990,"metal",5,10042926.9
+"616","portugal",1990,"hiphop",4,10042926.9
+"617","portugal",1990,"countryfolk",1,10042926.9
+"618","portugal",1990,"rock",11,10042926.9
+"619","portugal",2000,"metal",8,10446392.1052632
+"620","portugal",2000,"hiphop",8,10446392.1052632
+"621","portugal",2000,"countryfolk",2,10446392.1052632
+"622","portugal",2000,"electro",2,10446392.1052632
+"623","portugal",2000,"rock",11,10446392.1052632
+"624","puerto rico",1990,"rock",1,3669739
+"625","puerto rico",1990,"hiphop",5,3669739
+"626","puerto rico",2000,"rock",2,3662074.26315789
+"627","puerto rico",2000,"metal",1,3662074.26315789
+"628","puerto rico",2000,"hiphop",23,3662074.26315789
+"629","romania",1960,"jazz",1,19094592.1
+"630","romania",1990,"metal",1,22732740.1
+"631","romania",2000,"rock",4,20660532.9473684
+"632","romania",2000,"metal",2,20660532.9473684
+"633","romania",2000,"countryfolk",1,20660532.9473684
+"634","romania",2000,"hiphop",7,20660532.9473684
+"635","russia",1960,"countryfolk",1,125403000
+"636","russia",1970,"countryfolk",1,134010300
+"637","russia",1980,"metal",1,143342500
+"638","russia",1980,"rock",1,143342500
+"639","russia",1990,"hiphop",1,148179715.9
+"640","russia",1990,"metal",9,148179715.9
+"641","russia",1990,"rock",5,148179715.9
+"642","russia",2000,"countryfolk",2,143960392.315789
+"643","russia",2000,"rock",12,143960392.315789
+"644","russia",2000,"metal",34,143960392.315789
+"645","russia",2000,"electro",7,143960392.315789
+"646","russia",2000,"hiphop",12,143960392.315789
+"647","senegal",1980,"rock",1,6400823.2
+"648","senegal",1990,"rock",1,8561012.5
+"649","senegal",1990,"hiphop",1,8561012.5
+"650","senegal",1990,"countryfolk",1,8561012.5
+"651","senegal",2000,"hiphop",2,12520271.7368421
+"652","senegal",2000,"countryfolk",1,12520271.7368421
+"653","serbia",1990,"metal",1,7620980.4
+"654","serbia",1990,"rock",4,7620980.4
+"655","serbia",2000,"metal",3,7291656.94736842
+"656","serbia",2000,"hiphop",1,7291656.94736842
+"657","serbia",2000,"rock",4,7291656.94736842
+"658","singapore",2000,"rock",1,4870578.47368421
+"659","singapore",2000,"metal",1,4870578.47368421
+"660","slovakia",1980,"metal",1,5137507.1
+"661","slovakia",1980,"hiphop",1,5137507.1
+"662","slovakia",1990,"rock",3,5348432
+"663","slovakia",1990,"metal",7,5348432
+"664","slovakia",2000,"hiphop",2,5397174.21052632
+"665","slovakia",2000,"jazz",1,5397174.21052632
+"666","slovakia",2000,"electro",1,5397174.21052632
+"667","slovakia",2000,"metal",11,5397174.21052632
+"668","slovakia",2000,"rock",6,5397174.21052632
+"669","slovenia",1990,"rock",1,1990440.7
+"670","slovenia",1990,"hiphop",1,1990440.7
+"671","slovenia",1990,"metal",1,1990440.7
+"672","slovenia",2000,"rock",1,2031793.78947368
+"673","slovenia",2000,"metal",3,2031793.78947368
+"674","south africa",1970,"rock",1,24896146.7
+"675","south africa",1980,"hiphop",2,32237918.4
+"676","south africa",1980,"countryfolk",1,32237918.4
+"677","south africa",1980,"rock",2,32237918.4
+"678","south africa",1990,"countryfolk",1,40807490.8
+"679","south africa",1990,"hiphop",3,40807490.8
+"680","south africa",1990,"rock",3,40807490.8
+"681","south africa",1990,"jazz",1,40807490.8
+"682","south africa",2000,"metal",2,50900392.8421053
+"683","south africa",2000,"hiphop",6,50900392.8421053
+"684","south africa",2000,"countryfolk",2,50900392.8421053
+"685","south africa",2000,"electro",2,50900392.8421053
+"686","south africa",2000,"punk",1,50900392.8421053
+"687","south africa",2000,"rock",14,50900392.8421053
+"688","south korea",1990,"rock",1,44822354.9
+"689","south korea",1990,"hiphop",2,44822354.9
+"690","south korea",2000,"hiphop",15,49354439.1052632
+"691","spain",1960,"hiphop",5,31859808.3
+"692","spain",1960,"countryfolk",1,31859808.3
+"693","spain",1970,"countryfolk",3,35546935
+"694","spain",1970,"rock",3,35546935
+"695","spain",1970,"hiphop",7,35546935
+"696","spain",1970,"metal",1,35546935
+"697","spain",1980,"rock",24,38307135.1
+"698","spain",1980,"hiphop",15,38307135.1
+"699","spain",1980,"metal",5,38307135.1
+"700","spain",1980,"countryfolk",4,38307135.1
+"701","spain",1990,"punk",1,39618342.8
+"702","spain",1990,"metal",17,39618342.8
+"703","spain",1990,"countryfolk",7,39618342.8
+"704","spain",1990,"hiphop",31,39618342.8
+"705","spain",1990,"rock",50,39618342.8
+"706","spain",2000,"electro",1,44898207.8421053
+"707","spain",2000,"countryfolk",10,44898207.8421053
+"708","spain",2000,"punk",3,44898207.8421053
+"709","spain",2000,"metal",38,44898207.8421053
+"710","spain",2000,"hiphop",71,44898207.8421053
+"711","spain",2000,"jazz",2,44898207.8421053
+"712","spain",2000,"rock",72,44898207.8421053
+"713","sweden",1960,"hiphop",1,7712185
+"714","sweden",1970,"countryfolk",2,8179524.2
+"715","sweden",1970,"hiphop",6,8179524.2
+"716","sweden",1970,"rock",11,8179524.2
+"717","sweden",1980,"countryfolk",4,8366940.7
+"718","sweden",1980,"rock",16,8366940.7
+"719","sweden",1980,"hiphop",16,8366940.7
+"720","sweden",1980,"metal",7,8366940.7
+"721","sweden",1980,"electro",1,8366940.7
+"722","sweden",1990,"hiphop",49,8756643
+"723","sweden",1990,"punk",9,8756643
+"724","sweden",1990,"rock",52,8756643
+"725","sweden",1990,"countryfolk",6,8756643
+"726","sweden",1990,"electro",3,8756643
+"727","sweden",1990,"jazz",1,8756643
+"728","sweden",1990,"metal",76,8756643
+"729","sweden",2000,"hiphop",147,9369447
+"730","sweden",2000,"electro",25,9369447
+"731","sweden",2000,"rock",112,9369447
+"732","sweden",2000,"countryfolk",16,9369447
+"733","sweden",2000,"punk",8,9369447
+"734","sweden",2000,"jazz",2,9369447
+"735","sweden",2000,"metal",150,9369447
+"736","switzerland",1970,"hiphop",1,6280239.7
+"737","switzerland",1970,"rock",4,6280239.7
+"738","switzerland",1980,"electro",1,6468532.2
+"739","switzerland",1980,"rock",7,6468532.2
+"740","switzerland",1980,"hiphop",1,6468532.2
+"741","switzerland",1980,"metal",2,6468532.2
+"742","switzerland",1990,"electro",1,6977835.6
+"743","switzerland",1990,"rock",11,6977835.6
+"744","switzerland",1990,"hiphop",3,6977835.6
+"745","switzerland",1990,"metal",9,6977835.6
+"746","switzerland",2000,"electro",4,7785479.94736842
+"747","switzerland",2000,"rock",19,7785479.94736842
+"748","switzerland",2000,"metal",17,7785479.94736842
+"749","switzerland",2000,"hiphop",11,7785479.94736842
+"750","switzerland",2000,"jazz",1,7785479.94736842
+"751","tanzania",2000,"countryfolk",1,43767139.8421053
+"752","thailand",2000,"hiphop",1,66651133
+"753","trinidad and tobago",1990,"hiphop",1,1247726.3
+"754","tunisia",2000,"metal",2,10558774.5263158
+"755","tunisia",2000,"countryfolk",1,10558774.5263158
+"756","turkey",1960,"hiphop",1,30670805.5
+"757","turkey",1970,"countryfolk",2,38863593.7
+"758","turkey",1970,"hiphop",3,38863593.7
+"759","turkey",1980,"countryfolk",2,48558707.7
+"760","turkey",1980,"hiphop",5,48558707.7
+"761","turkey",1980,"rock",2,48558707.7
+"762","turkey",1990,"punk",1,58062868.5
+"763","turkey",1990,"rock",8,58062868.5
+"764","turkey",1990,"metal",2,58062868.5
+"765","turkey",1990,"countryfolk",4,58062868.5
+"766","turkey",1990,"hiphop",16,58062868.5
+"767","turkey",2000,"hiphop",22,72053544.8947368
+"768","turkey",2000,"metal",7,72053544.8947368
+"769","turkey",2000,"electro",2,72053544.8947368
+"770","turkey",2000,"countryfolk",4,72053544.8947368
+"771","turkey",2000,"punk",1,72053544.8947368
+"772","turkey",2000,"rock",21,72053544.8947368
+"773","ukraine",1980,"metal",1,50848987.4
+"774","ukraine",1990,"metal",4,51312386.9
+"775","ukraine",2000,"metal",8,46399183.4210526
+"776","ukraine",2000,"hiphop",2,46399183.4210526
+"777","ukraine",2000,"rock",2,46399183.4210526
+"778","united kingdom",1960,"rock",79,54069360
+"779","united kingdom",1960,"countryfolk",23,54069360
+"780","united kingdom",1960,"hiphop",28,54069360
+"781","united kingdom",1960,"jazz",1,54069360
+"782","united kingdom",1960,"electro",1,54069360
+"783","united kingdom",1970,"hiphop",43,56114475.4
+"784","united kingdom",1970,"rock",267,56114475.4
+"785","united kingdom",1970,"jazz",12,56114475.4
+"786","united kingdom",1970,"countryfolk",34,56114475.4
+"787","united kingdom",1970,"metal",6,56114475.4
+"788","united kingdom",1970,"punk",12,56114475.4
+"789","united kingdom",1980,"punk",57,56575535.8
+"790","united kingdom",1980,"metal",31,56575535.8
+"791","united kingdom",1980,"countryfolk",23,56575535.8
+"792","united kingdom",1980,"hiphop",145,56575535.8
+"793","united kingdom",1980,"jazz",7,56575535.8
+"794","united kingdom",1980,"electro",14,56575535.8
+"795","united kingdom",1980,"rock",315,56575535.8
+"796","united kingdom",1990,"jazz",13,57950978.5
+"797","united kingdom",1990,"metal",44,57950978.5
+"798","united kingdom",1990,"electro",55,57950978.5
+"799","united kingdom",1990,"hiphop",179,57950978.5
+"800","united kingdom",1990,"rock",397,57950978.5
+"801","united kingdom",1990,"countryfolk",39,57950978.5
+"802","united kingdom",1990,"punk",24,57950978.5
+"803","united kingdom",2000,"hiphop",391,62388151.4736842
+"804","united kingdom",2000,"countryfolk",109,62388151.4736842
+"805","united kingdom",2000,"electro",134,62388151.4736842
+"806","united kingdom",2000,"rock",653,62388151.4736842
+"807","united kingdom",2000,"jazz",23,62388151.4736842
+"808","united kingdom",2000,"metal",108,62388151.4736842
+"809","united kingdom",2000,"punk",48,62388151.4736842
+"810","united states of america",1960,"hiphop",73,192498900
+"811","united states of america",1960,"jazz",28,192498900
+"812","united states of america",1960,"rock",135,192498900
+"813","united states of america",1960,"electro",1,192498900
+"814","united states of america",1960,"metal",1,192498900
+"815","united states of america",1960,"countryfolk",168,192498900
+"816","united states of america",1970,"rock",282,215025900
+"817","united states of america",1970,"jazz",33,215025900
+"818","united states of america",1970,"countryfolk",193,215025900
+"819","united states of america",1970,"hiphop",80,215025900
+"820","united states of america",1970,"punk",4,215025900
+"821","united states of america",1980,"electro",8,236963600
+"822","united states of america",1980,"hiphop",166,236963600
+"823","united states of america",1980,"countryfolk",181,236963600
+"824","united states of america",1980,"punk",48,236963600
+"825","united states of america",1980,"rock",466,236963600
+"826","united states of america",1980,"metal",115,236963600
+"827","united states of america",1980,"jazz",33,236963600
+"828","united states of america",1990,"electro",33,264538600
+"829","united states of america",1990,"countryfolk",397,264538600
+"830","united states of america",1990,"metal",262,264538600
+"831","united states of america",1990,"punk",104,264538600
+"832","united states of america",1990,"hiphop",498,264538600
+"833","united states of america",1990,"jazz",54,264538600
+"834","united states of america",1990,"rock",1006,264538600
+"835","united states of america",2000,"countryfolk",677,305679830
+"836","united states of america",2000,"metal",554,305679830
+"837","united states of america",2000,"electro",166,305679830
+"838","united states of america",2000,"hiphop",1249,305679830
+"839","united states of america",2000,"jazz",82,305679830
+"840","united states of america",2000,"punk",263,305679830
+"841","united states of america",2000,"rock",2044,305679830
+"842","uruguay",1970,"rock",1,2839566.9
+"843","uruguay",1980,"rock",1,3001818.5
+"844","uruguay",1990,"rock",1,3211551.2
+"845","uruguay",1990,"hiphop",2,3211551.2
+"846","uruguay",2000,"rock",2,3363388.68421053
+"847","uruguay",2000,"hiphop",1,3363388.68421053
+"848","venezuela",1980,"hiphop",1,17130747.6
+"849","venezuela",1980,"metal",1,17130747.6
+"850","venezuela",1990,"hiphop",3,21696099.7
+"851","venezuela",1990,"rock",1,21696099.7
+"852","venezuela",2000,"rock",1,27704879.5263158
+"853","venezuela",2000,"electro",1,27704879.5263158
+"854","venezuela",2000,"hiphop",3,27704879.5263158
+"855","venezuela",2000,"metal",2,27704879.5263158
+"856","vietnam",2000,"metal",2,87385255.5263158
+"857","world",1960,"electro",1,3300129243.8
+"858","world",1960,"rock",14,3300129243.8
+"859","world",1960,"hiphop",14,3300129243.8
+"860","world",1960,"countryfolk",12,3300129243.8
+"861","world",1970,"jazz",2,4023441813.3
+"862","world",1970,"rock",67,4023441813.3
+"863","world",1970,"countryfolk",23,4023441813.3
+"864","world",1970,"hiphop",22,4023441813.3
+"865","world",1970,"metal",1,4023441813.3
+"866","world",1970,"punk",1,4023441813.3
+"867","world",1980,"electro",5,4804490235.5
+"868","world",1980,"punk",6,4804490235.5
+"869","world",1980,"countryfolk",16,4804490235.5
+"870","world",1980,"jazz",2,4804490235.5
+"871","world",1980,"metal",36,4804490235.5
+"872","world",1980,"hiphop",45,4804490235.5
+"873","world",1980,"rock",82,4804490235.5
+"874","world",1990,"hiphop",122,5662612197.6
+"875","world",1990,"jazz",4,5662612197.6
+"876","world",1990,"countryfolk",56,5662612197.6
+"877","world",1990,"electro",21,5662612197.6
+"878","world",1990,"rock",215,5662612197.6
+"879","world",1990,"metal",134,5662612197.6
+"880","world",1990,"punk",18,5662612197.6
+"881","world",2000,"jazz",20,6845287530.63158
+"882","world",2000,"countryfolk",221,6845287530.63158
+"883","world",2000,"electro",143,6845287530.63158
+"884","world",2000,"hiphop",694,6845287530.63158
+"885","world",2000,"metal",629,6845287530.63158
+"886","world",2000,"punk",133,6845287530.63158
+"887","world",2000,"rock",1112,6845287530.63158
+"888","zambia",2000,"hiphop",1,13492239

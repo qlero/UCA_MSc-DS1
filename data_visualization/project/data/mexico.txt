@@ -1,0 +1,159 @@
+{
+  "name": "mexico",
+  "data": {
+    "rock": {
+      "sixties": {
+        "count": 0,
+        "population": 0
+      },
+      "seventies": {
+        "count": 0,
+        "population": 0
+      },
+      "eighties": {
+        "count": 5,
+        "population": 75122989.6
+      },
+      "nineties": {
+        "count": 18,
+        "population": 90827521.7
+      },
+      "twothousands": {
+        "count": 38,
+        "population": 112468334.2105
+      }
+    },
+    "metal": {
+      "sixties": {
+        "count": 0,
+        "population": 0
+      },
+      "seventies": {
+        "count": 0,
+        "population": 0
+      },
+      "eighties": {
+        "count": 2,
+        "population": 75122989.6
+      },
+      "nineties": {
+        "count": 5,
+        "population": 90827521.7
+      },
+      "twothousands": {
+        "count": 8,
+        "population": 112468334.2105
+      }
+    },
+    "punk": {
+      "sixties": {
+        "count": 0,
+        "population": 0
+      },
+      "seventies": {
+        "count": 0,
+        "population": 0
+      },
+      "eighties": {
+        "count": 0,
+        "population": 0
+      },
+      "nineties": {
+        "count": 0,
+        "population": 0
+      },
+      "twothousands": {
+        "count": 2,
+        "population": 112468334.2105
+      }
+    },
+    "country": {
+      "sixties": {
+        "count": 0,
+        "population": 0
+      },
+      "seventies": {
+        "count": 0,
+        "population": 0
+      },
+      "eighties": {
+        "count": 0,
+        "population": 0
+      },
+      "nineties": {
+        "count": 0,
+        "population": 0
+      },
+      "twothousands": {
+        "count": 1,
+        "population": 112468334.2105
+      }
+    },
+    "hip": {
+      "sixties": {
+        "count": 0,
+        "population": 0
+      },
+      "seventies": {
+        "count": 1,
+        "population": 58788980
+      },
+      "eighties": {
+        "count": 10,
+        "population": 75122989.6
+      },
+      "nineties": {
+        "count": 25,
+        "population": 90827521.7
+      },
+      "twothousands": {
+        "count": 49,
+        "population": 112468334.2105
+      }
+    },
+    "jazz": {
+      "sixties": {
+        "count": 0,
+        "population": 0
+      },
+      "seventies": {
+        "count": 0,
+        "population": 0
+      },
+      "eighties": {
+        "count": 0,
+        "population": 0
+      },
+      "nineties": {
+        "count": 0,
+        "population": 0
+      },
+      "twothousands": {
+        "count": 0,
+        "population": 0
+      }
+    },
+    "electro": {
+      "sixties": {
+        "count": 0,
+        "population": 0
+      },
+      "seventies": {
+        "count": 0,
+        "population": 0
+      },
+      "eighties": {
+        "count": 0,
+        "population": 0
+      },
+      "nineties": {
+        "count": 3,
+        "population": 90827521.7
+      },
+      "twothousands": {
+        "count": 6,
+        "population": 112468334.2105
+      }
+    }
+  }
+}
