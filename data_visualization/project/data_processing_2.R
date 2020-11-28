@@ -25,8 +25,7 @@ country_name_matcher <- read_csv("countries.csv")
 sift_df <- function(df, filter_string, name, save=FALSE) {
   new_df <- df %>% mutate(genre = tolower(genre)) %>% 
     filter(grepl(paste(filter_string, collapse="|"), genre)) %>% 
-    select(genre) %>% 
-    distinct(genre)
+    select(genre) %>% distinct(genre)
   if (save == TRUE) { write.table(new_df, file=paste(name, ".txt"), quote=F) }
   return(new_df$genre)
 }
@@ -73,8 +72,7 @@ df_album <- as_tibble(albums_lite_choro) %>%
                             (publicationDate>=1980 & publicationDate<1990)~1980,
                             (publicationDate>=1990 & publicationDate<2000)~1990,
                             (publicationDate>=2000)~2000)) %>%
-  select(-c(publicationDate)) %>%
-  distinct()
+  select(-c(publicationDate)) %>% distinct()
 
 ### PRE-PROCESSING THE ARTIST DATASET
 
