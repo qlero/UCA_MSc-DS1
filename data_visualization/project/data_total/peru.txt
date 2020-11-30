@@ -1,0 +1,10 @@
+{
+  "name": "peru",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 7,
+    "twothousands": 10
+  }
+}

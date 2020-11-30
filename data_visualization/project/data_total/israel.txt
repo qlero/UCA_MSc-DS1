@@ -1,0 +1,10 @@
+{
+  "name": "israel",
+  "data": {
+    "sixties": 2,
+    "seventies": 6,
+    "eighties": 5,
+    "nineties": 13,
+    "twothousands": 38
+  }
+}

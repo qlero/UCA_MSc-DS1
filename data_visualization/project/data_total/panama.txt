@@ -1,0 +1,10 @@
+{
+  "name": "panama",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 1,
+    "nineties": 2,
+    "twothousands": 6
+  }
+}

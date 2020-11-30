@@ -1,0 +1,10 @@
+{
+  "name": "jamaica",
+  "data": {
+    "sixties": 10,
+    "seventies": 37,
+    "eighties": 27,
+    "nineties": 54,
+    "twothousands": 62
+  }
+}

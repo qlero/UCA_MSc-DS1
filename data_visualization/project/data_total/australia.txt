@@ -1,0 +1,10 @@
+{
+  "name": "australia",
+  "data": {
+    "sixties": 7,
+    "seventies": 24,
+    "eighties": 96,
+    "nineties": 206,
+    "twothousands": 527
+  }
+}

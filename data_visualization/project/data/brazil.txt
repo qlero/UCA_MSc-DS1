@@ -7,7 +7,7 @@
         "population": 82308166.7
       },
       "seventies": {
-        "count": 8,
+        "count": 7,
         "population": 106185336.2
       },
       "eighties": {

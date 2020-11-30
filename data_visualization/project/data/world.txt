@@ -3,23 +3,23 @@
   "data": {
     "rock": {
       "sixties": {
-        "count": 14,
-        "population": 3300129243.8
+        "count": 0,
+        "population": 0
       },
       "seventies": {
-        "count": 67,
-        "population": 4023441813.3
+        "count": 0,
+        "population": 0
       },
       "eighties": {
-        "count": 82,
-        "population": 4804490235.5
+        "count": 0,
+        "population": 0
       },
       "nineties": {
-        "count": 215,
-        "population": 5662612197.6
+        "count": 0,
+        "population": 0
       },
       "twothousands": {
-        "count": 1112,
+        "count": 2,
         "population": 6845287530.6316
       }
     },
@@ -29,19 +29,19 @@
         "population": 0
       },
       "seventies": {
-        "count": 1,
-        "population": 4023441813.3
+        "count": 0,
+        "population": 0
       },
       "eighties": {
-        "count": 36,
-        "population": 4804490235.5
+        "count": 0,
+        "population": 0
       },
       "nineties": {
-        "count": 134,
-        "population": 5662612197.6
+        "count": 0,
+        "population": 0
       },
       "twothousands": {
-        "count": 629,
+        "count": 5,
         "population": 6845287530.6316
       }
     },
@@ -51,64 +51,64 @@
         "population": 0
       },
       "seventies": {
-        "count": 1,
-        "population": 4023441813.3
+        "count": 0,
+        "population": 0
       },
       "eighties": {
-        "count": 6,
-        "population": 4804490235.5
+        "count": 0,
+        "population": 0
       },
       "nineties": {
-        "count": 18,
-        "population": 5662612197.6
+        "count": 0,
+        "population": 0
       },
       "twothousands": {
-        "count": 133,
-        "population": 6845287530.6316
+        "count": 0,
+        "population": 0
       }
     },
     "country": {
       "sixties": {
-        "count": 12,
-        "population": 3300129243.8
+        "count": 0,
+        "population": 0
       },
       "seventies": {
-        "count": 23,
-        "population": 4023441813.3
+        "count": 0,
+        "population": 0
       },
       "eighties": {
-        "count": 16,
-        "population": 4804490235.5
+        "count": 0,
+        "population": 0
       },
       "nineties": {
-        "count": 56,
-        "population": 5662612197.6
+        "count": 0,
+        "population": 0
       },
       "twothousands": {
-        "count": 221,
+        "count": 1,
         "population": 6845287530.6316
       }
     },
     "hip": {
       "sixties": {
-        "count": 14,
-        "population": 3300129243.8
+        "count": 0,
+        "population": 0
       },
       "seventies": {
-        "count": 22,
-        "population": 4023441813.3
+        "count": 0,
+        "population": 0
       },
       "eighties": {
-        "count": 45,
+        "count": 1,
         "population": 4804490235.5
       },
       "nineties": {
-        "count": 122,
+        "count": 1,
         "population": 5662612197.6
       },
       "twothousands": {
-        "count": 694,
-        "population": 6845287530.6316
+        "count": 0,
+        "population": 0
       }
     },
     "jazz": {
@@ -117,41 +117,41 @@
         "population": 0
       },
       "seventies": {
-        "count": 2,
-        "population": 4023441813.3
+        "count": 0,
+        "population": 0
       },
       "eighties": {
-        "count": 2,
-        "population": 4804490235.5
+        "count": 0,
+        "population": 0
       },
       "nineties": {
-        "count": 4,
-        "population": 5662612197.6
+        "count": 0,
+        "population": 0
       },
       "twothousands": {
-        "count": 20,
-        "population": 6845287530.6316
+        "count": 0,
+        "population": 0
       }
     },
     "electro": {
       "sixties": {
-        "count": 1,
-        "population": 3300129243.8
+        "count": 0,
+        "population": 0
       },
       "seventies": {
         "count": 0,
         "population": 0
       },
       "eighties": {
-        "count": 5,
-        "population": 4804490235.5
+        "count": 0,
+        "population": 0
       },
       "nineties": {
-        "count": 21,
-        "population": 5662612197.6
+        "count": 0,
+        "population": 0
       },
       "twothousands": {
-        "count": 143,
+        "count": 2,
         "population": 6845287530.6316
       }
     }

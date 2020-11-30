@@ -1,0 +1,10 @@
+{
+  "name": "nigeria",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 1,
+    "nineties": 1,
+    "twothousands": 6
+  }
+}

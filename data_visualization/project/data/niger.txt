@@ -19,8 +19,8 @@
         "population": 0
       },
       "twothousands": {
-        "count": 1,
-        "population": 16239420.6842
+        "count": 0,
+        "population": 0
       }
     },
     "metal": {

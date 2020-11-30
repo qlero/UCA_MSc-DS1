@@ -1,0 +1,52 @@
+[{
+  "rock": {
+    "sixties": 245,
+    "seventies": 793,
+    "eighties": 1180,
+    "nineties": 2221,
+    "twothousands": 4384
+  },
+  "metal": {
+    "sixties": 2,
+    "seventies": 9,
+    "eighties": 235,
+    "nineties": 801,
+    "twothousands": 1847
+  },
+  "punk": {
+    "sixties": 0,
+    "seventies": 16,
+    "eighties": 123,
+    "nineties": 176,
+    "twothousands": 422
+  },
+  "country": {
+    "sixties": 223,
+    "seventies": 280,
+    "eighties": 271,
+    "nineties": 554,
+    "twothousands": 1069
+  },
+  "hip": {
+    "sixties": 150,
+    "seventies": 265,
+    "eighties": 565,
+    "nineties": 1248,
+    "twothousands": 3237
+  },
+  "jazz": {
+    "sixties": 33,
+    "seventies": 59,
+    "eighties": 46,
+    "nineties": 89,
+    "twothousands": 160
+  },
+  "electro": {
+    "sixties": 3,
+    "seventies": 8,
+    "eighties": 34,
+    "nineties": 162,
+    "twothousands": 621
+  }
+}
+]

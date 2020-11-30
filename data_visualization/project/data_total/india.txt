@@ -1,0 +1,10 @@
+{
+  "name": "india",
+  "data": {
+    "sixties": 1,
+    "seventies": 2,
+    "eighties": 1,
+    "nineties": 4,
+    "twothousands": 9
+  }
+}

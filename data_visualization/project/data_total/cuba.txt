@@ -1,0 +1,10 @@
+{
+  "name": "cuba",
+  "data": {
+    "sixties": 0,
+    "seventies": 2,
+    "eighties": 3,
+    "nineties": 9,
+    "twothousands": 10
+  }
+}

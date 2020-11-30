@@ -1,0 +1,10 @@
+{
+  "name": "new zealand",
+  "data": {
+    "sixties": 0,
+    "seventies": 8,
+    "eighties": 12,
+    "nineties": 25,
+    "twothousands": 106
+  }
+}

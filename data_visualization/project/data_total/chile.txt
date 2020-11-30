@@ -1,0 +1,10 @@
+{
+  "name": "chile",
+  "data": {
+    "sixties": 6,
+    "seventies": 7,
+    "eighties": 9,
+    "nineties": 25,
+    "twothousands": 65
+  }
+}

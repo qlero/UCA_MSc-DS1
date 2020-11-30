@@ -1,0 +1,10 @@
+{
+  "name": "georgia",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 2
+  }
+}

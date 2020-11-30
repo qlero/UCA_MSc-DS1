@@ -1,0 +1,10 @@
+{
+  "name": "belgium",
+  "data": {
+    "sixties": 5,
+    "seventies": 7,
+    "eighties": 27,
+    "nineties": 81,
+    "twothousands": 175
+  }
+}

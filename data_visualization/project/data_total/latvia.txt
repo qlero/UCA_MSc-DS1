@@ -1,0 +1,10 @@
+{
+  "name": "latvia",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 1,
+    "nineties": 7,
+    "twothousands": 22
+  }
+}

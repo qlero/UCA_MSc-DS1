@@ -1,0 +1,10 @@
+{
+  "name": "germany",
+  "data": {
+    "sixties": 56,
+    "seventies": 188,
+    "eighties": 298,
+    "nineties": 705,
+    "twothousands": 1681
+  }
+}

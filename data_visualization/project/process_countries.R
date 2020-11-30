@@ -104,7 +104,7 @@ pop_df <- pop_df %>% select(-c("Country.Name", "Group.1")) %>%
 # 4. lower case all country names
 joined_df <- merge(x=df_album, y=artists_lite_choro, by="id_artist") %>% 
   rename("country"="location.country") %>% mutate(country = replace_na(country, "world")) %>% 
-  mutate(country = tolower(country))
+  mutate(country = tolower(country)) %>% subset(country !="world")
 
 standardize_country_names <- function(df, source_df) {
   df <- df %>% add_column(cleaned_country = NA)
@@ -154,7 +154,7 @@ joined_df <- merge(joined_df, pop_df, by=c("country","decade")) %>%
 write.csv(joined_df, file="preprocessed_data.csv")
 
 create_json <- function(df) {
-
+  
   entry <- list(rock=list(sixties=list(count=0,population=0),
                                seventies=list(count=0,population=0),
                                eighties=list(count=0,population=0),
@@ -191,6 +191,7 @@ create_json <- function(df) {
                                   nineties=list(count=0,population=0),
                                   twothousands=list(count=0,population=0)
   ))
+  
   processed_countries <- c("nullcountry")
   entries <- list(entry)
   country_list <- df$country %>% unique()
@@ -340,4 +341,114 @@ rm(artists)
 rm(albums_lite_choro)
 rm(df_album)
 rm(artists_lite_choro)
+
+genre_df <- joined_df %>% select(-c(population))
+genre_df <- aggregate(genre_df$count, 
+                       by=list(genre_df$decade, genre_df$genre_family), 
+                       FUN=sum)
+genre_df <- genre_df %>% rename("decade"="Group.1", 
+                                  "genre"="Group.2")
+
+create_genre_json <- function(df) {
+  
+  entry <- list(rock=list(sixties=0,seventies=0,eighties=0,nineties=0,twothousands=0),
+                metal=list(sixties=0,seventies=0,eighties=0,nineties=0,twothousands=0),
+                punk=list(sixties=0,seventies=0,eighties=0,nineties=0,twothousands=0),
+                country=list(sixties=0,seventies=0,eighties=0,nineties=0,twothousands=0),
+                hip=list(sixties=0,seventies=0,eighties=0,nineties=0,twothousands=0),
+                jazz=list(sixties=0,seventies=0,eighties=0,nineties=0,twothousands=0),
+                electro=list(sixties=0,seventies=0,eighties=0,nineties=0,twothousands=0)
+                )
+  
+  for (line in 1:nrow(df)) {
+    if (df$decade[line]==1960){
+      if (df$genre[line]=="rock"){
+        entry$rock$sixties = entry$rock$sixties + df$x[line]
+      } else if (df$genre[line]=="metal"){
+        entry$metal$sixties = entry$metal$sixties + df$x[line]
+      } else if (df$genre[line]=="punk"){
+        entry$punk$sixties = entry$punk$sixties + df$x[line]
+      } else if (df$genre[line]=="countryfolk"){
+        entry$country$sixties = entry$country$sixties + df$x[line]
+      } else if (df$genre[line]=="hiphop"){
+        entry$hip$sixties = entry$hip$sixties + df$x[line]
+      } else if (df$genre[line]=="jazz"){
+        entry$jazz$sixties = entry$jazz$sixties + df$x[line]
+      } else if (df$genre[line]=="electro"){
+        entry$electro$sixties = entry$electro$sixties + df$x[line]
+      }
+    } else if (df$decade[line]==1970){
+      if (df$genre[line]=="rock"){
+        entry$rock$seventies = entry$rock$seventies + df$x[line]
+      } else if (df$genre[line]=="metal"){
+        entry$metal$seventies = entry$metal$seventies + df$x[line]
+      } else if (df$genre[line]=="punk"){
+        entry$punk$seventies = entry$punk$seventies + df$x[line]
+      } else if (df$genre[line]=="countryfolk"){
+        entry$country$seventies = entry$country$seventies + df$x[line]
+      } else if (df$genre[line]=="hiphop"){
+        entry$hip$seventies = entry$hip$seventies + df$x[line]
+      } else if (df$genre[line]=="jazz"){
+        entry$jazz$seventies = entry$jazz$seventies + df$x[line]
+      } else if (df$genre[line]=="electro"){
+        entry$electro$seventies = entry$electro$seventies + df$x[line]
+      }
+    } else if (df$decade[line]==1980){
+      if (df$genre[line]=="rock"){
+        entry$rock$eighties = entry$rock$eighties + df$x[line]
+      } else if (df$genre[line]=="metal"){
+        entry$metal$eighties = entry$metal$eighties + df$x[line]
+      } else if (df$genre[line]=="punk"){
+        entry$punk$eighties = entry$punk$eighties + df$x[line]
+      } else if (df$genre[line]=="countryfolk"){
+        entry$country$eighties = entry$country$eighties + df$x[line]
+      } else if (df$genre[line]=="hiphop"){
+        entry$hip$eighties = entry$hip$eighties + df$x[line]
+      } else if (df$genre[line]=="jazz"){
+        entry$jazz$eighties = entry$jazz$eighties + df$x[line]
+      } else if (df$genre[line]=="electro"){
+        entry$electro$eighties = entry$electro$eighties + df$x[line]
+      }
+    } else if (df$decade[line]==1990){
+      if (df$genre[line]=="rock"){
+        entry$rock$nineties = entry$rock$nineties + df$x[line]
+      } else if (df$genre[line]=="metal"){
+        entry$metal$nineties = entry$metal$nineties + df$x[line]
+      } else if (df$genre[line]=="punk"){
+        entry$punk$nineties = entry$punk$nineties + df$x[line]
+      } else if (df$genre[line]=="countryfolk"){
+        entry$country$nineties = entry$country$nineties + df$x[line]
+      } else if (df$genre[line]=="hiphop"){
+        entry$hip$nineties = entry$hip$nineties + df$x[line]
+      } else if (df$genre[line]=="jazz"){
+        entry$jazz$nineties = entry$jazz$nineties + df$x[line]
+      } else if (df$genre[line]=="electro"){
+        entry$electro$nineties = entry$electro$nineties + df$x[line]
+      }
+    } else if (df$decade[line]==2000){
+      if (df$genre[line]=="rock"){
+        entry$rock$twothousands = entry$rock$twothousands + df$x[line]
+      } else if (df$genre[line]=="metal"){
+        entry$metal$twothousands = entry$metal$twothousands + df$x[line]
+      } else if (df$genre[line]=="punk"){
+        entry$punk$twothousands = entry$punk$twothousands + df$x[line]
+      } else if (df$genre[line]=="countryfolk"){
+        entry$country$twothousands = entry$country$twothousands + df$x[line]
+      } else if (df$genre[line]=="hiphop"){
+        entry$hip$twothousands = entry$hip$twothousands + df$x[line]
+      } else if (df$genre[line]=="jazz"){
+        entry$jazz$twothousands = entry$jazz$twothousands + df$x[line]
+      } else if (df$genre[line]=="electro"){
+        entry$electro$twothousands = entry$electro$twothousands + df$x[line]
+      }
+    }
+  }
+  write(toJSON(entry, pretty = TRUE, auto_unbox = TRUE), 
+        paste("./genre-summary.txt",sep=""))
+}
+
+create_genre_json(genre_df)
+
+file <- paste("[",read_file("genre-summary.txt"),"]",sep="")
+write(file, "genre-summary.txt")
 

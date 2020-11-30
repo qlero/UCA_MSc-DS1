@@ -1,0 +1,10 @@
+{
+  "name": "cameroon",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 0,
+    "nineties": 3,
+    "twothousands": 2
+  }
+}

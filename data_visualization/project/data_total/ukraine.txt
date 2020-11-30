@@ -1,0 +1,10 @@
+{
+  "name": "ukraine",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 1,
+    "nineties": 8,
+    "twothousands": 29
+  }
+}

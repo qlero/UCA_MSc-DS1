@@ -1,0 +1,10 @@
+{
+  "name": "puerto rico",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 2,
+    "nineties": 20,
+    "twothousands": 55
+  }
+}

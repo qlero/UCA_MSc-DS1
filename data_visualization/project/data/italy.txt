@@ -99,11 +99,11 @@
         "population": 55172652.3
       },
       "eighties": {
-        "count": 49,
+        "count": 48,
         "population": 56571212.4
       },
       "nineties": {
-        "count": 84,
+        "count": 83,
         "population": 56836808.6
       },
       "twothousands": {

@@ -7,8 +7,8 @@
         "population": 0
       },
       "seventies": {
-        "count": 1,
-        "population": 1723248.6
+        "count": 0,
+        "population": 0
       },
       "eighties": {
         "count": 0,
@@ -81,8 +81,8 @@
         "population": 0
       },
       "nineties": {
-        "count": 0,
-        "population": 0
+        "count": 1,
+        "population": 2715709.9
       },
       "twothousands": {
         "count": 0,

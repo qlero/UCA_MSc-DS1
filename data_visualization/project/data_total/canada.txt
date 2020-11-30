@@ -1,0 +1,10 @@
+{
+  "name": "canada",
+  "data": {
+    "sixties": 25,
+    "seventies": 76,
+    "eighties": 156,
+    "nineties": 415,
+    "twothousands": 1069
+  }
+}

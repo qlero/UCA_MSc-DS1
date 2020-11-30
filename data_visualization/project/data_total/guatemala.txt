@@ -1,0 +1,10 @@
+{
+  "name": "guatemala",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 1,
+    "nineties": 2,
+    "twothousands": 3
+  }
+}

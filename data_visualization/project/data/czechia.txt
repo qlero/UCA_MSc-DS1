@@ -15,11 +15,11 @@
         "population": 10331668.6
       },
       "nineties": {
-        "count": 9,
+        "count": 10,
         "population": 10314935.6
       },
       "twothousands": {
-        "count": 15,
+        "count": 16,
         "population": 10394464.7368
       }
     },
@@ -41,7 +41,7 @@
         "population": 10314935.6
       },
       "twothousands": {
-        "count": 16,
+        "count": 15,
         "population": 10394464.7368
       }
     },
@@ -63,8 +63,8 @@
         "population": 0
       },
       "twothousands": {
-        "count": 1,
-        "population": 10394464.7368
+        "count": 0,
+        "population": 0
       }
     },
     "country": {
@@ -99,15 +99,15 @@
         "population": 10036899.6
       },
       "eighties": {
-        "count": 1,
+        "count": 2,
         "population": 10331668.6
       },
       "nineties": {
-        "count": 3,
+        "count": 4,
         "population": 10314935.6
       },
       "twothousands": {
-        "count": 7,
+        "count": 5,
         "population": 10394464.7368
       }
     },

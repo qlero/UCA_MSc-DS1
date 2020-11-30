@@ -1,0 +1,10 @@
+{
+  "name": "colombia",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 4,
+    "nineties": 13,
+    "twothousands": 25
+  }
+}

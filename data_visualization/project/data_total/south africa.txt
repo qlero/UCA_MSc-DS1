@@ -1,0 +1,10 @@
+{
+  "name": "south africa",
+  "data": {
+    "sixties": 4,
+    "seventies": 5,
+    "eighties": 14,
+    "nineties": 18,
+    "twothousands": 73
+  }
+}

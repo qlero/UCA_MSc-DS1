@@ -1,0 +1,10 @@
+{
+  "name": "malaysia",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 1,
+    "nineties": 8,
+    "twothousands": 12
+  }
+}
