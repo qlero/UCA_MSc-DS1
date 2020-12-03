@@ -3,8 +3,8 @@
   "data": {
     "sixties": 17,
     "seventies": 62,
-    "eighties": 75,
-    "nineties": 144,
-    "twothousands": 312
+    "eighties": 76,
+    "nineties": 145,
+    "twothousands": 320
   }
 }

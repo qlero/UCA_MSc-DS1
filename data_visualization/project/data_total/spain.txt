@@ -1,10 +1,10 @@
 {
   "name": "spain",
   "data": {
-    "sixties": 12,
-    "seventies": 31,
-    "eighties": 78,
-    "nineties": 188,
-    "twothousands": 426
+    "sixties": 14,
+    "seventies": 34,
+    "eighties": 81,
+    "nineties": 198,
+    "twothousands": 447
   }
 }

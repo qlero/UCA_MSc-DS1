@@ -1,10 +1,10 @@
 {
   "name": "australia",
   "data": {
-    "sixties": 7,
-    "seventies": 24,
-    "eighties": 96,
-    "nineties": 206,
-    "twothousands": 527
+    "sixties": 10,
+    "seventies": 30,
+    "eighties": 105,
+    "nineties": 224,
+    "twothousands": 595
   }
 }

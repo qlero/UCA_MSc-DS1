@@ -2,9 +2,9 @@
   "name": "austria",
   "data": {
     "sixties": 9,
-    "seventies": 20,
-    "eighties": 29,
-    "nineties": 54,
-    "twothousands": 146
+    "seventies": 21,
+    "eighties": 31,
+    "nineties": 61,
+    "twothousands": 156
   }
 }

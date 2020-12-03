@@ -1,0 +1,10 @@
+{
+  "name": "bosnia and herz.",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 2,
+    "nineties": 3,
+    "twothousands": 6
+  }
+}

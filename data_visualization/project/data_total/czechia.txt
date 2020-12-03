@@ -1,0 +1,10 @@
+{
+  "name": "czechia",
+  "data": {
+    "sixties": 5,
+    "seventies": 7,
+    "eighties": 7,
+    "nineties": 44,
+    "twothousands": 79
+  }
+}

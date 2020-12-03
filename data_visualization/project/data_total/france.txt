@@ -2,9 +2,9 @@
   "name": "france",
   "data": {
     "sixties": 76,
-    "seventies": 123,
-    "eighties": 143,
-    "nineties": 331,
-    "twothousands": 799
+    "seventies": 125,
+    "eighties": 148,
+    "nineties": 339,
+    "twothousands": 832
   }
 }

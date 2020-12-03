@@ -1,0 +1,10 @@
+{
+  "name": "bahamas",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 0,
+    "nineties": 1,
+    "twothousands": 3
+  }
+}

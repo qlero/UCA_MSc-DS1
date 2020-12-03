@@ -1,0 +1,1151 @@
+[{
+  "name": "algeria",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 0,
+    "nineties": 1,
+    "twothousands": 2
+  }
+}
+,{
+  "name": "andorra",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 2
+  }
+}
+,{
+  "name": "argentina",
+  "data": {
+    "sixties": 9,
+    "seventies": 23,
+    "eighties": 61,
+    "nineties": 122,
+    "twothousands": 191
+  }
+}
+,{
+  "name": "australia",
+  "data": {
+    "sixties": 10,
+    "seventies": 30,
+    "eighties": 105,
+    "nineties": 224,
+    "twothousands": 595
+  }
+}
+,{
+  "name": "austria",
+  "data": {
+    "sixties": 9,
+    "seventies": 21,
+    "eighties": 31,
+    "nineties": 61,
+    "twothousands": 156
+  }
+}
+,{
+  "name": "azerbaijan",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 2
+  }
+}
+,{
+  "name": "bahamas",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 0,
+    "nineties": 1,
+    "twothousands": 3
+  }
+}
+,{
+  "name": "bahrain",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 1
+  }
+}
+,{
+  "name": "bangladesh",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 2
+  }
+}
+,{
+  "name": "barbados",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 1,
+    "twothousands": 3
+  }
+}
+,{
+  "name": "belarus",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 4,
+    "twothousands": 12
+  }
+}
+,{
+  "name": "belgium",
+  "data": {
+    "sixties": 5,
+    "seventies": 7,
+    "eighties": 27,
+    "nineties": 81,
+    "twothousands": 176
+  }
+}
+,{
+  "name": "belize",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 1
+  }
+}
+,{
+  "name": "bermuda",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 2,
+    "twothousands": 4
+  }
+}
+,{
+  "name": "bolivia",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 4
+  }
+}
+,{
+  "name": "bosnia and herz.",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 2,
+    "nineties": 3,
+    "twothousands": 6
+  }
+}
+,{
+  "name": "brazil",
+  "data": {
+    "sixties": 56,
+    "seventies": 100,
+    "eighties": 127,
+    "nineties": 194,
+    "twothousands": 325
+  }
+}
+,{
+  "name": "british virgin islands",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 1
+  }
+}
+,{
+  "name": "bulgaria",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 1,
+    "nineties": 0,
+    "twothousands": 2
+  }
+}
+,{
+  "name": "burundi",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 1,
+    "twothousands": 0
+  }
+}
+,{
+  "name": "cameroon",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 0,
+    "nineties": 3,
+    "twothousands": 2
+  }
+}
+,{
+  "name": "canada",
+  "data": {
+    "sixties": 29,
+    "seventies": 86,
+    "eighties": 170,
+    "nineties": 470,
+    "twothousands": 1212
+  }
+}
+,{
+  "name": "chile",
+  "data": {
+    "sixties": 6,
+    "seventies": 7,
+    "eighties": 9,
+    "nineties": 25,
+    "twothousands": 66
+  }
+}
+,{
+  "name": "china",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 5
+  }
+}
+,{
+  "name": "colombia",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 4,
+    "nineties": 13,
+    "twothousands": 27
+  }
+}
+,{
+  "name": "costa rica",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 4
+  }
+}
+,{
+  "name": "croatia",
+  "data": {
+    "sixties": 1,
+    "seventies": 5,
+    "eighties": 6,
+    "nineties": 14,
+    "twothousands": 18
+  }
+}
+,{
+  "name": "cuba",
+  "data": {
+    "sixties": 0,
+    "seventies": 2,
+    "eighties": 3,
+    "nineties": 9,
+    "twothousands": 10
+  }
+}
+,{
+  "name": "czechia",
+  "data": {
+    "sixties": 5,
+    "seventies": 7,
+    "eighties": 7,
+    "nineties": 44,
+    "twothousands": 79
+  }
+}
+,{
+  "name": "denmark",
+  "data": {
+    "sixties": 2,
+    "seventies": 9,
+    "eighties": 19,
+    "nineties": 78,
+    "twothousands": 220
+  }
+}
+,{
+  "name": "dominican rep.",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 1,
+    "nineties": 1,
+    "twothousands": 6
+  }
+}
+,{
+  "name": "egypt",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 5
+  }
+}
+,{
+  "name": "el salvador",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 1,
+    "twothousands": 1
+  }
+}
+,{
+  "name": "estonia",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 6,
+    "twothousands": 42
+  }
+}
+,{
+  "name": "faroe is.",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 10
+  }
+}
+,{
+  "name": "finland",
+  "data": {
+    "sixties": 3,
+    "seventies": 25,
+    "eighties": 55,
+    "nineties": 199,
+    "twothousands": 666
+  }
+}
+,{
+  "name": "france",
+  "data": {
+    "sixties": 76,
+    "seventies": 125,
+    "eighties": 148,
+    "nineties": 339,
+    "twothousands": 832
+  }
+}
+,{
+  "name": "georgia",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 2
+  }
+}
+,{
+  "name": "germany",
+  "data": {
+    "sixties": 57,
+    "seventies": 189,
+    "eighties": 308,
+    "nineties": 731,
+    "twothousands": 1772
+  }
+}
+,{
+  "name": "ghana",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 1,
+    "twothousands": 0
+  }
+}
+,{
+  "name": "gibraltar",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 2,
+    "twothousands": 2
+  }
+}
+,{
+  "name": "greece",
+  "data": {
+    "sixties": 3,
+    "seventies": 10,
+    "eighties": 9,
+    "nineties": 30,
+    "twothousands": 71
+  }
+}
+,{
+  "name": "grenada",
+  "data": {
+    "sixties": 1,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 0
+  }
+}
+,{
+  "name": "guatemala",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 1,
+    "nineties": 2,
+    "twothousands": 3
+  }
+}
+,{
+  "name": "guyana",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 1
+  }
+}
+,{
+  "name": "honduras",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 1,
+    "twothousands": 0
+  }
+}
+,{
+  "name": "hong kong",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 3,
+    "nineties": 3,
+    "twothousands": 3
+  }
+}
+,{
+  "name": "hungary",
+  "data": {
+    "sixties": 2,
+    "seventies": 4,
+    "eighties": 7,
+    "nineties": 29,
+    "twothousands": 53
+  }
+}
+,{
+  "name": "iceland",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 3,
+    "nineties": 17,
+    "twothousands": 63
+  }
+}
+,{
+  "name": "india",
+  "data": {
+    "sixties": 1,
+    "seventies": 2,
+    "eighties": 1,
+    "nineties": 4,
+    "twothousands": 9
+  }
+}
+,{
+  "name": "indonesia",
+  "data": {
+    "sixties": 1,
+    "seventies": 2,
+    "eighties": 3,
+    "nineties": 9,
+    "twothousands": 25
+  }
+}
+,{
+  "name": "iran",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 1,
+    "twothousands": 5
+  }
+}
+,{
+  "name": "ireland",
+  "data": {
+    "sixties": 9,
+    "seventies": 17,
+    "eighties": 43,
+    "nineties": 86,
+    "twothousands": 156
+  }
+}
+,{
+  "name": "isle of man",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 1,
+    "twothousands": 1
+  }
+}
+,{
+  "name": "israel",
+  "data": {
+    "sixties": 2,
+    "seventies": 6,
+    "eighties": 5,
+    "nineties": 13,
+    "twothousands": 39
+  }
+}
+,{
+  "name": "italy",
+  "data": {
+    "sixties": 32,
+    "seventies": 137,
+    "eighties": 163,
+    "nineties": 370,
+    "twothousands": 674
+  }
+}
+,{
+  "name": "jamaica",
+  "data": {
+    "sixties": 10,
+    "seventies": 37,
+    "eighties": 27,
+    "nineties": 54,
+    "twothousands": 62
+  }
+}
+,{
+  "name": "japan",
+  "data": {
+    "sixties": 2,
+    "seventies": 7,
+    "eighties": 25,
+    "nineties": 102,
+    "twothousands": 359
+  }
+}
+,{
+  "name": "jordan",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 1
+  }
+}
+,{
+  "name": "kazakhstan",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 1
+  }
+}
+,{
+  "name": "latvia",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 1,
+    "nineties": 7,
+    "twothousands": 22
+  }
+}
+,{
+  "name": "lebanon",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 1
+  }
+}
+,{
+  "name": "liechtenstein",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 4
+  }
+}
+,{
+  "name": "lithuania",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 2,
+    "nineties": 26,
+    "twothousands": 46
+  }
+}
+,{
+  "name": "luxembourg",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 1,
+    "twothousands": 8
+  }
+}
+,{
+  "name": "macedonia",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 2,
+    "twothousands": 5
+  }
+}
+,{
+  "name": "madagascar",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 1
+  }
+}
+,{
+  "name": "malaysia",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 1,
+    "nineties": 8,
+    "twothousands": 12
+  }
+}
+,{
+  "name": "mali",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 2,
+    "twothousands": 6
+  }
+}
+,{
+  "name": "malta",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 1,
+    "twothousands": 6
+  }
+}
+,{
+  "name": "mexico",
+  "data": {
+    "sixties": 2,
+    "seventies": 8,
+    "eighties": 36,
+    "nineties": 101,
+    "twothousands": 224
+  }
+}
+,{
+  "name": "moldova",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 2,
+    "twothousands": 4
+  }
+}
+,{
+  "name": "morocco",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 6
+  }
+}
+,{
+  "name": "mozambique",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 0
+  }
+}
+,{
+  "name": "netherlands",
+  "data": {
+    "sixties": 17,
+    "seventies": 62,
+    "eighties": 76,
+    "nineties": 145,
+    "twothousands": 320
+  }
+}
+,{
+  "name": "new zealand",
+  "data": {
+    "sixties": 0,
+    "seventies": 8,
+    "eighties": 12,
+    "nineties": 28,
+    "twothousands": 112
+  }
+}
+,{
+  "name": "nicaragua",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 1
+  }
+}
+,{
+  "name": "niger",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 1,
+    "twothousands": 0
+  }
+}
+,{
+  "name": "nigeria",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 1,
+    "nineties": 1,
+    "twothousands": 6
+  }
+}
+,{
+  "name": "norway",
+  "data": {
+    "sixties": 0,
+    "seventies": 7,
+    "eighties": 25,
+    "nineties": 161,
+    "twothousands": 359
+  }
+}
+,{
+  "name": "pakistan",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 1,
+    "nineties": 4,
+    "twothousands": 5
+  }
+}
+,{
+  "name": "panama",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 1,
+    "nineties": 2,
+    "twothousands": 6
+  }
+}
+,{
+  "name": "peru",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 7,
+    "twothousands": 10
+  }
+}
+,{
+  "name": "philippines",
+  "data": {
+    "sixties": 0,
+    "seventies": 2,
+    "eighties": 5,
+    "nineties": 17,
+    "twothousands": 41
+  }
+}
+,{
+  "name": "poland",
+  "data": {
+    "sixties": 3,
+    "seventies": 14,
+    "eighties": 46,
+    "nineties": 154,
+    "twothousands": 347
+  }
+}
+,{
+  "name": "portugal",
+  "data": {
+    "sixties": 3,
+    "seventies": 14,
+    "eighties": 24,
+    "nineties": 48,
+    "twothousands": 82
+  }
+}
+,{
+  "name": "puerto rico",
+  "data": {
+    "sixties": 0,
+    "seventies": 1,
+    "eighties": 2,
+    "nineties": 20,
+    "twothousands": 55
+  }
+}
+,{
+  "name": "romania",
+  "data": {
+    "sixties": 1,
+    "seventies": 2,
+    "eighties": 2,
+    "nineties": 7,
+    "twothousands": 36
+  }
+}
+,{
+  "name": "russia",
+  "data": {
+    "sixties": 1,
+    "seventies": 1,
+    "eighties": 2,
+    "nineties": 34,
+    "twothousands": 149
+  }
+}
+,{
+  "name": "san marino",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 2
+  }
+}
+,{
+  "name": "senegal",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 1,
+    "nineties": 4,
+    "twothousands": 4
+  }
+}
+,{
+  "name": "serbia",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 13,
+    "twothousands": 23
+  }
+}
+,{
+  "name": "singapore",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 2,
+    "twothousands": 10
+  }
+}
+,{
+  "name": "slovakia",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 4,
+    "nineties": 16,
+    "twothousands": 37
+  }
+}
+,{
+  "name": "slovenia",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 1,
+    "nineties": 9,
+    "twothousands": 11
+  }
+}
+,{
+  "name": "south africa",
+  "data": {
+    "sixties": 4,
+    "seventies": 5,
+    "eighties": 14,
+    "nineties": 18,
+    "twothousands": 74
+  }
+}
+,{
+  "name": "south korea",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 5,
+    "twothousands": 45
+  }
+}
+,{
+  "name": "spain",
+  "data": {
+    "sixties": 14,
+    "seventies": 34,
+    "eighties": 81,
+    "nineties": 198,
+    "twothousands": 447
+  }
+}
+,{
+  "name": "sweden",
+  "data": {
+    "sixties": 6,
+    "seventies": 39,
+    "eighties": 81,
+    "nineties": 400,
+    "twothousands": 940
+  }
+}
+,{
+  "name": "switzerland",
+  "data": {
+    "sixties": 4,
+    "seventies": 12,
+    "eighties": 22,
+    "nineties": 43,
+    "twothousands": 101
+  }
+}
+,{
+  "name": "tanzania",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 1
+  }
+}
+,{
+  "name": "thailand",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 4
+  }
+}
+,{
+  "name": "trinidad and tobago",
+  "data": {
+    "sixties": 1,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 3,
+    "twothousands": 1
+  }
+}
+,{
+  "name": "tunisia",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 4
+  }
+}
+,{
+  "name": "turkey",
+  "data": {
+    "sixties": 2,
+    "seventies": 15,
+    "eighties": 21,
+    "nineties": 62,
+    "twothousands": 116
+  }
+}
+,{
+  "name": "uganda",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 2
+  }
+}
+,{
+  "name": "ukraine",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 1,
+    "nineties": 8,
+    "twothousands": 32
+  }
+}
+,{
+  "name": "united arab emirates",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 1
+  }
+}
+,{
+  "name": "united kingdom",
+  "data": {
+    "sixties": 213,
+    "seventies": 637,
+    "eighties": 1053,
+    "nineties": 1393,
+    "twothousands": 2855
+  }
+}
+,{
+  "name": "united states of america",
+  "data": {
+    "sixties": 841,
+    "seventies": 1296,
+    "eighties": 2017,
+    "nineties": 4869,
+    "twothousands": 9983
+  }
+}
+,{
+  "name": "uruguay",
+  "data": {
+    "sixties": 2,
+    "seventies": 2,
+    "eighties": 5,
+    "nineties": 15,
+    "twothousands": 18
+  }
+}
+,{
+  "name": "venezuela",
+  "data": {
+    "sixties": 1,
+    "seventies": 2,
+    "eighties": 9,
+    "nineties": 12,
+    "twothousands": 23
+  }
+}
+,{
+  "name": "vietnam",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 1,
+    "twothousands": 6
+  }
+}
+,{
+  "name": "world",
+  "data": {
+    "sixties": 1446,
+    "seventies": 3028,
+    "eighties": 4921,
+    "nineties": 11203,
+    "twothousands": 24611
+  }
+}
+,{
+  "name": "zambia",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 2
+  }
+}
+]

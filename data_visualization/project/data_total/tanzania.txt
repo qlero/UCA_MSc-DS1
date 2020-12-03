@@ -1,0 +1,10 @@
+{
+  "name": "tanzania",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 0,
+    "nineties": 0,
+    "twothousands": 1
+  }
+}

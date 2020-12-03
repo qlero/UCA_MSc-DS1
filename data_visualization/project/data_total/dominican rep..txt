@@ -1,0 +1,10 @@
+{
+  "name": "dominican rep.",
+  "data": {
+    "sixties": 0,
+    "seventies": 0,
+    "eighties": 1,
+    "nineties": 1,
+    "twothousands": 6
+  }
+}

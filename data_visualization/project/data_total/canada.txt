@@ -1,10 +1,10 @@
 {
   "name": "canada",
   "data": {
-    "sixties": 25,
-    "seventies": 76,
-    "eighties": 156,
-    "nineties": 415,
-    "twothousands": 1069
+    "sixties": 29,
+    "seventies": 86,
+    "eighties": 170,
+    "nineties": 470,
+    "twothousands": 1212
   }
 }

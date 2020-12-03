@@ -1,10 +1,10 @@
 {
   "name": "brazil",
   "data": {
-    "sixties": 55,
-    "seventies": 99,
-    "eighties": 123,
-    "nineties": 183,
-    "twothousands": 307
+    "sixties": 56,
+    "seventies": 100,
+    "eighties": 127,
+    "nineties": 194,
+    "twothousands": 325
   }
 }

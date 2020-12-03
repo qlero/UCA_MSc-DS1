@@ -1,0 +1,10 @@
+{
+  "name": "united states of america",
+  "data": {
+    "sixties": 841,
+    "seventies": 1296,
+    "eighties": 2017,
+    "nineties": 4869,
+    "twothousands": 9983
+  }
+}

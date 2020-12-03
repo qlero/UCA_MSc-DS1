@@ -2,9 +2,9 @@
   "name": "romania",
   "data": {
     "sixties": 1,
-    "seventies": 3,
+    "seventies": 2,
     "eighties": 2,
     "nineties": 7,
-    "twothousands": 37
+    "twothousands": 36
   }
 }

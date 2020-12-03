@@ -4,7 +4,7 @@
     "sixties": 0,
     "seventies": 0,
     "eighties": 0,
-    "nineties": 3,
-    "twothousands": 10
+    "nineties": 4,
+    "twothousands": 12
   }
 }

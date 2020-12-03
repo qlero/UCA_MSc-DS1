@@ -18,6 +18,7 @@ artists <- read_csv("wasabi_artists.csv")
 artists_lite_choro <- artists %>% select(choro_var_artists)
 
 population <- read_csv("population.csv")
+country_name_matcher <- read_csv("countries.csv")
 
 ### PRE-PROCESSING THE ALBUM DATASET
 
@@ -120,26 +121,7 @@ standardize_country_names <- function(df, source_df) {
 joined_df <- standardize_country_names(joined_df, country_name_matcher)
 pop_df <- standardize_country_names(pop_df, country_name_matcher)
 
-joined_df$country[547]="czechia"
-joined_df$country[548]="czechia"
-joined_df$country[8593]="czechia"
-joined_df$country[8594]="czechia"
-joined_df$country[15816]="romania"
-joined_df$country[15817]="romania"
-joined_df$country[16025]="panama"
-joined_df$country[20639]="poland"
-joined_df$country[21793]="niger"
-
-pop_df$country[616]="north korea"
-pop_df$country[617]="north korea"
-pop_df$country[618]="north korea"
-pop_df$country[619]="north korea"
-pop_df$country[620]="north korea"
-
 joined_df <- joined_df %>% select(-c(id_artist))
-
-joined_df[is.na(joined_df$country),]
-pop_df[is.na(pop_df$country),]
 
 joined_df$count <- 1
 
@@ -148,8 +130,6 @@ joined_df <- joined_df %>% group_by(decade, country, genre_family) %>%
 
 joined_df <- merge(joined_df, pop_df, by=c("country","decade")) %>% 
   rename("population"="Value")
-
-write.csv(joined_df, file="country_data.csv")
   
 # Removes superfluous data frame
 rm(albums)
@@ -158,9 +138,9 @@ rm(albums_lite_choro)
 rm(df_album)
 rm(artists_lite_choro)
 
-country_data <- read_csv("country_data.csv") %>% select(-c("X1"))
-
 create_json <- function(df) {
+  
+  df <- df[-which(is.na(df$country)),]
   
   entry <- list(sixties=0,
                 seventies=0,
@@ -196,7 +176,7 @@ create_json <- function(df) {
           } else if (df$decade[country_index]==2000) {
             new_entry$twothousands = new_entry$twothousands + df$count[country_index]
             world_entry$twothousands = world_entry$twothousands + df$count[country_index]
-          } 
+          }
         }
       }
     }
@@ -211,9 +191,10 @@ create_json <- function(df) {
         paste("./data_total/world.txt",sep=""))
 }
 
-create_json(country_data)
+create_json(joined_df)
 merge_files(INPUT_FOLDER = "./data_total/", CONCAT_DELIMITER=",",
-            OUTPUT_FILE = "output_world_file.txt")
+            OUTPUT_FILE = "music-world-data.txt")
 
-file <- paste("[",read_file("output_world_file.txt"),"]",sep="")
-write(file, "output_world_file.txt")
+file <- paste("[",read_file("music-world-data.txt"),"]",sep="")
+write(file, "music-world-data.txt")
+

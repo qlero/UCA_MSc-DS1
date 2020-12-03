@@ -2,9 +2,9 @@
   "name": "italy",
   "data": {
     "sixties": 32,
-    "seventies": 136,
-    "eighties": 162,
+    "seventies": 137,
+    "eighties": 163,
     "nineties": 370,
-    "twothousands": 664
+    "twothousands": 674
   }
 }

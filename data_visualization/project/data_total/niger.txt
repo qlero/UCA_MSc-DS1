@@ -3,7 +3,7 @@
   "data": {
     "sixties": 0,
     "seventies": 0,
-    "eighties": 1,
+    "eighties": 0,
     "nineties": 1,
     "twothousands": 0
   }

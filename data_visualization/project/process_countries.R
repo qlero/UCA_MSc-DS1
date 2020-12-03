@@ -51,7 +51,7 @@ kept_genres <- c(rock_genres, metal_genres, punk_genres, country_folk_genres,
 
 # 1. Drops all entries that are of a genre we are not interested in
 # 2. Create a new column genre_family that contains generic genre name of the album
-# 3. DSrops the genre column
+# 3. Drops the genre column
 # 4. Remove all instances older than 1950 and creates a column referencing the 
 # decade of the album
 # 5. Drops the publicationDate column 
@@ -101,7 +101,7 @@ pop_df <- pop_df %>% select(-c("Country.Name", "Group.1")) %>%
 # 1. Merges artist_lite_choro and df_album on the id_artist column
 # 2. rename location.country column to country
 # 3. replace NA with world
-# 4. lower case all country names
+# 4. lower case all country names and replaces the country names with formatted ones
 joined_df <- merge(x=df_album, y=artists_lite_choro, by="id_artist") %>% 
   rename("country"="location.country") %>% mutate(country = replace_na(country, "world")) %>% 
   mutate(country = tolower(country)) %>% subset(country !="world")
@@ -122,26 +122,7 @@ standardize_country_names <- function(df, source_df) {
 joined_df <- standardize_country_names(joined_df, country_name_matcher)
 pop_df <- standardize_country_names(pop_df, country_name_matcher)
 
-joined_df$country[547]="czechia"
-joined_df$country[548]="czechia"
-joined_df$country[8593]="czechia"
-joined_df$country[8594]="czechia"
-joined_df$country[15816]="romania"
-joined_df$country[15817]="romania"
-joined_df$country[16025]="panama"
-joined_df$country[20639]="poland"
-joined_df$country[21793]="niger"
-
-pop_df$country[616]="north korea"
-pop_df$country[617]="north korea"
-pop_df$country[618]="north korea"
-pop_df$country[619]="north korea"
-pop_df$country[620]="north korea"
-
 joined_df <- joined_df %>% select(-c(id_artist))
-
-joined_df[is.na(joined_df$country),]
-pop_df[is.na(pop_df$country),]
 
 joined_df$count <- 1
 
@@ -151,7 +132,12 @@ joined_df <- joined_df %>% group_by(decade, country, genre_family) %>%
 joined_df <- merge(joined_df, pop_df, by=c("country","decade")) %>% 
   rename("population"="Value")
 
-write.csv(joined_df, file="preprocessed_data.csv")
+# Removes superfluous data frame
+rm(albums)
+rm(artists)
+rm(albums_lite_choro)
+rm(df_album)
+rm(artists_lite_choro)
 
 create_json <- function(df) {
   
@@ -330,10 +316,10 @@ create_json <- function(df) {
 
 create_json(joined_df)
 merge_files(INPUT_FOLDER = "./data/", CONCAT_DELIMITER=",",
-            OUTPUT_FILE = "output_file.txt")
+            OUTPUT_FILE = "music-data.txt")
 
-file <- paste("[",read_file("output_file.txt"),"]",sep="")
-write(file, "output_file.txt")
+file <- paste("[",read_file("music-data.txt"),"]",sep="")
+write(file, "music-data.txt")
   
 # Removes superfluous data frame
 rm(albums)
@@ -443,12 +429,21 @@ create_genre_json <- function(df) {
       }
     }
   }
-  write(toJSON(entry, pretty = TRUE, auto_unbox = TRUE), 
+  write(toJSON(entry),#, pretty = TRUE, auto_unbox = TRUE), 
         paste("./genre-summary.txt",sep=""))
 }
 
 create_genre_json(genre_df)
 
 file <- paste("[",read_file("genre-summary.txt"),"]",sep="")
+file <- str_replace(file, '\"rock\":', '{\"name\":\"rock\", \"data\":')
+file <- str_replace(file, '\"metal\":', '{\"name\":\"metal\", \"data\":')
+file <- str_replace(file, '\"punk\":', '{\"name\":\"punk\", \"data\":')
+file <- str_replace(file, '\"country\":', '{\"name\":\"country\", \"data\":')
+file <- str_replace(file, '\"hip\":', '{\"name\":\"hip\", \"data\":')
+file <- str_replace(file, '\"jazz\":', '{\"name\":\"jazz\", \"data\":')
+file <- str_replace(file, '\"electro\":', '{\"name\":\"electro\", \"data\":')
+file <- str_replace_all(file, "\\},", "\\}\\},")
+file <- str_replace(file, '\\[\\{\\{','\\[\\{')
 write(file, "genre-summary.txt")
 
