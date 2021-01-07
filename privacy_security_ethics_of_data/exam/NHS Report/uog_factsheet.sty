@@ -1,0 +1,53 @@
+\ProvidesPackage{uog_factsheet}
+
+% NOTES
+
+% You cab convert the factsheet to Microsoft word format using pandoc:
+%
+% pandoc --filter pandoc-citeproc --bibliography=biblio.bib -s uog_factsheet.tex -o paper.docx
+%
+% You may have to install pandoc-citeproc. On Ubuntu use:
+% sudo apt-get install pandoc-citeproc
+
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[tmargin=0.5in,bmargin=0.5in, lmargin=0.5in, rmargin=0.5in]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% Following line defines the Triton Green color (RGB = 4,106,56)
+\definecolor{triton_green}{RGB}{4,106,56}
+
+% Set colors for hyperlinks
+\hypersetup{
+  linkcolor  = blue,
+  citecolor  = blue,
+  urlcolor   = blue,
+  colorlinks = true,
+}
+\usepackage{breakurl}
+% Default: numerical citations
+\usepackage[numbers]{natbib}
+
+% Uncomment this lines for superscript citations instead
+% \usepackage[super]{natbib}
+
+% Uncomment these lines for author-year citations instead
+%\usepackage[round]{natbib}
+%\let\cite\citep
+
+\pagestyle{empty} % Removes headers and footers, freeing up some real estate
+
+\titlehead{
+\noindent
+\raisebox{\dimexpr.8\baselineskip-\height}{\includegraphics[height=0.5in]{Logo_université_côte_azur.png}
+}
+\begin{tabular}[t]{@{}l}
+  	\hspace{0.25in}\large \textbf{Privacy Security and Ethical Aspects of Data} \\ \quad \,\, Charles Canavaggio, Emerico Bachiorrini, Quentin Le Roux
+\end{tabular}
+\hfill
+\hrule
+}
