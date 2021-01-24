@@ -1,0 +1,79 @@
+\documentclass[a4paper, 10pt]{article} 
+\setcounter{page}{2}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{wrapfig}
+
+\input{head}
+\rfoot{MSc DS-AI Université Côte d'Azur, \LaTeX\, Report - Page 2}
+\begin{document}
+
+%-------------------------------
+%	TITLE SECTION
+%-------------------------------
+
+\fancyhead[C]{}
+%\hrule \medskip % Upper rule
+\begin{minipage}{0.24\textwidth} 
+\raggedright
+\footnotesize
+Quentin Le Roux \hfill
+\end{minipage}
+\begin{minipage}{0.5\textwidth} 
+\centering 
+\begin{center}
+    Summary seminar 4 -- Reinforcement Learning
+\end{center}
+\end{minipage}
+\begin{minipage}{0.245\textwidth} 
+\raggedleft
+\today
+\end{minipage}
+\hrule 
+\bigskip
+
+%-------------------------------
+%	CONTENTS
+%-------------------------------
+
+The seminar covered \textbf{an Introduction to [Deep] Reinforcement Learning} (RL \& DRL), presented by \textit{Lucile Sassatelli} (UCA, CNRS, I3S, IUF).
+
+\section{Main Concepts}
+Reinforcement Learning is a a \textbf{branch of machine learning aimed at teaching an agent (or several) how to react to a dynamic environment while maximizing some kind of return via a reward mechanism}. Reinforcement Learning models have the following elements:
+\begin{itemize}
+\item An \textbf{environment} that can be in a many states ($s \in \mathcal{S}$) and which evolution can either be random or partly action-dependent. i.e. the environment can react to the agent's \textit{actions}.
+  \item An \textbf{agent} that can perform actions ($a \in \mathcal{A}$) dependent on the current and/or past states \textit{s}. An action is the resulting output of a \textbf{policy function} $\pi(.)$ given an input state ($\pi$ can be deterministic or stochastic).
+  \item The agent's actions lead to an environment output called a \textbf{reward} ($r\in\mathcal{R}$)
+\end{itemize}
+
+This evolving system can be described in episodes: $\{(S_0, A_0, R_0),\, ...,\, (S_t, A_t, R_t)\}$, and transitions between episodes follow a \textbf{model} described by \textit{transition probabilities}. e.g. $P(S_{t+1}|S_1,…,S_t) = P[S_{t+1}|S_t]$.
+\newline\newline
+$\Rightarrow$ The formal objective of a Reinforcement Learning process is to \textbf{maximize the reward associated to the agent's actions, which were produced by the policy function within a dynamic environment}:
+\newline\newline
+\centerline{$\pi(.) = \underset{\pi}{argmax}\,\mathbb{E}_{s\in\mathcal{S}, a\sim\pi(.)}[\underset{t=0}{\overset{+\infty}{\sum}}\gamma^t.r_t]$ with $\gamma$ a discount factor and $r$ the reward}
+\newline\newline
+$\pi(.)$ outputs actions by processing the expectation of future episodes discounted by a time factor.
+\newline\newline
+Two other functions are involved: i) the \textbf{action value function} ($Q_{\pi}(s, a) = \mathbb{E}_\pi[G_t|S_t=s, A_t=a]$), which helps choose the next action, ii) the \textbf{state value function} ($V_\pi(s')=\mathbb{E}_\pi[G_{t+1}|S_{t+1}=s']$), which tries to predict the cumulated discounted sum of future rewards.
+
+
+\section{Tabular Methods For Reinforcement Learning}
+
+Tabular methods refer to problems where state and action spaces (their area of possibilities) are small enough that possible outputs can be approximated into an array data structure. Many methods are available, e.g.:
+\begin{itemize}
+  \item \textbf{Multi-Armed Bandits}: A specific action $q$ has an expected reward $a_\ast(a)\overset{.}{=}\mathbb{E}[R_t|A_t=a]$ that helps generate trajectories.
+  \item \textbf{Monte-Carlo methods}: The predicted trajectory of episodes $(S_i, A_i, R_i)$ is based on the input policy $\pi$ with two ways to evaluate the model: i) \textbf{on-policies} (evaluation and improvement is done on $\pi(.)$, the policy that makes decisions), ii) \textbf{off-policies} (evaluation and improvement is done on another kind of function).
+  \item \textbf{Time-Difference Learning}: It involves bootstrapping and does not require waiting for a final outcome.
+  \item \textbf{Tabular Q-Learning}: All $\{S, A\}$ pairs are tracked in a dictionary (thus tabular) in a discrete way.
+\end{itemize}
+
+\section{Approximating Value Functions}
+Action and state value functions can be approximated via a weight vector $w$ such that $\hat{v}(s, w)\approx v_\pi(s)$ instead of using a tabular method. Approximating is suited to partially observable problems and can be done via many methods (e.g. semi-gradient methods with on/off-policies, gradient methods, deadly triad, etc.).
+
+\section{Perspectives on Deep Reinforcement Learning}
+
+Massive improvement have occurred over the last five years, such as with Alpha Go. However, Deep Reinforcement Learning is not yet a plug and play tool. Deep RL can be sample-inefficient and fair competitors to assess the quality of a RL model can be hard to source. It requires a well-designed reward function to overcome hard-to-escape local optima. Meanwhile overfitting risk remains high and reproducibility is hard to achieve. Finaly, new models are being developed, such as Imitation Learning models.
+
+\end{document}
+
+%doc by Quentin Le Roux
