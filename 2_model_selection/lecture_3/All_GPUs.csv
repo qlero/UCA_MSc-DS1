@@ -1,0 +1,2245 @@
+Architecture,Max_Power,Memory,Memory_Speed
+R600 XT ,215 Watts,512 MB ,828 MHz
+R600 PRO ,200 Watts,512 MB ,800 MHz
+RV630 ,45 Watts,256 MB ,700 MHz
+RV630 ,50 Watts,256 MB ,1100 MHz
+R700 RV790 XT ,190 Watts,2048 MB ,1050 MHz
+R600 GT ,150 Watts,256 MB ,800 MHz
+Pitcairn XT GL ,150 Watts,2048 MB ,1250 MHz
+Fermi GF110 ,250 Watts,6144 MB ,925 MHz
+Kepler GK110 ,245 Watts,12288 MB ,1502 MHz
+GCN 1.1 Oland XT + Kaveri ,150 Watts,3072 MB ,900 MHz
+R360 ,60 Watts,256 MB ,730 MHz
+Pascal GP102 ,250 Watts,12288 MB ,1425 MHz
+Kepler GK110-400-A1 ,250 Watts,6144 MB ,1502 MHz
+Kepler GK110-430-B1 (x2) ,375 Watts,12288 MB ,1750 MHz
+Kepler GK110B ,375 Watts,12288 MB ,1750 MHz
+Kepler GK110-430-B1 (x2) ,375 Watts,12288 MB ,1750 MHz
+Kepler GK110B ,375 Watts,12288 MB ,1750 MHz
+Maxwell GM200-400-A1 ,250 Watts,12288 MB ,1753 MHz
+Maxwell GM200-400-A1 (x2) ,450 Watts,24576 MB ,1753 MHz
+Maxwell GM200-400-A1 ,250 Watts,12288 MB ,1753 MHz
+Maxwell GM200-400-A1 ,250 Watts,12288 MB ,1753 MHz
+Kepler GK110-400-A1 ,265 Watts,6144 MB ,1502 MHz
+Kepler GK110-400-A1 (x2) ,500 Watts,12288 MB ,1502 MHz
+Pascal P100 ,300 Watts,12288 MB ,500 MHz
+Kepler GK110-400-A1 ,250 Watts,6144 MB ,1502 MHz
+Pascal P100 ,375 Watts,16384 MB ,500 MHz
+Kepler GK110-400-A1 ,250 Watts,6144 MB ,1502 MHz
+Kepler GK110-400-A1 ,265 Watts,6144 MB ,1502 MHz
+Kepler GK110-400-A1 ,250 Watts,6144 MB ,1502 MHz
+Kepler GK110-430-B1 ,250 Watts,6144 MB ,1750 MHz
+Kepler GK110-400-A1 ,250 Watts,6144 MB ,1502 MHz
+Kepler GK110-400-A1 ,250 Watts,6144 MB ,1502 MHz
+R360 ,47 Watts,128 MB ,700 MHz
+RV360 ,18 Watts,128 MB ,300 MHz
+GCN 2.0 Hawaii XT GL ,290 Watts,16384 MB ,1250 MHz
+Tahiti XT ,274 Watts,6144 MB ,1375 MHz
+GCN 1.1 Oland PRO ,26 Watts,2048 MB ,900 MHz
+Evergreen Juniper XT GL ,74 Watts,1024 MB ,1000 MHz
+RV730 ,56 Watts,512 MB ,900 MHz
+RV730 ,48 Watts,256 MB ,700 MHz
+GCN 2.0 Hawaii XT GL ,235 Watts,16384 MB ,1250 MHz
+GCN 1.0 Tahiti PRO GL ,225 Watts,12288 MB ,1375 MHz
+Cypress XT ,250 Watts,4096 MB ,1150 MHz
+Tahiti XT GL ,274 Watts,3072 MB ,1375 MHz
+Tahiti LE ,175 Watts,3072 MB ,1250 MHz
+Turks ,75 Watts,1024 MB ,900 MHz
+RV770 ,160 Watts,2048 MB ,850 MHz
+RV870 ,150 Watts,2048 MB ,1000 MHz
+RV670 ,105 Watts,2048 MB ,800 MHz
+RV770 ,150 Watts,1024 MB ,993 MHz
+RV610 ,25 Watts,256 MB ,500 MHz
+RV610 ,25 Watts,256 MB ,400 MHz
+RV630 ,35 Watts,256 MB ,500 MHz
+RV610 ,20 Watts,256 MB ,400 MHz
+R700 RV790 XT ,190 Watts,1024 MB ,1050 MHz
+R700 RV790 XT ,190 Watts,1024 MB ,1050 MHz
+RV610 ,20 Watts,256 MB ,400 MHz
+R700 RV790 XT ,190 Watts,1024 MB ,1000 MHz
+R700 XT ,420 Watts,2048 MB ,900 MHz
+R700 RV790 XT ,190 Watts,1024 MB ,1050 MHz
+R700 RV770 PRO ,150 Watts,1024 MB ,900 MHz
+R700 RV790 XT ,190 Watts,1024 MB ,975 MHz
+RV770 PRO ,150 Watts,512 MB ,900 MHz
+R700 RV770 PRO ,150 Watts,512 MB ,950 MHz
+R700 RV770 PRO ,250 Watts,2048 MB ,993 MHz
+RV790 GT ,130 Watts,512 MB ,750 MHz
+R700 RV770 PRO ,110 Watts,1024 MB ,993 MHz
+R700 RV770 PRO ,110 Watts,512 MB ,940 MHz
+R700 RV770 PRO ,110 Watts,512 MB ,993 MHz
+R700 RV790 LE ,95 Watts,512 MB ,900 MHz
+R700 RV790 LE ,95 Watts,512 MB ,900 MHz
+R700 RV730 XT ,59 Watts,1024 MB ,873 MHz
+R700 RV740 PRO ,80 Watts,512 MB ,800 MHz
+RV770 CE ,110 Watts,512 MB ,900 MHz
+RV740 PRO ,75 Watts,512 MB ,800 MHz
+R700 RV730 XT ,59 Watts,1024 MB ,800 MHz
+R700 RV730 XT ,59 Watts,1024 MB ,800 MHz
+R700 RV730 XT ,59 Watts,512 MB ,1004 MHz
+R700 RV730 PRO ,48 Watts,1024 MB ,750 MHz
+R700 RV730 PRO ,48 Watts,1024 MB ,700 MHz
+R700 RV730 XT ,59 Watts,1024 MB ,800 MHz
+R700 RV710 ,20 Watts,512 MB ,400 MHz
+R700 RV730PRO ,48 Watts,512 MB ,400 MHz
+R700 RV730PRO ,48 Watts,1024 MB ,400 MHz
+R700 RV710 ,25 Watts,256 MB ,800 MHz
+R700 RV710 ,20 Watts,1024 MB ,500 MHz
+R700 RV710 ,25 Watts,512 MB ,800 MHz
+R700 RV730 XT ,59 Watts,512 MB ,800 MHz
+R700 RV710 ,20 Watts,512 MB ,400 MHz
+R600 RV670 XT ,165 Watts,1024 MB ,900 MHz
+R600 RV670 XT ,106 Watts,512 MB ,1126 MHz
+RV670 PRO ,140 Watts,1024 MB ,828 MHz
+RV670 PRO ,75 Watts,256 MB ,830 MHz
+RV670 PRO ,75 Watts,256 MB ,830 MHz
+Tesla G98 ,35 Watts,512 MB ,500 MHz
+RV670 PRO ,75 Watts,256 MB ,830 MHz
+RV635 PRO ,65 Watts,256 MB ,800 MHz
+RV620 PRO ,30 Watts,256 MB ,950 MHz
+RV670 PRO ,75 Watts,512 MB ,830 MHz
+RV670 PRO ,145 Watts,1536 MB ,850 MHz
+RV620 LE ,25 Watts,256 MB ,500 MHz
+Broadwell GT3-E ,47 Watts,128 MB ,933 MHz
+Haswell GT3e ,47 Watts,128 MB ,800 MHz
+Tonga ,125 Watts,4096 MB ,1362 MHz
+GCN 1.2 Amethyst XT ,125 Watts,4096 MB ,1250 MHz
+GCN 1.1 Neptune XT ,100 Watts,4096 MB ,1200 MHz
+GCN 1.2 Amethyst XT ,125 Watts,4096 MB ,1250 MHz
+GCN 1.1 Neptune XT ,100 Watts,4096 MB ,1250 MHz
+GCN 1.1 Neptune XT (x2) ,200 Watts,4096 MB ,1200 MHz
+Terascale 2 Broadway XT (x2) ,100 Watts,2048 MB ,1000 MHz
+M96 XT ,35 Watts,1024 MB ,800 MHz
+Terascale 2 Broadway XT ,50 Watts,1024 MB ,1000 MHz
+Terascale 2 Broadway PRO ,39 Watts,1024 MB ,1000 MHz
+Terascale 2 Broadway LE ,24 Watts,1024 MB ,800 MHz
+GCN 1.1 Neptune XT ,100 Watts,4096 MB ,1200 MHz
+Terascale 2 Madison LE ,26 Watts,1024 MB ,800 MHz
+Terascale 2 Madison XT ,30 Watts,1024 MB ,800 MHz
+Terascale 2 Madison LP ,15 Watts,1024 MB ,800 MHz
+Terascale 2 Park XT ,15 Watts,1024 MB ,800 MHz
+M96 ,35 Watts,1024 MB ,800 MHz
+M96 ,20 Watts,1024 MB ,600 MHz
+M92 ,15 Watts,1024 MB ,800 MHz
+Park XT ,15 Watts,512 MB ,800 MHz
+M92 ,10 Watts,1024 MB ,600 MHz
+GCN 1.1 Neptune XT (x2) ,200 Watts,4096 MB ,1200 MHz
+M92 ,15 Watts,1024 MB ,900 MHz
+Terascale 2 Park PRO ,11 Watts,1024 MB ,800 MHz
+GCN 1.1 Neptune XT ,100 Watts,2048 MB ,1200 MHz
+M92 ,13 Watts,512 MB ,800 MHz
+M96 ,35 Watts,1024 MB ,900 MHz
+Terascale 2 Park LP ,7 Watts,1024 MB ,800 MHz
+Terascale 2 Madison PRO ,25 Watts,1024 MB ,800 MHz
+GCN 1.1 Venus XT ,50 Watts,2048 MB ,1125 MHz
+GCN 1.1 Venus PRO ,45 Watts,2048 MB ,1125 MHz
+GCN 1.1 Mars XTX ,35 Watts,2048 MB ,1000 MHz
+GCN 1.1 Venus LE ,35 Watts,2048 MB ,1000 MHz
+GCN 1.1 Mars XT ,20 Watts,2048 MB ,1125 MHz
+GCN 1.1 Venus PRO ,45 Watts,2048 MB ,1000 MHz
+GCN 1.1 Mars PRO ,20 Watts,2048 MB ,1000 MHz
+GCN 1.1 Mars LE ,15 Watts,1024 MB ,1000 MHz
+GCN 1.1 Mars PRO ,20 Watts,2048 MB ,900 MHz
+Terascale 2 Blackcomb XT ,75 Watts,2048 MB ,900 MHz
+Terascale 2 Blackcomb PRO ,50 Watts,1024 MB ,900 MHz
+Terascale 2 Granville PRO ,50 Watts,1024 MB ,800 MHz
+Terascale 2 Granville LP ,39 Watts,2048 MB ,800 MHz
+Terascale 2 Granville XT ,50 Watts,1024 MB ,1000 MHz
+Terascale 2 Whistler XT ,35 Watts,2048 MB ,800 MHz
+Terascale 2 Blackcomb XTX ,100 Watts,2048 MB ,900 MHz
+Terascale 2 Whistler XT ,35 Watts,1024 MB ,800 MHz
+Terascale 2 Capilano XT ,30 Watts,1024 MB ,800 MHz
+Terascale 2 Whistler LE ,39 Watts,1024 MB ,800 MHz
+Terascale 2 Whistler LP ,26 Watts,1024 MB ,800 MHz
+Terascale 2 Capilano PRO ,26 Watts,1024 MB ,800 MHz
+Terascale 2 Seymour XT ,11 Watts,1024 MB ,800 MHz
+Terascale 2 Seymour XTX ,14 Watts,512 MB ,800 MHz
+Terascale 2 Capilano LE ,26 Watts,1024 MB ,800 MHz
+Terascale 2 Seymour PRO ,11 Watts,1024 MB ,800 MHz
+Terascale 2 Robson XT ,11 Watts,1024 MB ,800 MHz
+Terascale 2 Robson PRO ,7 Watts,1024 MB ,900 MHz
+Terascale 2 Seymour LE ,11 Watts,1024 MB ,800 MHz
+GCN 1.0 Wimbledon PRO ,75 Watts,2048 MB ,1000 MHz
+GCN 1.0 Heathrow Pro ,40 Watts,2048 MB ,1000 MHz
+GCN 1.0 Heathrow XT ,45 Watts,2048 MB ,1000 MHz
+GCN 1.0 Chelsea XT ,32 Watts,2048 MB ,1000 MHz
+GCN 1.0 Wimbledon XT ,100 Watts,2048 MB ,1200 MHz
+GCN 1.0 Wimbledon XT (x2) ,200 Watts,4096 MB ,1200 MHz
+GCN 1.0 Chelsea LE ,25 Watts,2048 MB ,900 MHz
+Terascale 2 Thames XTX ,25 Watts,1024 MB ,900 MHz
+Terascale 2 Thames XT ,20 Watts,1024 MB ,900 MHz
+Terascale 2 Thames PRO ,20 Watts,1024 MB ,900 MHz
+Terascale 2 Thames XT ,20 Watts,2048 MB ,900 MHz
+GCN 1.0 Chelsea PRO ,28 Watts,1024 MB ,1000 MHz
+GCN 1.0 Chelsea XT ,32 Watts,1024 MB ,1000 MHz
+Terascale 2 Thames XT ,20 Watts,1024 MB ,900 MHz
+Terascale 2 Thames LP ,20 Watts,1024 MB ,800 MHz
+Terascale 2 Thames LE ,20 Watts,1024 MB ,800 MHz
+Terascale 2 Thames PRO ,14 Watts,1024 MB ,800 MHz
+Terascale 2 Thames XT ,18 Watts,1024 MB ,800 MHz
+Terascale 2 Thames LE ,11 Watts,1024 MB ,800 MHz
+Terascale 2 Thames LP ,11 Watts,1024 MB ,900 MHz
+Terascale 2 Thames PRO ,14 Watts,2048 MB ,900 MHz
+Terascale 2 Thames PRO ,13 Watts,1024 MB ,800 MHz
+Terascale 2 Seymour PRO ,7 Watts,1024 MB ,900 MHz
+Terascale 2 Seymour PRO ,7 Watts,1024 MB ,900 MHz
+Terascale 2 Seymour XT ,7 Watts,512 MB ,900 MHz
+Terascale 2 Seymour XTX ,9 Watts,1024 MB ,950 MHz
+Terascale 2 Robson XT ,11 Watts,1024 MB ,800 MHz
+Terascale 2 Robson PRO ,7 Watts,1024 MB ,900 MHz
+Terascale 2 Robson LE ,5 Watts,1024 MB ,800 MHz
+Saturn XT ,75 Watts,2048 MB ,1000 MHz
+GCN 1.1 Venus XTX ,50 Watts,2048 MB ,1000 MHz
+GCN 1.1 Venus PRO ,35 Watts,2048 MB ,1000 MHz
+Venus XT ,50 Watts,2048 MB ,1000 MHz
+GCN 1.1 Venus XT ,50 Watts,2048 MB ,1000 MHz
+GCN 1.1 Mars XT ,35 Watts,2048 MB ,1000 MHz
+GCN 1.1 Mars XT ,35 Watts,2048 MB ,1000 MHz
+GCN 1.1 Topaz XT ,35 Watts,2048 MB ,1000 MHz
+GCN 1.1 Mars PRO ,35 Watts,4096 MB ,900 MHz
+GCN 1.1 Opal XT ,30 Watts,4096 MB ,1000 MHz
+GCN 1.1 Sun PRO ,20 Watts,4096 MB ,1000 MHz
+GCN 1.1 Sun LE ,20 Watts,4096 MB ,1000 MHz
+GCN 1.1 Saturn PRO ,75 Watts,4096 MB ,1375 MHz
+GCN 1.2 Strato PRO ,75 Watts,4096 MB ,1500 MHz
+GCN 1.1 Saturn XT ,75 Watts,4096 MB ,1500 MHz
+GCN 1.0 Venus XTX ,75 Watts,4096 MB ,1125 MHz
+GCN 1.0 ???? ,50 Watts,4096 MB ,1000 MHz
+GCN 1.0 Venus PRO ,50 Watts,4096 MB ,1000 MHz
+GCN 1.1 Meso PRO ,25 Watts,2048 MB ,1000 MHz
+GCN 1.0 Venus XTX ,75 Watts,2048 MB ,1100 MHz
+GCN 1.1 Mars XT ,50 Watts,2048 MB ,1100 MHz
+GCN 1.1 Mars XT ,50 Watts,4096 MB ,1100 MHz
+GCN 1.1 Exo XT ,25 Watts,2048 MB ,1100 MHz
+GCN 1.1 Sun PRO ,25 Watts,2048 MB ,1000 MHz
+GCN 1.1 Jet PRO ,20 Watts,2048 MB ,1000 MHz
+GCN 1.1 Sun PRO ,25 Watts,4096 MB ,1000 MHz
+GCN 1.1 Saturn PRO ,75 Watts,4096 MB ,1375 MHz
+GCN 1.1 Saturn XT ,75 Watts,4096 MB ,1500 MHz
+GCN 1.1 Exo XT ,25 Watts,4096 MB ,1100 MHz
+RV770 ,65 Watts,1024 MB ,700 MHz
+RV770 ,130 Watts,2048 MB ,700 MHz
+Kepler GK104 ,100 Watts,8192 MB ,902 MHz
+Kepler GK104 ,100 Watts,4096 MB ,750 MHz
+Fermi GF106-N12P-Q3 ,55 Watts,2048 MB ,900 MHz
+GCN 1.1 ,85 Watts,2048 MB ,1800 MHz
+Devastator / Mars PRO ,50 Watts,2048 MB ,800 MHz
+Terascale 3/GCN ,50 Watts,1024 MB ,1000 MHz
+GCN 1.1 Mars XTX ,50 Watts,2048 MB ,1125 MHz
+GCN 1.1 Saturn XT GL ,75 Watts,2048 MB ,1125 MHz
+GCN 1.1 Venus XT ,50 Watts,2048 MB ,1125 MHz
+Kepler GK104 ,122 Watts,8192 MB ,1250 MHz
+Kepler GK104 (x2) ,200 Watts,16384 MB ,1250 MHz
+Fermi GF104-N12E-GTX-A1 (x2) ,200 Watts,4096 MB ,750 MHz
+Kepler GK104 ,122 Watts,4096 MB ,1250 MHz
+Fermi GF114 (x2) ,200 Watts,4096 MB ,750 MHz
+Fermi GF116 (x2) ,150 Watts,3072 MB ,625 MHz
+Fermi GF114 ,75 Watts,1536 MB ,750 MHz
+Fermi GF106 ,35 Watts,3072 MB ,900 MHz
+Fermi GF114 ,100 Watts,2048 MB ,750 MHz
+Fermi GF108-400-A1 ,35 Watts,1024 MB ,784 MHz
+Fermi GF116 ,75 Watts,1536 MB ,625 MHz
+Fermi GF116 ,35 Watts,2048 MB ,900 MHz
+Fermi GF108 ,35 Watts,2048 MB ,900 MHz
+Fermi GF108 ,35 Watts,1024 MB ,900 MHz
+Fermi GF106 ,35 Watts,1536 MB ,900 MHz
+Fermi GF108 ,35 Watts,2048 MB ,900 MHz
+Fermi GF108 ,35 Watts,1024 MB ,900 MHz
+Fermi GF108 ,23 Watts,1024 MB ,900 MHz
+Fermi GF108 ,25 Watts,2048 MB ,900 MHz
+Fermi GF108 ,12 Watts,1024 MB ,800 MHz
+Fermi GF119 ,12 Watts,1024 MB ,800 MHz
+Fermi GF119 ,20 Watts,1024 MB ,900 MHz
+Tesla G92b (x2) ,130 Watts,2048 MB ,950 MHz
+Tesla G92b (x2) ,150 Watts,2048 MB ,950 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Tesla GT216-N10P-GE-A2 ,23 Watts,1024 MB ,800 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Tesla G92b (x2) ,150 Watts,2048 MB ,1020 MHz
+Fermi GF104-N12E-GTX-A1 ,100 Watts,2048 MB ,750 MHz
+Fermi GF100-N11E-GTX-A3 ,100 Watts,2048 MB ,600 MHz
+Fermi GF100-N11E-GTX-A3 (x2) ,200 Watts,4096 MB ,600 MHz
+Fermi GF104-N11E-GT (x2) ,150 Watts,3072 MB ,625 MHz
+Fermi GF104-N11E-GT ,75 Watts,1536 MB ,625 MHz
+Fermi GF106-N11E-GE-A1 ,35 Watts,1024 MB ,625 MHz
+Fermi GF106-N11E-GE-A1 ,35 Watts,3072 MB ,800 MHz
+Fermi GF106-N11E-GS-A1 (x2) ,100 Watts,3072 MB ,625 MHz
+Fermi GF106-N11E-GE-A1 ,35 Watts,1024 MB ,800 MHz
+Fermi GF108-N11P-GT ,35 Watts,1024 MB ,800 MHz
+Fermi GF108-N11P-GS-A1 ,23 Watts,1024 MB ,800 MHz
+Fermi GF106-N11E-GS-A1 ,50 Watts,1536 MB ,625 MHz
+Kepler GK104 ,100 Watts,6144 MB ,1250 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Fermi GF119-N12M-GS ,12 Watts,1024 MB ,800 MHz
+Fermi GF108-N11P-GE-A1 ,23 Watts,512 MB ,800 MHz
+Fermi GF108-N11P-GV ,12 Watts,512 MB ,800 MHz
+Maxwell GM107 ,50 Watts,4096 MB ,1250 MHz
+Tesla GT218 ,14 Watts,512 MB ,800 MHz
+Maxwell GM107 ,45 Watts,2048 MB ,1253 MHz
+Maxwell GM107 ,45 Watts,4096 MB ,1000 MHz
+Maxwell GM107-N15P-GX-A1 (x2) ,120 Watts,4096 MB ,1253 MHz
+Maxwell GM108 ,33 Watts,2048 MB ,1001 MHz
+GT215 ,38 Watts,1024 MB ,900 MHz
+Fermi GF117-N15V-GM ,15 Watts,2048 MB ,900 MHz
+GT215 ,28 Watts,1024 MB ,800 MHz
+GT215 ,28 Watts,1024 MB ,1066 MHz
+Maxwell GM108 ,33 Watts,2048 MB ,1001 MHz
+GT216 ,23 Watts,1024 MB ,1066 MHz
+GT216 ,23 Watts,1024 MB ,1066 MHz
+Kepler GK208 ,33 Watts,2048 MB ,900 MHz
+GT216 ,14 Watts,1024 MB ,790 MHz
+Maxwell GM107 ,45 Watts,2048 MB ,1000 MHz
+Tesla GT218-N11M-GE1 ,14 Watts,512 MB ,790 MHz
+Tesla GT218-N11M-GE1 ,14 Watts,512 MB ,790 MHz
+Kepler GK104 ,100 Watts,3072 MB ,1250 MHz
+Fermi GF117-N15V-GM ,15 Watts,1024 MB ,900 MHz
+Tesla GT218-N11M-LP1 ,14 Watts,512 MB ,700 MHz
+Kepler GK104 ,100 Watts,1024 MB ,1250 MHz
+Kepler GK104-N13E-GTX-A2 ,100 Watts,4096 MB ,900 MHz
+Kepler GK104-N13E-GSR-A2 ,100 Watts,2048 MB ,900 MHz
+Kepler GK104-N13E-GTX2-A2 ,122 Watts,2048 MB ,1250 MHz
+Kepler GK104 (x2) ,200 Watts,4096 MB ,900 MHz
+Fermi GF114 ,100 Watts,2048 MB ,750 MHz
+Fermi GF114 (x2) ,200 Watts,4096 MB ,750 MHz
+Maxwell GM107-N15P-GX-A1 ,60 Watts,2048 MB ,1253 MHz
+Kepler GK106 (x2) ,150 Watts,6144 MB ,700 MHz
+Tesla GT218-N11M-GE1 ,14 Watts,1024 MB ,667 MHz
+Fermi GF114 ,75 Watts,1536 MB ,750 MHz
+Fermi GF114 ,75 Watts,3072 MB ,750 MHz
+Kepler GK104-N13E-GR-A2 ,75 Watts,3072 MB ,700 MHz
+Kepler GK107-N13E-GE-A2 ,50 Watts,2048 MB ,1000 MHz
+Kepler GK107 (x2) ,90 Watts,4096 MB ,1000 MHz
+Kepler GK107-N13P-GT-W-A2 ,45 Watts,1024 MB ,1254 MHz
+Kepler GK107 ,32 Watts,2048 MB ,900 MHz
+Fermi GF108 ,32 Watts,2048 MB ,785 MHz
+Kepler GK107 ,20 Watts,1024 MB ,900 MHz
+Kepler GK107 ,45 Watts,1024 MB ,900 MHz
+Kepler GK107 ,32 Watts,2048 MB ,900 MHz
+Fermi GF116 ,35 Watts,2048 MB ,900 MHz
+Fermi GF108 ,33 Watts,1024 MB ,900 MHz
+Fermi GF108 ,33 Watts,1024 MB ,900 MHz
+Fermi GF117 ,15 Watts,2048 MB ,900 MHz
+Fermi GF108 ,25 Watts,1024 MB ,900 MHz
+Fermi GF108 ,35 Watts,2048 MB ,900 MHz
+Fermi GF117 ,15 Watts,1024 MB ,900 MHz
+Fermi GF119 ,20 Watts,2048 MB ,800 MHz
+Fermi GF108 ,33 Watts,2048 MB ,900 MHz
+Maxwell GM108 ,25 Watts,2048 MB ,900 MHz
+Fermi GF119 ,20 Watts,1024 MB ,900 MHz
+Fermi GF117 ,12 Watts,1024 MB ,900 MHz
+Fermi GF108 ,12 Watts,1024 MB ,900 MHz
+Kepler GK104 (x2) ,200 Watts,8192 MB ,1250 MHz
+Kepler GK104-N14E-GTX-A2 ,122 Watts,4096 MB ,1250 MHz
+Kepler GK106 (x2) ,150 Watts,4096 MB ,1000 MHz
+Kepler GK106-N14E-GS-A1 ,75 Watts,3072 MB ,1002 MHz
+Fermi GF116 ,35 Watts,2048 MB ,900 MHz
+Kepler GK106-N14E-GE-B-A1 (x2) ,125 Watts,4096 MB ,1000 MHz
+Kepler GK104-N13E-GTX-A2 ,100 Watts,2048 MB ,900 MHz
+Kepler GK106-N14E-GL-A1 (x2) ,100 Watts,4096 MB ,1000 MHz
+Kepler GK106-N14E-GE-B-A1 ,65 Watts,2048 MB ,1002 MHz
+Kepler GK107-GT-755M (x2) ,100 Watts,4096 MB ,1350 MHz
+Kepler GK106-N14E-GL-A1 ,55 Watts,2048 MB ,1002 MHz
+Kepler GK107-N14P-GT ,50 Watts,2048 MB ,900 MHz
+Kepler GK107-N14P-GT ,50 Watts,2048 MB ,1253 MHz
+Kepler GK107 (x2) ,80 Watts,4096 MB ,1250 MHz
+Kepler GK107-N14P-GT ,50 Watts,2048 MB ,900 MHz
+Kepler GK107-N14P-GT ,50 Watts,2048 MB ,1000 MHz
+Kepler GK107-N14P-LP ,45 Watts,2048 MB ,900 MHz
+Kepler GK107-GT-740M ,45 Watts,2048 MB ,900 MHz
+Kepler GK107-N14P-LP ,45 Watts,2048 MB ,900 MHz
+Kepler GK107-GT-755M ,50 Watts,2048 MB ,1350 MHz
+Kepler GK208-GT-740M ,33 Watts,2048 MB ,900 MHz
+Kepler GK107-GT-740M ,45 Watts,2048 MB ,900 MHz
+Kepler GK208 ,33 Watts,2048 MB ,900 MHz
+Kepler GK107 ,33 Watts,2048 MB ,900 MHz
+Fermi GF117-N14M-GE ,33 Watts,2048 MB ,900 MHz
+Kepler GK208 ,17 Watts,2048 MB ,900 MHz
+Fermi GF117-N14M-GL ,15 Watts,1024 MB ,900 MHz
+Fermi GF117-N14M-GE ,33 Watts,1024 MB ,900 MHz
+Kepler GK107 ,45 Watts,2048 MB ,1000 MHz
+Maxwell GM204 (x2) ,200 Watts,16384 MB ,1253 MHz
+Maxwell GM204 ,122 Watts,8192 MB ,1253 MHz
+Maxwell GM204-N16E-GX-A2 ,100 Watts,8192 MB ,1253 MHz
+Maxwell GM204-N16E-GX-A2 ,100 Watts,4096 MB ,1253 MHz
+Maxwell GM204 ,75 Watts,3072 MB ,1253 MHz
+Maxwell GM204-N16E-GT-A2 (x2) ,150 Watts,12288 MB ,1253 MHz
+Maxwell GM204 ,81 Watts,3072 MB ,1253 MHz
+Maxwell GM204 ,81 Watts,6144 MB ,1253 MHz
+Maxwell GM204-N16E-GS (x2) ,100 Watts,4096 MB ,1250 MHz
+Maxwell GM204 ,165 Watts,4096 MB ,1750 MHz
+Maxwell GM107-N16P-GX-A1 ,50 Watts,4096 MB ,1253 MHz
+Maxwell GM204-N16E-GS ,50 Watts,4096 MB ,1250 MHz
+Maxwell GM107-N16P-GX-A1 ,50 Watts,2048 MB ,1253 MHz
+Fermi GF119 ,20 Watts,1024 MB ,900 MHz
+Maxwell GM107-N16P-GT ,50 Watts,2048 MB ,1000 MHz
+Maxwell GM108-N16S-GTR ,25 Watts,2048 MB ,1001 MHz
+Maxwell GM107 ,40 Watts,2048 MB ,1000 MHz
+Maxwell GM107-N16P-GT ,50 Watts,4096 MB ,900 MHz
+Maxwell GM204-N16E ,70 Watts,2048 MB ,1250 MHz
+Fermi GF119-B1 ,15 Watts,1024 MB ,900 MHz
+Maxwell GM108-N16S-GMR ,25 Watts,2048 MB ,1250 MHz
+Maxwell GM107-N16P-GT ,50 Watts,2048 MB ,1250 MHz
+Maxwell GM108-N16S-GT-S ,30 Watts,2048 MB ,1000 MHz
+Maxwell GM108-N16V-GMR ,25 Watts,2048 MB ,1125 MHz
+Maxwell GM108-N16S-GM ,25 Watts,2048 MB ,900 MHz
+Maxwell GM108-N16S-GT-S ,25 Watts,4096 MB ,1000 MHz
+Kepler GK208-N16V-GM ,25 Watts,4096 MB ,900 MHz
+Kepler GK107? ,25 Watts,2048 MB ,900 MHz
+Kepler GK208-N16V-GM ,25 Watts,2048 MB ,900 MHz
+Kepler GK208-N16V-GM ,25 Watts,1024 MB ,900 MHz
+Vega 10 XT ,200 Watts,8192 MB ,500 MHz
+Vega 10 XTX ,375 Watts,8192 MB ,500 MHz
+GCN 1.1 Versuvius XT ,750 Watts,16384 MB ,1250 MHz
+GCN 1.1 Versuvius XT ,500 Watts,8192 MB ,1250 MHz
+GCN 1.1 Versuvius XT ,500 Watts,8192 MB ,1250 MHz
+GCN 1.1 Hawaii XT ,290 Watts,8192 MB ,1375 MHz
+GCN 1.2 Fiji XT ,175 Watts,4096 MB ,500 MHz
+GCN 1.1 Hawaii XT ,290 Watts,4096 MB ,1250 MHz
+GCN 1.2 Fiji XT (x2) ,500 Watts,8192 MB ,500 MHz
+GCN 1.2 Fiji PRO ,375 Watts,4096 MB ,500 MHz
+GCN 1.2 Fiji XT ,275 Watts,4096 MB ,500 MHz
+GCN 1.2 Fiji PRO ,275 Watts,4096 MB ,500 MHz
+GCN 1.1 Grenada XT ,300 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada XT ,300 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada XT ,275 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada XT ,375 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada XT ,375 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada XT ,375 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada XT ,300 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada XT ,300 Watts,8192 MB ,1525 MHz
+GCN 1.1 Grenada XT ,275 Watts,8192 MB ,1525 MHz
+GCN 1.1 Grenada XT ,300 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada XT (x2) ,550 Watts,16384 MB ,1500 MHz
+GCN 1.1 Grenada XT ,375 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada XT ,300 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada PRO ,275 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada XT ,275 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada PRO ,300 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada XT ,275 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada PRO ,375 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada PRO ,375 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada PRO ,275 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada PRO ,275 Watts,8192 MB ,1525 MHz
+GCN 1.1 Grenada PRO (x2) ,550 Watts,16384 MB ,1500 MHz
+GCN 1.1 Grenada PRO (x2) ,580 Watts,16384 MB ,1350 MHz
+GCN 1.1 Grenada PRO ,300 Watts,8192 MB ,1500 MHz
+GCN 1.2 Antigua XT ,225 Watts,4096 MB ,1450 MHz
+GCN 1.1 Grenada PRO (x2) ,550 Watts,16384 MB ,1500 MHz
+GCN 1.2 Antigua XT ,190 Watts,4096 MB ,1425 MHz
+GCN 1.1 Grenada PRO ,275 Watts,8192 MB ,1500 MHz
+GCN 1.1 Grenada PRO ,300 Watts,8192 MB ,1500 MHz
+GCN 1.2 Antigua XT ,225 Watts,4096 MB ,1500 MHz
+GCN 1.2 Antigua XT ,190 Watts,4096 MB ,1425 MHz
+GCN 1.1 Grenada PRO ,300 Watts,8192 MB ,1500 MHz
+GCN 1.2 Antigua XT ,190 Watts,4096 MB ,1425 MHz
+GCN 1.2 Antigua XT ,225 Watts,4096 MB ,1475 MHz
+GCN 1.2 Antigua XT ,190 Watts,4096 MB ,1425 MHz
+GCN 1.2 Antigua XT ,190 Watts,4096 MB ,1425 MHz
+GCN 1.2 Antigua XT ,190 Watts,4096 MB ,1425 MHz
+GCN 1.2 Antigua PRO ,225 Watts,2048 MB ,1375 MHz
+GCN 1.2 Antigua XT ,190 Watts,4096 MB ,1425 MHz
+GCN 1.2 Antigua PRO ,190 Watts,4096 MB ,1425 MHz
+GCN 1.2 Antigua PRO ,190 Watts,2048 MB ,1475 MHz
+GCN 1.2 Antigua PRO ,190 Watts,4096 MB ,1475 MHz
+GCN 1.2 Antigua PRO ,225 Watts,4096 MB ,1450 MHz
+GCN 1.2 Antigua PRO ,190 Watts,4096 MB ,1425 MHz
+GCN 1.2 Antigua PRO ,225 Watts,2048 MB ,1375 MHz
+GCN 1.2 Antigua PRO ,190 Watts,2048 MB ,1375 MHz
+GCN 1.2 Antigua PRO ,190 Watts,4096 MB ,1450 MHz
+GCN 1.2 Antigua PRO ,190 Watts,4096 MB ,1425 MHz
+GCN 1.2 Antigua PRO ,190 Watts,2048 MB ,1375 MHz
+GCN 1.2 Antigua PRO ,190 Watts,2048 MB ,1400 MHz
+GCN 1.2 Antigua PRO (x2) ,400 Watts,4096 MB ,1375 MHz
+GCN 1.2 Antigua PRO ,190 Watts,4096 MB ,1425 MHz
+GCN 1.2 Tonga PRO ,190 Watts,2048 MB ,1375 MHz
+GCN 1.2 Antigua PRO ,190 Watts,4096 MB ,1475 MHz
+GCN 1.2 Antigua PRO ,190 Watts,2048 MB ,1375 MHz
+GCN 1.0 Pitcairn PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.0 Trinidad PRO (x2) ,300 Watts,8192 MB ,1400 MHz
+GCN 1.0 Trinidad XT ,180 Watts,2048 MB ,1400 MHz
+GCN 1.2 Antigua PRO ,190 Watts,2048 MB ,1375 MHz
+GCN 1.0 Trinidad PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.0 Trinidad PRO (x2) ,220 Watts,8192 MB ,1425 MHz
+GCN 1.0 Trinidad PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.0 Trinidad PRO ,150 Watts,4096 MB ,1400 MHz
+GCN 1.0 Trinidad PRO ,110 Watts,2048 MB ,1400 MHz
+GCN 1.0 Trinidad PRO ,110 Watts,2048 MB ,1425 MHz
+GCN 1.2 Antigua PRO ,190 Watts,4096 MB ,1375 MHz
+GCN 1.0 Trinidad PRO ,110 Watts,4096 MB ,1425 MHz
+GCN 1.1 Tobago PRO ,85 Watts,2048 MB ,1625 MHz
+GCN 1.0 Trinidad PRO ,110 Watts,2048 MB ,1425 MHz
+GCN 1.0 Trinidad PRO (x2) ,225 Watts,4096 MB ,1400 MHz
+GCN 1.0 Trinidad PRO ,150 Watts,4096 MB ,1400 MHz
+GCN 1.1 Tobago XT ,120 Watts,2048 MB ,1625 MHz
+GCN 1.0 Trinidad PRO ,110 Watts,2048 MB ,1400 MHz
+GCN 1.0 Trinidad PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.0 Trinidad PRO ,110 Watts,2048 MB ,1400 MHz
+GCN 1.1 Tobago PRO ,150 Watts,2048 MB ,1625 MHz
+GCN 1.1 Tobago PRO ,100 Watts,2048 MB ,1750 MHz
+GCN 1.1 Tobago PRO ,100 Watts,2048 MB ,1500 MHz
+GCN 1.1 Tobago PRO ,100 Watts,2048 MB ,1625 MHz
+GCN 1.1 Tobago PRO ,100 Watts,2048 MB ,1500 MHz
+GCN 1.1 Tobago PRO ,100 Watts,2048 MB ,1650 MHz
+GCN 1.1 Tobago PRO ,100 Watts,2048 MB ,1500 MHz
+GCN 1.1 Tobago PRO ,100 Watts,2048 MB ,1625 MHz
+GCN 1.1 Tobago PRO ,150 Watts,2048 MB ,1500 MHz
+GCN 1.1 Tobago PRO ,150 Watts,2048 MB ,1625 MHz
+GCN 1.1 Tobago PRO (x2) ,200 Watts,4096 MB ,1500 MHz
+GCN 1.1 Tobago PRO ,50 Watts,2048 MB ,1500 MHz
+GCN 1.1 Tobago PRO ,100 Watts,2048 MB ,1625 MHz
+GCN 1.1 Oland XT ,50 Watts,2048 MB ,900 MHz
+GCN 1.1 Tobago PRO ,100 Watts,2048 MB ,1625 MHz
+GCN 1.1 Oland PRO ,65 Watts,2048 MB ,1125 MHz
+GCN 1.1 Oland PRO ,50 Watts,2048 MB ,900 MHz
+GCN 1.1 Tobago PRO ,75 Watts,2048 MB ,1500 MHz
+GCN 1.1 Oland XT ,65 Watts,2048 MB ,1150 MHz
+GCN 1.1 Hawaii XT ,300 Watts,4096 MB ,1250 MHz
+GCN 1.2 Capsaicin XT ,350 Watts,8192 MB ,500 MHz
+GCN 1.1 Hawaii XT ,290 Watts,8192 MB ,1375 MHz
+GCN 1.1 Hawaii XT ,290 Watts,4096 MB ,1410 MHz
+GCN 1.1 Hawaii XT ,290 Watts,4096 MB ,1300 MHz
+GCN 1.1 Oland XT ,65 Watts,1024 MB ,1150 MHz
+GCN 1.1 Hawaii XT ,290 Watts,4096 MB ,1350 MHz
+GCN 1.1 Hawaii XT ,290 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii XT (x2) ,580 Watts,8192 MB ,1250 MHz
+GCN 1.1 Hawaii XT ,290 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii XT ,290 Watts,8192 MB ,1250 MHz
+GCN 1.1 Hawaii XT ,250 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii XT (x2) ,500 Watts,8192 MB ,1250 MHz
+GCN 1.1 Hawaii XT (x2) ,600 Watts,8192 MB ,1350 MHz
+GCN 1.1 Hawaii XT ,300 Watts,4096 MB ,1350 MHz
+GCN 1.1 Hawaii XT ,290 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii XT ,290 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii XT ,375 Watts,4096 MB ,1350 MHz
+GCN 1.1 Hawaii PRO ,250 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii XT ,300 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii PRO ,275 Watts,4096 MB ,1400 MHz
+GCN 1.1 Hawaii PRO ,250 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii PRO ,250 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii PRO ,275 Watts,4096 MB ,1300 MHz
+GCN 1.1 Hawaii PRO ,250 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii PRO ,275 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii PRO ,550 Watts,8192 MB ,1300 MHz
+GCN 1.1 Hawaii PRO ,275 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii PRO ,275 Watts,4096 MB ,1350 MHz
+GCN 1.1 Hawaii PRO ,275 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii PRO ,275 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii PRO ,250 Watts,4096 MB ,1250 MHz
+GCN 1.1 Hawaii PRO ,275 Watts,4096 MB ,1250 MHz
+GCN 1.2 Tonga PRO ,190 Watts,2048 MB ,1400 MHz
+GCN 1.2 Tonga PRO ,190 Watts,2048 MB ,1375 MHz
+GCN 1.1 Hawaii PRO (x2) ,550 Watts,8192 MB ,1250 MHz
+GCN 1.2 Tonga PRO ,190 Watts,2048 MB ,1375 MHz
+GCN 1.1 Hawaii PRO ,275 Watts,4096 MB ,1250 MHz
+GCN 1.2 Tonga PRO ,190 Watts,2048 MB ,1375 MHz
+GCN 1.2 Tonga PRO ,190 Watts,2048 MB ,1400 MHz
+GCN 1.2 Tonga PRO ,190 Watts,2048 MB ,1375 MHz
+GCN 1.2 Tonga PRO ,190 Watts,2048 MB ,1375 MHz
+GCN 1.2 Tonga PRO ,190 Watts,2048 MB ,1400 MHz
+GCN 1.2 Tonga PRO ,190 Watts,2048 MB ,1400 MHz
+GCN 1.2 Tonga PRO ,190 Watts,2048 MB ,1375 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1500 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1550 MHz
+GCN 1.2 Tonga PRO ,190 Watts,2048 MB ,1400 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1500 MHz
+GCN 1.1 Tahiti XTL (x2) ,500 Watts,6144 MB ,1550 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1500 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1500 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1600 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,6144 MB ,1500 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1500 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1550 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1500 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1500 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1500 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1500 MHz
+GCN 1.0 Tahiti XTL ,375 Watts,3072 MB ,1600 MHz
+GCN 1.0 Tahiti XTL ,280 Watts,3072 MB ,1500 MHz
+GCN 1.1 Tahiti XTL (x2) ,550 Watts,6144 MB ,1500 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1600 MHz
+GCN 1.0 Tahiti XTL ,280 Watts,3072 MB ,1500 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1500 MHz
+GCN 1.0 Tahiti PRO2 ,200 Watts,3072 MB ,1300 MHz
+GCN 1.0 Tahiti PRO2 ,200 Watts,3072 MB ,1250 MHz
+GCN 1.0 Tahiti PRO2 ,200 Watts,3072 MB ,1250 MHz
+GCN 1.0 Tahiti PRO2 ,225 Watts,3072 MB ,1250 MHz
+GCN 1.0 Tahiti PRO2 ,200 Watts,3072 MB ,1250 MHz
+GCN 1.0 Tahiti PRO2 ,200 Watts,3072 MB ,1250 MHz
+GCN 1.0 Tahiti PRO2 ,200 Watts,3072 MB ,1300 MHz
+GCN 1.0 Tahiti PRO2 ,200 Watts,3072 MB ,1250 MHz
+GCN 1.0 Tahiti XTL ,250 Watts,3072 MB ,1500 MHz
+GCN 1.1 Tahiti PRO2 (x2) ,400 Watts,6144 MB ,1250 MHz
+GCN 1.1 Curacao XT ,180 Watts,4096 MB ,1400 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1450 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1450 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1500 MHz
+GCN 1.1 Curacao XT ,180 Watts,4096 MB ,1400 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1400 MHz
+GCN 1.0 Tahiti PRO2 ,200 Watts,3072 MB ,1250 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1500 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1425 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao XT (x2) ,180 Watts,4096 MB ,1400 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao XT (x2) ,180 Watts,8192 MB ,1400 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao XT ,175 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao XT ,180 Watts,4096 MB ,1400 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao XT ,225 Watts,4096 MB ,1400 MHz
+GCN 1.1 Curacao XT (x2) ,360 Watts,4096 MB ,1400 MHz
+GCN 1.1 Curacao PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao XT ,180 Watts,4096 MB ,1400 MHz
+GCN 1.1 Curacao PRO ,175 Watts,2048 MB ,1400 MHz
+GCN 1.0 Pitcairn PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao PRO ,175 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao PRO ,175 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao PRO ,175 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao PRO (x2) ,300 Watts,4096 MB ,1400 MHz
+GCN 1.1 Curacao XT ,180 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.1 Curacao PRO (x2) ,300 Watts,4096 MB ,1400 MHz
+GCN 1.1 Curacao PRO ,146 Watts,2048 MB ,1400 MHz
+GCN 1.0 Bonaire XT ,115 Watts,2048 MB ,1625 MHz
+GCN 1.1 Curacao PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.0 Pitcairn PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.0 Pitcairn PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.0 Pitcairn PRO ,150 Watts,2048 MB ,1400 MHz
+Pitcairn PRO ,300 Watts,4096 MB ,1400 MHz
+GCN 1.0 Pitcairn PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.1 Bonaire XTX ,115 Watts,2048 MB ,1600 MHz
+GCN 1.1 Curacao PRO ,146 Watts,2048 MB ,1400 MHz
+GCN 1.0 Pitcairn PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.1 Bonaire XTX ,115 Watts,2048 MB ,1650 MHz
+GCN 1.0 Pitcairn PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.1 Bonaire XT ,85 Watts,2048 MB ,1250 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.1 Bonaire XT ,85 Watts,2048 MB ,1250 MHz
+GCN 1.1 Bonaire XT ,85 Watts,2048 MB ,1250 MHz
+GCN 1.1 Bonaire XT ,85 Watts,2048 MB ,1250 MHz
+Pitcairn PRO ,300 Watts,4096 MB ,1400 MHz
+GCN 1.1 Bonaire XT ,85 Watts,2048 MB ,1250 MHz
+GCN 1.1 Bonaire XT ,85 Watts,2048 MB ,1250 MHz
+GCN 1.1 Bonaire XT ,85 Watts,2048 MB ,1250 MHz
+GCN 1.1 Bonaire XT ,105 Watts,1024 MB ,1600 MHz
+GCN 1.1 Bonaire XT ,105 Watts,2048 MB ,1600 MHz
+GCN 1.1 Bonaire XT ,105 Watts,2048 MB ,1500 MHz
+GCN 1.1 Bonaire XT ,105 Watts,2048 MB ,1500 MHz
+GCN 1.1 Bonaire XT ,105 Watts,2048 MB ,1500 MHz
+GCN 1.1 Bonaire XT ,105 Watts,2048 MB ,1500 MHz
+GCN 1.1 Bonaire XT ,105 Watts,1024 MB ,1500 MHz
+GCN 1.1 Bonaire XT ,105 Watts,1024 MB ,1600 MHz
+GCN 1.1 Bonaire XT ,105 Watts,1024 MB ,1500 MHz
+GCN 1.1 Bonaire XT ,105 Watts,2048 MB ,1500 MHz
+GCN 1.1 Bonaire XT ,105 Watts,1024 MB ,1500 MHz
+GCN 1.1 Bonaire XT ,105 Watts,2048 MB ,1500 MHz
+GCN 1.1 Bonaire XT ,105 Watts,1024 MB ,1500 MHz
+GCN 1.1 Bonaire XT ,105 Watts,2048 MB ,1500 MHz
+GCN 1.1 Bonaire XT ,105 Watts,1024 MB ,1500 MHz
+GCN 1.1 Bonaire XT ,105 Watts,1024 MB ,1500 MHz
+GCN 1.1 Bonaire XT ,105 Watts,1024 MB ,1600 MHz
+GCN 1.1 Bonaire XT ,105 Watts,1024 MB ,1500 MHz
+GCN 1.1 Bonaire XTX ,115 Watts,2048 MB ,1650 MHz
+GCN 1.1 Bonaire XTX ,115 Watts,2048 MB ,1625 MHz
+GCN 1.1 Bonaire XTX ,115 Watts,2048 MB ,1625 MHz
+GCN 1.1 Bonaire XTX ,115 Watts,2048 MB ,1625 MHz
+GCN 1.1 Bonaire XTX ,120 Watts,2048 MB ,1650 MHz
+GCN 1.1 Bonaire XTX ,115 Watts,2048 MB ,1750 MHz
+GCN 1.1 Bonaire XTX ,115 Watts,2048 MB ,1625 MHz
+GCN 1.1 Bonaire XTX ,105 Watts,2048 MB ,1650 MHz
+GCN 1.1 Bonaire XTX (x2) ,230 Watts,4096 MB ,1625 MHz
+GCN 1.1 Bonaire XTX ,115 Watts,2048 MB ,1625 MHz
+GCN 1.1 Bonaire XTX ,115 Watts,2048 MB ,1625 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.1 Bonaire PRO ,95 Watts,2048 MB ,1500 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,120 Watts,4096 MB ,1750 MHz
+GCN 1.1 Bonaire PRO ,95 Watts,1024 MB ,1500 MHz
+GCN 1.3 Ellesmere XT ,120 Watts,4096 MB ,1750 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,1024 MB ,1300 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde XT ,83 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde XT (x2) ,160 Watts,4096 MB ,1125 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,2048 MB ,1125 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde PRO ,61 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde PRO ,75 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde PRO ,55 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,2048 MB ,1150 MHz
+GCN 1.1 Oland XT ,65 Watts,2048 MB ,800 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,2048 MB ,1125 MHz
+GCN 1.1 Oland XT ,65 Watts,2048 MB ,900 MHz
+GCN 1.1 Oland XT ,65 Watts,2048 MB ,900 MHz
+GCN 1.1 Oland XT ,65 Watts,1024 MB ,800 MHz
+GCN 1.1 Oland XT ,65 Watts,2048 MB ,900 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.1 Oland XT ,48 Watts,2048 MB ,900 MHz
+GCN 1.1 Oland XT ,65 Watts,2048 MB ,900 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT (x2) ,300 Watts,16384 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere XT ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere XT ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,4096 MB ,1750 MHz
+GCN 1.1 Oland XT ,65 Watts,1024 MB ,1150 MHz
+GCN 1.1 Oland XT ,75 Watts,1024 MB ,1150 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,4096 MB ,1650 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,4096 MB ,1750 MHz
+GCN 1.1 Oland XT (x2) ,130 Watts,2048 MB ,1150 MHz
+GCN 1.1 Oland XT ,65 Watts,2048 MB ,1150 MHz
+GCN 1.1 Oland XT ,65 Watts,1024 MB ,1150 MHz
+GCN 1.1 Oland XT ,65 Watts,1024 MB ,1150 MHz
+GCN 1.1 Oland XT ,65 Watts,1024 MB ,1150 MHz
+GCN 1.1 Oland XT ,65 Watts,2048 MB ,1150 MHz
+GCN 1.1 Oland XT ,65 Watts,1024 MB ,1150 MHz
+GCN 1.1 Oland XT (x2) ,130 Watts,2048 MB ,1150 MHz
+GCN 1.1 Oland XT ,65 Watts,1024 MB ,1150 MHz
+GCN 1.1 Oland PRO ,35 Watts,4096 MB ,667 MHz
+GCN 1.1 Oland XT ,65 Watts,2048 MB ,1150 MHz
+GCN 1.1 Oland PRO ,35 Watts,2048 MB ,800 MHz
+GCN 1.1 Oland XT ,59 Watts,1024 MB ,1150 MHz
+GCN 1.1 Oland PRO ,30 Watts,1024 MB ,1150 MHz
+GCN 1.1 Oland PRO ,30 Watts,2048 MB ,1125 MHz
+GCN 1.1 Oland PRO ,30 Watts,2048 MB ,1150 MHz
+GCN 1.1 Oland PRO ,30 Watts,1024 MB ,1125 MHz
+GCN 1.1 Oland PRO ,35 Watts,1024 MB ,900 MHz
+GCN 1.1 Oland PRO ,35 Watts,1024 MB ,900 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,4096 MB ,1750 MHz
+GCN 1.1 Oland PRO ,30 Watts,2048 MB ,900 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,8192 MB ,2000 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Ellesmere PRO ,110 Watts,4096 MB ,1650 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,4096 MB ,1650 MHz
+GCN 1.3 Ellesmere PRO ,110 Watts,4096 MB ,1650 MHz
+GCN 1.3 Ellesmere PRO ,110 Watts,8192 MB ,1650 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,4096 MB ,1650 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,4096 MB ,1650 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,4096 MB ,1650 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,4096 MB ,1650 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin PRO ,75 Watts,2048 MB ,1750 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,4096 MB ,1650 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,2048 MB ,1750 MHz
+GCN 1.3 Ellesmere PRO ,120 Watts,4096 MB ,1650 MHz
+GCN 1.3 Baffin XT ,150 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin PRO ,75 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin PRO ,75 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin PRO ,75 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin PRO ,75 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin PRO ,75 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin PRO ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin PRO ,75 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin PRO ,75 Watts,2048 MB ,1750 MHz
+GCN 1.1 Oland PRO ,30 Watts,2048 MB ,900 MHz
+GCN 1.1 Oland PRO ,35 Watts,2048 MB ,900 MHz
+GCN 1.1 Oland PRO ,35 Watts,2048 MB ,900 MHz
+GCN 1.1 Oland PRO ,30 Watts,2048 MB ,900 MHz
+GCN 1.1 Oland PRO ,30 Watts,2048 MB ,900 MHz
+GCN 1.1 Oland PRO ,35 Watts,4096 MB ,900 MHz
+GCN 1.1 Oland PRO ,35 Watts,4096 MB ,900 MHz
+GCN 1.1 Oland PRO ,30 Watts,1024 MB ,800 MHz
+GCN 1.1 Oland PRO ,35 Watts,2048 MB ,900 MHz
+Terascale 2 Caicos XT ,35 Watts,1024 MB ,900 MHz
+Terascale 2 Caicos XT ,37 Watts,1024 MB ,900 MHz
+Terascale 2 Caicos PRO-L ,19 Watts,1024 MB ,800 MHz
+Terascale 2 Caicos PRO-L ,19 Watts,2048 MB ,667 MHz
+Terascale 2 Caicos PRO-L ,19 Watts,1024 MB ,667 MHz
+Terascale 2 Caicos PRO-L ,19 Watts,2048 MB ,500 MHz
+Terascale 2 Caicos PRO-L ,19 Watts,1024 MB ,500 MHz
+Terascale 2 Caicos PRO-L ,19 Watts,2048 MB ,500 MHz
+Terascale 2 Caicos PRO-L ,19 Watts,1024 MB ,667 MHz
+Terascale 2 Caicos PRO-L ,19 Watts,2048 MB ,600 MHz
+Terascale 2 Caicos PRO-L ,19 Watts,1024 MB ,533 MHz
+Terascale 2 Caicos PRO-L ,19 Watts,1024 MB ,533 MHz
+GCN 1.3 Polaris 20 XTX ,250 Watts,32000 MB ,2000 MHz
+Terascale 2 Caicos PRO-L ,19 Watts,1024 MB ,600 MHz
+GCN 1.1 Oland XT ,30 Watts,1024 MB ,1000 MHz
+Terascale Cedar PRO ,19 Watts,1024 MB ,533 MHz
+Vega 10 XTX ,295 Watts,8192 MB ,500 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,1750 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,1750 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,195 Watts,8192 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,195 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XTX ,150 Watts,8192 MB ,2000 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,8192 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,8192 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,8192 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,8192 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,8192 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Polaris 20 XL ,120 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,4096 MB ,1750 MHz
+Polaris 10 ,75 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,45 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,80 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,2048 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,4096 MB ,1750 MHz
+GCN 1.3 Baffin XT ,75 Watts,2048 MB ,1750 MHz
+Broadwell GT3e ,65 Watts,128 MB ,933 MHz
+GCN 1.0 Malta ,375 Watts,6144 MB ,1500 MHz
+GCN 1.0 Tahiti XT (x2) ,500 Watts,6144 MB ,1375 MHz
+GCN 1.0 Malta ,375 Watts,6144 MB ,1500 MHz
+Terascale 2 Cedar PRO ,19 Watts,1024 MB ,400 MHz
+GCN 1.0 Tahiti XT ,230 Watts,3072 MB ,1425 MHz
+Fermi GF100 (x2) ,600 Watts,12288 MB ,750 MHz
+G92 (x4) ,385 Watts,2048 MB ,1000 MHz
+Kepler GK110 ,225 Watts,12288 MB ,1502 MHz
+Maxwell GM204-200-A1 ,120 Watts,8192 MB ,1502 MHz
+Kepler GK110 ,150 Watts,8192 MB ,1000 MHz
+Kepler GK104 ,122 Watts,4096 MB ,1350 MHz
+Maxwell GM107 ,45 Watts,1024 MB ,900 MHz
+Kepler GK104 ,108 Watts,4096 MB ,1350 MHz
+Maxwell GM107 ,68 Watts,4096 MB ,1250 MHz
+Kepler GK107-301-A2 ,41 Watts,1024 MB ,905 MHz
+Kepler GK107-301-A2 ,41 Watts,1024 MB ,905 MHz
+Kepler GK107-301-A2 ,41 Watts,1024 MB ,900 MHz
+Fermi GF100 ,204 Watts,6144 MB ,747 MHz
+Fermi GF100-100-KD ,142 Watts,2048 MB ,702 MHz
+Fermi GF106-875-A1 ,62 Watts,1024 MB ,650 MHz
+Tesla G92-420-B1 ,141 Watts,512 MB ,1100 MHz
+G92 (x2) ,197 Watts,1024 MB ,1000 MHz
+Fermi GF106-875-A1 ,62 Watts,1024 MB ,650 MHz
+Fermi GF100-850-A3 ,152 Watts,2560 MB ,750 MHz
+Tesla G80 ,172 Watts,768 MB ,1080 MHz
+Tesla G92-270-A2 (x2) ,200 Watts,2048 MB ,900 MHz
+Tesla G92-270-A2 ,75 Watts,512 MB ,900 MHz
+G92 (x2) ,280 Watts,1024 MB ,1100 MHz
+Tesla G92-420-A2 ,140 Watts,512 MB ,1100 MHz
+Tesla G92-270-A2 ,105 Watts,512 MB ,900 MHz
+Tesla G94-300-A1 ,50 Watts,512 MB ,400 MHz
+Tesla G92-270-A2 ,105 Watts,1024 MB ,900 MHz
+G92 ,84 Watts,768 MB ,800 MHz
+Tesla G94-300-A1 ,95 Watts,512 MB ,900 MHz
+G92 ,90 Watts,512 MB ,900 MHz
+Tesla G96C ,50 Watts,512 MB ,800 MHz
+G92 ,84 Watts,384 MB ,800 MHz
+Tesla G94-300-A1 ,95 Watts,1024 MB ,900 MHz
+G96a/b ,50 Watts,512 MB ,400 MHz
+G71 ,49 Watts,256 MB ,660 MHz
+Tesla G80 ,143 Watts,640 MB ,792 MHz
+Tesla G80 ,158 Watts,768 MB ,900 MHz
+Tesla G92 ,135 Watts,512 MB ,800 MHz
+G92 (x2) ,270 Watts,1024 MB ,800 MHz
+Tesla G80 ,143 Watts,640 MB ,900 MHz
+Tesla G92-270-A2 ,105 Watts,512 MB ,900 MHz
+Tesla G84 ,47 Watts,512 MB ,400 MHz
+Tesla G84 ,75 Watts,512 MB ,1000 MHz
+Tesla G84 ,75 Watts,256 MB ,1000 MHz
+G92 ,105 Watts,384 MB ,800 MHz
+Tesla G84 ,75 Watts,512 MB ,400 MHz
+Tesla G84 ,47 Watts,256 MB ,700 MHz
+Tesla G84 ,46 Watts,512 MB ,700 MHz
+Tesla G86 ,30 Watts,1024 MB ,400 MHz
+Tesla G86 ,30 Watts,256 MB ,400 MHz
+G84 ,47 Watts,256 MB ,400 MHz
+Tesla GT218 ,40 Watts,1024 MB ,600 MHz
+Tesla GT218 ,40 Watts,512 MB ,500 MHz
+Tesla GT218 ,25 Watts,512 MB ,400 MHz
+Tesla G86 ,18 Watts,256 MB ,400 MHz
+Tesla G86 ,40 Watts,512 MB ,800 MHz
+Tesla G98 ,25 Watts,512 MB ,400 MHz
+G86 ,21 Watts,256 MB ,400 MHz
+Terascale 2 Antilles (x2) ,750 Watts,8192 MB ,1250 MHz
+Terascale 3 Antilles ,375 Watts,4096 MB ,1250 MHz
+Terascale 3 Antilles ,375 Watts,4096 MB ,1250 MHz
+Terascale 3 Cayman XT ,250 Watts,2048 MB ,1400 MHz
+Terascale 3 Cayman XT ,250 Watts,2048 MB ,1375 MHz
+Terascale 3 Cayman XT ,250 Watts,2048 MB ,1375 MHz
+Terascale 3 Cayman XT ,250 Watts,2048 MB ,1375 MHz
+Terascale 3 Cayman XT ,250 Watts,2048 MB ,1375 MHz
+Terascale 3 Cayman XT ,250 Watts,2048 MB ,1375 MHz
+Terascale 3 Cayman XT ,250 Watts,2048 MB ,1375 MHz
+Terascale 3 Cayman XT (x2) ,550 Watts,2048 MB ,1375 MHz
+Terascale 3 Cayman XT ,250 Watts,2048 MB ,1375 MHz
+Terascale 3 Cayman XT ,250 Watts,2048 MB ,1375 MHz
+Terascale 3 Cayman Pro ,200 Watts,2048 MB ,1250 MHz
+Terascale 3 Cayman Pro ,200 Watts,2048 MB ,1250 MHz
+Terascale 3 Cayman Pro ,200 Watts,2048 MB ,1250 MHz
+Terascale 3 Cayman Pro ,200 Watts,1024 MB ,1250 MHz
+Cayman Pro ,400 Watts,4096 MB ,1250 MHz
+Terascale 3 Cayman Pro ,200 Watts,1024 MB ,1250 MHz
+Terascale 2 Barts XT ,150 Watts,2048 MB ,1050 MHz
+Terascale 2 Barts XT ,251 Watts,1024 MB ,1050 MHz
+Terascale 3 Cayman Pro ,200 Watts,2048 MB ,1250 MHz
+Terascale 2 Barts XT ,151 Watts,1024 MB ,1150 MHz
+Terascale 2 Barts XT ,225 Watts,1024 MB ,1050 MHz
+Terascale 2 Barts XT (x2) ,302 Watts,2048 MB ,1050 MHz
+Terascale 2 Barts XT ,251 Watts,1024 MB ,1050 MHz
+Terascale 2 Barts XT ,151 Watts,1024 MB ,1050 MHz
+Terascale 2 Barts Pro ,127 Watts,1024 MB ,1000 MHz
+Terascale 2 Barts Pro ,1 Watts,1024 MB ,1100 MHz
+Terascale 2 Barts Pro ,127 Watts,1024 MB ,1000 MHz
+Terascale 2 Barts LE ,150 Watts,1024 MB ,1050 MHz
+Terascale 2 Juniper XT ,108 Watts,1024 MB ,1200 MHz
+Terascale 2 Juniper XT ,108 Watts,1024 MB ,1200 MHz
+Terascale 2 Juniper XT ,108 Watts,1024 MB ,1200 MHz
+Juniper XT ,206 Watts,2048 MB ,1200 MHz
+Terascale 2 Juniper XT ,108 Watts,1024 MB ,1200 MHz
+Terascale 2 Juniper XT ,108 Watts,1024 MB ,1200 MHz
+Terascale 2 Juniper PRO ,86 Watts,2048 MB ,800 MHz
+Terascale 2 Juniper PRO ,86 Watts,1024 MB ,1150 MHz
+Terascale 2 Juniper PRO ,86 Watts,1024 MB ,800 MHz
+Terascale 2 Juniper PRO ,86 Watts,1024 MB ,1000 MHz
+Terascale 2 Juniper PRO ,86 Watts,2048 MB ,667 MHz
+Terascale 2 Juniper PRO ,86 Watts,1024 MB ,1150 MHz
+Terascale 2 Juniper PRO ,86 Watts,1024 MB ,1150 MHz
+Terascale 2 Turks XT ,66 Watts,1024 MB ,1000 MHz
+Terascale 2 Turks XT ,66 Watts,1024 MB ,900 MHz
+Terascale 2 Juniper PRO ,86 Watts,1024 MB ,1200 MHz
+Terascale 2 Turks XT ,66 Watts,2048 MB ,667 MHz
+Terascale 2 Turks XT ,66 Watts,1024 MB ,800 MHz
+Terascale 2 Turks XT ,66 Watts,2048 MB ,600 MHz
+Terascale 2 Turks XT ,66 Watts,2048 MB ,800 MHz
+Terascale 2 Turks XT ,66 Watts,1024 MB ,800 MHz
+Terascale 2 Turks XT ,66 Watts,1024 MB ,1000 MHz
+Terascale 2 Turks XT ,66 Watts,1024 MB ,800 MHz
+Terascale 2 Turks XT ,66 Watts,1024 MB ,1000 MHz
+Terascale 2 Turks XT ,66 Watts,2048 MB ,800 MHz
+Terascale 2 Turks XT ,66 Watts,1024 MB ,1000 MHz
+Terascale 2 Turks XT ,66 Watts,1024 MB ,1000 MHz
+Terascale 2 Turks XT ,66 Watts,1024 MB ,1000 MHz
+Terascale 2 Turks PRO-L ,44 Watts,1024 MB ,650 MHz
+Terascale 2 Turks PRO-L ,44 Watts,1024 MB ,667 MHz
+Terascale 2 Turks PRO-L ,44 Watts,2048 MB ,500 MHz
+Terascale 2 Turks XT ,66 Watts,1024 MB ,1000 MHz
+Terascale 2 Turks PRO-L ,44 Watts,1024 MB ,900 MHz
+Terascale 2 Turks XT ,66 Watts,1024 MB ,1000 MHz
+Terascale 2 Turks PRO-L ,44 Watts,1024 MB ,500 MHz
+Terascale 2 Turks PRO-L ,44 Watts,1024 MB ,800 MHz
+Terascale 2 Turks PRO-L ,44 Watts,1024 MB ,667 MHz
+Terascale 2 Turks PRO-L ,44 Watts,1024 MB ,900 MHz
+Terascale 2 Turks PRO-L ,44 Watts,4096 MB ,800 MHz
+Terascale 2 Caicos XT ,18 Watts,2048 MB ,580 MHz
+Terascale 2 Caicos PRO ,25 Watts,1024 MB ,533 MHz
+Terascale 2 Caicos PRO ,18 Watts,1024 MB ,800 MHz
+Terascale 2 Caicos PRO ,18 Watts,2048 MB ,667 MHz
+Terascale 2 Caicos PRO ,18 Watts,1024 MB ,800 MHz
+Terascale 2 Caicos PRO ,18 Watts,2048 MB ,667 MHz
+Terascale 2 Caicos PRO ,18 Watts,512 MB ,533 MHz
+Terascale 2 Caicos PRO ,18 Watts,512 MB ,800 MHz
+Terascale 2 Caicos XT ,18 Watts,512 MB ,900 MHz
+Terascale 2 Caicos PRO ,18 Watts,512 MB ,800 MHz
+Terascale 2 Caicos PRO ,18 Watts,1024 MB ,600 MHz
+Terascale Cedar PRO ,19 Watts,512 MB ,800 MHz
+Terascale 2 Turks PRO ,60 Watts,1024 MB ,1000 MHz
+Terascale 2 Caicos PRO ,18 Watts,1024 MB ,667 MHz
+Terascale Cedar LE ,19 Watts,1024 MB ,800 MHz
+G73 GL ,30 Watts,128 MB ,600 MHz
+Terascale 2 Caicos PRO ,18 Watts,1024 MB ,667 MHz
+Hemlock XT ,294 Watts,4096 MB ,1000 MHz
+Terascale 2 Cypress XT ,188 Watts,1024 MB ,1200 MHz
+Hemlock XT ,588 Watts,4096 MB ,1000 MHz
+Evergreen Cypress XT ,350 Watts,2048 MB ,1200 MHz
+Terascale 2 Cypress XT ,300 Watts,1024 MB ,1200 MHz
+Terascale 2 Cypress XT ,195 Watts,2048 MB ,1200 MHz
+Terascale 2 Cypress PRO ,151 Watts,1024 MB ,1125 MHz
+Terascale 2 Cypress PRO ,151 Watts,1024 MB ,1050 MHz
+Terascale 2 Cypress PRO ,151 Watts,1024 MB ,1000 MHz
+Terascale 2 Cypress XT ,188 Watts,1024 MB ,1200 MHz
+Evergreen Cypress LE ,175 Watts,1024 MB ,1000 MHz
+Terascale 2 Juniper XT ,108 Watts,1024 MB ,1200 MHz
+Evergreen Cypress PRO ,300 Watts,2048 MB ,1000 MHz
+Terascale 2 Cypress PRO ,151 Watts,1024 MB ,1000 MHz
+Juniper XT ,206 Watts,2048 MB ,1200 MHz
+Terascale 2 Cypress PRO ,185 Watts,2048 MB ,1000 MHz
+Terascale 2 Juniper XT ,108 Watts,1024 MB ,1200 MHz
+Terascale 2 Cypress PRO ,151 Watts,1024 MB ,1125 MHz
+Terascale 2 Cypress PRO ,151 Watts,1024 MB ,1000 MHz
+Terascale 2 Juniper XT ,150 Watts,1024 MB ,1200 MHz
+Terascale 2 Juniper XT ,108 Watts,512 MB ,1200 MHz
+Evergreen Juniper PRO ,86 Watts,512 MB ,1150 MHz
+Evergreen Juniper PRO ,86 Watts,1024 MB ,1150 MHz
+Terascale 2 Juniper XT ,108 Watts,1024 MB ,1200 MHz
+Evergreen Redwood XT ,64 Watts,1024 MB ,800 MHz
+Terascale 2 Redwood XT ,64 Watts,1024 MB ,1000 MHz
+Terascale 2 Redwood XT ,64 Watts,1024 MB ,1000 MHz
+Evergreen Redwood XT ,64 Watts,1024 MB ,800 MHz
+Evergreen Redwood PRO ,39 Watts,512 MB ,900 MHz
+Evergreen Redwood XT ,61 Watts,512 MB ,1000 MHz
+Evergreen Redwood PRO ,42 Watts,1024 MB ,900 MHz
+Terascale 2 Cedar PRO ,19 Watts,256 MB ,400 MHz
+Evergreen Redwood LE ,39 Watts,1024 MB ,1000 MHz
+Evergreen Redwood LE ,39 Watts,512 MB ,1000 MHz
+GCN 1.0 Tahiti XT ,300 Watts,3072 MB ,1375 MHz
+Terascale 2 Cedar PRO ,40 Watts,2048 MB ,400 MHz
+GCN 1.0 Tahiti XT ,250 Watts,3072 MB ,1425 MHz
+Terascale 2 Cedar PRO ,20 Watts,512 MB ,400 MHz
+GCN 1.0 Tahiti XT ,230 Watts,3072 MB ,1425 MHz
+GCN 1.0 Tahiti XT ,250 Watts,3072 MB ,1425 MHz
+GCN 1.0 Tahiti XT2 ,265 Watts,6144 MB ,1500 MHz
+GCN 1.0 Tahiti XT ,230 Watts,3072 MB ,1375 MHz
+GCN 1.0 Tahiti XT2 ,300 Watts,3072 MB ,1500 MHz
+GCN 1.0 Tahiti XT2 ,250 Watts,3072 MB ,1500 MHz
+GCN 1.0 Tahiti XT ,230 Watts,3072 MB ,1400 MHz
+GCN 1.0 Tahiti XT ,300 Watts,3072 MB ,1400 MHz
+GCN 1.0 Tahiti XT2 ,250 Watts,3072 MB ,1500 MHz
+GCN 1.0 Tahiti XT ,300 Watts,3072 MB ,1375 MHz
+GCN 1.0 Tahiti XT ,250 Watts,3072 MB ,1375 MHz
+GCN 1.0 Malta ,500 Watts,6144 MB ,1650 MHz
+GCN 1.0 Tahiti XT2 ,300 Watts,3072 MB ,1650 MHz
+GCN 1.0 Tahiti XT (x2) ,460 Watts,6144 MB ,1375 MHz
+GCN 1.0 Tahiti PRO ,200 Watts,3072 MB ,1250 MHz
+GCN 1.0 Tahiti PRO2 ,200 Watts,3072 MB ,1250 MHz
+GCN 1.0 Tahiti PRO ,200 Watts,3072 MB ,1375 MHz
+GCN 1.0 Tahiti PRO ,160 Watts,3072 MB ,1250 MHz
+GCN 1.0 Tahiti PRO ,225 Watts,3072 MB ,1250 MHz
+GCN 1.0 Tahiti PRO (x2) ,360 Watts,6144 MB ,1250 MHz
+GCN 1.0 Tahiti PRO ,200 Watts,3072 MB ,1250 MHz
+GCN 1.0 Tahiti PRO (x3) ,540 Watts,9216 MB ,1250 MHz
+GCN 1.0 Tahiti PRO2 ,200 Watts,3072 MB ,1250 MHz
+GCN 1.0 Tahiti PRO ,225 Watts,3072 MB ,1250 MHz
+GCN 1.0 Tahiti LE ,185 Watts,2048 MB ,1500 MHz
+GCN 1.0 Tahiti PRO ,200 Watts,3072 MB ,1250 MHz
+GCN 1.0 Tahiti LE (x2) ,350 Watts,4096 MB ,1500 MHz
+GCN 1.0 Tahiti LE ,185 Watts,2048 MB ,1500 MHz
+GCN 1.0 Pitcairn XT ,175 Watts,2048 MB ,1225 MHz
+GCN 1.0 Pitcairn XT ,175 Watts,2048 MB ,1200 MHz
+GCN 1.0 Pitcairn XT ,175 Watts,2048 MB ,1200 MHz
+GCN 1.0 Pitcairn XT ,175 Watts,2048 MB ,1200 MHz
+GCN 1.0 Pitcairn XT (x2) ,350 Watts,4096 MB ,1200 MHz
+GCN 1.0 Pitcairn XT ,175 Watts,2048 MB ,1200 MHz
+GCN 1.0 Pitcairn XT ,175 Watts,2048 MB ,1200 MHz
+GCN 1.0 Pitcairn XT ,175 Watts,2048 MB ,1200 MHz
+GCN 1.0 Pitcairn XT ,175 Watts,2048 MB ,1200 MHz
+GCN 1.0 Pitcairn PRO ,130 Watts,2048 MB ,1200 MHz
+GCN 1.0 Pitcairn PRO ,130 Watts,2048 MB ,1250 MHz
+GCN 1.0 Pitcairn PRO ,130 Watts,2048 MB ,1200 MHz
+GCN 1.0 Pitcairn PRO ,130 Watts,2048 MB ,1200 MHz
+GCN 1.0 Pitcairn PRO ,130 Watts,2048 MB ,1200 MHz
+GCN 1.0 Pitcairn PRO ,150 Watts,2048 MB ,1200 MHz
+GCN 1.0 Pitcairn PRO (x2) ,260 Watts,4096 MB ,1200 MHz
+GCN 1.0 Pitcairn PRO ,130 Watts,1024 MB ,1200 MHz
+GCN 1.0 Pitcairn PRO ,130 Watts,2048 MB ,1200 MHz
+GCN 1.0 Pitcairn PRO ,130 Watts,2048 MB ,1200 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,1024 MB ,1125 MHz
+GCN 1.0 Bonaire XT ,85 Watts,1024 MB ,1500 MHz
+GCN 1.0 Bonaire XT (x2) ,170 Watts,2048 MB ,1500 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,1024 MB ,1250 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde XT ,150 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde XT ,150 Watts,1024 MB ,1150 MHz
+GCN 1.0 Cape Verde XT ,150 Watts,2048 MB ,1150 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,2048 MB ,1125 MHz
+GCN 1.0 Cape Verde XT (x2) ,160 Watts,2048 MB ,1125 MHz
+GCN 1.0 Cape Verde PRO ,55 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde PRO ,55 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde PRO ,55 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde PRO ,61 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde PRO (x2) ,110 Watts,2048 MB ,1125 MHz
+GCN 1.0 Cape Verde PRO ,55 Watts,1024 MB ,1125 MHz
+GCN 1.0 Cape Verde LE ,47 Watts,1024 MB ,900 MHz
+GCN 1.0 Cape Verde LE ,47 Watts,4096 MB ,650 MHz
+GCN 1.0 Cape Verde LE ,47 Watts,2048 MB ,900 MHz
+GCN 1.0 Cape Verde LE ,47 Watts,2048 MB ,800 MHz
+Terascale 2 Barts LE ,150 Watts,1024 MB ,1050 MHz
+GCN 1.0 Cape Verde LE ,47 Watts,2048 MB ,900 MHz
+GCN 1.0 Cape Verde PRO ,75 Watts,1024 MB ,1150 MHz
+GCN 1.0 Cape Verde LE ,47 Watts,1024 MB ,1125 MHz
+Terascale 2 Turks XT ,66 Watts,2048 MB ,800 MHz
+Terascale 2 Turks PRO ,60 Watts,1024 MB ,800 MHz
+Terascale 2 Turks XT ,66 Watts,1024 MB ,1000 MHz
+Terascale 2 Turks PRO-L ,60 Watts,1024 MB ,800 MHz
+Terascale 2 Turks PRO-L ,44 Watts,1024 MB ,900 MHz
+Terascale 2 Caicos XT ,18 Watts,512 MB ,900 MHz
+Terascale Cedar PRO ,19 Watts,512 MB ,800 MHz
+Terascale 2 Caicos PRO ,18 Watts,512 MB ,533 MHz
+GCN 1.1 Curacao PRO ,150 Watts,2048 MB ,1400 MHz
+GCN 1.0 Pitcairn XT ,175 Watts,2048 MB ,1200 MHz
+GCN 1.0 Bonaire XT ,85 Watts,1024 MB ,1500 MHz
+GCN 1.0 Tahiti XT ,250 Watts,3072 MB ,1375 MHz
+GCN 1.1 Tahiti PRO2 ,200 Watts,3072 MB ,1250 MHz
+GCN 1.0 Cape Verde PRO ,55 Watts,2048 MB ,1125 MHz
+GCN 1.0 Cape Verde XT ,80 Watts,2048 MB ,1125 MHz
+GCN 1.1 Oland XT ,75 Watts,2048 MB ,1150 MHz
+Terascale 2 Caicos PRO ,18 Watts,512 MB ,533 MHz
+Terascale 2 Caicos XT ,18 Watts,512 MB ,900 MHz
+Terascale Cedar PRO ,25 Watts,512 MB ,800 MHz
+GCN 1.1 Oland PRO ,30 Watts,2048 MB ,900 MHz
+NV38 ,74 Watts,256 MB ,475 MHz
+Fermi GF119-300-A1 ,29 Watts,1024 MB ,825 MHz
+Fermi GF110 ,365 Watts,3072 MB ,854 MHz
+Tesla G200-400-B3 (x2) ,289 Watts,1792 MB ,1008 MHz
+Fermi GF100-375-A3 (x2) ,500 Watts,3072 MB ,924 MHz
+Tesla G200-400-B3 (x2) ,289 Watts,1792 MB ,1053 MHz
+Kepler GK104-355-A2 (x2) ,600 Watts,8192 MB ,1502 MHz
+Kepler GK104-400-A2 ,195 Watts,4096 MB ,1502 MHz
+Kepler GK104-355-A2 ,300 Watts,4096 MB ,1500 MHz
+Kepler GK104-355-A2 ,385 Watts,4096 MB ,1502 MHz
+Maxwell GM204-400-A1 ,200 Watts,4096 MB ,1762 MHz
+Kepler GK104-400-A2 ,195 Watts,4096 MB ,1502 MHz
+Kepler GK104-400-A2 (x4) ,780 Watts,8192 MB ,1502 MHz
+Kepler GK104-400-A2 ,195 Watts,2048 MB ,1502 MHz
+Kepler GK104-400-A2 ,195 Watts,4096 MB ,1502 MHz
+Kepler GK104-400-A2 ,195 Watts,4096 MB ,1502 MHz
+Kepler GK104-400-A2 ,215 Watts,2048 MB ,1575 MHz
+Kepler GK104-400-A2 ,215 Watts,4096 MB ,1502 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+ Kepler GK104-400-A2 (x2) ,390 Watts,4096 MB ,1502 MHz
+Pascal P104-400-A1 ,250 Watts,8192 MB ,1251 MHz
+Pascal P102 ,220 Watts,11264 MB ,1402 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,250 Watts,8192 MB ,1350 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Tesla G200-400-B3 (x2) ,289 Watts,1792 MB ,999 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,250 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1390 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,250 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1426 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1426 MHz
+Pascal P102 ,220 Watts,11264 MB ,1426 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1426 MHz
+Pascal P102 ,250 Watts,11264 MB ,1376 MHz
+Pascal P102 ,250 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1404 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1388 MHz
+Pascal P102 ,220 Watts,11264 MB ,1388 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P104-400-A1 ,200 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 (x2) ,360 Watts,16384 MB ,1251 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1250 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1263 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,200 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1263 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1250 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,215 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P102 ,220 Watts,11264 MB ,1376 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,300 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,300 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2125 MHz
+Pascal P104-200-A1 ,220 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2027 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2125 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2052 MHz
+Pascal P104-400-A1 ,180 Watts,8192 MB ,1251 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2027 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2127 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2127 MHz
+Pascal P104-200-A1 ,180 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2027 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2027 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2052 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P104-200-A1 ,150 Watts,8192 MB ,2127 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2052 MHz
+Pascal P106-400-A1 ,130 Watts,6144 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2027 MHz
+Pascal P106-400-A1 ,140 Watts,6144 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-400-A1 ,120 Watts,6144 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P106-300-A1 ,120 Watts,3072 MB ,2002 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,4096 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Pascal ,30 Watts,2048 MB ,1000 MHz
+Pascal P107 ,75 Watts,2048 MB ,1752 MHz
+Kepler GK104-400-A2 ,195 Watts,2048 MB ,1502 MHz
+Kepler GK104-400-A2 ,195 Watts,4096 MB ,1502 MHz
+Kepler GK104-400-A2 ,195 Watts,2048 MB ,1575 MHz
+Kepler GK104-400-A2 ,195 Watts,4096 MB ,1502 MHz
+Kepler GK104-400-A2 ,195 Watts,2048 MB ,1502 MHz
+Kepler GK104-400-A2 ,195 Watts,2048 MB ,1502 MHz
+Kepler GK104-400-A2 ,195 Watts,4096 MB ,1502 MHz
+Kepler GK104-400-A2 ,195 Watts,4096 MB ,1502 MHz
+Kepler GK104-400-A2 ,195 Watts,2048 MB ,1552 MHz
+Kepler GK104-400-A2 ,195 Watts,2048 MB ,1552 MHz
+Kepler GK104-400-A2 ,195 Watts,2048 MB ,1502 MHz
+Kepler GK104-400-A2 ,195 Watts,2048 MB ,1552 MHz
+Kepler GK104-400-A2 ,225 Watts,4096 MB ,1502 MHz
+Kepler GK104-400-A2 ,195 Watts,2048 MB ,1502 MHz
+Kepler GK104-325-A2 (x2) ,340 Watts,4096 MB ,1502 MHz
+Kepler GK104-325-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-325-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-325-A2 ,185 Watts,2048 MB ,1527 MHz
+Kepler GK104-325-A2 ,180 Watts,4096 MB ,1502 MHz
+Kepler GK104-325-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-325-A2 ,180 Watts,2048 MB ,1502 MHz
+Kepler GK104-325-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-325-A2 ,170 Watts,4096 MB ,1502 MHz
+Kepler GK104-325-A2 ,170 Watts,4096 MB ,1502 MHz
+Kepler GK104-325-A2 ,225 Watts,2048 MB ,1552 MHz
+Kepler GK104-325-A2 ,170 Watts,2048 MB ,1552 MHz
+Kepler GK104-325-A2 ,170 Watts,4096 MB ,1502 MHz
+Kepler GK104-325-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-325-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-325-A2 (x2) ,450 Watts,4096 MB ,1552 MHz
+Kepler GK104-325-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-325-A2 (x2) ,340 Watts,4096 MB ,1502 MHz
+Kepler GK104-325-A2 ,170 Watts,4096 MB ,1502 MHz
+Kepler GK104-325-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK106-400-A1 ,140 Watts,2048 MB ,1502 MHz
+Kepler GK106-450-A1 ,140 Watts,2048 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,2048 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,2048 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,3072 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,3072 MB ,1502 MHz
+Kepler GK104-200-KD-A2 (x2) ,300 Watts,4096 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,190 Watts,2048 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,2048 MB ,1502 MHz
+Kepler GK104 ,300 Watts,4096 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,2048 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,3072 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,2048 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,2048 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,160 Watts,2048 MB ,1527 MHz
+Kepler GK104-300-KD-A2 (x2) ,300 Watts,4096 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,3072 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,3072 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,2048 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,2048 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,2048 MB ,1525 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,2048 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,225 Watts,2048 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,2048 MB ,1502 MHz
+Kepler GK104-200-KD-A2 (x3) ,450 Watts,6144 MB ,1502 MHz
+Kepler GK106-400-A1 ,140 Watts,2048 MB ,1527 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,2048 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,225 Watts,2048 MB ,1502 MHz
+Kepler GK104-300-KD-A2 ,150 Watts,2048 MB ,1702 MHz
+Kepler GK106-400-A1 ,140 Watts,2048 MB ,1502 MHz
+Kepler GK106-400-A1 (x2) ,280 Watts,4096 MB ,1502 MHz
+Kepler GK106-400-A1 ,140 Watts,2048 MB ,1502 MHz
+Kepler GK106-400-A1 ,140 Watts,3072 MB ,1502 MHz
+Kepler GK106-400-A1 (x2) ,260 Watts,4096 MB ,1502 MHz
+Kepler GK106-400-A1 ,280 Watts,6144 MB ,1502 MHz
+Kepler GK106-400-A1 ,140 Watts,2048 MB ,1502 MHz
+Kepler GK106-400-A1 ,140 Watts,2048 MB ,1502 MHz
+Kepler GK106-400-A1 ,140 Watts,3072 MB ,1502 MHz
+Kepler GK106-400-A1 ,140 Watts,2048 MB ,1502 MHz
+Kepler GK106-400-A1 ,140 Watts,3072 MB ,1502 MHz
+Kepler GK107-450-A2 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK104-200-KD-A2 ,130 Watts,3072 MB ,1400 MHz
+Kepler GK104-200-KD-A2 ,130 Watts,1536 MB ,1400 MHz
+Kepler GK106-240-A1 ,140 Watts,2048 MB ,1502 MHz
+Kepler GK106-220-A1 ,110 Watts,2048 MB ,1350 MHz
+Kepler GK106-400-A1 ,140 Watts,2048 MB ,1502 MHz
+Kepler GK106-400-A1 ,140 Watts,2048 MB ,1502 MHz
+Kepler GK106-240-A1 ,140 Watts,2048 MB ,1502 MHz
+Kepler GK106-220-A1 ,110 Watts,2048 MB ,1350 MHz
+Kepler GK106-220-A1 ,100 Watts,1024 MB ,1375 MHz
+Kepler GK106-220-A1 ,100 Watts,1024 MB ,1350 MHz
+Kepler GK106-220-A1 ,110 Watts,1024 MB ,1350 MHz
+Kepler GK106-240-A1 ,140 Watts,2048 MB ,1502 MHz
+Kepler GK106-220-A1 ,150 Watts,2048 MB ,1350 MHz
+Kepler GK106-240-A1 ,140 Watts,1024 MB ,1253 MHz
+Kepler GK106-220-A1 ,150 Watts,1024 MB ,1350 MHz
+Kepler GK106-240-A1 ,140 Watts,2048 MB ,1527 MHz
+Kepler GK106-220-A1 ,150 Watts,1024 MB ,1350 MHz
+Kepler GK106-240-A1 ,134 Watts,1024 MB ,1253 MHz
+Kepler GK106-240-A1 ,140 Watts,2048 MB ,1502 MHz
+Kepler GK106-240-A1 ,140 Watts,2048 MB ,1502 MHz
+Kepler GK106-220-A1 ,110 Watts,1024 MB ,1350 MHz
+Kepler GK106-240-A1 ,134 Watts,2048 MB ,1502 MHz
+Kepler GK106-220-A1 (x2) ,268 Watts,4096 MB ,1502 MHz
+Kepler GK106-220-A1 ,110 Watts,1024 MB ,1350 MHz
+Kepler GK106-240-A1 ,150 Watts,2048 MB ,1502 MHz
+Kepler GK107-450-A2 ,65 Watts,1024 MB ,1250 MHz
+Kepler GK107-450-A2 ,65 Watts,2048 MB ,1250 MHz
+Kepler GK107-450-A2 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK107-450-A2 ,75 Watts,2048 MB ,1250 MHz
+Kepler GK107-450-A2 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK107-450-A2 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK107-450-A2 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK107-450-A2 ,65 Watts,1024 MB ,1250 MHz
+Kepler GK107-450-A2 ,64 Watts,2048 MB ,1250 MHz
+Kepler GK107-450-A2 ,84 Watts,1024 MB ,1250 MHz
+Kepler GK107-450-A2 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK107-450-A2 ,75 Watts,2048 MB ,1250 MHz
+Kepler GK107-450-A2 ,150 Watts,1024 MB ,1275 MHz
+Kepler GK107-450-A2 ,64 Watts,2048 MB ,1250 MHz
+Kepler GK107-450-A2 ,75 Watts,2048 MB ,1250 MHz
+Kepler GK107-450-A2 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK107-300-A2 ,65 Watts,2048 MB ,891 MHz
+Kepler GK208-400-A1 ,49 Watts,1024 MB ,1252 MHz
+Kepler GK208-400-A1 ,49 Watts,2048 MB ,1252 MHz
+Kepler GK208-400-A1 ,49 Watts,1024 MB ,1252 MHz
+Kepler GK107-300-A2 ,49 Watts,1024 MB ,1250 MHz
+Kepler GK107-300-A2 ,65 Watts,2048 MB ,810 MHz
+Kepler GK208-400-A1 ,49 Watts,2048 MB ,1252 MHz
+Kepler GK107-300-A2 ,65 Watts,2048 MB ,800 MHz
+Kepler GK106 ,65 Watts,1024 MB ,1000 MHz
+Kepler GK107-300-A2 ,65 Watts,2048 MB ,900 MHz
+Kepler GK107-300-A2 ,65 Watts,1024 MB ,891 MHz
+Kepler GK107-300-A2 ,65 Watts,4096 MB ,667 MHz
+Kepler GK107-300-A2 ,65 Watts,2048 MB ,891 MHz
+Kepler GK107-300-A2 ,65 Watts,2048 MB ,891 MHz
+Fermi GF108-400-A1 ,65 Watts,1024 MB ,667 MHz
+Kepler GK208-301-A1 ,25 Watts,4096 MB ,800 MHz
+Kepler GK208-301-A1 ,35 Watts,2048 MB ,1001 MHz
+Kepler GK107-301-A2 ,50 Watts,2048 MB ,905 MHz
+Fermi GF108-400-A1 ,65 Watts,1024 MB ,800 MHz
+Kepler GK208-301-A1 ,25 Watts,2048 MB ,900 MHz
+Fermi GF108-400-A1 ,65 Watts,2048 MB ,667 MHz
+Fermi GF108-400-A1 ,65 Watts,1024 MB ,700 MHz
+Fermi GF108-400-A1 ,65 Watts,4096 MB ,1000 MHz
+Fermi GF108-400-A1 ,65 Watts,2048 MB ,800 MHz
+Kepler GK208-301-A1 ,25 Watts,2048 MB ,900 MHz
+Fermi GF108-400-A1 ,65 Watts,4096 MB ,533 MHz
+Fermi GF108-400-A1 ,65 Watts,1024 MB ,800 MHz
+Fermi GF108-400-A1 ,65 Watts,2048 MB ,535 MHz
+Fermi GF108-100-KB-A1 ,49 Watts,2048 MB ,533 MHz
+Fermi GF108-100-KB-A1 ,49 Watts,2048 MB ,500 MHz
+Fermi GF119-300-A1 ,30 Watts,1024 MB ,898 MHz
+Fermi GF108-100-KB-A1 ,30 Watts,1024 MB ,535 MHz
+Fermi GF108-400-A1 ,65 Watts,1024 MB ,900 MHz
+Fermi GF119-300-A1 ,29 Watts,2048 MB ,500 MHz
+Fermi GF119-300-A1 ,29 Watts,2048 MB ,533 MHz
+Fermi GF119-300-A1 ,29 Watts,2048 MB ,535 MHz
+Fermi GF108-100-KB-A1 ,49 Watts,1024 MB ,900 MHz
+Fermi GF119-300-A1 ,29 Watts,2048 MB ,667 MHz
+Fermi GF119-300-A1 ,29 Watts,2048 MB ,600 MHz
+Fermi GF119-B1 ,29 Watts,1024 MB ,500 MHz
+Fermi GF119-B1 ,25 Watts,512 MB ,898 MHz
+Fermi GF119-300-A1 ,29 Watts,1024 MB ,900 MHz
+Fermi GF119-B1 ,25 Watts,1024 MB ,898 MHz
+Tesla GT200 B3 (x2) ,408 Watts,2048 MB ,1242 MHz
+Tesla G200-400-B3 (x2) ,289 Watts,1792 MB ,999 MHz
+Tesla G200-350-B3 ,204 Watts,1024 MB ,1242 MHz
+Tesla G200-105-B3 ,219 Watts,896 MB ,1134 MHz
+Tesla G200-400-B3 (x2) ,500 Watts,4096 MB ,1100 MHz
+Tesla G200-302-A2 ,236 Watts,1024 MB ,1107 MHz
+Tesla GT200 B3 (x2) ,430 Watts,1792 MB ,1134 MHz
+Tesla G200-103-B2 ,171 Watts,896 MB ,1050 MHz
+Tesla G200-103-B2 ,171 Watts,896 MB ,1100 MHz
+Tesla G200-103-B2 ,182 Watts,1792 MB ,1008 MHz
+Tesla G200-103-B2 ,171 Watts,896 MB ,1100 MHz
+Tesla G200-103-B2 ,171 Watts,896 MB ,1050 MHz
+Tesla G200-103-B2 ,171 Watts,896 MB ,999 MHz
+Tesla G92-428-B1 ,125 Watts,1024 MB ,1000 MHz
+Tesla G200-100-A2 ,182 Watts,896 MB ,999 MHz
+Tesla G200-103-A2 ,182 Watts,896 MB ,999 MHz
+Tesla G92-428-B1 ,150 Watts,1024 MB ,1000 MHz
+Tesla G92-420-A2 ,140 Watts,512 MB ,1100 MHz
+Tesla G92-420-A2 ,110 Watts,512 MB ,900 MHz
+Tesla G92-428-B1 ,150 Watts,1024 MB ,1100 MHz
+Tesla G92b ,120 Watts,1024 MB ,1100 MHz
+Tesla G94 ,58 Watts,1024 MB ,700 MHz
+Tesla G92b ,75 Watts,1536 MB ,500 MHz
+Tesla GT216-055-A3 ,58 Watts,512 MB ,1000 MHz
+Tesla GT215-450-A2 ,58 Watts,1024 MB ,400 MHz
+Tesla G94-300-B1 ,75 Watts,512 MB ,900 MHz
+Tesla GT215-450-A2 ,58 Watts,1024 MB ,400 MHz
+Tesla GT215-450-A2 ,58 Watts,1024 MB ,790 MHz
+Tesla GT218-200-B1 ,31 Watts,512 MB ,400 MHz
+Tesla GT218-300-B1 ,31 Watts,1024 MB ,500 MHz
+Fermi GF100-375-A3 ,250 Watts,1536 MB ,924 MHz
+Tesla GT218-300-B1 ,31 Watts,512 MB ,500 MHz
+Fermi GF100-375-A3 (x3) ,750 Watts,3072 MB ,924 MHz
+Tesla GT215-450-A2 ,69 Watts,1024 MB ,850 MHz
+Fermi GF100-275-A3 (x2) ,430 Watts,2560 MB ,837 MHz
+Fermi GF100-275-A3 ,215 Watts,1280 MB ,837 MHz
+Fermi GF100-375-A3 ,250 Watts,1536 MB ,1000 MHz
+Fermi GF100-375-A3 ,250 Watts,1536 MB ,924 MHz
+Fermi GF100-275-A3 ,215 Watts,1280 MB ,837 MHz
+Fermi GF100-275-A3 ,215 Watts,1280 MB ,850 MHz
+Fermi GF104-300-KB-A1 ,160 Watts,1024 MB ,1002 MHz
+Fermi GF100-030-A3 ,200 Watts,1024 MB ,802 MHz
+Fermi GF104-300-KB-A1 (x2) ,380 Watts,2048 MB ,900 MHz
+Fermi GF104-300-KB-A1 ,160 Watts,1024 MB ,1005 MHz
+Fermi GF104-300-KB-A1 ,150 Watts,1024 MB ,850 MHz
+Fermi GF104-300-KB-A1 ,160 Watts,1024 MB ,900 MHz
+Fermi GF104-300-KB-A1 ,160 Watts,1024 MB ,900 MHz
+Fermi GF104-300-KB-A1 ,160 Watts,1024 MB ,975 MHz
+Fermi GF104-300-KB-A1 ,160 Watts,1024 MB ,900 MHz
+Fermi GF104-300-KB-A1 ,160 Watts,1024 MB ,900 MHz
+Fermi GF104-300-KB-A1 ,180 Watts,2048 MB ,900 MHz
+Fermi GF104-300-KB-A1 ,160 Watts,1024 MB ,900 MHz
+Fermi GF104-300-KB-A1 ,160 Watts,1024 MB ,900 MHz
+Fermi GF104-300-KB-A1 ,225 Watts,1024 MB ,1000 MHz
+Fermi GF104-300-KB-A1 ,160 Watts,1024 MB ,900 MHz
+Fermi GF104-300-KB-A1 ,160 Watts,1024 MB ,900 MHz
+Fermi GF106-250-KA-A1 ,106 Watts,1024 MB ,533 MHz
+Fermi GF104-300-KD-A1 ,150 Watts,768 MB ,900 MHz
+Fermi GF106-250-KA-A1 ,96 Watts,1024 MB ,700 MHz
+Fermi GF106-250-KA-A1 ,75 Watts,1024 MB ,800 MHz
+Fermi GF106-250-KA-A1 ,96 Watts,1024 MB ,700 MHz
+Fermi GF116-250-KA-A1 ,106 Watts,1024 MB ,700 MHz
+Fermi GF106-250-KA-A1 ,75 Watts,1024 MB ,800 MHz
+Fermi GF106-250-KB-A1 ,106 Watts,1536 MB ,902 MHz
+Fermi GF116-200-KA-A1 ,106 Watts,2048 MB ,902 MHz
+Fermi GF106-250-KA-A1 ,107 Watts,1024 MB ,1000 MHz
+Fermi GF106-250-KA-A1 ,106 Watts,1024 MB ,902 MHz
+Fermi GF106-250-KA-A1 ,106 Watts,1024 MB ,902 MHz
+Fermi GF106-250-KA-A1 ,106 Watts,1024 MB ,980 MHz
+Fermi GF106-250-KA-A1 ,107 Watts,1024 MB ,902 MHz
+Fermi GF106-250-KA-A1 ,106 Watts,1024 MB ,924 MHz
+Fermi GF106-250-KA-A1 ,106 Watts,1024 MB ,902 MHz
+Fermi GF106-250-KA-A1 ,107 Watts,1024 MB ,1026 MHz
+Fermi GF106-250-KA-A1 ,107 Watts,1024 MB ,950 MHz
+Fermi GF106-250-KA-A1 ,106 Watts,1024 MB ,902 MHz
+Fermi GF106-250-KA-A1 ,106 Watts,1024 MB ,902 MHz
+Fermi GF106-250-KA-A1 ,106 Watts,1024 MB ,950 MHz
+Fermi GF108-400-A1 ,65 Watts,1024 MB ,800 MHz
+Fermi GF106-250-KA-A1 ,106 Watts,1024 MB ,902 MHz
+Fermi GF106-250-KA-A1 ,106 Watts,1024 MB ,1000 MHz
+Fermi GF108-400-A1 ,65 Watts,1024 MB ,667 MHz
+Fermi GF106 ,56 Watts,1536 MB ,900 MHz
+Fermi GF108-400-A1 ,65 Watts,1024 MB ,900 MHz
+Fermi GF108-400-A1 ,65 Watts,1024 MB ,667 MHz
+Fermi GF108-400-A1 ,65 Watts,1024 MB ,800 MHz
+Fermi GF108-400-A1 ,65 Watts,1024 MB ,800 MHz
+Fermi GF104-300-KB-A1 ,160 Watts,1024 MB ,900 MHz
+Fermi GF108-400-A1 ,65 Watts,1024 MB ,800 MHz
+Fermi GF108-400-A1 ,65 Watts,1024 MB ,800 MHz
+Fermi GF108-400-A1 ,65 Watts,1024 MB ,900 MHz
+Fermi GF108-400-A1 ,65 Watts,512 MB ,800 MHz
+Fermi GF108-300-A1 ,49 Watts,2048 MB ,667 MHz
+Fermi GF108-300-A1 ,49 Watts,4096 MB ,533 MHz
+Fermi GF108-400-A1 ,60 Watts,2048 MB ,900 MHz
+Fermi GF108-300-A1 ,49 Watts,1024 MB ,667 MHz
+Fermi GF108-300-A1 ,49 Watts,1024 MB ,925 MHz
+Fermi GF108-300-A1 ,49 Watts,1024 MB ,1000 MHz
+Fermi GF108-300-A1 ,49 Watts,1024 MB ,800 MHz
+Fermi GF108-300-A1 ,49 Watts,4096 MB ,667 MHz
+Fermi GF108-300-A1 ,49 Watts,1024 MB ,900 MHz
+Fermi GF108-300-A1 ,49 Watts,1024 MB ,800 MHz
+Fermi GF108-300-A1 ,50 Watts,2048 MB ,500 MHz
+Tesla GT218 ,25 Watts,1024 MB ,790 MHz
+Fermi GF108-200-A1 ,50 Watts,2048 MB ,900 MHz
+Fermi GF108-200-A1 ,50 Watts,2048 MB ,800 MHz
+Fermi GF108-300-A1 ,49 Watts,1024 MB ,900 MHz
+Fermi GF110-351-A1 ,365 Watts,3072 MB ,864 MHz
+Fermi GF110 ,499 Watts,3072 MB ,1002 MHz
+Fermi GF110-351-A1 (x2) ,700 Watts,6144 MB ,854 MHz
+Fermi GF110-351-A1 ,365 Watts,3072 MB ,854 MHz
+Fermi GF110-351-A1 ,365 Watts,3072 MB ,864 MHz
+Fermi GF110-375-A1 ,255 Watts,1536 MB ,1025 MHz
+Fermi GF110-375-A1 (x2) ,488 Watts,3072 MB ,1002 MHz
+Fermi GF110-375-A1 ,244 Watts,3072 MB ,1005 MHz
+Fermi GF110-375-A1 ,244 Watts,3072 MB ,1050 MHz
+Fermi GF110-375-A1 ,244 Watts,1536 MB ,1013 MHz
+Fermi GF110-375-A1 ,244 Watts,1536 MB ,1049 MHz
+Fermi GF110-375-A1 ,244 Watts,1536 MB ,1013 MHz
+Fermi GF110-375-A1 ,244 Watts,1536 MB ,1002 MHz
+Fermi GF110-375-A1 ,244 Watts,3072 MB ,1053 MHz
+Fermi GF110-375-A1 ,244 Watts,1536 MB ,1013 MHz
+Fermi GF110-375-A1 ,244 Watts,3072 MB ,1053 MHz
+Fermi GF110-375-A1 ,244 Watts,1536 MB ,1002 MHz
+Fermi GF110-275-A1 ,219 Watts,1280 MB ,975 MHz
+Fermi GF110-375-A1 ,244 Watts,3072 MB ,1002 MHz
+Fermi GF110-275-A1 ,219 Watts,1280 MB ,1000 MHz
+Fermi GF110-275-A1 (x2) ,410 Watts,2560 MB ,950 MHz
+Fermi GF110-275-A1 ,219 Watts,1280 MB ,1000 MHz
+Fermi GF110-275-A1 ,219 Watts,1280 MB ,950 MHz
+Fermi GF110-275-A1 ,219 Watts,1280 MB ,975 MHz
+Fermi GF110-275-A1 ,219 Watts,1280 MB ,975 MHz
+Fermi GF110-275-A1 ,219 Watts,1280 MB ,950 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1100 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1002 MHz
+Fermi GF110-275-A1 ,219 Watts,2560 MB ,950 MHz
+Fermi GF114-400-A1 ,170 Watts,1024 MB ,1100 MHz
+Fermi GF114-400-A1 ,184 Watts,1024 MB ,1053 MHz
+Fermi GF114-400-A1 ,180 Watts,1024 MB ,1050 MHz
+Fermi GF114-400-A1 (x2) ,300 Watts,2048 MB ,1002 MHz
+Fermi GF114-400-A1 ,170 Watts,1024 MB ,1050 MHz
+Fermi GF114-400-A1 ,170 Watts,1024 MB ,1050 MHz
+Fermi GF114-400-A1 ,170 Watts,2048 MB ,1002 MHz
+Fermi GF114-400-A1 ,170 Watts,1024 MB ,1053 MHz
+Fermi GF114-400-A1 ,170 Watts,2048 MB ,1002 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1122 MHz
+Fermi GF114-400-A1 ,170 Watts,1024 MB ,1002 MHz
+Fermi GF110-270-A1 ,210 Watts,1280 MB ,950 MHz
+Fermi GF114-200-KB-A1 ,150 Watts,1024 MB ,957 MHz
+Fermi GF110-270-A1 ,210 Watts,1280 MB ,975 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1002 MHz
+Fermi GF114-325-A1 ,150 Watts,2048 MB ,1002 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1020 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1002 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1002 MHz
+Fermi GF114-325-A1 ,150 Watts,2048 MB ,1002 MHz
+Fermi GF114-325-A1 (x2) ,300 Watts,2048 MB ,1001 MHz
+Fermi GF114-325-A1 ,150 Watts,2048 MB ,1026 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1010 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1077 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1026 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1040 MHz
+Fermi GF114-325-A1 ,176 Watts,1024 MB ,1026 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1050 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1002 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1050 MHz
+Fermi GF110 ,150 Watts,1280 MB ,802 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1002 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1002 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1010 MHz
+Fermi GF114-200-KB-A1 ,150 Watts,1024 MB ,957 MHz
+Fermi GF114-325-A1 ,150 Watts,1024 MB ,1001 MHz
+Fermi GF116-400-A1 (x2) ,250 Watts,2048 MB ,1025 MHz
+Fermi GF116-400-A1 ,116 Watts,1024 MB ,1025 MHz
+Fermi GF116-400-A1 ,116 Watts,1024 MB ,1025 MHz
+Fermi GF116-400-A1 ,116 Watts,1024 MB ,1089 MHz
+Fermi GF116-400-A1 ,116 Watts,1024 MB ,1100 MHz
+Fermi GF116-400-A1 (x2) ,250 Watts,2048 MB ,1025 MHz
+Fermi GF116-400-A1 ,116 Watts,1024 MB ,1026 MHz
+Fermi GF116-400-A1 ,116 Watts,1024 MB ,1025 MHz
+Fermi GF116-400-A1 ,70 Watts,3072 MB ,800 MHz
+Fermi GF116-400-A1 ,70 Watts,1536 MB ,800 MHz
+Fermi GF119-300-A1 ,29 Watts,1024 MB ,533 MHz
+Fermi GF116-400-KD-A1 ,105 Watts,1024 MB ,999 MHz
+Fermi GF119-300-A1 ,29 Watts,1024 MB ,500 MHz
+Fermi GF108-200-A1 ,29 Watts,2048 MB ,898 MHz
+Fermi GF119-300-A1 ,29 Watts,1024 MB ,667 MHz
+Fermi GF108-300-A1 ,50 Watts,1024 MB ,900 MHz
+Fermi GF108-200-A1 ,29 Watts,1024 MB ,667 MHz
+Fermi GF119-300-A1 ,29 Watts,1024 MB ,900 MHz
+Fermi GF119-300-A1 ,29 Watts,2048 MB ,600 MHz
+Maxwell GM204-400-A1 ,170 Watts,4096 MB ,1800 MHz
+Fermi GF119-300-A1 ,29 Watts,1024 MB ,600 MHz
+Maxwell GM204-400-A1 (x2) ,350 Watts,8192 MB ,1800 MHz
+Fermi GF119-300-A1 ,29 Watts,1024 MB ,535 MHz
+Maxwell GM204-400-A1 ,185 Watts,4096 MB ,1800 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,170 Watts,4096 MB ,1753 MHz
+Fermi GF119-200-A1 ,25 Watts,1024 MB ,898 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 (x2) ,500 Watts,12288 MB ,1803 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1803 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,280 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1774 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1774 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 (x2) ,500 Watts,12288 MB ,1775 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1774 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,280 Watts,6144 MB ,1800 MHz
+Maxwell GM200-310-A1 ,280 Watts,6144 MB ,1800 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1800 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1775 MHz
+Maxwell GM200-310-A1 ,290 Watts,6144 MB ,1820 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1800 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 (x2) ,500 Watts,12288 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 (x2) ,500 Watts,12288 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 (x2) ,250 Watts,12288 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 (x2) ,600 Watts,12288 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,300 Watts,6144 MB ,1774 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,275 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,375 Watts,6144 MB ,1800 MHz
+Maxwell GM200-310-A1 ,300 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM200-310-A1 (x2) ,750 Watts,12288 MB ,1800 MHz
+Maxwell GM200-310-A1 (x2) ,500 Watts,12288 MB ,1753 MHz
+Maxwell GM204-400-A1 ,180 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,180 Watts,4096 MB ,1753 MHz
+Maxwell GM200-310-A1 ,250 Watts,6144 MB ,1753 MHz
+Maxwell GM204-400-A1 ,180 Watts,4096 MB ,1800 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,180 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,180 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 (x2) ,340 Watts,8192 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,170 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1800 MHz
+Maxwell GM204-400-A1 ,180 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,300 Watts,4096 MB ,1775 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,250 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,250 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,300 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,325 Watts,8192 MB ,1753 MHz
+Maxwell GM204-400-A1 ,225 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 (x2) ,350 Watts,8192 MB ,1753 MHz
+Maxwell GM204-400-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,160 Watts,4096 MB ,1761 MHz
+Maxwell GM204-200-A1 ,148 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,175 Watts,4096 MB ,1800 MHz
+Maxwell GM204-200-A1 ,175 Watts,4096 MB ,1800 MHz
+Maxwell GM204-400-A1 ,300 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,375 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,148 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 (x2) ,290 Watts,8192 MB ,1753 MHz
+Maxwell GM204-200-A1 ,148 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,296 Watts,8192 MB ,1753 MHz
+Maxwell GM204-200-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,145 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,148 Watts,4096 MB ,1753 MHz
+Maxwell GM204-400-A1 ,300 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,148 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,145 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,148 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,145 Watts,4096 MB ,1800 MHz
+Maxwell GM204-200-A1 ,145 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,145 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,145 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,148 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 (x2) ,350 Watts,8192 MB ,1753 MHz
+Maxwell GM204-200-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,145 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,165 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,148 Watts,4096 MB ,1775 MHz
+Maxwell GM204-200-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 (x2) ,300 Watts,8192 MB ,1753 MHz
+Maxwell GM204-200-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,145 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,160 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 (x2) ,300 Watts,8192 MB ,1753 MHz
+Maxwell GM204-200-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,148 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,148 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,148 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,225 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,160 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 ,148 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-A1 (x2) ,325 Watts,8192 MB ,1753 MHz
+Maxwell GM204-200-A1 ,148 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM204-200-A1 ,145 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-KD ,140 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Maxwell GM204-200-KD ,140 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1800 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1800 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 (x2) ,240 Watts,8192 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Kepler GK110-300-A1 ,250 Watts,3072 MB ,1502 MHz
+Kepler GK110-300-A1 (x2) ,450 Watts,6144 MB ,1502 MHz
+Maxwell GM206-300-A1 ,160 Watts,2048 MB ,1800 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Kepler GK110-300-A1 ,300 Watts,3072 MB ,1552 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1750 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1800 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1750 MHz
+Kepler GK110-425-B1 (x2) ,500 Watts,6144 MB ,1750 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1750 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1750 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1750 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1750 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1750 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1800 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1750 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1750 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1750 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1750 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1750 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1750 MHz
+Kepler GK110-300-A1 ,250 Watts,3072 MB ,1550 MHz
+Kepler GK110-425-B1 ,250 Watts,3072 MB ,1750 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Kepler GK110-300-A1 (x2) ,500 Watts,6144 MB ,1502 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1800 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1800 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,160 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Kepler GK110-300-A1 ,250 Watts,3072 MB ,1502 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Kepler GK110-300-A1 ,265 Watts,3072 MB ,1550 MHz
+Kepler GK110-300-A1 ,250 Watts,3072 MB ,1502 MHz
+Kepler GK110-301-B1 ,250 Watts,6144 MB ,1502 MHz
+Kepler GK110 ,500 Watts,6144 MB ,1502 MHz
+Kepler GK110-300-A1 ,250 Watts,3072 MB ,1502 MHz
+Kepler GK110-301-B1 ,250 Watts,6144 MB ,1502 MHz
+Kepler GK110-300-A1 ,250 Watts,3072 MB ,1502 MHz
+Kepler GK110-301-B1 ,250 Watts,6144 MB ,1502 MHz
+Kepler GK110-300-A1 ,250 Watts,3072 MB ,1502 MHz
+Kepler GK110-300-A1 ,250 Watts,3072 MB ,1502 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Kepler GK110-300-A1 ,250 Watts,3072 MB ,1502 MHz
+Maxwell GM206-300-A1 ,120 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 (x2) ,300 Watts,8192 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,150 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1753 MHz
+Kepler GK110-300-A1 (x2) ,550 Watts,6144 MB ,1502 MHz
+Maxwell GM206-300-A1 (x2) ,240 Watts,4096 MB ,1753 MHz
+Maxwell GM206-300-A1 ,120 Watts,2048 MB ,1800 MHz
+Maxwell GM206-250 ,120 Watts,2048 MB ,1755 MHz
+Maxwell GM206-250 ,120 Watts,2048 MB ,1652 MHz
+Maxwell GM206-250 ,120 Watts,2048 MB ,1701 MHz
+Maxwell GM206-250 ,94 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 ,150 Watts,2048 MB ,1653 MHz
+Maxwell GM206-251-A1 ,75 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 ,100 Watts,2048 MB ,1663 MHz
+Kepler GK110-300-A1 (x2) ,500 Watts,6144 MB ,1502 MHz
+Kepler GK110-301-B1 ,250 Watts,6144 MB ,1502 MHz
+Kepler GK110-300-A1 ,250 Watts,3072 MB ,1502 MHz
+Maxwell GM206-250 ,90 Watts,2048 MB ,1653 MHz
+Kepler GK104-425-A2 ,230 Watts,4096 MB ,1752 MHz
+Maxwell GM206-250 ,90 Watts,2048 MB ,1653 MHz
+Kepler GK104 ,500 Watts,8192 MB ,1752 MHz
+Kepler GK104-425-A2 ,230 Watts,2048 MB ,1703 MHz
+Kepler GK104-425-A2 ,230 Watts,4096 MB ,1753 MHz
+Kepler GK104-425-A2 (x2) ,400 Watts,4096 MB ,1752 MHz
+Maxwell GM206-300-A1 ,150 Watts,2048 MB ,1753 MHz
+Maxwell GM206-250 ,90 Watts,2048 MB ,1653 MHz
+Kepler GK104-425-A2 ,229 Watts,2048 MB ,1753 MHz
+Kepler GK104-425-A2 ,230 Watts,4096 MB ,1752 MHz
+Kepler GK104-425-A2 ,229 Watts,4096 MB ,1753 MHz
+Kepler GK104-425-A2 ,280 Watts,2048 MB ,1753 MHz
+Kepler GK104-425-A2 ,256 Watts,4096 MB ,1800 MHz
+Kepler GK104-425-A2 ,230 Watts,4096 MB ,1752 MHz
+Kepler GK104-425-A2 ,244 Watts,2048 MB ,1800 MHz
+Kepler GK104-425-A2 ,230 Watts,2048 MB ,1753 MHz
+Kepler GK104-425-A2 ,230 Watts,2048 MB ,1753 MHz
+Kepler GK104-425-A2 ,230 Watts,2048 MB ,1752 MHz
+Kepler GK104-425-A2 ,250 Watts,2048 MB ,1703 MHz
+Kepler GK104-425-A2 (x2) ,500 Watts,4096 MB ,1703 MHz
+Kepler GK104-425-A2 ,250 Watts,2048 MB ,1703 MHz
+Kepler GK104-425-A2 ,230 Watts,2048 MB ,1703 MHz
+Kepler GK104-425-A2 ,250 Watts,2048 MB ,1753 MHz
+Kepler GK104-425-A2 ,250 Watts,4096 MB ,1702 MHz
+Kepler GK104-425-A2 ,250 Watts,2048 MB ,1703 MHz
+Kepler GK104 ,400 Watts,6144 MB ,1753 MHz
+Maxwell GM206-251-A1 ,75 Watts,2048 MB ,1653 MHz
+Kepler GK104-425-A2 ,250 Watts,4096 MB ,1753 MHz
+Kepler GK110-300-A1 ,300 Watts,3072 MB ,1502 MHz
+Maxwell GM206-251-A1 ,75 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 ,110 Watts,2048 MB ,1700 MHz
+Maxwell GM206-251-A1 ,75 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 ,90 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 ,90 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 ,110 Watts,2048 MB ,1700 MHz
+Maxwell GM206-250 ,100 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 ,100 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 ,120 Watts,2048 MB ,1750 MHz
+Maxwell GM206-250 ,110 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 ,90 Watts,2048 MB ,1683 MHz
+Maxwell GM206-250 ,125 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 ,75 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 ,110 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 ,150 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 ,90 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 ,150 Watts,2048 MB ,1653 MHz
+Maxwell GM206-250 (x2) ,180 Watts,4096 MB ,1653 MHz
+Maxwell GM206-250 ,90 Watts,2048 MB ,1653 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-425-A2 ,230 Watts,2048 MB ,1752 MHz
+Maxwell GM206-250 ,125 Watts,2048 MB ,1653 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-425-A2 ,230 Watts,4096 MB ,1753 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,4096 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,4096 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1552 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-325-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,4096 MB ,1552 MHz
+Kepler GK104-225-A2 ,170 Watts,4096 MB ,1550 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-425-A2 ,300 Watts,4096 MB ,1753 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,4096 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,4096 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,4096 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1550 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,160 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,4096 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,4096 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1552 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,4096 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Kepler GK104 ,250 Watts,4096 MB ,1502 MHz
+Kepler GK104-200-KD-A2 ,130 Watts,3072 MB ,1400 MHz
+Kepler GK104-225-A2 ,170 Watts,4096 MB ,1502 MHz
+Kepler GK104-200-KD-A2 ,130 Watts,1536 MB ,1400 MHz
+Maxwell GM107-300-A2 ,55 Watts,1024 MB ,1250 MHz
+Maxwell GM107-300-A2 ,55 Watts,2048 MB ,1250 MHz
+Maxwell GM107-400-A2 ,60 Watts,1024 MB ,1350 MHz
+Maxwell GM107-400-A2 ,90 Watts,2048 MB ,1502 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1502 MHz
+Maxwell GM107-300-A2 ,55 Watts,1024 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1502 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1375 MHz
+Maxwell GM107-400-A2 ,90 Watts,2048 MB ,1502 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,75 Watts,4096 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,75 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Kepler GK104-225-A2 (x2) ,350 Watts,4096 MB ,1502 MHz
+Maxwell GM107-400-A2 ,90 Watts,2048 MB ,1502 MHz
+Maxwell GM107-400-A2 ,85 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1375 MHz
+Maxwell GM107-400-A2 ,65 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-300-A2 ,55 Watts,1024 MB ,1275 MHz
+Maxwell GM107-400-A2 ,60 Watts,2048 MB ,1350 MHz
+Maxwell GM107-400-A2 ,150 Watts,2048 MB ,1350 MHz
+Maxwell GM107-300-A2 ,55 Watts,1024 MB ,1253 MHz
+Maxwell GM107-400-A2 ,65 Watts,2048 MB ,1350 MHz
+Maxwell GM107-300-A2 ,55 Watts,2048 MB ,1250 MHz
+Maxwell GM107-300-A2 ,55 Watts,2048 MB ,1250 MHz
+Maxwell GM107-300-A2 ,55 Watts,2048 MB ,1253 MHz
+Maxwell GM107-300-A2 ,55 Watts,2048 MB ,1250 MHz
+Maxwell GM107-300-A2 ,55 Watts,2048 MB ,1253 MHz
+Maxwell GM107-300-A2 ,55 Watts,1024 MB ,1253 MHz
+Maxwell GM107-400-A2 ,75 Watts,4096 MB ,1350 MHz
+Kepler GK104-225-A2 ,170 Watts,2048 MB ,1550 MHz
+Maxwell GM107-300-A2 ,55 Watts,1024 MB ,1253 MHz
+Maxwell GM107-300-A2 ,55 Watts,1024 MB ,1250 MHz
+Maxwell GM107-300-A2 ,55 Watts,1024 MB ,1253 MHz
+Maxwell GM107-300-A2 ,55 Watts,2048 MB ,1253 MHz
+Maxwell GM107-300-A2 ,55 Watts,1024 MB ,1275 MHz
+Maxwell GM107-300-A2 ,55 Watts,2048 MB ,1250 MHz
+Maxwell GM107-300-A2 ,55 Watts,1024 MB ,1250 MHz
+Maxwell GM107-300-A2 ,55 Watts,2048 MB ,1253 MHz
+Maxwell GM107-300-A2 ,55 Watts,4096 MB ,900 MHz
+Maxwell GM107-300-A2 ,55 Watts,1024 MB ,1253 MHz
+Maxwell GM107-300-A2 ,55 Watts,2048 MB ,1275 MHz
+Maxwell GM107-300-A2 ,55 Watts,2048 MB ,1250 MHz
+Kepler GK106 ,64 Watts,2048 MB ,1250 MHz
+Kepler GK106 ,64 Watts,2048 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,2048 MB ,1300 MHz
+Kepler GK106 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,2048 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,2048 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,2048 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,2048 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,4096 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,2048 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,2048 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,2048 MB ,891 MHz
+Kepler GK107-425-A2 ,64 Watts,1024 MB ,891 MHz
+Kepler GK107-425-A2 ,64 Watts,4096 MB ,667 MHz
+Kepler GK107-425-A2 ,64 Watts,4096 MB ,891 MHz
+Kepler GK107-425-A2 ,64 Watts,2048 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,1024 MB ,1250 MHz
+Kepler GK107-425-A2 ,64 Watts,2048 MB ,891 MHz
+Kepler GK107-425-A2 ,64 Watts,2048 MB ,667 MHz
+Kepler GK107-425-A2 ,64 Watts,2048 MB ,900 MHz
+Kepler GK107-425-A2 ,64 Watts,2048 MB ,891 MHz
+Fermi GF108-400-A1 ,49 Watts,4096 MB ,500 MHz
+Fermi GF108-400-A1 ,49 Watts,2048 MB ,900 MHz
+Fermi GF108-400-A1 ,49 Watts,4096 MB ,533 MHz
+Maxwell GM107-300-A2 ,55 Watts,2048 MB ,1253 MHz
+Fermi GF108-400-A1 ,49 Watts,2048 MB ,900 MHz
+Fermi GF108-400-A1 ,49 Watts,2048 MB ,667 MHz
+Fermi GF108-400-A1 ,49 Watts,2048 MB ,667 MHz
+Fermi GF108-400-A1 ,65 Watts,2048 MB ,533 MHz
+Fermi GF108-400-A1 ,49 Watts,1024 MB ,900 MHz
+Fermi GF108-400-A1 ,75 Watts,2048 MB ,900 MHz
+Fermi GF108-400-A1 ,49 Watts,4096 MB ,900 MHz
+Kepler GK208-301-A1 ,49 Watts,2048 MB ,1253 MHz
+Kepler GK208-301-A1 ,38 Watts,2048 MB ,1250 MHz
+Kepler GK208-301-A1 ,38 Watts,2048 MB ,1253 MHz
+Kepler GK208-301-A1 ,38 Watts,1024 MB ,1253 MHz
+Kepler GK208-301-A1 ,49 Watts,1024 MB ,1253 MHz
+Kepler GK208-301-A1 ,38 Watts,2048 MB ,1250 MHz
+Kepler GK208-301-A1 ,49 Watts,1024 MB ,1253 MHz
+Kepler GK208 ,23 Watts,2048 MB ,900 MHz
+Kepler GK208-301-A1 ,25 Watts,1024 MB ,1250 MHz
+Kepler GK208 ,23 Watts,1024 MB ,900 MHz
+Kepler GK208-301-A1 ,38 Watts,1024 MB ,1253 MHz
+Fermi GF108-400-A1 ,49 Watts,1024 MB ,900 MHz
+Kepler GK208-301-A1 ,38 Watts,2048 MB ,1250 MHz
+Kepler GK208 ,23 Watts,4096 MB ,902 MHz
+Kepler GK208-301-A1 ,25 Watts,2048 MB ,1250 MHz
+Kepler GK208 ,19 Watts,1024 MB ,1250 MHz
+Kepler GK208 ,19 Watts,2048 MB ,1250 MHz
+Kepler GK208 ,23 Watts,2048 MB ,900 MHz
+Kepler GK208 ,19 Watts,2048 MB ,900 MHz
+Fermi GF119-300-A1 ,30 Watts,1024 MB ,898 MHz
+Kepler GK208 ,19 Watts,1024 MB ,900 MHz
+Kepler GK208 ,25 Watts,2048 MB ,900 MHz
+Kepler GK208 ,25 Watts,2048 MB ,900 MHz
