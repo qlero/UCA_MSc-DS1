@@ -1,0 +1,2161 @@
+Product_Collection,Lithography,nb_of_Cores,Processor_Base_Frequency,TDP
+7th Generation Intel® Core™ i7 Processors,14 nm,2,1.30 GHz,4.5 W
+8th Generation Intel® Core™ i5 Processors,14 nm,4,1.60 GHz,15 W
+8th Generation Intel® Core™ i7 Processors,14 nm,4,1.80 GHz,15 W
+Intel® Core™ X-series Processors,32 nm,4,3.60 GHz,130 W
+7th Generation Intel® Core™ i5 Processors,14 nm,2,1.20 GHz,4.5 W
+Intel® Celeron® Processor 3000 Series,14 nm,2,1.50 GHz,15 W
+Intel® Celeron® Processor N Series,22 nm,2,1.46 GHz,4.3 W
+Intel® Celeron® Processor J Series,22 nm,2,2.41 GHz,10 W
+Intel® Celeron® Processor G Series,22 nm,2,2.60 GHz,55 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.80 GHz,88 W
+Intel® Pentium® Processor 2000 Series,22 nm,2,2.40 GHz,35 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.30 GHz,5.5 W
+Intel® Pentium® Processor 3000 Series,14 nm,2,1.90 GHz,15 W
+Intel® Pentium® Processor 4000 Series,14 nm,2,2.10 GHz,15 W
+Intel® Pentium® Processor N Series,14 nm,4,1.60 GHz,6 W
+Intel® Pentium® Processor J Series,22 nm,4,2.41 GHz,10 W
+Intel® Pentium® Processor J Series,22 nm,4,2.41 GHz,10 W
+Intel® Pentium® Processor J Series,14 nm,4,1.60 GHz,6.5 W
+Intel® Pentium® Processor J Series,14 nm,4,1.50 GHz,10 W
+Intel® Pentium® Processor N Series,14 nm,4,1.60 GHz,6 W
+Intel® Pentium® Processor N Series,22 nm,4,2.00 GHz,7.5 W
+Intel® Pentium® Processor N Series,22 nm,4,2.17 GHz,7.5 W
+Intel® Pentium® Processor N Series,22 nm,4,2.16 GHz,7.5 W
+Intel® Pentium® Processor N Series,22 nm,4,2.16 GHz,7.5 W
+Intel® Pentium® Processor N Series,14 nm,4,1.10 GHz,6 W
+Intel® Pentium® Processor 4000 Series,14 nm,2,1.50 GHz,6 W
+Intel® Pentium® Processor 4000 Series,14 nm,2,1.60 GHz,6 W
+Intel® Pentium® Processor 4000 Series,14 nm,2,1.50 GHz,6 W
+Intel® Pentium® Processor 4000 Series,14 nm,2,2.30 GHz,15 W
+Intel® Pentium® Processor 3000 Series,14 nm,2,1.90 GHz,15 W
+Intel® Pentium® Processor 3000 Series,22 nm,2,1.20 GHz,11.5 W
+Intel® Pentium® Processor 3000 Series,22 nm,2,2.40 GHz,37 W
+Intel® Pentium® Processor 3000 Series,22 nm,2,1.20 GHz,11.5 W
+Intel® Pentium® Processor 3000 Series,22 nm,2,1.70 GHz,15 W
+Intel® Pentium® Processor 3000 Series,22 nm,2,1.70 GHz,15 W
+Intel® Pentium® Processor 3000 Series,22 nm,2,2.30 GHz,37 W
+Intel® Pentium® Processor 2000 Series,22 nm,2,1.80 GHz,17 W
+Intel® Pentium® Processor 2000 Series,22 nm,2,2.50 GHz,35 W
+Intel® Pentium® Processor 2000 Series,22 nm,2,1.90 GHz,17 W
+Intel® Pentium® Processor 2000 Series,22 nm,2,1.10 GHz,10 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.20 GHz,5.5 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.10 GHz,5 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.00 GHz,5 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.10 GHz,7 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.60 GHz,7.5 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.40 GHz,7.5 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.50 GHz,7.5 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.80 GHz,115 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.30 GHz,12 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.80 GHz,115 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.26 GHz,27 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.60 GHz,115 W
+Legacy Intel® Pentium® Processor,130 nm,1,800 MHz,10.63 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.13 GHz,27 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.60 GHz,115 W
+Legacy Intel® Pentium® Processor,130 nm,1,933 MHz,11.61 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.10 GHz,7.5 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.60 GHz,115 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.00 GHz,27 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.13 GHz,28.7 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.40 GHz,84 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.80 GHz,68.4 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.00 GHz,7.5 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.26 GHz,30.4 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.40 GHz,84 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.60 GHz,62.6 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.40 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.86 GHz,27 W
+Legacy Intel® Pentium® Processor,130 nm,1,900 MHz,23.2 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.40 GHz,32.2 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.80 GHz,65 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.50 GHz,61 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.00 GHz,12.1 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.80 GHz,21 W
+Legacy Intel® Pentium® Processor,180 nm,1,850 MHz,22.5 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.40 GHz,115 W
+Legacy Intel® Pentium® Processor,65 nm,2,2.80 GHz,95 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.40 GHz,59.8 W
+Legacy Intel® Pentium® Processor,180 nm,1,933 MHz,27.3 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.80 GHz,7.5 W
+Legacy Intel® Pentium® Processor,180 nm,1,800 MHz,20.8 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.40 GHz,103 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.20 GHz,84 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.20 GHz,57.1 W
+Intel® Pentium® Processor 1000 Series,22 nm,2,2.10 GHz,35 W
+Intel® Pentium® Processor 1000 Series,22 nm,4,2.41 GHz,10 W
+Intel® Pentium® Processor 1000 Series,32 nm,2,1.20 GHz,40 W
+Intel® Pentium® Processor 1000 Series,22 nm,2,1.40 GHz,40 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.40 GHz,20.8 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.60 GHz,65 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.73 GHz,27 W
+Legacy Intel® Pentium® Processor,180 nm,1,866 MHz,26.1 W
+Legacy Intel® Pentium® Processor,180 nm,1,750 MHz,19.5 W
+Legacy Intel® Pentium® Processor,130 nm,1,3.40 GHz,89 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.20 GHz,84 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.00 GHz,54.3 W
+Legacy Intel® Pentium® Processor,180 nm,1,600 MHz,9.7 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.50 GHz,25.8 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.20 GHz,35 W
+Legacy Intel® Pentium® Processor,130 nm,1,900 MHz,7 W
+Legacy Intel® Pentium® Processor,180 nm,1,800 MHz,20.8 W
+Legacy Intel® Pentium® Processor,180 nm,1,700 MHz,18.3 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.40 GHz,103 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.80 GHz,115 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.20 GHz,84 W
+Legacy Intel® Pentium® Processor,180 nm,1,2.00 GHz,71.8 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.60 GHz,26.9 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.80 GHz,65 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.60 GHz,65 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.00 GHz,7 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.70 GHz,7.5 W
+Legacy Intel® Pentium® Processor,180 nm,1,733 MHz,22.8 W
+Legacy Intel® Pentium® Processor,180 nm,1,650 MHz,17 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.20 GHz,103 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.80 GHz,115 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.00 GHz,84 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.70 GHz,30 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.90 GHz,65 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.70 GHz,65 W
+Legacy Intel® Pentium® Processor,180 nm,1,667 MHz,17.5 W
+Legacy Intel® Pentium® Processor,250 nm,1,600 MHz,34.5 W
+Legacy Intel® Pentium® Processor,130 nm,1,3.20 GHz,82 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.00 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.80 GHz,103 W
+Legacy Intel® Pentium® Processor,180 nm,1,1.90 GHz,69.2 W
+Legacy Intel® Pentium® Processor,180 nm,1,900 MHz,30.7 W
+Legacy Intel® Pentium® Processor,130 nm,1,933 MHz,20.1 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.80 GHz,30 W
+Legacy Intel® Pentium® Processor,32 nm,2,3.00 GHz,65 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.30 GHz,35 W
+Legacy Intel® Pentium® Processor,45 nm,2,3.33 GHz,65 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.20 GHz,12 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.60 GHz,27 W
+Legacy Intel® Pentium® Processor,250 nm,1,600 MHz,34.5 W
+Legacy Intel® Pentium® Processor,180 nm,1,600 MHz,19.5 W
+Legacy Intel® Pentium® Processor,65 nm,2,3.60 GHz,130 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.20 GHz,103 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.60 GHz,115 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.00 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.06 GHz,84 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.80 GHz,68.4 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.80 GHz,68.1 W
+Legacy Intel® Pentium® Processor,180 nm,1,850 MHz,27.5 W
+Legacy Intel® Pentium® Processor,130 nm,1,866 MHz,19.5 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.90 GHz,32 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.60 GHz,35 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.00 GHz,35 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.70 GHz,65 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.10 GHz,12 W
+Legacy Intel® Pentium® Processor,180 nm,1,600 MHz,15.8 W
+Legacy Intel® Pentium® Processor,250 nm,1,550 MHz,30.8 W
+Legacy Intel® Pentium® Processor,65 nm,2,3.40 GHz,130 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.00 GHz,89 W
+Legacy Intel® Pentium® Processor,65 nm,1,3.60 GHz,86 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.06 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.06 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.80 GHz,84 W
+Legacy Intel® Pentium® Processor,180 nm,1,1.80 GHz,66.7 W
+Legacy Intel® Pentium® Processor,180 nm,1,800 MHz,25.9 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.00 GHz,32 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.10 GHz,35 W
+Legacy Intel® Pentium® Processor,32 nm,2,3.10 GHz,65 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.80 GHz,65 W
+Legacy Intel® Pentium® Processor,45 nm,2,3.20 GHz,65 W
+Legacy Intel® Pentium® Processor,45 nm,2,3.20 GHz,65 W
+Legacy Intel® Pentium® Processor,65 nm,2,1.86 GHz,35 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.30 GHz,22 W
+Legacy Intel® Pentium® Processor,180 nm,1,550 MHz,14.5 W
+Legacy Intel® Pentium® Processor,65 nm,2,3.40 GHz,95 W
+Legacy Intel® Pentium® Processor,250 nm,1,533 MHz,29.7 W
+Legacy Intel® Pentium® Processor,130 nm,1,3.00 GHz,81.9 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.80 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.93 GHz,84 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.66 GHz,66.1 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.60 GHz,115 W
+Legacy Intel® Pentium® Processor,180 nm,1,750 MHz,24.6 W
+Legacy Intel® Pentium® Processor,130 nm,1,650 MHz,7 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.20 GHz,35 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.40 GHz,35 W
+Legacy Intel® Pentium® Processor,45 nm,2,3.00 GHz,65 W
+Legacy Intel® Pentium® Processor,45 nm,2,2.20 GHz,35 W
+Legacy Intel® Pentium® Processor,65 nm,2,1.73 GHz,35 W
+Legacy Intel® Pentium® Processor,65 nm,2,2.40 GHz,65 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.60 GHz,7.5 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.40 GHz,22 W
+Legacy Intel® Pentium® Processor,180 nm,1,533 MHz,14 W
+Legacy Intel® Pentium® Processor,250 nm,1,500 MHz,28 W
+Legacy Intel® Pentium® Processor,65 nm,2,3.20 GHz,130 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.00 GHz,89 W
+Legacy Intel® Pentium® Processor,65 nm,1,3.40 GHz,86 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.80 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.93 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.66 GHz,89 W
+Legacy Intel® Pentium® Processor,180 nm,1,1.70 GHz,64 W
+Legacy Intel® Pentium® Processor,180 nm,1,700 MHz,23 W
+Legacy Intel® Pentium® Processor,130 nm,1,3.20 GHz,76 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.30 GHz,35 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.20 GHz,35 W
+Legacy Intel® Pentium® Processor,32 nm,2,1.20 GHz,17 W
+Legacy Intel® Pentium® Processor,45 nm,2,2.30 GHz,35 W
+Legacy Intel® Pentium® Processor,45 nm,2,3.06 GHz,65 W
+Legacy Intel® Pentium® Processor,45 nm,2,2.80 GHz,65 W
+Legacy Intel® Pentium® Processor,65 nm,2,1.60 GHz,35 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.80 GHz,89 W
+Legacy Intel® Pentium® Processor,65 nm,2,3.20 GHz,95 W
+Legacy Intel® Pentium® Processor,180 nm,1,500 MHz,13.2 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.40 GHz,31.2 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.80 GHz,89 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.40 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.80 GHz,84 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.53 GHz,61.5 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.60 GHz,38 W
+Legacy Intel® Pentium® Processor,180 nm,1,650 MHz,21.5 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.26 GHz,22 W
+Legacy Intel® Pentium® Processor,130 nm,1,3.06 GHz,70 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.46 GHz,88 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.40 GHz,35 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.90 GHz,65 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.30 GHz,35 W
+Legacy Intel® Pentium® Processor,32 nm,2,1.30 GHz,17 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.27 GHz,35 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.93 GHz,73 W
+Legacy Intel® Pentium® Processor,45 nm,2,2.93 GHz,65 W
+Legacy Intel® Pentium® Processor,65 nm,2,2.20 GHz,65 W
+Legacy Intel® Pentium® Processor,65 nm,2,1.46 GHz,35 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.50 GHz,24.5 W
+Legacy Intel® Pentium® Processor,250 nm,1,450 MHz,25.3 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.80 GHz,89 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.33 GHz,29.9 W
+Legacy Intel® Pentium® Processor,65 nm,2,3.00 GHz,95 W
+Legacy Intel® Pentium® Processor,90 nm,2,3.20 GHz,130 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.80 GHz,69.7 W
+Legacy Intel® Pentium® Processor,65 nm,1,3.20 GHz,86 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.80 GHz,84 W
+Legacy Intel® Pentium® Processor,180 nm,1,1.60 GHz,61 W
+Legacy Intel® Pentium® Processor,180 nm,1,600 MHz,34.5 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.20 GHz,22 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.80 GHz,68.4 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.33 GHz,88 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.50 GHz,35 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.40 GHz,35 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.50 GHz,35 W
+Legacy Intel® Pentium® Processor,32 nm,2,1.40 GHz,17 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.13 GHz,35 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.80 GHz,73 W
+Legacy Intel® Pentium® Processor,45 nm,2,2.93 GHz,65 W
+Legacy Intel® Pentium® Processor,45 nm,2,2.70 GHz,65 W
+Legacy Intel® Pentium® Processor,45 nm,2,2.10 GHz,35 W
+Legacy Intel® Pentium® Processor,65 nm,2,2.00 GHz,65 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.80 GHz,84 W
+Legacy Intel® Pentium® Processor,65 nm,2,1.86 GHz,31 W
+Legacy Intel® Pentium® Processor,90 nm,1,1.50 GHz,7.5 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.60 GHz,24.5 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.20 GHz,29.9 W
+Legacy Intel® Pentium® Processor,65 nm,2,3.00 GHz,95 W
+Legacy Intel® Pentium® Processor,90 nm,2,3.00 GHz,130 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.20 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.66 GHz,84 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.40 GHz,59.8 W
+Legacy Intel® Pentium® Processor,180 nm,1,1.50 GHz,57.8 W
+Legacy Intel® Pentium® Processor,180 nm,1,500 MHz,16.8 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.13 GHz,21.8 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.66 GHz,66.1 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.60 GHz,35 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.20 GHz,88 W
+Legacy Intel® Pentium® Processor,32 nm,2,1.50 GHz,17 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.00 GHz,35 W
+Legacy Intel® Pentium® Processor,32 nm,2,1.33 GHz,18 W
+Legacy Intel® Pentium® Processor,32 nm,2,2.80 GHz,73 W
+Legacy Intel® Pentium® Processor,65 nm,2,2.16 GHz,35 W
+Legacy Intel® Pentium® Processor,45 nm,2,2.60 GHz,65 W
+Legacy Intel® Pentium® Processor,65 nm,2,1.73 GHz,31 W
+Legacy Intel® Pentium® Processor,65 nm,2,1.80 GHz,65 W
+Legacy Intel® Pentium® Processor,65 nm,2,3.73 GHz,130 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.70 GHz,24.5 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.13 GHz,29.1 W
+Legacy Intel® Pentium® Processor,180 nm,1,1.10 GHz,33 W
+Legacy Intel® Pentium® Processor,65 nm,2,2.80 GHz,95 W
+Legacy Intel® Pentium® Processor,90 nm,2,2.80 GHz,95 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.60 GHz,69 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.73 GHz,115 W
+Legacy Intel® Pentium® Processor,130 nm,1,3.40 GHz,102.9 W
+Legacy Intel® Pentium® Processor,65 nm,1,3.00 GHz,86 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.80 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.66 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.40 GHz,89 W
+Legacy Intel® Pentium® Processor,180 nm,1,1.40 GHz,54.7 W
+Legacy Intel® Pentium® Processor,180 nm,1,450 MHz,15.5 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.06 GHz,21 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.06 GHz,88 W
+Legacy Intel® Pentium® Processor,32 nm,2,1.60 GHz,17 W
+Legacy Intel® Pentium® Processor,32 nm,2,1.20 GHz,18 W
+Legacy Intel® Pentium® Processor,32 nm,2,1.86 GHz,35 W
+Legacy Intel® Pentium® Processor,45 nm,2,2.80 GHz,65 W
+Legacy Intel® Pentium® Processor,45 nm,2,2.00 GHz,35 W
+Legacy Intel® Pentium® Processor,45 nm,2,2.50 GHz,65 W
+Legacy Intel® Pentium® Processor,65 nm,2,2.00 GHz,35 W
+Legacy Intel® Pentium® Processor,130 nm,1,3.00 GHz,81.9 W
+Legacy Intel® Pentium® Processor,65 nm,2,1.60 GHz,65 W
+Legacy Intel® Pentium® Processor,65 nm,2,1.60 GHz,31 W
+Legacy Intel® Pentium® Processor,65 nm,2,3.46 GHz,130 W
+Legacy Intel® Pentium® Processor,90 nm,2,3.20 GHz,130 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.50 GHz,24.5 W
+Legacy Intel® Pentium® Processor,180 nm,1,1.00 GHz,29 W
+Legacy Intel® Pentium® Processor,180 nm,1,1.00 GHz,29 W
+Legacy Intel® Pentium® Processor,65 nm,2,2.80 GHz,95 W
+Legacy Intel® Pentium® Processor,90 nm,2,2.66 GHz,95 W
+Legacy Intel® Pentium® Processor,130 nm,1,3.06 GHz,81.8 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.40 GHz,66.2 W
+Legacy Intel® Pentium® Processor,130 nm,1,3.46 GHz,110.7 W
+Legacy Intel® Pentium® Processor,130 nm,1,3.20 GHz,92.1 W
+Legacy Intel® Pentium® Processor,90 nm,1,3.00 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.80 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.93 GHz,84 W
+Legacy Intel® Pentium® Processor,90 nm,1,2.66 GHz,84 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.26 GHz,58 W
+Legacy Intel® Pentium® Processor,180 nm,1,1.30 GHz,51.6 W
+Legacy Intel® Pentium® Processor,180 nm,1,1.00 GHz,34 W
+Legacy Intel® Pentium® Processor,130 nm,1,1.00 GHz,20.5 W
+Legacy Intel® Pentium® Processor,130 nm,1,2.40 GHz,59.8 W
+Intel® Celeron® Processor G Series,22 nm,2,2.30 GHz,35 W
+Intel® Celeron® Processor G Series,22 nm,2,2.70 GHz,55 W
+Intel® Celeron® Processor G Series,22 nm,2,2.40 GHz,35 W
+Intel® Celeron® Processor G Series,22 nm,2,2.70 GHz,53 W
+Intel® Celeron® Processor G Series,22 nm,2,2.80 GHz,55 W
+Intel® Celeron® Processor G Series,22 nm,2,2.40 GHz,35 W
+Intel® Celeron® Processor G Series,22 nm,2,2.20 GHz,35 W
+Intel® Celeron® Processor G Series,22 nm,2,2.80 GHz,53 W
+Intel® Celeron® Processor G Series,22 nm,2,2.80 GHz,53 W
+Intel® Celeron® Processor G Series,22 nm,2,2.50 GHz,35 W
+Intel® Celeron® Processor G Series,22 nm,2,2.90 GHz,53 W
+Intel® Celeron® Processor G Series,14 nm,2,2.80 GHz,51 W
+Intel® Celeron® Processor G Series,14 nm,2,2.60 GHz,35 W
+Intel® Celeron® Processor G Series,14 nm,2,2.40 GHz,35 W
+Intel® Celeron® Processor G Series,14 nm,2,2.30 GHz,35 W
+Intel® Celeron® Processor G Series,14 nm,2,2.90 GHz,51 W
+Intel® Celeron® Processor G Series,14 nm,2,1.60 GHz,25 W
+Intel® Celeron® Processor G Series,14 nm,2,2.90 GHz,51 W
+Intel® Celeron® Processor G Series,14 nm,2,2.70 GHz,35 W
+Intel® Celeron® Processor G Series,14 nm,2,3.00 GHz,51 W
+Intel® Celeron® Processor J Series,22 nm,2,2.41 GHz,10 W
+Intel® Celeron® Processor J Series,22 nm,4,2.00 GHz,10 W
+Intel® Celeron® Processor J Series,22 nm,4,2.00 GHz,10 W
+Intel® Celeron® Processor J Series,14 nm,2,1.60 GHz,6 W
+Intel® Celeron® Processor J Series,14 nm,4,1.60 GHz,6 W
+Intel® Celeron® Processor J Series,14 nm,2,2.00 GHz,10 W
+Intel® Celeron® Processor J Series,14 nm,4,1.50 GHz,10 W
+Intel® Celeron® Processor N Series,22 nm,2,1.60 GHz,4.5 W
+Intel® Celeron® Processor N Series,22 nm,2,1.58 GHz,4.3 W
+Intel® Celeron® Processor N Series,22 nm,2,1.58 GHz,4.5 W
+Intel® Celeron® Processor N Series,22 nm,2,2.00 GHz,7.5 W
+Intel® Celeron® Processor N Series,22 nm,2,1.86 GHz,7.5 W
+Intel® Celeron® Processor N Series,22 nm,2,2.13 GHz,7.5 W
+Intel® Celeron® Processor N Series,22 nm,2,2.16 GHz,7.5 W
+Intel® Celeron® Processor N Series,22 nm,2,2.16 GHz,7.5 W
+Intel® Celeron® Processor N Series,22 nm,4,1.60 GHz,7.5 W
+Intel® Celeron® Processor N Series,22 nm,4,1.86 GHz,7.5 W
+Intel® Celeron® Processor N Series,22 nm,4,1.83 GHz,7.5 W
+Intel® Celeron® Processor N Series,22 nm,4,1.83 GHz,7.5 W
+Intel® Celeron® Processor N Series,14 nm,4,1.10 GHz,6 W
+Intel® Celeron® Processor N Series,14 nm,2,1.10 GHz,6 W
+Intel® Celeron® Processor N Series,14 nm,4,1.60 GHz,6 W
+Intel® Celeron® Processor N Series,14 nm,4,1.60 GHz,6 W
+Intel® Celeron® Processor N Series,14 nm,2,1.60 GHz,6 W
+Intel® Celeron® Processor N Series,14 nm,2,1.60 GHz,6 W
+Intel® Celeron® Processor N Series,14 nm,2,1.04 GHz,4 W
+Intel® Celeron® Processor N Series,14 nm,2,1.04 GHz,4 W
+Intel® Celeron® Processor 3000 Series,14 nm,2,1.70 GHz,15 W
+Intel® Celeron® Processor 3000 Series,14 nm,2,1.70 GHz,15 W
+Intel® Celeron® Processor 3000 Series,14 nm,2,1.90 GHz,15 W
+Intel® Celeron® Processor 3000 Series,14 nm,2,1.60 GHz,15 W
+Intel® Celeron® Processor 3000 Series,14 nm,2,2.00 GHz,15 W
+Intel® Celeron® Processor 3000 Series,14 nm,2,1.80 GHz,15 W
+Intel® Celeron® Processor 3000 Series,14 nm,2,1.50 GHz,6 W
+Intel® Celeron® Processor 3000 Series,14 nm,2,2.20 GHz,15 W
+7th Generation Intel® Core™ i5 Processors,14 nm,2,1.20 GHz,4.5 W
+7th Generation Intel® Core™ i5 Processors,14 nm,2,2.50 GHz,15 W
+7th Generation Intel® Core™ i5 Processors,14 nm,2,2.20 GHz,15 W
+7th Generation Intel® Core™ i5 Processors,14 nm,2,3.10 GHz,28 W
+7th Generation Intel® Core™ i5 Processors,14 nm,2,3.30 GHz,28 W
+7th Generation Intel® Core™ i5 Processors,14 nm,4,2.50 GHz,45 W
+7th Generation Intel® Core™ i5 Processors,14 nm,2,2.60 GHz,15 W
+7th Generation Intel® Core™ i5 Processors,14 nm,2,2.30 GHz,15 W
+7th Generation Intel® Core™ i5 Processors,14 nm,4,3.00 GHz,65 W
+7th Generation Intel® Core™ i5 Processors,14 nm,4,2.40 GHz,35 W
+7th Generation Intel® Core™ i5 Processors,14 nm,4,2.90 GHz,45 W
+7th Generation Intel® Core™ i5 Processors,14 nm,4,2.80 GHz,45 W
+7th Generation Intel® Core™ i5 Processors,14 nm,4,2.10 GHz,25 W
+7th Generation Intel® Core™ i5 Processors,14 nm,4,2.70 GHz,35 W
+7th Generation Intel® Core™ i5 Processors,14 nm,4,3.40 GHz,65 W
+7th Generation Intel® Core™ i5 Processors,14 nm,4,3.50 GHz,65 W
+7th Generation Intel® Core™ i5 Processors,14 nm,4,2.80 GHz,35 W
+7th Generation Intel® Core™ i5 Processors,14 nm,4,3.80 GHz,91 W
+Intel® Core™ X-series Processors,22 nm,4,2.90 GHz,55 W
+Intel® Core™ X-series Processors,32 nm,6,3.20 GHz,130 W
+Intel® Core™ X-series Processors,22 nm,4,3.00 GHz,55 W
+Intel® Core™ X-series Processors,32 nm,6,3.30 GHz,130 W
+Intel® Core™ X-series Processors,32 nm,6,3.50 GHz,150 W
+Intel® Core™ X-series Processors,22 nm,4,3.70 GHz,130 W
+Intel® Core™ X-series Processors,22 nm,4,3.00 GHz,57 W
+Intel® Core™ X-series Processors,22 nm,6,3.40 GHz,130 W
+Intel® Core™ X-series Processors,22 nm,4,3.10 GHz,57 W
+Intel® Core™ X-series Processors,22 nm,6,3.60 GHz,130 W
+Intel® Core™ X-series Processors,22 nm,6,3.30 GHz,140 W
+Intel® Core™ X-series Processors,22 nm,6,3.50 GHz,140 W
+Intel® Core™ X-series Processors,22 nm,8,3.00 GHz,140 W
+Intel® Core™ X-series Processors,14 nm,6,3.40 GHz,140 W
+Intel® Core™ X-series Processors,14 nm,6,3.60 GHz,140 W
+Intel® Core™ X-series Processors,14 nm,8,3.20 GHz,140 W
+Intel® Core™ X-series Processors,14 nm,10,3.00 GHz,140 W
+Intel® Core™ X-series Processors,14 nm,4,4.00 GHz,112 W
+Intel® Core™ X-series Processors,14 nm,4,4.30 GHz,112 W
+Intel® Core™ X-series Processors,14 nm,6,3.50 GHz,140 W
+Intel® Core™ X-series Processors,14 nm,10,3.30 GHz,140 W
+Intel® Core™ X-series Processors,14 nm,8,3.60 GHz,140 W
+Intel® Core™ X-series Processors,14 nm,12,2.90 GHz,140 W
+8th Generation Intel® Core™ i7 Processors,14 nm,4,1.90 GHz,15 W
+8th Generation Intel® Core™ i5 Processors,14 nm,4,1.70 GHz,15 W
+7th Generation Intel® Core™ i7 Processors,14 nm,2,2.70 GHz,15 W
+7th Generation Intel® Core™ i7 Processors,14 nm,2,2.40 GHz,15 W
+7th Generation Intel® Core™ i7 Processors,14 nm,2,3.50 GHz,28 W
+7th Generation Intel® Core™ i7 Processors,14 nm,2,2.80 GHz,15 W
+7th Generation Intel® Core™ i7 Processors,14 nm,2,2.50 GHz,15 W
+7th Generation Intel® Core™ i7 Processors,14 nm,4,2.90 GHz,35 W
+7th Generation Intel® Core™ i7 Processors,14 nm,4,4.20 GHz,91 W
+7th Generation Intel® Core™ i7 Processors,14 nm,4,3.60 GHz,65 W
+7th Generation Intel® Core™ i7 Processors,14 nm,4,2.80 GHz,45 W
+7th Generation Intel® Core™ i7 Processors,14 nm,4,3.00 GHz,45 W
+7th Generation Intel® Core™ i7 Processors,14 nm,4,2.90 GHz,45 W
+7th Generation Intel® Core™ i7 Processors,14 nm,4,2.90 GHz,45 W
+7th Generation Intel® Core™ i7 Processors,14 nm,4,3.10 GHz,45 W
+Intel® Quark™ SoC X1000 Series,32 nm,1,400 MHz,2.2 W
+Legacy Intel Atom® Processors,45 nm,1,600 MHz,3.3 W
+Intel® Atom™ Processor N Series,32 nm,2,1.60 GHz,3.5 W
+Intel® Atom™ Processor E Series,22 nm,2,1.33 GHz,3 W
+Intel® Atom™ Processor D Series,32 nm,2,1.86 GHz,10 W
+Intel® Atom™ Processor C Series,22 nm,2,1.50 GHz,7 W
+Intel® Itanium® Processors with 677 MHz FSB,130 nm,1,1.66 GHz,122 W
+Intel® Itanium® Processors with 533 MHz FSB,130 nm,1,1.60 GHz,122 W
+Intel® Itanium® Processors with 400 MHz FSB,130 nm,1,900 MHz,90 W
+Intel® Itanium® Processor 9000 Series,90 nm,2,1.60 GHz,104 W
+Intel® Itanium® Processor 9100 Series,90 nm,1,1.60 GHz,75 W
+Intel® Itanium® Processor 9300 Series,65 nm,2,1.60 GHz,130 W
+Intel® Itanium® Processor 9300 Series,65 nm,4,1.33 GHz,155 W
+Intel® Itanium® Processor 9300 Series,65 nm,4,1.46 GHz,155 W
+Intel® Itanium® Processor 9300 Series,65 nm,4,1.60 GHz,185 W
+Intel® Itanium® Processor 9300 Series,65 nm,4,1.73 GHz,185 W
+Intel® Itanium® Processor 9100 Series,90 nm,2,1.42 GHz,104 W
+Intel® Itanium® Processor 9100 Series,90 nm,2,1.66 GHz,104 W
+Intel® Itanium® Processor 9100 Series,90 nm,2,1.66 GHz,104 W
+Intel® Itanium® Processor 9100 Series,90 nm,2,1.60 GHz,104 W
+Intel® Itanium® Processor 9100 Series,90 nm,2,1.66 GHz,104 W
+Intel® Itanium® Processor 9100 Series,90 nm,2,1.60 GHz,104 W
+Intel® Itanium® Processor 9100 Series,90 nm,2,1.66 GHz,104 W
+Intel® Itanium® Processor 9000 Series,90 nm,2,1.40 GHz,104 W
+Intel® Itanium® Processor 9000 Series,90 nm,2,1.42 GHz,104 W
+Intel® Itanium® Processor 9000 Series,90 nm,2,1.60 GHz,104 W
+Intel® Itanium® Processor 9000 Series,90 nm,2,1.60 GHz,104 W
+Intel® Itanium® Processor 9000 Series,90 nm,2,1.60 GHz,104 W
+Intel® Itanium® Processors with 400 MHz FSB,130 nm,1,1.00 GHz,100 W
+Intel® Itanium® Processors with 400 MHz FSB,130 nm,1,1.30 GHz,97 W
+Intel® Itanium® Processors with 400 MHz FSB,130 nm,1,1.40 GHz,91 W
+Intel® Itanium® Processors with 400 MHz FSB,130 nm,1,1.50 GHz,107 W
+Intel® Itanium® Processors with 400 MHz FSB,130 nm,1,1.50 GHz,107 W
+Intel® Itanium® Processors with 533 MHz FSB,130 nm,1,1.60 GHz,122 W
+Intel® Itanium® Processors with 677 MHz FSB,130 nm,1,1.66 GHz,122 W
+Intel® Atom™ Processor C Series,22 nm,2,1.70 GHz,6 W
+Intel® Atom™ Processor C Series,22 nm,4,1.40 GHz,10 W
+Intel® Atom™ Processor C Series,22 nm,4,1.70 GHz,9 W
+Intel® Atom™ Processor C Series,22 nm,4,2.40 GHz,14 W
+Intel® Atom™ Processor C Series,22 nm,8,1.70 GHz,12 W
+Intel® Atom™ Processor C Series,22 nm,8,2.40 GHz,20 W
+Intel® Atom™ Processor C Series,22 nm,2,1.25 GHz,6 W
+Intel® Atom™ Processor C Series,22 nm,2,1.70 GHz,7 W
+Intel® Atom™ Processor C Series,22 nm,2,1.70 GHz,7 W
+Intel® Atom™ Processor C Series,22 nm,4,1.25 GHz,9.5 W
+Intel® Atom™ Processor C Series,22 nm,4,1.70 GHz,13 W
+Intel® Atom™ Processor C Series,22 nm,4,2.40 GHz,15 W
+Intel® Atom™ Processor C Series,22 nm,4,2.40 GHz,15 W
+Intel® Atom™ Processor C Series,22 nm,8,2.00 GHz,18 W
+Intel® Atom™ Processor C Series,22 nm,8,2.40 GHz,20 W
+Intel® Atom™ Processor C Series,22 nm,8,2.40 GHz,20 W
+Intel® Atom™ Processor C Series,14 nm,16,2.00 GHz,31 W
+Intel® Atom™ Processor C Series,14 nm,16,2.10 GHz,32 W
+Intel® Atom™ Processor C Series,14 nm,16,1.70 GHz,24 W
+Intel® Atom™ Processor C Series,14 nm,12,1.90 GHz,21.5 W
+Intel® Atom™ Processor C Series,14 nm,12,2.00 GHz,25 W
+Intel® Atom™ Processor C Series,14 nm,12,2.10 GHz,25 W
+Intel® Atom™ Processor C Series,14 nm,12,2.00 GHz,25 W
+Intel® Atom™ Processor C Series,14 nm,8,2.20 GHz,25 W
+Intel® Atom™ Processor C Series,14 nm,8,2.20 GHz,21 W
+Intel® Atom™ Processor C Series,14 nm,8,1.70 GHz,17 W
+Intel® Atom™ Processor C Series,14 nm,4,2.20 GHz,16 W
+Intel® Atom™ Processor C Series,14 nm,4,2.10 GHz,15 W
+Intel® Atom™ Processor C Series,14 nm,4,1.60 GHz,11.5 W
+Intel® Atom™ Processor C Series,14 nm,2,1.50 GHz,9 W
+Intel® Atom™ Processor C Series,14 nm,2,1.60 GHz,9.5 W
+Intel® Atom™ Processor D Series,32 nm,2,1.86 GHz,10 W
+Intel® Atom™ Processor D Series,32 nm,2,2.13 GHz,10 W
+Intel® Atom™ Processor E Series,22 nm,1,1.46 GHz,5 W
+Intel® Atom™ Processor E Series,22 nm,2,1.33 GHz,6 W
+Intel® Atom™ Processor E Series,22 nm,2,1.46 GHz,7 W
+Intel® Atom™ Processor E Series,22 nm,2,1.75 GHz,8 W
+Intel® Atom™ Processor E Series,22 nm,4,1.91 GHz,10 W
+Intel® Atom™ Processor N Series,32 nm,2,1.86 GHz,6.5 W
+Intel® Atom™ Processor S Series,32 nm,2,1.60 GHz,8.1 W
+Intel® Atom™ Processor S Series,32 nm,2,1.60 GHz,6.1 W
+Intel® Atom™ Processor S Series,32 nm,2,2.00 GHz,8.5 W
+Intel® Atom™ Processor S Series,32 nm,2,1.60 GHz,11.7 W
+Intel® Atom™ Processor S Series,32 nm,2,1.60 GHz,13.1 W
+Intel® Atom™ Processor S Series,32 nm,2,2.00 GHz,14.1 W
+Intel® Atom™ Processor X Series,14 nm,4,1.04 GHz,5 W
+Intel® Atom™ Processor X Series,14 nm,2,1.30 GHz,6.5 W
+Intel® Atom™ Processor X Series,14 nm,4,1.60 GHz,9.5 W
+Intel® Atom™ Processor X Series,14 nm,4,1.60 GHz,12 W
+Legacy Intel Atom® Processors,45 nm,1,600 MHz,3.3 W
+Legacy Intel Atom® Processors,45 nm,1,800 MHz,0.65 W
+Legacy Intel Atom® Processors,45 nm,1,1.10 GHz,2 W
+Legacy Intel Atom® Processors,45 nm,1,1.00 GHz,3.6 W
+Legacy Intel Atom® Processors,45 nm,1,1.20 GHz,1.3 W
+Legacy Intel Atom® Processors,45 nm,1,1.10 GHz,2.2 W
+Legacy Intel Atom® Processors,45 nm,1,1.00 GHz,3.6 W
+Legacy Intel Atom® Processors,45 nm,1,1.10 GHz,2.2 W
+Legacy Intel Atom® Processors,45 nm,1,1.00 GHz,7 W
+Legacy Intel Atom® Processors,45 nm,1,1.20 GHz,1.4 W
+Legacy Intel Atom® Processors,45 nm,1,1.00 GHz,7 W
+Legacy Intel Atom® Processors,45 nm,1,1.60 GHz,4 W
+Legacy Intel Atom® Processors,45 nm,1,1.33 GHz,2 W
+Legacy Intel Atom® Processors,45 nm,1,1.30 GHz,3.6 W
+Legacy Intel Atom® Processors,45 nm,1,1.60 GHz,2.2 W
+Legacy Intel Atom® Processors,45 nm,1,1.33 GHz,2.2 W
+Legacy Intel Atom® Processors,45 nm,1,1.30 GHz,3.6 W
+Legacy Intel Atom® Processors,45 nm,1,1.60 GHz,2 W
+Legacy Intel Atom® Processors,45 nm,1,1.30 GHz,7 W
+Legacy Intel Atom® Processors,45 nm,1,1.90 GHz,2.2 W
+Legacy Intel Atom® Processors,45 nm,1,1.66 GHz,5.5 W
+Legacy Intel Atom® Processors,45 nm,1,1.60 GHz,2.2 W
+Legacy Intel Atom® Processors,45 nm,1,1.20 GHz,3 W
+Legacy Intel Atom® Processors,45 nm,1,1.30 GHz,7 W
+Legacy Intel Atom® Processors,45 nm,1,1.66 GHz,6.5 W
+Legacy Intel Atom® Processors,45 nm,1,1.66 GHz,10 W
+Legacy Intel Atom® Processors,45 nm,2,1.66 GHz,13 W
+Legacy Intel Atom® Processors,45 nm,1,1.86 GHz,2.4 W
+Legacy Intel Atom® Processors,45 nm,1,1.50 GHz,3 W
+Legacy Intel Atom® Processors,45 nm,1,1.60 GHz,4.5 W
+Legacy Intel Atom® Processors,45 nm,2,1.50 GHz,8.5 W
+Legacy Intel Atom® Processors,45 nm,1,1.83 GHz,6.5 W
+Legacy Intel Atom® Processors,45 nm,1,2.00 GHz,2.4 W
+Legacy Intel Atom® Processors,45 nm,1,1.60 GHz,2.5 W
+Legacy Intel Atom® Processors,45 nm,2,1.60 GHz,8 W
+Legacy Intel Atom® Processors,45 nm,2,1.66 GHz,8.5 W
+Legacy Intel Atom® Processors,45 nm,1,1.60 GHz,4.5 W
+Legacy Intel Atom® Processors,45 nm,1,2.13 GHz,2.5 W
+Legacy Intel Atom® Processors,45 nm,1,1.83 GHz,6.5 W
+Legacy Intel Atom® Processors,45 nm,2,1.80 GHz,13 W
+Legacy Intel Atom® Processors,45 nm,1,1.80 GHz,10 W
+Legacy Intel Atom® Processors,45 nm,1,1.66 GHz,2.5 W
+Intel® Quark™ SoC X1000 Series,32 nm,1,400 MHz,2.2 W
+Intel® Quark™ SoC X1000 Series,32 nm,1,400 MHz,2.2 W
+Intel® Quark™ SoC X1000 Series,32 nm,1,400 MHz,2.2 W
+Intel® Quark™ SoC X1000 Series,32 nm,1,400 MHz,2.2 W
+Intel® Quark™ SoC X1000 Series,32 nm,1,400 MHz,2.2 W
+Intel® Quark™ SoC X1000 Series,32 nm,1,400 MHz,2.2 W
+Intel® Quark™ SoC X1000 Series,32 nm,1,400 MHz,2.2 W
+Intel® Itanium® Processor 9500 Series,32 nm,4,1.73 GHz,130 W
+Intel® Itanium® Processor 9700 Series,32 nm,8,2.66 GHz,170 W
+Intel® Xeon Phi™ x200 Product Family,14 nm,72,1.50 GHz,260 W
+Intel® Xeon Phi™ x100 Product Family,22 nm,57,1.10 GHz,300 W
+Intel® Xeon Phi™ x100 Product Family,22 nm,57,1.10 GHz,300 W
+Intel® Xeon® Processor E3 Family,32 nm,4,3.60 GHz,95 W
+Intel® Xeon® Processor D Family,14 nm,4,1.60 GHz,35 W
+Legacy Intel® Xeon® Processors,32 nm,4,1.60 GHz,80 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.10 GHz,80 W
+Intel® Xeon® Processor E3 v4 Family,14 nm,4,1.80 GHz,47 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,3.00 GHz,80 W
+Intel® Xeon® Processor E3 v6 Family,14 nm,4,3.00 GHz,72 W
+Intel® Xeon® Processor E5 Family,32 nm,8,2.90 GHz,135 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,12,2.70 GHz,130 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,12,2.40 GHz,115 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,4,3.50 GHz,140 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,4,3.70 GHz,140 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,6,3.60 GHz,140 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,8,3.20 GHz,140 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,8,3.40 GHz,140 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,6,1.70 GHz,85 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,8,1.60 GHz,50 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,8,1.70 GHz,85 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,10,2.20 GHz,75 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,8,2.10 GHz,85 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,4,2.60 GHz,85 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,12,1.90 GHz,75 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,10,1.80 GHz,55 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,10,2.20 GHz,85 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,4,3.50 GHz,135 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,10,2.40 GHz,90 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,6,3.40 GHz,135 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,14,1.80 GHz,75 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,14,1.70 GHz,65 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,12,2.20 GHz,105 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,14,2.00 GHz,105 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,8,3.20 GHz,135 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,14,2.30 GHz,105 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,14,2.40 GHz,120 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,16,2.10 GHz,120 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,12,3.00 GHz,160 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,14,2.60 GHz,135 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,18,2.10 GHz,120 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,16,2.60 GHz,145 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,18,2.30 GHz,145 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,20,2.20 GHz,135 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,22,2.20 GHz,145 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,22,2.20 GHz,145 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,22,2.40 GHz,145 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,10,1.80 GHz,105 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,10,2.10 GHz,105 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,10,2.60 GHz,135 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,14,1.80 GHz,75 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,12,2.10 GHz,105 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,14,2.20 GHz,105 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,8,2.50 GHz,135 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,16,2.20 GHz,120 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,18,2.20 GHz,135 W
+Intel® Xeon® Processor E5 v4 Family,14 nm,22,2.20 GHz,135 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,6,1.60 GHz,85 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,6,2.00 GHz,52 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,6,1.90 GHz,85 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,8,2.30 GHz,75 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,6,2.40 GHz,85 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,4,3.00 GHz,105 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,10,2.00 GHz,75 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,8,2.40 GHz,85 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,8,1.80 GHz,55 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,4,3.50 GHz,135 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,8,2.60 GHz,90 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,6,3.40 GHz,135 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,10,2.30 GHz,105 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,12,1.80 GHz,75 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,12,1.80 GHz,65 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,12,2.20 GHz,105 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,12,2.20 GHz,105 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,10,2.60 GHz,105 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,8,3.20 GHz,135 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,12,2.30 GHz,120 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,12,2.50 GHz,120 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,14,2.00 GHz,120 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,10,1.70 GHz,105 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,10,2.00 GHz,105 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,10,3.10 GHz,160 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,10,2.60 GHz,135 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,12,2.60 GHz,135 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,12,1.90 GHz,105 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,8,3.20 GHz,140 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,14,2.30 GHz,120 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,12,1.70 GHz,105 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,8,3.00 GHz,140 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,12,2.10 GHz,105 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,6,3.50 GHz,140 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,14,2.60 GHz,145 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,6,2.90 GHz,135 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,4,1.80 GHz,45 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,4,3.70 GHz,140 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,16,2.30 GHz,135 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,14,2.10 GHz,120 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,6,2.00 GHz,50 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,4,3.50 GHz,140 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,16,2.00 GHz,135 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,8,1.80 GHz,55 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,18,2.10 GHz,135 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,10,1.80 GHz,70 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,8,2.00 GHz,65 W
+Intel® Xeon® Processor E5 v3 Family,22 nm,18,2.30 GHz,145 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,10,3.00 GHz,130 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,10,2.80 GHz,115 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,8,3.40 GHz,150 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,10,2.50 GHz,115 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,8,3.30 GHz,130 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,10,2.20 GHz,95 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,10,1.70 GHz,70 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,10,2.40 GHz,95 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,8,2.60 GHz,95 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,10,2.40 GHz,95 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,10,1.90 GHz,70 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,10,1.70 GHz,60 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,6,3.50 GHz,130 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,8,2.50 GHz,95 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,12,2.40 GHz,115 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,10,1.80 GHz,70 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,8,2.00 GHz,95 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,4,3.50 GHz,130 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,10,2.40 GHz,95 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,8,1.90 GHz,95 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,6,2.40 GHz,60 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,6,2.40 GHz,60 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,10,2.20 GHz,95 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,6,2.60 GHz,80 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,6,2.50 GHz,80 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,8,3.30 GHz,130 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,10,1.90 GHz,70 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,8,1.90 GHz,70 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,8,1.80 GHz,60 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,6,2.10 GHz,80 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,6,2.20 GHz,80 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,6,3.70 GHz,130 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,8,2.60 GHz,95 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,6,2.00 GHz,50 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,6,2.00 GHz,50 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,6,3.50 GHz,130 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,8,2.30 GHz,95 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,6,2.60 GHz,95 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,4,2.50 GHz,80 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,4,2.40 GHz,80 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,4,3.70 GHz,130 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,6,2.20 GHz,60 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,4,1.80 GHz,80 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,4,1.80 GHz,80 W
+Intel® Xeon® Processor E5 v2 Family,22 nm,4,2.20 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,8,3.10 GHz,150 W
+Intel® Xeon® Processor E5 Family,32 nm,8,2.70 GHz,130 W
+Intel® Xeon® Processor E5 Family,32 nm,8,2.60 GHz,115 W
+Intel® Xeon® Processor E5 Family,32 nm,6,2.90 GHz,130 W
+Intel® Xeon® Processor E5 Family,32 nm,8,2.40 GHz,115 W
+Intel® Xeon® Processor E5 Family,32 nm,8,2.20 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,8,2.10 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,8,2.00 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,8,1.80 GHz,70 W
+Intel® Xeon® Processor E5 Family,32 nm,8,1.80 GHz,70 W
+Intel® Xeon® Processor E5 Family,32 nm,4,3.30 GHz,130 W
+Intel® Xeon® Processor E5 Family,32 nm,8,2.30 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,8,1.80 GHz,70 W
+Intel® Xeon® Processor E5 Family,32 nm,6,2.50 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,8,2.10 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,2,3.00 GHz,80 W
+Intel® Xeon® Processor E5 Family,32 nm,8,1.80 GHz,70 W
+Intel® Xeon® Processor E5 Family,32 nm,8,2.60 GHz,115 W
+Intel® Xeon® Processor E5 Family,32 nm,6,2.00 GHz,60 W
+Intel® Xeon® Processor E5 Family,32 nm,8,2.70 GHz,130 W
+Intel® Xeon® Processor E5 Family,32 nm,6,2.40 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,6,2.30 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,6,3.30 GHz,130 W
+Intel® Xeon® Processor E5 Family,32 nm,6,2.00 GHz,60 W
+Intel® Xeon® Processor E5 Family,32 nm,6,2.20 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,8,2.40 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,6,1.80 GHz,60 W
+Intel® Xeon® Processor E5 Family,32 nm,8,2.20 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,6,3.20 GHz,130 W
+Intel® Xeon® Processor E5 Family,32 nm,6,2.00 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,6,1.90 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,6,2.90 GHz,130 W
+Intel® Xeon® Processor E5 Family,32 nm,4,2.00 GHz,50 W
+Intel® Xeon® Processor E5 Family,32 nm,6,1.80 GHz,60 W
+Intel® Xeon® Processor E5 Family,32 nm,4,3.60 GHz,130 W
+Intel® Xeon® Processor E5 Family,32 nm,4,2.40 GHz,80 W
+Intel® Xeon® Processor E5 Family,32 nm,6,2.40 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,4,2.20 GHz,80 W
+Intel® Xeon® Processor E5 Family,32 nm,6,2.20 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,4,1.80 GHz,80 W
+Intel® Xeon® Processor E5 Family,32 nm,4,2.00 GHz,95 W
+Intel® Xeon® Processor E5 Family,32 nm,4,1.80 GHz,80 W
+Intel® Xeon® Processor E3 v6 Family,14 nm,4,3.30 GHz,73 W
+Intel® Xeon® Processor E3 v6 Family,14 nm,4,3.50 GHz,72 W
+Intel® Xeon® Processor E3 v6 Family,14 nm,4,3.70 GHz,72 W
+Intel® Xeon® Processor E3 v6 Family,14 nm,4,3.70 GHz,73 W
+Intel® Xeon® Processor E3 v6 Family,14 nm,4,3.80 GHz,72 W
+Intel® Xeon® Processor E3 v6 Family,14 nm,4,3.80 GHz,73 W
+Intel® Xeon® Processor E3 v6 Family,14 nm,4,3.90 GHz,72 W
+Intel® Xeon® Processor E3 v6 Family,14 nm,4,4.10 GHz,79 W
+Intel® Xeon® Processor E3 v6 Family,14 nm,4,2.10 GHz,25 W
+Intel® Xeon® Processor E3 v6 Family,14 nm,4,2.90 GHz,45 W
+Intel® Xeon® Processor E3 v6 Family,14 nm,4,2.20 GHz,25 W
+Intel® Xeon® Processor E3 v6 Family,14 nm,4,3.00 GHz,45 W
+Intel® Xeon® Processor E3 v6 Family,14 nm,4,3.10 GHz,45 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,3.30 GHz,80 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,3.40 GHz,80 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,3.50 GHz,80 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,2.00 GHz,25 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,2.10 GHz,25 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,3.50 GHz,80 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,2.90 GHz,45 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,2.40 GHz,35 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,3.60 GHz,80 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,3.60 GHz,80 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,3.70 GHz,80 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,2.80 GHz,45 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,2.00 GHz,25 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,2.80 GHz,45 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,2.90 GHz,45 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,2.90 GHz,45 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,1.90 GHz,45 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,2.50 GHz,35 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,3.00 GHz,45 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,2.00 GHz,45 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,3.00 GHz,45 W
+Intel® Xeon® Processor E3 v5 Family,14 nm,4,3.50 GHz,65 W
+Intel® Xeon® Processor E3 v4 Family,14 nm,4,2.30 GHz,35 W
+Intel® Xeon® Processor E3 v4 Family,14 nm,4,2.00 GHz,47 W
+Intel® Xeon® Processor E3 v4 Family,14 nm,4,3.50 GHz,95 W
+Intel® Xeon® Processor E3 v4 Family,14 nm,4,3.40 GHz,65 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,2,1.10 GHz,13 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.30 GHz,84 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.20 GHz,84 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.30 GHz,80 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,1.80 GHz,25 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.40 GHz,80 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.40 GHz,80 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,2.00 GHz,25 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.50 GHz,80 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.40 GHz,84 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.50 GHz,84 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.50 GHz,84 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,2.50 GHz,45 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.60 GHz,80 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,2.30 GHz,45 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.50 GHz,80 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,2.70 GHz,45 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.60 GHz,82 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.60 GHz,84 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.70 GHz,82 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.60 GHz,84 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.10 GHz,65 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.70 GHz,84 W
+Intel® Xeon® Processor E3 v3 Family,22 nm,4,3.20 GHz,65 W
+Intel® Xeon® Processor E3 v2 Family,22 nm,4,1.80 GHz,25 W
+Intel® Xeon® Processor E3 v2 Family,22 nm,4,2.50 GHz,40 W
+Intel® Xeon® Processor E3 v2 Family,22 nm,2,2.30 GHz,17 W
+Intel® Xeon® Processor E3 v2 Family,22 nm,4,3.10 GHz,69 W
+Intel® Xeon® Processor E3 v2 Family,22 nm,4,3.20 GHz,77 W
+Intel® Xeon® Processor E3 v2 Family,22 nm,4,3.30 GHz,69 W
+Intel® Xeon® Processor E3 v2 Family,22 nm,4,3.40 GHz,69 W
+Intel® Xeon® Processor E3 v2 Family,22 nm,4,3.40 GHz,77 W
+Intel® Xeon® Processor E3 v2 Family,22 nm,4,2.50 GHz,45 W
+Intel® Xeon® Processor E3 v2 Family,22 nm,4,3.50 GHz,69 W
+Intel® Xeon® Processor E3 v2 Family,22 nm,4,3.60 GHz,69 W
+Intel® Xeon® Processor E3 v2 Family,22 nm,4,3.50 GHz,77 W
+Intel® Xeon® Processor E3 v2 Family,22 nm,4,3.70 GHz,87 W
+Intel® Xeon® Processor E3 Family,32 nm,4,3.10 GHz,80 W
+Intel® Xeon® Processor E3 Family,32 nm,2,2.20 GHz,20 W
+Intel® Xeon® Processor E3 Family,32 nm,4,3.10 GHz,95 W
+Intel® Xeon® Processor E3 Family,32 nm,4,3.20 GHz,80 W
+Intel® Xeon® Processor E3 Family,32 nm,4,3.30 GHz,80 W
+Intel® Xeon® Processor E3 Family,32 nm,4,3.20 GHz,95 W
+Intel® Xeon® Processor E3 Family,32 nm,4,3.30 GHz,95 W
+Intel® Xeon® Processor E3 Family,32 nm,4,2.40 GHz,45 W
+Intel® Xeon® Processor E3 Family,32 nm,4,3.40 GHz,95 W
+Intel® Xeon® Processor E3 Family,32 nm,4,3.40 GHz,80 W
+Intel® Xeon® Processor E3 Family,32 nm,4,3.50 GHz,95 W
+Intel® Xeon® Processor D Family,14 nm,4,2.20 GHz,35 W
+Intel® Xeon® Processor D Family,14 nm,4,2.20 GHz,45 W
+Intel® Xeon® Processor D Family,14 nm,4,2.40 GHz,45 W
+Intel® Xeon® Processor D Family,14 nm,4,2.00 GHz,45 W
+Intel® Xeon® Processor D Family,14 nm,4,2.20 GHz,35 W
+Intel® Xeon® Processor D Family,14 nm,6,1.90 GHz,35 W
+Intel® Xeon® Processor D Family,14 nm,4,1.30 GHz,20 W
+Intel® Xeon® Processor D Family,14 nm,6,2.20 GHz,45 W
+Intel® Xeon® Processor D Family,14 nm,6,2.10 GHz,45 W
+Intel® Xeon® Processor D Family,14 nm,8,1.70 GHz,35 W
+Intel® Xeon® Processor D Family,14 nm,8,1.60 GHz,35 W
+Intel® Xeon® Processor D Family,14 nm,8,2.00 GHz,45 W
+Intel® Xeon® Processor D Family,14 nm,8,2.10 GHz,45 W
+Intel® Xeon® Processor D Family,14 nm,8,1.90 GHz,45 W
+Intel® Xeon® Processor D Family,14 nm,8,2.00 GHz,45 W
+Intel® Xeon® Processor D Family,14 nm,12,1.50 GHz,45 W
+Intel® Xeon® Processor D Family,14 nm,12,1.50 GHz,45 W
+Intel® Xeon® Processor D Family,14 nm,12,2.10 GHz,65 W
+Intel® Xeon® Processor D Family,14 nm,8,2.30 GHz,65 W
+Intel® Xeon® Processor D Family,14 nm,16,1.30 GHz,45 W
+Intel® Xeon® Processor D Family,14 nm,16,1.30 GHz,45 W
+Legacy Intel® Xeon® Processors,32 nm,4,2.13 GHz,80 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.40 GHz,40 W
+Legacy Intel® Xeon® Processors,90 nm,1,2.80 GHz,55 W
+Legacy Intel® Xeon® Processors,32 nm,4,2.26 GHz,80 W
+Legacy Intel® Xeon® Processors,130 nm,1,1.60 GHz,30 W
+Legacy Intel® Xeon® Processors,32 nm,4,2.40 GHz,80 W
+Legacy Intel® Xeon® Processors,130 nm,1,3.00 GHz,85 W
+Legacy Intel® Xeon® Processors,32 nm,4,2.53 GHz,80 W
+Legacy Intel® Xeon® Processors,130 nm,1,3.00 GHz,85 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.80 GHz,110 W
+Legacy Intel® Xeon® Processors,32 nm,4,2.66 GHz,80 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.80 GHz,74 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.80 GHz,110 W
+Legacy Intel® Xeon® Processors,32 nm,6,2.40 GHz,80 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.80 GHz,72 W
+Legacy Intel® Xeon® Processors,32 nm,6,2.53 GHz,80 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.70 GHz,80 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.60 GHz,110 W
+Legacy Intel® Xeon® Processors,32 nm,4,1.86 GHz,40 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.60 GHz,110 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.60 GHz,60 W
+Legacy Intel® Xeon® Processors,32 nm,4,1.87 GHz,40 W
+Legacy Intel® Xeon® Processors,45 nm,2,1.86 GHz,80 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.00 GHz,80 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.50 GHz,66 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.60 GHz,103 W
+Legacy Intel® Xeon® Processors,32 nm,4,2.13 GHz,40 W
+Legacy Intel® Xeon® Processors,45 nm,2,2.00 GHz,80 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.33 GHz,80 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.40 GHz,65 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.40 GHz,110 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.00 GHz,80 W
+Legacy Intel® Xeon® Processors,32 nm,6,2.00 GHz,60 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.50 GHz,80 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.40 GHz,110 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.20 GHz,61 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.13 GHz,80 W
+Legacy Intel® Xeon® Processors,45 nm,2,1.86 GHz,65 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.66 GHz,80 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.20 GHz,65 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.40 GHz,103 W
+Legacy Intel® Xeon® Processors,32 nm,6,2.26 GHz,60 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.26 GHz,80 W
+Legacy Intel® Xeon® Processors,45 nm,2,2.33 GHz,65 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.83 GHz,80 W
+Legacy Intel® Xeon® Processors,65 nm,2,1.66 GHz,15 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.00 GHz,58 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.20 GHz,110 W
+Legacy Intel® Xeon® Processors,32 nm,4,2.93 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.26 GHz,80 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.00 GHz,80 W
+Legacy Intel® Xeon® Processors,45 nm,2,3.00 GHz,65 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.16 GHz,31 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.20 GHz,110 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.00 GHz,57 W
+Legacy Intel® Xeon® Processors,32 nm,6,2.66 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.40 GHz,80 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.80 GHz,80 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.20 GHz,103 W
+Legacy Intel® Xeon® Processors,130 nm,1,3.20 GHz,92 W
+Legacy Intel® Xeon® Processors,180 nm,1,2.00 GHz,77.5 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.00 GHz,31 W
+Legacy Intel® Xeon® Processors,65 nm,2,1.60 GHz,65 W
+Legacy Intel® Xeon® Processors,32 nm,6,2.80 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.53 GHz,80 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.00 GHz,80 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.00 GHz,57 W
+Legacy Intel® Xeon® Processors,130 nm,1,3.20 GHz,92 W
+Legacy Intel® Xeon® Processors,65 nm,2,1.86 GHz,65 W
+Legacy Intel® Xeon® Processors,32 nm,4,3.06 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.13 GHz,60 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.83 GHz,65 W
+Legacy Intel® Xeon® Processors,45 nm,2,1.86 GHz,20 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.13 GHz,40 W
+Legacy Intel® Xeon® Processors,65 nm,4,1.60 GHz,80 W
+Legacy Intel® Xeon® Processors,130 nm,1,1.90 GHz,55 W
+Legacy Intel® Xeon® Processors,130 nm,1,3.06 GHz,85 W
+Legacy Intel® Xeon® Processors,65 nm,2,1.66 GHz,31 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.00 GHz,65 W
+Legacy Intel® Xeon® Processors,90 nm,2,2.80 GHz,135 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.00 GHz,110 W
+Legacy Intel® Xeon® Processors,32 nm,6,2.93 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,2,2.00 GHz,38 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.50 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.33 GHz,50 W
+Legacy Intel® Xeon® Processors,65 nm,4,1.86 GHz,80 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.60 GHz,95 W
+Legacy Intel® Xeon® Processors,130 nm,1,3.06 GHz,87 W
+Legacy Intel® Xeon® Processors,130 nm,1,1.80 GHz,55 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.33 GHz,65 W
+Legacy Intel® Xeon® Processors,65 nm,2,1.86 GHz,65 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.00 GHz,103 W
+Legacy Intel® Xeon® Processors,32 nm,4,3.20 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,4,1.87 GHz,95 W
+Legacy Intel® Xeon® Processors,32 nm,2,2.26 GHz,30 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.13 GHz,60 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.13 GHz,90 W
+Legacy Intel® Xeon® Processors,45 nm,2,2.66 GHz,35 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.50 GHz,50 W
+Legacy Intel® Xeon® Processors,65 nm,4,2.00 GHz,80 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.00 GHz,55 W
+Legacy Intel® Xeon® Processors,180 nm,1,700 MHz,29.6 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.50 GHz,95 W
+Legacy Intel® Xeon® Processors,180 nm,1,1.70 GHz,65.8 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.66 GHz,65 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.13 GHz,65 W
+Legacy Intel® Xeon® Processors,32 nm,6,3.06 GHz,95 W
+Legacy Intel® Xeon® Processors,32 nm,6,3.20 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,6,1.87 GHz,105 W
+Legacy Intel® Xeon® Processors,45 nm,4,1.86 GHz,45 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.26 GHz,60 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.66 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.13 GHz,90 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.66 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,2,3.00 GHz,40 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.66 GHz,50 W
+Legacy Intel® Xeon® Processors,65 nm,4,1.60 GHz,80 W
+Legacy Intel® Xeon® Processors,65 nm,4,2.33 GHz,80 W
+Legacy Intel® Xeon® Processors,180 nm,1,700 MHz,29.6 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.00 GHz,103 W
+Legacy Intel® Xeon® Processors,180 nm,1,933 MHz,29.6 W
+Legacy Intel® Xeon® Processors,65 nm,2,3.00 GHz,80 W
+Legacy Intel® Xeon® Processors,65 nm,2,3.00 GHz,95 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.66 GHz,95 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.40 GHz,65 W
+Legacy Intel® Xeon® Processors,32 nm,4,3.46 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,6,2.00 GHz,105 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.40 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.40 GHz,60 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.80 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.40 GHz,90 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.00 GHz,120 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.66 GHz,95 W
+Legacy Intel® Xeon® Processors,65 nm,4,2.13 GHz,80 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.33 GHz,65 W
+Legacy Intel® Xeon® Processors,65 nm,2,1.60 GHz,40 W
+Legacy Intel® Xeon® Processors,65 nm,4,1.60 GHz,50 W
+Legacy Intel® Xeon® Processors,180 nm,1,866 MHz,27.4 W
+Legacy Intel® Xeon® Processors,250 nm,1,550 MHz,34 W
+Legacy Intel® Xeon® Processors,180 nm,1,1.60 GHz,72 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.80 GHz,74 W
+Legacy Intel® Xeon® Processors,65 nm,2,3.00 GHz,95 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.83 GHz,95 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.66 GHz,110 W
+Legacy Intel® Xeon® Processors,90 nm,1,2.80 GHz,110 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.00 GHz,85 W
+Legacy Intel® Xeon® Processors,45 nm,6,1.87 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.53 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.93 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.20 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,6,2.40 GHz,90 W
+Legacy Intel® Xeon® Processors,65 nm,4,1.60 GHz,40 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.16 GHz,120 W
+Legacy Intel® Xeon® Processors,65 nm,4,2.40 GHz,80 W
+Legacy Intel® Xeon® Processors,180 nm,1,800 MHz,25.4 W
+Legacy Intel® Xeon® Processors,250 nm,1,550 MHz,39.5 W
+Legacy Intel® Xeon® Processors,180 nm,1,1.50 GHz,68 W
+Legacy Intel® Xeon® Processors,65 nm,2,3.20 GHz,150 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.80 GHz,77 W
+Legacy Intel® Xeon® Processors,65 nm,2,3.00 GHz,95 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.66 GHz,65 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.33 GHz,129 W
+Legacy Intel® Xeon® Processors,90 nm,1,2.80 GHz,103 W
+Legacy Intel® Xeon® Processors,32 nm,6,3.33 GHz,130 W
+Legacy Intel® Xeon® Processors,32 nm,6,3.33 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.13 GHz,65 W
+Legacy Intel® Xeon® Processors,45 nm,2,2.27 GHz,65 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.66 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,8,1.87 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.33 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.06 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.33 GHz,120 W
+Legacy Intel® Xeon® Processors,45 nm,2,3.00 GHz,65 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.83 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,2,3.33 GHz,80 W
+Legacy Intel® Xeon® Processors,90 nm,1,2.80 GHz,110 W
+Legacy Intel® Xeon® Processors,65 nm,2,1.86 GHz,40 W
+Legacy Intel® Xeon® Processors,65 nm,4,1.86 GHz,50 W
+Legacy Intel® Xeon® Processors,180 nm,1,733 MHz,23.3 W
+Legacy Intel® Xeon® Processors,250 nm,1,550 MHz,34 W
+Legacy Intel® Xeon® Processors,65 nm,2,3.16 GHz,150 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.66 GHz,72 W
+Legacy Intel® Xeon® Processors,180 nm,1,1.50 GHz,59.2 W
+Legacy Intel® Xeon® Processors,90 nm,2,2.66 GHz,165 W
+Legacy Intel® Xeon® Processors,65 nm,2,3.20 GHz,130 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.16 GHz,110 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.50 GHz,110 W
+Legacy Intel® Xeon® Processors,32 nm,4,3.60 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,1,1.73 GHz,23 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.53 GHz,85 W
+Legacy Intel® Xeon® Processors,45 nm,6,2.67 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.80 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.20 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.66 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.13 GHz,50 W
+Legacy Intel® Xeon® Processors,45 nm,2,3.50 GHz,80 W
+Intel® Xeon® Processor W Family,14 nm,18,2.30 GHz,140 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.00 GHz,120 W
+Intel® Xeon® Processor W Family,14 nm,10,3.30 GHz,140 W
+Intel® Xeon® Processor W Family,14 nm,8,3.70 GHz,140 W
+Intel® Xeon® Processor W Family,14 nm,6,3.70 GHz,140 W
+Intel® Xeon® Processor W Family,14 nm,6,3.60 GHz,140 W
+Intel® Xeon® Processor W Family,14 nm,4,4.00 GHz,120 W
+Intel® Xeon® Processor W Family,14 nm,4,3.60 GHz,120 W
+Legacy Intel® Xeon® Processors,65 nm,4,2.40 GHz,80 W
+Legacy Intel® Xeon® Processors,65 nm,4,2.00 GHz,50 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.20 GHz,40 W
+Legacy Intel® Xeon® Processors,65 nm,4,2.13 GHz,105 W
+Legacy Intel® Xeon® Processors,65 nm,2,3.20 GHz,95 W
+Legacy Intel® Xeon® Processors,180 nm,1,667 MHz,21.3 W
+Legacy Intel® Xeon® Processors,250 nm,1,500 MHz,36 W
+Legacy Intel® Xeon® Processors,130 nm,1,1.50 GHz,48 W
+Legacy Intel® Xeon® Processors,65 nm,2,3.40 GHz,150 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.40 GHz,65 W
+Legacy Intel® Xeon® Processors,90 nm,2,2.80 GHz,165 W
+Legacy Intel® Xeon® Processors,90 nm,1,3.00 GHz,129 W
+Legacy Intel® Xeon® Processors,90 nm,1,2.80 GHz,103 W
+Legacy Intel® Xeon® Processors,32 nm,6,3.46 GHz,130 W
+Legacy Intel® Xeon® Processors,32 nm,6,3.46 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,2,1.73 GHz,35 W
+Legacy Intel® Xeon® Processors,45 nm,4,1.73 GHz,48 W
+Legacy Intel® Xeon® Processors,45 nm,8,2.00 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,6,2.00 GHz,105 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.93 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.20 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.80 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,6,2.13 GHz,65 W
+Legacy Intel® Xeon® Processors,45 nm,1,2.40 GHz,30 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.00 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,2,3.16 GHz,65 W
+Legacy Intel® Xeon® Processors,45 nm,2,3.40 GHz,80 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.20 GHz,150 W
+Legacy Intel® Xeon® Processors,65 nm,4,1.86 GHz,50 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.40 GHz,80 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.13 GHz,35 W
+Legacy Intel® Xeon® Processors,65 nm,4,2.66 GHz,120 W
+Legacy Intel® Xeon® Processors,65 nm,4,2.40 GHz,105 W
+Legacy Intel® Xeon® Processors,180 nm,1,600 MHz,19.2 W
+Legacy Intel® Xeon® Processors,250 nm,1,500 MHz,36.2 W
+Legacy Intel® Xeon® Processors,180 nm,1,1.40 GHz,64 W
+Legacy Intel® Xeon® Processors,65 nm,2,3.33 GHz,150 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.40 GHz,77 W
+Legacy Intel® Xeon® Processors,90 nm,2,3.00 GHz,165 W
+Legacy Intel® Xeon® Processors,65 nm,2,3.46 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.06 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.13 GHz,60 W
+Legacy Intel® Xeon® Processors,45 nm,8,2.27 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,8,2.00 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.16 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.33 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,4,2.93 GHz,95 W
+Legacy Intel® Xeon® Processors,45 nm,6,2.66 GHz,130 W
+Legacy Intel® Xeon® Processors,45 nm,4,3.40 GHz,150 W
+Legacy Intel® Xeon® Processors,45 nm,2,3.00 GHz,45 W
+Legacy Intel® Xeon® Processors,65 nm,4,2.66 GHz,95 W
+Legacy Intel® Xeon® Processors,65 nm,4,2.93 GHz,130 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.93 GHz,80 W
+Legacy Intel® Xeon® Processors,65 nm,4,3.00 GHz,150 W
+Legacy Intel® Xeon® Processors,65 nm,2,3.50 GHz,150 W
+Legacy Intel® Xeon® Processors,250 nm,1,500 MHz,44 W
+Legacy Intel® Xeon® Processors,180 nm,1,1.00 GHz,30.8 W
+Legacy Intel® Xeon® Processors,130 nm,1,2.00 GHz,58 W
+Legacy Intel® Xeon® Processors,180 nm,1,1.40 GHz,56 W
+Legacy Intel® Xeon® Processors,90 nm,2,3.00 GHz,165 W
+Legacy Intel® Xeon® Processors,65 nm,2,2.33 GHz,40 W
+Legacy Intel® Xeon® Processors,65 nm,2,3.73 GHz,130 W
+Legacy Intel® Xeon® Processors,90 nm,1,2.83 GHz,129 W
+Intel® Xeon Phi™ x100 Product Family,22 nm,60,1.05 GHz,225 W
+Intel® Xeon Phi™ x100 Product Family,22 nm,60,1.05 GHz,245 W
+Intel® Xeon Phi™ x100 Product Family,22 nm,61,1.24 GHz,300 W
+Intel® Xeon Phi™ x100 Product Family,22 nm,61,1.24 GHz,300 W
+Intel® Xeon Phi™ x100 Product Family,22 nm,61,1.24 GHz,270 W
+Intel® Xeon Phi™ x100 Product Family,22 nm,61,1.24 GHz,300 W
+Intel® Xeon Phi™ x200 Product Family,14 nm,72,1.50 GHz,245 W
+Intel® Xeon Phi™ x200 Product Family,14 nm,68,1.40 GHz,230 W
+Intel® Xeon Phi™ x200 Product Family,14 nm,68,1.40 GHz,215 W
+Intel® Xeon Phi™ x200 Product Family,14 nm,64,1.30 GHz,230 W
+Intel® Xeon Phi™ x200 Product Family,14 nm,64,1.30 GHz,215 W
+Intel® Xeon Phi™ x200 Product Family,14 nm,64,1.30 GHz,230 W
+Intel® Xeon Phi™ x200 Product Family,14 nm,64,1.30 GHz,215 W
+Intel® Itanium® Processor 9700 Series,32 nm,4,2.53 GHz,170 W
+Intel® Itanium® Processor 9700 Series,32 nm,8,2.13 GHz,170 W
+Intel® Itanium® Processor 9700 Series,32 nm,4,1.73 GHz,130 W
+Intel® Itanium® Processor 9500 Series,32 nm,8,2.13 GHz,170 W
+Intel® Itanium® Processor 9500 Series,32 nm,4,2.40 GHz,170 W
+Intel® Itanium® Processor 9500 Series,32 nm,8,2.53 GHz,170 W
+Intel® Xeon® Processor E7 Family,32 nm,6,1.73 GHz,105 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,12,2.30 GHz,105 W
+Intel® Xeon® Processor E7 v3 Family,22 nm,8,2.00 GHz,115 W
+Intel® Xeon® Processor E7 v4 Family,14 nm,8,2.10 GHz,115 W
+Intel® Xeon® Scalable Processors,14 nm,6,1.70 GHz,85 W
+Legacy Intel® Celeron® Processor,65 nm,1,3.60 GHz,65 W
+Intel® Celeron® Processor 1000 Series,22 nm,2,1.80 GHz,35 W
+Intel® Celeron® Processor 2000 Series,22 nm,2,2.20 GHz,37 W
+Intel® Pentium® Processor G Series,22 nm,2,2.80 GHz,55 W
+Intel® Pentium® Processor D Series,14 nm,2,1.20 GHz,20 W
+Legacy Intel® Core™ Processors,32 nm,4,2.70 GHz,55 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,1.60 GHz,11.5 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,3.40 GHz,84 W
+4th Generation Intel® Core™ i7 Processors,22 nm,2,3.00 GHz,28 W
+5th Generation Intel® Core™ M Processors,14 nm,2,800 MHz,4.5 W
+5th Generation Intel® Core™ M Processors,14 nm,2,800 MHz,4.5 W
+5th Generation Intel® Core™ i5 Processors,14 nm,2,2.20 GHz,15 W
+5th Generation Intel® Core™ i5 Processors,14 nm,2,1.60 GHz,15 W
+5th Generation Intel® Core™ i5 Processors,14 nm,2,2.70 GHz,28 W
+5th Generation Intel® Core™ i5 Processors,14 nm,2,2.90 GHz,28 W
+5th Generation Intel® Core™ i5 Processors,14 nm,2,2.30 GHz,15 W
+5th Generation Intel® Core™ i5 Processors,14 nm,2,3.10 GHz,47 W
+5th Generation Intel® Core™ i5 Processors,14 nm,2,1.80 GHz,15 W
+5th Generation Intel® Core™ i5 Processors,14 nm,4,2.80 GHz,65 W
+5th Generation Intel® Core™ i5 Processors,14 nm,4,3.10 GHz,65 W
+5th Generation Intel® Core™ i3 Processors,14 nm,2,2.00 GHz,15 W
+5th Generation Intel® Core™ i5 Processors,14 nm,4,3.10 GHz,65 W
+5th Generation Intel® Core™ i3 Processors,14 nm,2,2.10 GHz,15 W
+5th Generation Intel® Core™ i3 Processors,14 nm,2,2.10 GHz,15 W
+5th Generation Intel® Core™ i3 Processors,14 nm,2,2.20 GHz,15 W
+5th Generation Intel® Core™ i3 Processors,14 nm,2,2.50 GHz,28 W
+5th Generation Intel® Core™ M Processors,14 nm,2,800 MHz,4.5 W
+5th Generation Intel® Core™ M Processors,14 nm,2,900 MHz,4.5 W
+5th Generation Intel® Core™ M Processors,14 nm,2,1.10 GHz,4.5 W
+5th Generation Intel® Core™ M Processors,14 nm,2,1.10 GHz,4.5 W
+5th Generation Intel® Core™ M Processors,14 nm,2,1.20 GHz,4.5 W
+4th Generation Intel® Core™ i7 Processors,22 nm,2,2.80 GHz,28 W
+4th Generation Intel® Core™ i7 Processors,22 nm,2,1.50 GHz,15 W
+4th Generation Intel® Core™ i7 Processors,22 nm,2,2.00 GHz,15 W
+4th Generation Intel® Core™ i7 Processors,22 nm,2,1.80 GHz,15 W
+4th Generation Intel® Core™ i7 Processors,22 nm,2,1.70 GHz,15 W
+4th Generation Intel® Core™ i7 Processors,22 nm,2,1.70 GHz,11.5 W
+4th Generation Intel® Core™ i7 Processors,22 nm,2,3.00 GHz,37 W
+4th Generation Intel® Core™ i7 Processors,22 nm,2,2.10 GHz,15 W
+4th Generation Intel® Core™ i7 Processors,22 nm,2,2.90 GHz,37 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.70 GHz,45 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,3.20 GHz,65 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,3.60 GHz,84 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.20 GHz,35 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,3.50 GHz,84 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.30 GHz,45 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.50 GHz,45 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,3.10 GHz,65 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,3.20 GHz,65 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,3.40 GHz,84 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.00 GHz,35 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,3.50 GHz,84 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,4.00 GHz,88 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.20 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.10 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.00 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.40 GHz,37 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.60 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.30 GHz,37 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.30 GHz,37 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.50 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.50 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.20 GHz,37 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.20 GHz,37 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.00 GHz,27 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.40 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.40 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.40 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.70 GHz,43 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.50 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.40 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.30 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.80 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.70 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.80 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.60 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.40 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.90 GHz,47 W
+4th Generation Intel® Core™ i7 Processors,22 nm,4,2.80 GHz,47 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.60 GHz,28 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.60 GHz,28 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.40 GHz,15 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.40 GHz,28 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.30 GHz,15 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.60 GHz,11.5 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.50 GHz,11.5 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.70 GHz,15 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.60 GHz,37 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.90 GHz,47 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.60 GHz,11.5 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.40 GHz,11.5 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.60 GHz,15 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.50 GHz,37 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.50 GHz,15 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.80 GHz,47 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.40 GHz,15 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.90 GHz,37 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.80 GHz,37 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.00 GHz,15 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.70 GHz,37 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.80 GHz,28 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.60 GHz,11.5 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.60 GHz,11.5 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.90 GHz,15 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.60 GHz,37 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,3.00 GHz,84 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,3.10 GHz,84 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,2.80 GHz,65 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,2.70 GHz,65 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,3.20 GHz,84 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,2.90 GHz,65 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,1.90 GHz,35 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.70 GHz,37 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.60 GHz,25 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.50 GHz,27 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.90 GHz,37 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,1.80 GHz,25 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,2.00 GHz,35 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,3.00 GHz,65 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,3.30 GHz,84 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.70 GHz,35 W
+4th Generation Intel® Core™ i5 Processors,22 nm,2,2.90 GHz,35 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,2.90 GHz,65 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,2.70 GHz,65 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,3.20 GHz,84 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,2.50 GHz,45 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,3.20 GHz,65 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,3.50 GHz,88 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,3.50 GHz,84 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,2.30 GHz,45 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,3.00 GHz,65 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,3.10 GHz,65 W
+4th Generation Intel® Core™ i5 Processors,22 nm,4,3.40 GHz,84 W
+Legacy Intel® Core™ Processors,45 nm,1,1.30 GHz,5.5 W
+Legacy Intel® Core™ Processors,65 nm,1,1.73 GHz,31 W
+Legacy Intel® Core™ Processors,65 nm,1,1.66 GHz,27 W
+Legacy Intel® Core™ Processors,65 nm,1,1.86 GHz,31 W
+Legacy Intel® Core™ Processors,65 nm,1,1.83 GHz,27 W
+Legacy Intel® Core™ Processors,65 nm,1,1.06 GHz,6 W
+Legacy Intel® Core™ Processors,65 nm,1,1.20 GHz,6 W
+Legacy Intel® Core™ Processors,65 nm,1,1.33 GHz,5.5 W
+Legacy Intel® Core™ Processors,65 nm,1,1.06 GHz,5.5 W
+Legacy Intel® Core™ Processors,65 nm,1,1.20 GHz,5.5 W
+Legacy Intel® Core™ Processors,45 nm,1,1.40 GHz,5.5 W
+Legacy Intel® Core™ Processors,45 nm,1,1.20 GHz,5.5 W
+Legacy Intel® Core™ Processors,65 nm,2,1.06 GHz,9 W
+Legacy Intel® Core™ Processors,65 nm,2,1.20 GHz,9 W
+Legacy Intel® Core™ Processors,65 nm,2,1.06 GHz,10 W
+Legacy Intel® Core™ Processors,65 nm,2,1.06 GHz,10 W
+Legacy Intel® Core™ Processors,65 nm,2,1.20 GHz,10 W
+Legacy Intel® Core™ Processors,65 nm,2,1.20 GHz,10 W
+Legacy Intel® Core™ Processors,65 nm,2,1.33 GHz,10 W
+Legacy Intel® Core™ Processors,65 nm,2,1.60 GHz,31 W
+Legacy Intel® Core™ Processors,65 nm,2,1.73 GHz,31 W
+Legacy Intel® Core™ Processors,65 nm,2,1.66 GHz,31 W
+Legacy Intel® Core™ Processors,65 nm,2,1.66 GHz,31 W
+Legacy Intel® Core™ Processors,65 nm,2,1.86 GHz,31 W
+Legacy Intel® Core™ Processors,65 nm,2,1.83 GHz,31 W
+Legacy Intel® Core™ Processors,65 nm,2,2.00 GHz,31 W
+Legacy Intel® Core™ Processors,65 nm,2,2.00 GHz,31 W
+Legacy Intel® Core™ Processors,65 nm,2,2.16 GHz,31 W
+Legacy Intel® Core™ Processors,65 nm,2,1.60 GHz,34 W
+Legacy Intel® Core™ Processors,65 nm,2,2.33 GHz,31 W
+Legacy Intel® Core™ Processors,65 nm,2,1.50 GHz,35 W
+Legacy Intel® Core™ Processors,65 nm,2,1.40 GHz,35 W
+Legacy Intel® Core™ Processors,65 nm,2,1.73 GHz,34 W
+Legacy Intel® Core™ Processors,65 nm,2,1.66 GHz,35 W
+Legacy Intel® Core™ Processors,65 nm,2,1.60 GHz,35 W
+Legacy Intel® Core™ Processors,65 nm,2,1.66 GHz,34 W
+Legacy Intel® Core™ Processors,65 nm,2,1.83 GHz,35 W
+Legacy Intel® Core™ Processors,65 nm,2,1.83 GHz,34 W
+Legacy Intel® Core™ Processors,65 nm,2,1.80 GHz,35 W
+Legacy Intel® Core™ Processors,65 nm,2,2.00 GHz,35 W
+Legacy Intel® Core™ Processors,65 nm,2,2.00 GHz,35 W
+Legacy Intel® Core™ Processors,65 nm,2,2.00 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,2.00 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,2.10 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,2.20 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,2.20 GHz,35 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,1.90 GHz,15 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,1.90 GHz,15 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,1.50 GHz,11.5 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,1.50 GHz,11.5 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,1.30 GHz,11.5 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,1.70 GHz,15 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,1.70 GHz,15 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,2.40 GHz,37 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.40 GHz,54 W
+Legacy Intel® Core™ Processors,65 nm,2,1.80 GHz,35 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,2.90 GHz,35 W
+Legacy Intel® Core™ Processors,65 nm,2,2.00 GHz,34 W
+Legacy Intel® Core™ Processors,65 nm,2,2.00 GHz,35 W
+Legacy Intel® Core™ Processors,65 nm,2,2.00 GHz,35 W
+Legacy Intel® Core™ Processors,65 nm,2,2.16 GHz,34 W
+Legacy Intel® Core™ Processors,65 nm,2,2.20 GHz,35 W
+Legacy Intel® Core™ Processors,65 nm,2,2.33 GHz,34 W
+Legacy Intel® Core™ Processors,65 nm,2,2.40 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,2.10 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,2.40 GHz,35 W
+Legacy Intel® Core™ Processors,65 nm,2,2.60 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,2.50 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,2.53 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,2.60 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,2.66 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,2.80 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,2.93 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,3.06 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,1.20 GHz,10 W
+Legacy Intel® Core™ Processors,45 nm,2,1.40 GHz,10 W
+Legacy Intel® Core™ Processors,45 nm,2,1.60 GHz,10 W
+Legacy Intel® Core™ Processors,45 nm,2,2.26 GHz,25 W
+Legacy Intel® Core™ Processors,45 nm,2,2.40 GHz,25 W
+Legacy Intel® Core™ Processors,45 nm,2,2.53 GHz,25 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.50 GHz,54 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.00 GHz,35 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.60 GHz,54 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.10 GHz,35 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.70 GHz,54 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.20 GHz,35 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,2.00 GHz,28 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,2.00 GHz,15 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,1.80 GHz,25 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,2.60 GHz,37 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,2.60 GHz,37 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,1.60 GHz,25 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,2.50 GHz,37 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,1.80 GHz,15 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,2.40 GHz,37 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.30 GHz,35 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.80 GHz,54 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.20 GHz,35 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.70 GHz,54 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.10 GHz,35 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.60 GHz,54 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.60 GHz,54 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,2.40 GHz,35 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,2.60 GHz,35 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.00 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,2,1.80 GHz,17 W
+Legacy Intel® Core™ Processors,45 nm,2,1.86 GHz,17 W
+Legacy Intel® Core™ Processors,45 nm,2,2.13 GHz,17 W
+Legacy Intel® Core™ Processors,45 nm,2,1.60 GHz,17 W
+Legacy Intel® Core™ Processors,45 nm,2,2.00 GHz,25 W
+Legacy Intel® Core™ Processors,45 nm,2,2.00 GHz,25 W
+Legacy Intel® Core™ Processors,45 nm,2,2.13 GHz,25 W
+Legacy Intel® Core™ Processors,45 nm,2,2.26 GHz,25 W
+Legacy Intel® Core™ Processors,45 nm,2,2.26 GHz,25 W
+Legacy Intel® Core™ Processors,45 nm,2,2.26 GHz,25 W
+Legacy Intel® Core™ Processors,45 nm,2,2.40 GHz,25 W
+Legacy Intel® Core™ Processors,45 nm,2,2.53 GHz,25 W
+Legacy Intel® Core™ Processors,45 nm,2,2.66 GHz,25 W
+Legacy Intel® Core™ Processors,45 nm,2,2.53 GHz,25 W
+Legacy Intel® Core™ Processors,45 nm,2,2.66 GHz,25 W
+Legacy Intel® Core™ Processors,45 nm,2,2.80 GHz,28 W
+Legacy Intel® Core™ Processors,65 nm,2,1.83 GHz,15 W
+Legacy Intel® Core™ Processors,65 nm,2,1.50 GHz,15 W
+Legacy Intel® Core™ Processors,65 nm,2,1.66 GHz,15 W
+Legacy Intel® Core™ Processors,65 nm,2,1.33 GHz,17 W
+Legacy Intel® Core™ Processors,65 nm,2,1.40 GHz,17 W
+Legacy Intel® Core™ Processors,65 nm,2,1.50 GHz,17 W
+Legacy Intel® Core™ Processors,65 nm,2,1.60 GHz,17 W
+Legacy Intel® Core™ Processors,65 nm,2,1.80 GHz,17 W
+Legacy Intel® Core™ Processors,65 nm,2,1.80 GHz,65 W
+4th Generation Intel® Core™ i3 Processors,22 nm,2,3.50 GHz,54 W
+Legacy Intel® Core™ Processors,65 nm,2,2.00 GHz,65 W
+Legacy Intel® Core™ Processors,65 nm,2,2.20 GHz,65 W
+Legacy Intel® Core™ Processors,65 nm,2,2.40 GHz,65 W
+Legacy Intel® Core™ Processors,65 nm,2,2.60 GHz,65 W
+Legacy Intel® Core™ Processors,65 nm,2,1.86 GHz,65 W
+Legacy Intel® Core™ Processors,65 nm,2,2.13 GHz,65 W
+Legacy Intel® Core™ Processors,65 nm,2,1.86 GHz,65 W
+Legacy Intel® Core™ Processors,65 nm,2,2.13 GHz,65 W
+Legacy Intel® Core™ Processors,65 nm,2,2.33 GHz,65 W
+Legacy Intel® Core™ Processors,65 nm,2,2.33 GHz,65 W
+Legacy Intel® Core™ Processors,65 nm,2,2.40 GHz,65 W
+Legacy Intel® Core™ Processors,65 nm,2,2.66 GHz,65 W
+Legacy Intel® Core™ Processors,65 nm,2,2.66 GHz,65 W
+Legacy Intel® Core™ Processors,65 nm,2,3.00 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,2,2.53 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,2,2.66 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,2,2.80 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,2,2.93 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,2,3.06 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,2,2.66 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,2,2.66 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,2,2.83 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,2,3.00 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,2,3.16 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,2,3.33 GHz,65 W
+Legacy Intel® Core™ Processors,65 nm,4,2.40 GHz,105 W
+Legacy Intel® Core™ Processors,65 nm,4,2.66 GHz,105 W
+Legacy Intel® Core™ Processors,45 nm,4,2.33 GHz,95 W
+Legacy Intel® Core™ Processors,45 nm,4,2.33 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,4,2.50 GHz,95 W
+Legacy Intel® Core™ Processors,45 nm,4,2.66 GHz,95 W
+Legacy Intel® Core™ Processors,45 nm,4,2.66 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,4,2.00 GHz,45 W
+Legacy Intel® Core™ Processors,45 nm,4,2.26 GHz,45 W
+Legacy Intel® Core™ Processors,45 nm,4,2.50 GHz,95 W
+Legacy Intel® Core™ Processors,45 nm,4,2.66 GHz,95 W
+Legacy Intel® Core™ Processors,45 nm,4,2.66 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,4,2.66 GHz,95 W
+Legacy Intel® Core™ Processors,45 nm,4,2.83 GHz,95 W
+Legacy Intel® Core™ Processors,45 nm,4,2.83 GHz,95 W
+Legacy Intel® Core™ Processors,45 nm,4,2.83 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,4,2.83 GHz,95 W
+Legacy Intel® Core™ Processors,45 nm,4,2.83 GHz,65 W
+Legacy Intel® Core™ Processors,45 nm,4,3.00 GHz,95 W
+Legacy Intel® Core™ Processors,32 nm,2,2.13 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.13 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,1.20 GHz,18 W
+Legacy Intel® Core™ Processors,32 nm,2,2.26 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.40 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.53 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,1.33 GHz,18 W
+Legacy Intel® Core™ Processors,32 nm,2,2.93 GHz,73 W
+Legacy Intel® Core™ Processors,32 nm,2,3.06 GHz,73 W
+Legacy Intel® Core™ Processors,32 nm,2,3.20 GHz,73 W
+Legacy Intel® Core™ Processors,32 nm,2,2.26 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,1.20 GHz,18 W
+Legacy Intel® Core™ Processors,32 nm,2,2.40 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.53 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,1.33 GHz,18 W
+Legacy Intel® Core™ Processors,32 nm,2,2.40 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.40 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,1.07 GHz,18 W
+Legacy Intel® Core™ Processors,32 nm,2,2.53 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,1.20 GHz,18 W
+Legacy Intel® Core™ Processors,32 nm,2,2.66 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,1.33 GHz,18 W
+Legacy Intel® Core™ Processors,32 nm,2,2.66 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,3.20 GHz,73 W
+Legacy Intel® Core™ Processors,32 nm,2,3.20 GHz,73 W
+Legacy Intel® Core™ Processors,32 nm,2,3.33 GHz,73 W
+Legacy Intel® Core™ Processors,32 nm,2,3.33 GHz,87 W
+Legacy Intel® Core™ Processors,32 nm,2,3.46 GHz,73 W
+Legacy Intel® Core™ Processors,45 nm,4,2.66 GHz,95 W
+Legacy Intel® Core™ Processors,45 nm,4,2.40 GHz,82 W
+Legacy Intel® Core™ Processors,45 nm,4,2.80 GHz,95 W
+Legacy Intel® Core™ Processors,32 nm,2,2.00 GHz,25 W
+Legacy Intel® Core™ Processors,32 nm,2,2.00 GHz,25 W
+Legacy Intel® Core™ Processors,32 nm,2,2.66 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,1.06 GHz,18 W
+Legacy Intel® Core™ Processors,32 nm,2,1.06 GHz,18 W
+Legacy Intel® Core™ Processors,32 nm,2,2.13 GHz,25 W
+Legacy Intel® Core™ Processors,32 nm,2,2.80 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,1.20 GHz,18 W
+Legacy Intel® Core™ Processors,32 nm,2,2.26 GHz,25 W
+Legacy Intel® Core™ Processors,32 nm,2,1.33 GHz,18 W
+Legacy Intel® Core™ Processors,32 nm,2,1.33 GHz,18 W
+Legacy Intel® Core™ Processors,32 nm,2,1.46 GHz,18 W
+Legacy Intel® Core™ Processors,45 nm,4,1.73 GHz,45 W
+Legacy Intel® Core™ Processors,45 nm,4,1.86 GHz,45 W
+Legacy Intel® Core™ Processors,45 nm,4,2.53 GHz,82 W
+Legacy Intel® Core™ Processors,45 nm,4,2.93 GHz,95 W
+Legacy Intel® Core™ Processors,45 nm,4,2.66 GHz,82 W
+Legacy Intel® Core™ Processors,45 nm,4,2.93 GHz,95 W
+Legacy Intel® Core™ Processors,45 nm,4,3.06 GHz,95 W
+Legacy Intel® Core™ Processors,45 nm,4,2.80 GHz,130 W
+Legacy Intel® Core™ Processors,45 nm,4,2.93 GHz,130 W
+Legacy Intel® Core™ Processors,45 nm,4,3.06 GHz,130 W
+Legacy Intel® Core™ Processors,45 nm,4,3.20 GHz,130 W
+Legacy Intel® Core™ Processors,32 nm,6,3.20 GHz,130 W
+Legacy Intel® Core™ Processors,32 nm,6,3.33 GHz,130 W
+Legacy Intel® Core™ Processors,32 nm,2,3.33 GHz,73 W
+Legacy Intel® Core™ Processors,32 nm,2,2.66 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.66 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,3.60 GHz,73 W
+Legacy Intel® Core™ Processors,32 nm,2,2.53 GHz,35 W
+Legacy Intel® Core™ Processors,45 nm,4,1.60 GHz,45 W
+Legacy Intel® Core™ Processors,45 nm,4,1.73 GHz,45 W
+Legacy Intel® Core™ Processors,45 nm,4,2.80 GHz,95 W
+Legacy Intel® Core™ Processors,45 nm,4,2.66 GHz,130 W
+Legacy Intel® Core™ Processors,32 nm,2,3.10 GHz,65 W
+Legacy Intel® Core™ Processors,32 nm,2,2.50 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,3.10 GHz,65 W
+Legacy Intel® Core™ Processors,32 nm,2,3.10 GHz,65 W
+Legacy Intel® Core™ Processors,32 nm,2,3.30 GHz,65 W
+Legacy Intel® Core™ Processors,32 nm,2,2.60 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,3.30 GHz,65 W
+Legacy Intel® Core™ Processors,32 nm,2,3.40 GHz,65 W
+Legacy Intel® Core™ Processors,32 nm,2,2.10 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.10 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.10 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.20 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.20 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.20 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,1.30 GHz,17 W
+Legacy Intel® Core™ Processors,32 nm,2,2.30 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.30 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,1.30 GHz,17 W
+Legacy Intel® Core™ Processors,32 nm,2,1.40 GHz,17 W
+Legacy Intel® Core™ Processors,32 nm,2,1.40 GHz,17 W
+Legacy Intel® Core™ Processors,32 nm,2,2.40 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,1.50 GHz,17 W
+Legacy Intel® Core™ Processors,32 nm,2,1.50 GHz,17 W
+Legacy Intel® Core™ Processors,32 nm,4,2.80 GHz,95 W
+Legacy Intel® Core™ Processors,32 nm,4,2.90 GHz,95 W
+Legacy Intel® Core™ Processors,32 nm,4,3.00 GHz,95 W
+Legacy Intel® Core™ Processors,32 nm,4,3.10 GHz,95 W
+Legacy Intel® Core™ Processors,32 nm,2,2.70 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,4,3.10 GHz,95 W
+Legacy Intel® Core™ Processors,32 nm,4,2.50 GHz,65 W
+Legacy Intel® Core™ Processors,32 nm,4,2.50 GHz,65 W
+Legacy Intel® Core™ Processors,32 nm,2,2.30 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.40 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.50 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.40 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,4,3.20 GHz,95 W
+Legacy Intel® Core™ Processors,32 nm,2,1.60 GHz,17 W
+Legacy Intel® Core™ Processors,32 nm,4,3.30 GHz,95 W
+Legacy Intel® Core™ Processors,32 nm,4,3.30 GHz,95 W
+Legacy Intel® Core™ Processors,32 nm,4,2.70 GHz,65 W
+Legacy Intel® Core™ Processors,32 nm,4,2.30 GHz,45 W
+Legacy Intel® Core™ Processors,32 nm,2,2.50 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.50 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.50 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.60 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,1.40 GHz,17 W
+Legacy Intel® Core™ Processors,32 nm,4,3.40 GHz,95 W
+Legacy Intel® Core™ Processors,32 nm,4,3.40 GHz,95 W
+Legacy Intel® Core™ Processors,32 nm,2,1.70 GHz,17 W
+Legacy Intel® Core™ Processors,32 nm,4,3.40 GHz,95 W
+Legacy Intel® Core™ Processors,32 nm,4,2.80 GHz,65 W
+Legacy Intel® Core™ Processors,32 nm,2,1.50 GHz,17 W
+Legacy Intel® Core™ Processors,32 nm,2,1.50 GHz,17 W
+Legacy Intel® Core™ Processors,32 nm,2,2.70 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,4,2.00 GHz,45 W
+Legacy Intel® Core™ Processors,32 nm,2,2.10 GHz,25 W
+Legacy Intel® Core™ Processors,32 nm,4,2.00 GHz,45 W
+Legacy Intel® Core™ Processors,32 nm,2,1.70 GHz,17 W
+Legacy Intel® Core™ Processors,32 nm,2,2.80 GHz,35 W
+Legacy Intel® Core™ Processors,32 nm,2,2.30 GHz,25 W
+Legacy Intel® Core™ Processors,32 nm,2,2.20 GHz,25 W
+Legacy Intel® Core™ Processors,32 nm,2,1.60 GHz,17 W
+Legacy Intel® Core™ Processors,32 nm,4,2.20 GHz,45 W
+Legacy Intel® Core™ Processors,32 nm,4,2.20 GHz,45 W
+Legacy Intel® Core™ Processors,32 nm,2,1.80 GHz,17 W
+Legacy Intel® Core™ Processors,32 nm,4,3.50 GHz,95 W
+Legacy Intel® Core™ Processors,32 nm,4,2.10 GHz,45 W
+Legacy Intel® Core™ Processors,32 nm,4,2.10 GHz,45 W
+Legacy Intel® Core™ Processors,32 nm,4,2.20 GHz,45 W
+Legacy Intel® Core™ Processors,32 nm,4,2.40 GHz,45 W
+Legacy Intel® Core™ Processors,32 nm,4,2.50 GHz,45 W
+Legacy Intel® Core™ Processors,32 nm,4,2.30 GHz,45 W
+Legacy Intel® Core™ Processors,22 nm,2,2.40 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,2.50 GHz,25 W
+Legacy Intel® Core™ Processors,22 nm,2,2.50 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,2.40 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,2.60 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,3.20 GHz,55 W
+Legacy Intel® Core™ Processors,22 nm,2,1.80 GHz,17 W
+Legacy Intel® Core™ Processors,22 nm,2,1.60 GHz,17 W
+Legacy Intel® Core™ Processors,22 nm,2,3.30 GHz,55 W
+Legacy Intel® Core™ Processors,22 nm,2,2.80 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,3.30 GHz,55 W
+Legacy Intel® Core™ Processors,22 nm,2,1.90 GHz,17 W
+Legacy Intel® Core™ Processors,22 nm,2,3.40 GHz,55 W
+Legacy Intel® Core™ Processors,22 nm,2,1.40 GHz,13 W
+Legacy Intel® Core™ Processors,22 nm,2,3.40 GHz,55 W
+Legacy Intel® Core™ Processors,22 nm,2,2.90 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,3.50 GHz,55 W
+Legacy Intel® Core™ Processors,22 nm,2,2.50 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,3.00 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,2.60 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,2.60 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,1.70 GHz,17 W
+Legacy Intel® Core™ Processors,22 nm,2,2.60 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,2.50 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,4,3.00 GHz,77 W
+Legacy Intel® Core™ Processors,22 nm,4,2.70 GHz,65 W
+Legacy Intel® Core™ Processors,22 nm,2,1.80 GHz,17 W
+Legacy Intel® Core™ Processors,22 nm,2,1.50 GHz,13 W
+Legacy Intel® Core™ Processors,22 nm,4,3.10 GHz,77 W
+Legacy Intel® Core™ Processors,22 nm,4,2.80 GHz,65 W
+Legacy Intel® Core™ Processors,22 nm,2,2.70 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,4,3.10 GHz,69 W
+Legacy Intel® Core™ Processors,22 nm,2,2.80 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,1.80 GHz,17 W
+Legacy Intel® Core™ Processors,22 nm,2,2.90 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,1.90 GHz,17 W
+Legacy Intel® Core™ Processors,22 nm,2,1.50 GHz,13 W
+Legacy Intel® Core™ Processors,22 nm,4,3.10 GHz,77 W
+Legacy Intel® Core™ Processors,22 nm,4,2.80 GHz,65 W
+Legacy Intel® Core™ Processors,22 nm,4,3.20 GHz,77 W
+Legacy Intel® Core™ Processors,22 nm,4,2.90 GHz,65 W
+Legacy Intel® Core™ Processors,22 nm,2,2.90 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,4,2.90 GHz,65 W
+Legacy Intel® Core™ Processors,22 nm,4,3.30 GHz,77 W
+Legacy Intel® Core™ Processors,22 nm,4,3.00 GHz,65 W
+Legacy Intel® Core™ Processors,22 nm,4,3.40 GHz,77 W
+Legacy Intel® Core™ Processors,22 nm,4,3.40 GHz,77 W
+Legacy Intel® Core™ Processors,22 nm,4,2.30 GHz,45 W
+Legacy Intel® Core™ Processors,22 nm,4,3.10 GHz,65 W
+Legacy Intel® Core™ Processors,22 nm,2,2.70 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,1.90 GHz,17 W
+Legacy Intel® Core™ Processors,22 nm,2,2.90 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,1.70 GHz,17 W
+Legacy Intel® Core™ Processors,22 nm,2,2.00 GHz,17 W
+Legacy Intel® Core™ Processors,22 nm,2,3.00 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,2,2.50 GHz,25 W
+Legacy Intel® Core™ Processors,22 nm,4,2.30 GHz,45 W
+Legacy Intel® Core™ Processors,22 nm,4,2.30 GHz,45 W
+Legacy Intel® Core™ Processors,22 nm,4,2.10 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,4,2.10 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,4,2.10 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,4,2.30 GHz,45 W
+Legacy Intel® Core™ Processors,22 nm,4,2.30 GHz,45 W
+Legacy Intel® Core™ Processors,22 nm,4,2.40 GHz,45 W
+Legacy Intel® Core™ Processors,22 nm,4,2.20 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,4,2.20 GHz,35 W
+Legacy Intel® Core™ Processors,22 nm,4,2.40 GHz,45 W
+Legacy Intel® Core™ Processors,22 nm,2,2.00 GHz,17 W
+Legacy Intel® Core™ Processors,22 nm,2,2.10 GHz,17 W
+Legacy Intel® Core™ Processors,22 nm,2,1.50 GHz,13 W
+Legacy Intel® Core™ Processors,22 nm,4,2.60 GHz,45 W
+Legacy Intel® Core™ Processors,22 nm,4,3.40 GHz,77 W
+Legacy Intel® Core™ Processors,22 nm,4,2.70 GHz,45 W
+Legacy Intel® Core™ Processors,22 nm,4,3.50 GHz,77 W
+Legacy Intel® Core™ Processors,22 nm,4,3.10 GHz,65 W
+Legacy Intel® Core™ Processors,22 nm,4,2.50 GHz,45 W
+Legacy Intel® Core™ Processors,22 nm,4,2.70 GHz,45 W
+Legacy Intel® Core™ Processors,22 nm,4,2.80 GHz,45 W
+Legacy Intel® Core™ Processors,65 nm,4,2.66 GHz,130 W
+Legacy Intel® Core™ Processors,65 nm,4,2.93 GHz,130 W
+Legacy Intel® Core™ Processors,65 nm,4,3.00 GHz,130 W
+Legacy Intel® Core™ Processors,45 nm,4,2.53 GHz,45 W
+Legacy Intel® Core™ Processors,45 nm,4,3.00 GHz,130 W
+Legacy Intel® Core™ Processors,45 nm,4,3.20 GHz,136 W
+Legacy Intel® Core™ Processors,45 nm,4,3.20 GHz,150 W
+Legacy Intel® Core™ Processors,65 nm,2,2.93 GHz,75 W
+Legacy Intel® Core™ Processors,65 nm,2,2.60 GHz,44 W
+Legacy Intel® Core™ Processors,65 nm,2,2.80 GHz,44 W
+Legacy Intel® Core™ Processors,45 nm,2,2.80 GHz,44 W
+Legacy Intel® Core™ Processors,45 nm,2,3.06 GHz,44 W
+Legacy Intel® Core™ Processors,45 nm,4,2.00 GHz,55 W
+Legacy Intel® Core™ Processors,45 nm,4,2.13 GHz,55 W
+Legacy Intel® Core™ Processors,45 nm,4,3.20 GHz,130 W
+Legacy Intel® Core™ Processors,45 nm,4,3.33 GHz,130 W
+Legacy Intel® Core™ Processors,32 nm,6,3.33 GHz,130 W
+Legacy Intel® Core™ Processors,32 nm,6,3.46 GHz,130 W
+Legacy Intel® Core™ Processors,32 nm,4,2.50 GHz,55 W
+Intel® Pentium® Processor D Series,14 nm,2,2.20 GHz,25 W
+Intel® Pentium® Processor D Series,14 nm,2,1.50 GHz,19 W
+Intel® Pentium® Processor D Series,14 nm,4,1.60 GHz,25 W
+Intel® Pentium® Processor D Series,14 nm,4,1.50 GHz,25 W
+Intel® Pentium® Processor G Series,22 nm,2,2.90 GHz,55 W
+Intel® Pentium® Processor G Series,22 nm,2,3.00 GHz,55 W
+Intel® Pentium® Processor G Series,22 nm,2,2.50 GHz,35 W
+Intel® Pentium® Processor G Series,22 nm,2,2.60 GHz,35 W
+Intel® Pentium® Processor G Series,22 nm,2,2.60 GHz,35 W
+Intel® Pentium® Processor G Series,22 nm,2,3.10 GHz,55 W
+Intel® Pentium® Processor G Series,22 nm,2,2.70 GHz,35 W
+Intel® Pentium® Processor G Series,22 nm,2,3.20 GHz,55 W
+Intel® Pentium® Processor G Series,22 nm,2,3.30 GHz,55 W
+Intel® Pentium® Processor G Series,14 nm,2,2.40 GHz,35 W
+Intel® Pentium® Processor G Series,14 nm,2,2.90 GHz,35 W
+Intel® Pentium® Processor G Series,14 nm,2,3.30 GHz,54 W
+Intel® Pentium® Processor G Series,14 nm,2,3.50 GHz,54 W
+Intel® Pentium® Processor G Series,14 nm,2,3.60 GHz,51 W
+Intel® Pentium® Processor G Series,14 nm,2,3.50 GHz,51 W
+Intel® Pentium® Processor G Series,14 nm,2,3.00 GHz,35 W
+Intel® Pentium® Processor G Series,14 nm,2,2.90 GHz,35 W
+Intel® Pentium® Processor G Series,14 nm,2,3.70 GHz,51 W
+Intel® Pentium® Processor G Series,14 nm,2,3.60 GHz,51 W
+Intel® Pentium® Processor G Series,14 nm,2,3.00 GHz,35 W
+Intel® Pentium® Processor G Series,22 nm,2,3.00 GHz,53 W
+Intel® Pentium® Processor G Series,22 nm,2,3.10 GHz,53 W
+Intel® Pentium® Processor G Series,22 nm,2,2.60 GHz,35 W
+Intel® Pentium® Processor G Series,22 nm,2,2.70 GHz,35 W
+Intel® Pentium® Processor G Series,22 nm,2,3.20 GHz,53 W
+Intel® Pentium® Processor G Series,22 nm,2,3.20 GHz,53 W
+Intel® Pentium® Processor G Series,22 nm,2,3.30 GHz,53 W
+Intel® Pentium® Processor G Series,22 nm,2,2.80 GHz,35 W
+Intel® Pentium® Processor G Series,22 nm,2,2.90 GHz,35 W
+Intel® Pentium® Processor G Series,22 nm,2,2.30 GHz,35 W
+Intel® Pentium® Processor G Series,22 nm,2,3.20 GHz,53 W
+Intel® Pentium® Processor G Series,22 nm,2,2.70 GHz,35 W
+Intel® Pentium® Processor G Series,22 nm,2,3.30 GHz,53 W
+Intel® Pentium® Processor G Series,22 nm,2,3.30 GHz,53 W
+Intel® Pentium® Processor G Series,22 nm,2,2.80 GHz,35 W
+Intel® Pentium® Processor G Series,22 nm,2,3.40 GHz,53 W
+Intel® Pentium® Processor G Series,22 nm,2,2.90 GHz,35 W
+Intel® Pentium® Processor G Series,22 nm,2,3.50 GHz,53 W
+Intel® Pentium® Processor G Series,22 nm,2,3.00 GHz,35 W
+Intel® Pentium® Processor G Series,22 nm,2,3.60 GHz,53 W
+Intel® Celeron® Processor 2000 Series,22 nm,2,1.50 GHz,25 W
+Intel® Celeron® Processor 2000 Series,22 nm,2,2.00 GHz,37 W
+Intel® Celeron® Processor 2000 Series,22 nm,2,1.40 GHz,15 W
+Intel® Celeron® Processor 2000 Series,22 nm,2,1.40 GHz,15 W
+Intel® Celeron® Processor 2000 Series,22 nm,2,2.20 GHz,37 W
+Intel® Celeron® Processor 2000 Series,22 nm,2,1.10 GHz,11.5 W
+Intel® Celeron® Processor 2000 Series,22 nm,2,1.60 GHz,15 W
+Intel® Celeron® Processor 2000 Series,22 nm,2,1.60 GHz,15 W
+Intel® Celeron® Processor 1000 Series,22 nm,2,1.90 GHz,35 W
+Intel® Celeron® Processor 1000 Series,22 nm,2,1.50 GHz,17 W
+Intel® Celeron® Processor 1000 Series,22 nm,2,1.60 GHz,17 W
+Intel® Celeron® Processor 1000 Series,22 nm,2,1.00 GHz,10 W
+Intel® Celeron® Processor 1000 Series,22 nm,2,2.20 GHz,35 W
+Intel® Celeron® Processor 1000 Series,22 nm,2,2.10 GHz,35 W
+Intel® Celeron® Processor 1000 Series,22 nm,2,1.80 GHz,17 W
+Intel® Celeron® Processor 1000 Series,22 nm,2,1.40 GHz,17 W
+Legacy Intel® Celeron® Processor,65 nm,1,3.46 GHz,65 W
+Legacy Intel® Celeron® Processor,65 nm,1,3.33 GHz,86 W
+Legacy Intel® Celeron® Processor,90 nm,1,3.33 GHz,84 W
+Legacy Intel® Celeron® Processor,65 nm,1,3.20 GHz,86 W
+Legacy Intel® Celeron® Processor,90 nm,1,3.20 GHz,84 W
+Legacy Intel® Celeron® Processor,90 nm,1,3.20 GHz,73 W
+Legacy Intel® Celeron® Processor,90 nm,1,3.20 GHz,73 W
+Legacy Intel® Celeron® Processor,65 nm,1,3.06 GHz,86 W
+Legacy Intel® Celeron® Processor,90 nm,1,3.06 GHz,84 W
+Legacy Intel® Celeron® Processor,90 nm,1,3.06 GHz,84 W
+Legacy Intel® Celeron® Processor,90 nm,1,3.06 GHz,73 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.93 GHz,84 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.93 GHz,84 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.93 GHz,73 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.80 GHz,84 W
+Legacy Intel® Celeron® Processor,130 nm,1,650 MHz,8.3 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.80 GHz,84 W
+Legacy Intel® Celeron® Processor,180 nm,1,766 MHz,20 W
+Legacy Intel® Celeron® Processor,130 nm,1,2.80 GHz,68.4 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.80 GHz,73 W
+Legacy Intel® Celeron® Processor,180 nm,1,933 MHz,20.6 W
+Legacy Intel® Celeron® Processor,180 nm,1,733 MHz,23.6 W
+Legacy Intel® Celeron® Processor,130 nm,1,2.70 GHz,66.8 W
+Legacy Intel® Celeron® Processor,90 nm,1,1.00 GHz,5.5 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.80 GHz,73 W
+Legacy Intel® Celeron® Processor,180 nm,1,400 MHz,6.5 W
+Legacy Intel® Celeron® Processor,180 nm,1,950 MHz,28 W
+Legacy Intel® Celeron® Processor,180 nm,1,700 MHz,18.3 W
+Legacy Intel® Celeron® Processor,130 nm,1,2.60 GHz,62.6 W
+Legacy Intel® Celeron® Processor,90 nm,1,1.00 GHz,5.5 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.66 GHz,84 W
+Legacy Intel® Celeron® Processor,32 nm,1,1.50 GHz,17 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.50 GHz,35 W
+Legacy Intel® Celeron® Processor,32 nm,2,2.40 GHz,65 W
+Legacy Intel® Celeron® Processor,180 nm,1,900 MHz,24 W
+Legacy Intel® Celeron® Processor,180 nm,1,866 MHz,23.3 W
+Legacy Intel® Celeron® Processor,130 nm,1,900 MHz,34.8 W
+Legacy Intel® Celeron® Processor,180 nm,1,667 MHz,17.5 W
+Legacy Intel® Celeron® Processor,130 nm,1,2.50 GHz,61 W
+Legacy Intel® Celeron® Processor,90 nm,1,900 MHz,5 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.66 GHz,84 W
+Legacy Intel® Celeron® Processor,32 nm,1,1.00 GHz,10 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.60 GHz,35 W
+Legacy Intel® Celeron® Processor,32 nm,2,2.00 GHz,35 W
+Legacy Intel® Celeron® Processor,180 nm,1,850 MHz,18.8 W
+Legacy Intel® Celeron® Processor,130 nm,1,2.50 GHz,61 W
+Legacy Intel® Celeron® Processor,180 nm,1,900 MHz,26.7 W
+Legacy Intel® Celeron® Processor,180 nm,1,633 MHz,16.5 W
+Legacy Intel® Celeron® Processor,130 nm,1,2.40 GHz,59.8 W
+Legacy Intel® Celeron® Processor,130 nm,1,900 MHz,7 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.66 GHz,73 W
+Legacy Intel® Celeron® Processor,32 nm,1,1.40 GHz,17 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.60 GHz,35 W
+Legacy Intel® Celeron® Processor,32 nm,2,2.50 GHz,65 W
+Legacy Intel® Celeron® Processor,180 nm,1,800 MHz,22 W
+Legacy Intel® Celeron® Processor,180 nm,1,800 MHz,17.6 W
+Legacy Intel® Celeron® Processor,130 nm,1,2.40 GHz,35 W
+Legacy Intel® Celeron® Processor,180 nm,1,850 MHz,25.7 W
+Legacy Intel® Celeron® Processor,180 nm,1,600 MHz,15.8 W
+Legacy Intel® Celeron® Processor,130 nm,1,2.30 GHz,58.3 W
+Legacy Intel® Celeron® Processor,90 nm,1,1.70 GHz,21 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.66 GHz,73 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.60 GHz,35 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.10 GHz,17 W
+Legacy Intel® Celeron® Processor,32 nm,2,2.10 GHz,35 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.00 GHz,10 W
+Legacy Intel® Celeron® Processor,130 nm,1,600 MHz,7 W
+Legacy Intel® Celeron® Processor,180 nm,1,750 MHz,15.8 W
+Legacy Intel® Celeron® Processor,130 nm,1,2.20 GHz,35 W
+Legacy Intel® Celeron® Processor,180 nm,1,800 MHz,20.8 W
+Legacy Intel® Celeron® Processor,180 nm,1,566 MHz,19.2 W
+Legacy Intel® Celeron® Processor,130 nm,1,2.20 GHz,57.1 W
+Legacy Intel® Celeron® Processor,90 nm,1,1.60 GHz,21 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.53 GHz,84 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.70 GHz,35 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.10 GHz,17 W
+Legacy Intel® Celeron® Processor,32 nm,2,2.60 GHz,65 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.73 GHz,27 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.20 GHz,5.5 W
+Legacy Intel® Celeron® Processor,180 nm,1,733 MHz,20.6 W
+Legacy Intel® Celeron® Processor,180 nm,1,700 MHz,15 W
+Legacy Intel® Celeron® Processor,130 nm,1,2.00 GHz,32 W
+Legacy Intel® Celeron® Processor,250 nm,1,533 MHz,28.3 W
+Legacy Intel® Celeron® Processor,130 nm,1,2.10 GHz,55.5 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.40 GHz,34.8 W
+Legacy Intel® Celeron® Processor,130 nm,1,800 MHz,7 W
+Legacy Intel® Celeron® Processor,90 nm,1,1.50 GHz,21 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.53 GHz,84 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.80 GHz,35 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.20 GHz,17 W
+Legacy Intel® Celeron® Processor,32 nm,2,2.20 GHz,35 W
+Legacy Intel® Celeron® Processor,65 nm,1,2.20 GHz,35 W
+Legacy Intel® Celeron® Processor,65 nm,1,930 MHz,5.5 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.86 GHz,30 W
+Legacy Intel® Celeron® Processor,180 nm,1,650 MHz,14 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.80 GHz,66.1 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.33 GHz,19 W
+Legacy Intel® Celeron® Processor,250 nm,1,500 MHz,27 W
+Legacy Intel® Celeron® Processor,130 nm,1,2.00 GHz,52.8 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.30 GHz,33.4 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.06 GHz,5.5 W
+Legacy Intel® Celeron® Processor,90 nm,1,1.40 GHz,21 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.53 GHz,84 W
+Legacy Intel® Celeron® Processor,32 nm,2,2.70 GHz,65 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.30 GHz,17 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.90 GHz,35 W
+Legacy Intel® Celeron® Processor,32 nm,1,1.60 GHz,35 W
+Legacy Intel® Celeron® Processor,32 nm,1,1.60 GHz,35 W
+Legacy Intel® Celeron® Processor,45 nm,2,2.70 GHz,65 W
+Legacy Intel® Celeron® Processor,65 nm,2,1.83 GHz,35 W
+Legacy Intel® Celeron® Processor,65 nm,1,2.00 GHz,31 W
+Legacy Intel® Celeron® Processor,180 nm,1,600 MHz,13 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.70 GHz,30 W
+Legacy Intel® Celeron® Processor,250 nm,1,433 MHz,24.1 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.20 GHz,32.1 W
+Legacy Intel® Celeron® Processor,65 nm,1,2.00 GHz,27 W
+Legacy Intel® Celeron® Processor,90 nm,1,1.30 GHz,21 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.53 GHz,73 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.40 GHz,17 W
+Legacy Intel® Celeron® Processor,32 nm,1,1.70 GHz,35 W
+Legacy Intel® Celeron® Processor,32 nm,1,1.80 GHz,35 W
+Legacy Intel® Celeron® Processor,45 nm,2,2.60 GHz,65 W
+Legacy Intel® Celeron® Processor,45 nm,2,2.10 GHz,35 W
+Legacy Intel® Celeron® Processor,65 nm,2,1.66 GHz,35 W
+Legacy Intel® Celeron® Processor,65 nm,2,1.60 GHz,65 W
+Legacy Intel® Celeron® Processor,65 nm,1,2.13 GHz,31 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.33 GHz,27 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.60 GHz,30 W
+Legacy Intel® Celeron® Processor,250 nm,1,400 MHz,23.7 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.20 GHz,24.4 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.80 GHz,66.1 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.10 GHz,28.9 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.86 GHz,27 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.50 GHz,24.5 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.40 GHz,73 W
+Legacy Intel® Celeron® Processor,32 nm,1,1.90 GHz,35 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.50 GHz,17 W
+Legacy Intel® Celeron® Processor,32 nm,2,2.00 GHz,35 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.20 GHz,18 W
+Legacy Intel® Celeron® Processor,45 nm,2,2.00 GHz,35 W
+Legacy Intel® Celeron® Processor,45 nm,2,2.50 GHz,65 W
+Legacy Intel® Celeron® Processor,45 nm,1,2.20 GHz,35 W
+Legacy Intel® Celeron® Processor,45 nm,1,1.30 GHz,10 W
+Legacy Intel® Celeron® Processor,65 nm,1,2.26 GHz,31 W
+Legacy Intel® Celeron® Processor,65 nm,2,2.00 GHz,65 W
+Legacy Intel® Celeron® Processor,65 nm,1,2.00 GHz,35 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.50 GHz,30 W
+Legacy Intel® Celeron® Processor,250 nm,1,366 MHz,21.7 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.13 GHz,23.8 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.70 GHz,63.5 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.73 GHz,27 W
+Legacy Intel® Celeron® Processor,180 nm,1,1.10 GHz,33 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.40 GHz,24.5 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.26 GHz,73 W
+Legacy Intel® Celeron® Processor,32 nm,1,2.00 GHz,35 W
+Legacy Intel® Celeron® Processor,32 nm,1,1.30 GHz,17 W
+Legacy Intel® Celeron® Processor,45 nm,1,2.30 GHz,35 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.06 GHz,18 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.40 GHz,84 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.86 GHz,35 W
+Legacy Intel® Celeron® Processor,45 nm,2,2.40 GHz,65 W
+Legacy Intel® Celeron® Processor,45 nm,1,1.20 GHz,10 W
+Legacy Intel® Celeron® Processor,65 nm,1,2.00 GHz,31 W
+Legacy Intel® Celeron® Processor,65 nm,2,2.20 GHz,65 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.80 GHz,35 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.73 GHz,30 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.83 GHz,27 W
+Legacy Intel® Celeron® Processor,180 nm,1,450 MHz,15.5 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.40 GHz,30 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.06 GHz,23.2 W
+Legacy Intel® Celeron® Processor,250 nm,1,333 MHz,19.7 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.00 GHz,27.8 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.60 GHz,27 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.30 GHz,24.5 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.26 GHz,73 W
+Legacy Intel® Celeron® Processor,22 nm,1,1.50 GHz,17 W
+Legacy Intel® Celeron® Processor,32 nm,1,1.40 GHz,17 W
+Legacy Intel® Celeron® Processor,45 nm,1,1.40 GHz,10 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.06 GHz,18 W
+Legacy Intel® Celeron® Processor,45 nm,1,1.33 GHz,30 W
+Legacy Intel® Celeron® Processor,32 nm,2,1.86 GHz,35 W
+Legacy Intel® Celeron® Processor,45 nm,2,1.20 GHz,10 W
+Legacy Intel® Celeron® Processor,45 nm,2,1.90 GHz,35 W
+Legacy Intel® Celeron® Processor,45 nm,1,1.20 GHz,5.5 W
+Legacy Intel® Celeron® Processor,65 nm,1,2.16 GHz,31 W
+Legacy Intel® Celeron® Processor,65 nm,2,2.40 GHz,65 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.20 GHz,19 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.66 GHz,27 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.60 GHz,35 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.60 GHz,30 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.20 GHz,20.8 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.00 GHz,22 W
+Legacy Intel® Celeron® Processor,250 nm,1,300 MHz,17.8 W
+Legacy Intel® Celeron® Processor,180 nm,1,1.00 GHz,29 W
+Legacy Intel® Celeron® Processor,65 nm,1,1.46 GHz,27 W
+Legacy Intel® Celeron® Processor,130 nm,1,1.20 GHz,24.5 W
+Legacy Intel® Celeron® Processor,90 nm,1,2.13 GHz,73 W
+Intel® Xeon® Scalable Processors,14 nm,8,1.70 GHz,85 W
+Intel® Xeon® Scalable Processors,14 nm,8,1.80 GHz,85 W
+Intel® Xeon® Scalable Processors,14 nm,8,2.00 GHz,70 W
+Intel® Xeon® Scalable Processors,14 nm,8,2.10 GHz,85 W
+Intel® Xeon® Scalable Processors,14 nm,4,2.60 GHz,85 W
+Intel® Xeon® Scalable Processors,14 nm,10,2.20 GHz,85 W
+Intel® Xeon® Scalable Processors,14 nm,10,2.20 GHz,85 W
+Intel® Xeon® Scalable Processors,14 nm,12,2.10 GHz,85 W
+Intel® Xeon® Scalable Processors,14 nm,12,2.10 GHz,85 W
+Intel® Xeon® Scalable Processors,14 nm,10,2.40 GHz,85 W
+Intel® Xeon® Scalable Processors,14 nm,12,2.30 GHz,105 W
+Intel® Xeon® Scalable Processors,14 nm,14,1.90 GHz,85 W
+Intel® Xeon® Scalable Processors,14 nm,14,2.20 GHz,105 W
+Intel® Xeon® Scalable Processors,14 nm,4,3.60 GHz,105 W
+Intel® Xeon® Scalable Processors,14 nm,14,2.20 GHz,105 W
+Intel® Xeon® Scalable Processors,14 nm,12,2.60 GHz,125 W
+Intel® Xeon® Scalable Processors,14 nm,12,2.60 GHz,135 W
+Intel® Xeon® Scalable Processors,14 nm,12,2.60 GHz,125 W
+Intel® Xeon® Scalable Processors,14 nm,6,3.40 GHz,115 W
+Intel® Xeon® Scalable Processors,14 nm,16,2.10 GHz,125 W
+Intel® Xeon® Scalable Processors,14 nm,16,2.10 GHz,135 W
+Intel® Xeon® Scalable Processors,14 nm,16,2.10 GHz,125 W
+Intel® Xeon® Scalable Processors,14 nm,14,2.60 GHz,140 W
+Intel® Xeon® Scalable Processors,14 nm,8,3.20 GHz,130 W
+Intel® Xeon® Scalable Processors,14 nm,8,3.20 GHz,130 W
+Intel® Xeon® Scalable Processors,14 nm,12,3.00 GHz,150 W
+Intel® Xeon® Scalable Processors,14 nm,20,2.00 GHz,125 W
+Intel® Xeon® Scalable Processors,14 nm,20,2.00 GHz,135 W
+Intel® Xeon® Scalable Processors,14 nm,20,2.00 GHz,125 W
+Intel® Xeon® Scalable Processors,14 nm,18,2.30 GHz,140 W
+Intel® Xeon® Scalable Processors,14 nm,18,2.30 GHz,140 W
+Intel® Xeon® Scalable Processors,14 nm,16,2.60 GHz,150 W
+Intel® Xeon® Scalable Processors,14 nm,16,2.60 GHz,150 W
+Intel® Xeon® Scalable Processors,14 nm,8,3.50 GHz,150 W
+Intel® Xeon® Scalable Processors,14 nm,16,2.60 GHz,160 W
+Intel® Xeon® Scalable Processors,14 nm,12,3.20 GHz,165 W
+Intel® Xeon® Scalable Processors,14 nm,20,2.40 GHz,150 W
+Intel® Xeon® Scalable Processors,14 nm,20,2.40 GHz,160 W
+Intel® Xeon® Scalable Processors,14 nm,18,2.70 GHz,165 W
+Intel® Xeon® Scalable Processors,14 nm,22,2.10 GHz,140 W
+Intel® Xeon® Scalable Processors,14 nm,18,3.00 GHz,200 W
+Intel® Xeon® Scalable Processors,14 nm,16,2.00 GHz,125 W
+Intel® Xeon® Scalable Processors,14 nm,4,3.60 GHz,105 W
+Intel® Xeon® Scalable Processors,14 nm,12,3.00 GHz,150 W
+Intel® Xeon® Scalable Processors,14 nm,24,2.10 GHz,150 W
+Intel® Xeon® Scalable Processors,14 nm,24,2.10 GHz,160 W
+Intel® Xeon® Scalable Processors,14 nm,24,2.10 GHz,150 W
+Intel® Xeon® Scalable Processors,14 nm,24,2.10 GHz,150 W
+Intel® Xeon® Scalable Processors,14 nm,26,2.00 GHz,150 W
+Intel® Xeon® Scalable Processors,14 nm,24,2.70 GHz,205 W
+Intel® Xeon® Scalable Processors,14 nm,26,2.10 GHz,165 W
+Intel® Xeon® Scalable Processors,14 nm,26,2.10 GHz,165 W
+Intel® Xeon® Scalable Processors,14 nm,28,2.10 GHz,165 W
+Intel® Xeon® Scalable Processors,14 nm,28,2.10 GHz,173 W
+Intel® Xeon® Scalable Processors,14 nm,28,2.10 GHz,165 W
+Intel® Xeon® Scalable Processors,14 nm,28,2.50 GHz,205 W
+Intel® Xeon® Scalable Processors,14 nm,28,2.50 GHz,205 W
+Intel® Xeon® Processor E7 v4 Family,14 nm,14,2.00 GHz,115 W
+Intel® Xeon® Processor E7 v4 Family,14 nm,10,2.00 GHz,115 W
+Intel® Xeon® Processor E7 v4 Family,14 nm,16,2.10 GHz,115 W
+Intel® Xeon® Processor E7 v4 Family,14 nm,18,2.20 GHz,140 W
+Intel® Xeon® Processor E7 v4 Family,14 nm,18,2.40 GHz,165 W
+Intel® Xeon® Processor E7 v4 Family,14 nm,20,2.10 GHz,140 W
+Intel® Xeon® Processor E7 v4 Family,14 nm,22,2.20 GHz,150 W
+Intel® Xeon® Processor E7 v4 Family,14 nm,24,2.20 GHz,165 W
+Intel® Xeon® Processor E7 v4 Family,14 nm,10,2.80 GHz,165 W
+Intel® Xeon® Processor E7 v4 Family,14 nm,4,3.20 GHz,140 W
+Intel® Xeon® Processor E7 v4 Family,14 nm,24,2.40 GHz,165 W
+Intel® Xeon® Processor E7 v3 Family,22 nm,12,2.10 GHz,115 W
+Intel® Xeon® Processor E7 v3 Family,22 nm,10,1.90 GHz,115 W
+Intel® Xeon® Processor E7 v3 Family,22 nm,14,2.20 GHz,115 W
+Intel® Xeon® Processor E7 v3 Family,22 nm,16,2.20 GHz,140 W
+Intel® Xeon® Processor E7 v3 Family,22 nm,16,2.50 GHz,165 W
+Intel® Xeon® Processor E7 v3 Family,22 nm,18,2.10 GHz,140 W
+Intel® Xeon® Processor E7 v3 Family,22 nm,18,2.30 GHz,150 W
+Intel® Xeon® Processor E7 v3 Family,22 nm,18,2.00 GHz,115 W
+Intel® Xeon® Processor E7 v3 Family,22 nm,18,2.50 GHz,165 W
+Intel® Xeon® Processor E7 v3 Family,22 nm,10,2.80 GHz,165 W
+Intel® Xeon® Processor E7 v3 Family,22 nm,4,3.20 GHz,140 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,15,2.30 GHz,130 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,15,2.50 GHz,130 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,15,2.80 GHz,155 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,6,1.90 GHz,105 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,8,2.00 GHz,105 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,10,2.20 GHz,105 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,12,2.30 GHz,105 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,12,2.60 GHz,130 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,15,2.30 GHz,130 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,15,2.50 GHz,130 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,15,2.80 GHz,155 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,6,3.40 GHz,155 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,10,3.20 GHz,155 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,15,2.80 GHz,155 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,15,2.20 GHz,105 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,15,2.50 GHz,130 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,15,2.30 GHz,130 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,12,3.00 GHz,130 W
+Intel® Xeon® Processor E7 v2 Family,22 nm,12,2.30 GHz,105 W
+Intel® Xeon® Processor E7 Family,32 nm,8,2.00 GHz,105 W
+Intel® Xeon® Processor E7 Family,32 nm,8,2.13 GHz,105 W
+Intel® Xeon® Processor E7 Family,32 nm,10,2.00 GHz,130 W
+Intel® Xeon® Processor E7 Family,32 nm,10,2.26 GHz,130 W
+Intel® Xeon® Processor E7 Family,32 nm,10,2.40 GHz,130 W
+Intel® Xeon® Processor E7 Family,32 nm,6,1.86 GHz,95 W
+Intel® Xeon® Processor E7 Family,32 nm,8,2.00 GHz,105 W
+Intel® Xeon® Processor E7 Family,32 nm,8,2.13 GHz,105 W
+Intel® Xeon® Processor E7 Family,32 nm,10,2.00 GHz,130 W
+Intel® Xeon® Processor E7 Family,32 nm,10,2.26 GHz,130 W
+Intel® Xeon® Processor E7 Family,32 nm,10,2.40 GHz,130 W
+Intel® Xeon® Processor E7 Family,32 nm,8,2.13 GHz,105 W
+Intel® Xeon® Processor E7 Family,32 nm,8,2.66 GHz,130 W
+Intel® Xeon® Processor E7 Family,32 nm,10,2.00 GHz,130 W
+Intel® Xeon® Processor E7 Family,32 nm,10,2.26 GHz,130 W
+Intel® Xeon® Processor E7 Family,32 nm,10,2.13 GHz,105 W
+Intel® Xeon® Processor E7 Family,32 nm,10,2.40 GHz,130 W
+5th Generation Intel® Core™ i7 Processors,14 nm,2,2.60 GHz,15 W
+5th Generation Intel® Core™ i7 Processors,14 nm,2,2.20 GHz,15 W
+5th Generation Intel® Core™ i7 Processors,14 nm,4,3.30 GHz,65 W
+5th Generation Intel® Core™ i7 Processors,14 nm,4,3.30 GHz,65 W
+5th Generation Intel® Core™ i7 Processors,14 nm,4,2.70 GHz,47 W
+5th Generation Intel® Core™ i7 Processors,14 nm,4,2.60 GHz,47 W
+5th Generation Intel® Core™ i7 Processors,14 nm,4,2.50 GHz,47 W
+5th Generation Intel® Core™ i7 Processors,14 nm,4,2.70 GHz,47 W
+5th Generation Intel® Core™ i7 Processors,14 nm,4,2.70 GHz,47 W
+5th Generation Intel® Core™ i7 Processors,14 nm,4,2.90 GHz,47 W
+5th Generation Intel® Core™ i7 Processors,14 nm,2,2.40 GHz,15 W
+6th Generation Intel® Core™ m Processors,14 nm,2,900 MHz,4.5 W
+6th Generation Intel® Core™ i3 Processors,14 nm,2,3.60 GHz,54 W
+6th Generation Intel® Core™ i5 Processors,14 nm,2,3.10 GHz,28 W
+6th Generation Intel® Core™ i5 Processors,14 nm,2,2.90 GHz,28 W
+7th Generation Intel® Core™ m Processors,14 nm,2,1.00 GHz,4.5 W
+7th Generation Intel® Core™ i3 Processors,14 nm,2,3.00 GHz,35 W
+7th Generation Intel® Core™ i3 Processors,14 nm,2,2.40 GHz,15 W
+7th Generation Intel® Core™ i3 Processors,14 nm,2,2.80 GHz,28 W
+7th Generation Intel® Core™ i3 Processors,14 nm,2,3.90 GHz,51 W
+7th Generation Intel® Core™ i3 Processors,14 nm,2,2.90 GHz,35 W
+7th Generation Intel® Core™ i3 Processors,14 nm,2,3.40 GHz,35 W
+7th Generation Intel® Core™ i3 Processors,14 nm,2,3.40 GHz,35 W
+7th Generation Intel® Core™ i3 Processors,14 nm,2,3.90 GHz,54 W
+7th Generation Intel® Core™ i3 Processors,14 nm,2,2.10 GHz,25 W
+7th Generation Intel® Core™ i3 Processors,14 nm,2,2.70 GHz,15 W
+7th Generation Intel® Core™ i3 Processors,14 nm,2,3.50 GHz,35 W
+7th Generation Intel® Core™ i3 Processors,14 nm,2,4.00 GHz,51 W
+7th Generation Intel® Core™ i3 Processors,14 nm,2,4.10 GHz,51 W
+7th Generation Intel® Core™ i3 Processors,14 nm,2,4.20 GHz,60 W
+7th Generation Intel® Core™ m Processors,14 nm,2,1.10 GHz,4.5 W
+6th Generation Intel® Core™ i7 Processors,14 nm,2,2.50 GHz,15 W
+6th Generation Intel® Core™ i7 Processors,14 nm,2,2.20 GHz,15 W
+6th Generation Intel® Core™ i7 Processors,14 nm,2,3.30 GHz,28 W
+6th Generation Intel® Core™ i7 Processors,14 nm,2,2.60 GHz,15 W
+6th Generation Intel® Core™ i7 Processors,14 nm,2,2.20 GHz,15 W
+6th Generation Intel® Core™ i7 Processors,14 nm,2,2.40 GHz,15 W
+6th Generation Intel® Core™ i7 Processors,14 nm,4,2.60 GHz,45 W
+6th Generation Intel® Core™ i7 Processors,14 nm,4,2.60 GHz,45 W
+6th Generation Intel® Core™ i7 Processors,14 nm,4,3.40 GHz,65 W
+6th Generation Intel® Core™ i7 Processors,14 nm,4,2.40 GHz,35 W
+6th Generation Intel® Core™ i7 Processors,14 nm,4,2.80 GHz,35 W
+6th Generation Intel® Core™ i7 Processors,14 nm,4,4.00 GHz,91 W
+6th Generation Intel® Core™ i7 Processors,14 nm,4,3.30 GHz,65 W
+6th Generation Intel® Core™ i7 Processors,14 nm,4,2.80 GHz,45 W
+6th Generation Intel® Core™ i7 Processors,14 nm,4,2.70 GHz,45 W
+6th Generation Intel® Core™ i7 Processors,14 nm,4,2.70 GHz,45 W
+6th Generation Intel® Core™ i7 Processors,14 nm,4,2.00 GHz,25 W
+6th Generation Intel® Core™ i7 Processors,14 nm,4,2.70 GHz,45 W
+6th Generation Intel® Core™ i7 Processors,14 nm,4,2.90 GHz,45 W
+6th Generation Intel® Core™ i7 Processors,14 nm,4,2.80 GHz,45 W
+6th Generation Intel® Core™ i5 Processors,14 nm,2,1.80 GHz,15 W
+6th Generation Intel® Core™ i5 Processors,14 nm,2,2.30 GHz,15 W
+6th Generation Intel® Core™ i5 Processors,14 nm,2,2.40 GHz,15 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,2.30 GHz,45 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,2.30 GHz,45 W
+6th Generation Intel® Core™ i5 Processors,14 nm,2,2.00 GHz,15 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,1.90 GHz,25 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,2.60 GHz,45 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,2.70 GHz,45 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,2.20 GHz,35 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,2.70 GHz,65 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,2.80 GHz,65 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,2.30 GHz,35 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,2.50 GHz,35 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,3.20 GHz,65 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,2.80 GHz,65 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,2.70 GHz,35 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,3.50 GHz,91 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,3.20 GHz,65 W
+6th Generation Intel® Core™ i5 Processors,14 nm,4,3.30 GHz,65 W
+6th Generation Intel® Core™ i3 Processors,14 nm,2,2.00 GHz,15 W
+6th Generation Intel® Core™ i3 Processors,14 nm,2,2.70 GHz,35 W
+6th Generation Intel® Core™ i3 Processors,14 nm,2,3.20 GHz,35 W
+6th Generation Intel® Core™ i3 Processors,14 nm,2,3.70 GHz,51 W
+6th Generation Intel® Core™ i3 Processors,14 nm,2,2.70 GHz,28 W
+6th Generation Intel® Core™ i3 Processors,14 nm,2,2.40 GHz,28 W
+6th Generation Intel® Core™ i3 Processors,14 nm,2,1.90 GHz,25 W
+6th Generation Intel® Core™ i3 Processors,14 nm,2,2.30 GHz,15 W
+6th Generation Intel® Core™ i3 Processors,14 nm,2,2.70 GHz,35 W
+6th Generation Intel® Core™ i3 Processors,14 nm,2,3.90 GHz,51 W
+6th Generation Intel® Core™ i3 Processors,14 nm,2,3.30 GHz,35 W
+6th Generation Intel® Core™ i3 Processors,14 nm,2,2.70 GHz,35 W
+6th Generation Intel® Core™ i3 Processors,14 nm,2,3.80 GHz,51 W
+6th Generation Intel® Core™ m Processors,14 nm,2,1.10 GHz,4.5 W
+6th Generation Intel® Core™ m Processors,14 nm,2,1.10 GHz,4.5 W
+6th Generation Intel® Core™ m Processors,14 nm,2,1.20 GHz,4.5 W
+5th Generation Intel® Core™ i7 Processors,14 nm,2,2.00 GHz,15 W
+5th Generation Intel® Core™ i7 Processors,14 nm,2,3.10 GHz,28 W
