@@ -1,14 +1,16 @@
+import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.datasets import load_boston
 from sklearn.model_selection import train_test_split
 
-def load_boston_dataset(test_size, rd):
+def load_boston_dataset(test_size, rd, show=True):
     """
     II.1
     Load the Boston Dataset and splits it into train and test sets
     with 80% of the data in the train set.
     """
-    print("Loading the dataset with train/test split: "+ \
+    if show:
+        print("Loading the dataset with train/test split: "+ \
           str(1-test_size)+"/"+str(test_size))
     boston = load_boston()
     X = boston.data
@@ -36,6 +38,14 @@ def print_boston_shapes(X_train, X_test, y_train, y_test):
           sep="\n")
     return None
 
+def format_x_non_centered(X):
+    """
+    Formats a data array as non-centered.
+    """
+    n = len(X)
+    ones = np.ones((n, 1))
+    return np.concatenate([ones, X], axis=1)
+    
 def compute_w1(X_train, y_train, reg_parameter):
     """
     II.3
@@ -44,8 +54,7 @@ def compute_w1(X_train, y_train, reg_parameter):
     """
     n = len(X_train)
     d = len(X_train[0])+1
-    ones = np.ones((n, 1))
-    X = np.concatenate([ones, X_train], axis=1)
+    X = format_x_non_centered(X_train)
     X_t = np.transpose(X)
     identity = np.identity(d)
     inverse = np.linalg.inv(np.dot(X_t, X)+n*reg_parameter*identity)
@@ -62,6 +71,45 @@ def predict_1(X_test, w1):
     ones = np.ones((n,1))
     X = np.concatenate([ones, X_test], axis=1)
     return np.dot(X, w1)
+
+def mean_squared_error(ground_truths, predictions):
+    """
+    Given a groundtruth array, and a prediction array, calculates
+    a mean squared error score
+    """
+    mse = 0
+    n = len(ground_truths)
+    for i in range(n):
+        mse += (ground_truths[i]-predictions[i])**2
+    return mse
+
+def grid_search(split_range, reg_range, mode="non-centered"):
+    """
+    II.5 
+    Performs a grid search over a set of hyperparameters:
+    Train-test split, regularization term
+    """
+    results = []
+    for split in split_range:
+        X_train, X_test, y_train, y_test = load_boston_dataset(split, 42, False)
+        X_test_final = np.transpose(format_x_non_centered(X_test))
+        for reg in reg_range:
+            if mode=="non-centered": 
+                w = compute_w1(X_train, y_train, reg)
+            preds = np.dot(w, X_test_final)
+            mse = mean_squared_error(y_test, preds)
+            results.append([split, reg, w, preds, mse])
+    return results
+
+def plot_grid_search(results, split):
+    """
+    Plots the results of the grid search.
+    """
+    formatted_results = {}
+    results = list(filter(lambda x: x[0]==split, results))
+    for result in results:
+        formatted_results[results[1]]=results[4]
+    return formatted_results
 
 if __name__ == "__main__":
     #II.1 load the Boston Dataset
@@ -90,4 +138,8 @@ if __name__ == "__main__":
 
     #II.5 GridSearch for w1
     print("\n#### II.5 - Performing a GridSearch for \hat{w}^1 ####")
-
+    reg_parameters = list(map(lambda x:x/100, (range(0,26))))
+    split_sizes = list(map(lambda x:x/100, (range(10, 42, 2))))
+    results = grid_search(split_sizes, reg_parameters)
+    for split in split_sizes:
+        formatted_results = plot_grid_search(results, split) 
