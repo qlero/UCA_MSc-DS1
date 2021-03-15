@@ -43,21 +43,23 @@ class Client(object):
         """
         :param batch: tuple of inputs and labels
         """
-        #### Code here ####
-        for images, labels in batch:
-            images = images.requires_grad_()
-            outputs = self.model(images)
-            loss = self.criterion(outputs, labels)
-            loss.backward()            
-        #### 5-10 lines ###
+        x, y = batch
+        x, y = x.to(self.device), y.to(self.device)
+
+        self.model.zero_grad()
+
+        y_pred = self.model(x)
+
+        loss = self.criterion(y_pred, y)
+        loss.backward()
 
     def push_gradients(self):
         for param in self.model.parameters():
-            dist.broadcast(param.grad.data, src=self.rank)
-        
+            dist.reduce(param.grad.data, dst=0, op=dist.ReduceOp.SUM)
+
     def pull_model(self):
         for param in self.model.parameters():
-            dist.reduce(param.data, dst=0)
+            dist.broadcast(param.data, src=0)
 
     def run(self, n_rounds):
         for _ in range(n_rounds):

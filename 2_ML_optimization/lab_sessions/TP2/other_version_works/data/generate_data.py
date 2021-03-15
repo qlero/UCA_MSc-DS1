@@ -6,9 +6,10 @@ import argparse
 
 from torchvision.datasets import FashionMNIST
 
-MNIST_PATH = "data/fashionmnist"
-INDICES_PATH = "data/indices"
+MNIST_PATH = "mnist"
+INDICES_PATH = "indices"
 N_SAMPLES = 60000
+
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -16,7 +17,6 @@ def parse_args():
     parser.add_argument(
         '--n_clients',
         help='number of clients;',
-        default=2,
         type=int)
     parser.add_argument(
         '--seed',
@@ -66,7 +66,7 @@ def generate_data(n_clients, seed=1234):
     clients_indices = iid_divide(all_indices, n_clients)
 
     for client_id, indices in enumerate(clients_indices):
-        client_path = os.path.join(INDICES_PATH, "client_"+ str(client_id+1) + ".pkl")
+        client_path = os.path.join(INDICES_PATH, "client_{}.pkl".format(client_id+1))
         save_data(indices, os.path.join(client_path))
 
 
