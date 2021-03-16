@@ -1,0 +1,11 @@
+URI: Unique Ressource Identifier (URL(ocator): subset of URI)
+XML: Generalization of HTML -- It is meant to structure data, not specifically
+for a human user, but also to be processed by machines (Structuring data into
+trees)
+RDF: Resource Description Framework (Structuring data into graphs with
+associated vocabularies)
+RDF-Schema: Describes vocabularies
+SPARQL: Query Language to query RDF data
+RIF: Rule Interchange Format
+TriG: Turtle Extension to Identify Graph
+
