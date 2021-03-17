@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns0="http://www.perceive.net/schemas/relationship/"
+   xmlns:ns1="http://example_vocab.org/schema#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/#pierre">
+    <rdf:type rdf:resource="http://example_vocab.org/schema#Person"/>
+    <ns0:colleague rdf:resource="http://example.org/#margot"/>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pierre</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/#alice">
+    <rdf:type rdf:resource="http://example_vocab.org/schema#Person"/>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alice</ns1:name>
+    <ns0:colleague rdf:resource="http://example.org/#margot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/#margot">
+    <ns1:married_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arthur</ns1:married_to>
+    <ns1:age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32</ns1:age>
+    <rdf:type rdf:resource="http://example_vocab.org/schema#Person"/>
+    <ns0:mother rdf:resource="http://example.org/#alice"/>
+    <ns0:colleague rdf:resource="http://example.org/#pierre"/>
+    <ns0:mother rdf:resource="http://example.org/#pierre"/>
+    <ns1:shoe_size rdf:datatype="http://www.w3.org/2001/XMLSchema#int">38</ns1:shoe_size>
+    <ns0:colleague rdf:resource="http://example.org/#alice"/>
+    <ns0:wife rdf:resource="http://example.org/#arthur"/>
+    <ns1:mother rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simone</ns1:mother>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Margot</ns1:name>
+    <ns1:pant_size rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</ns1:pant_size>
+    <ns1:occupation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teacher</ns1:occupation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/#arthur">
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arthur</ns1:name>
+    <ns0:father rdf:resource="http://example.org/#alice"/>
+    <ns0:father rdf:resource="http://example.org/#pierre"/>
+    <ns0:husband rdf:resource="http://example.org/#margot"/>
+    <rdf:type rdf:resource="http://example_vocab.org/schema#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/#simon">
+    <ns0:child rdf:resource="http://example.org/#margot"/>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon</ns1:name>
+    <rdf:type rdf:resource="http://example_vocab.org/schema#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/#marie">
+    <rdf:type rdf:resource="http://example_vocab.org/schema#Person"/>
+    <ns0:child rdf:resource="http://example.org/#margot"/>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marie</ns1:name>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,60 @@
+
+A Namespace is a set of unique names. Namespace is a mechanisms by which
+element and attribute name can be assigned to a group. The Namespace is
+identified by URI(Uniform Resource Identifiers).
+
+Namespace Declaration
+A Namespace is declared using reserved attributes. Such an attribute
+name must either be xmlns or begin with xmlns: shown as below −
+
+<element xmlns:name = "URL">
+
+Syntax
+-  The Namespace starts with the keyword xmlns.
+-  The word name is the Namespace prefix.
+-  The URL is the Namespace identifier.
+
+human_2013.rdf:
+
+<rdf:RDF
+   xmlns:rdf ="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:xsd ="&xsd;"
+   xmlns     ="&humans;#"
+   xml:base  ="&humans;-instances" >
+
+---------
+
+The name space is http://www.inria.fr/2007/09/11/human.rdfs-instances
+attribute of the xml base
+
+#########################################################################
+
+#### What is the namespace of the RDF schema used in this file and how is
+it associated to the XML elements? ####
+
+rdf.ID, rd.datatype, rd.resource
+
+xmls used.
+
+#########################################################################
+
+#### Explain xmlns ="&humans;#" . ####
+
+References usually allow you to add or include additional text or markup
+in an XML document. References always begin with the symbol "&" which is
+a reserved character and end with the symbol ";". XML has two types of
+references
+
+Entity References − An entity reference contains a name between the start
+and the end delimiters. For example &amp; where amp is name. The name
+refers to a predefined string of text and/or markup.
+
+Character References − These contain references, such as &#65;, contains
+a hash mark (“#”) followed by a number. The number always refers to the
+Unicode code of a character. In this case, 65 refers to alphabet "A".
+
+#########################################################################
+
+#### Find all the information available on John in this file. ####
+

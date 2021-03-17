@@ -1,0 +1,46 @@
+@prefix ns0: <http://www.perceive.net/schemas/relationship/> .
+@prefix ns1: <http://example_vocab.org/schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/#margot>
+  a ns1:Person ;
+  ns0:mother <http://example.org/#alice> ;
+  ns0:mother <http://example.org/#pierre> ;
+  ns0:wife <http://example.org/#arthur> ;
+  ns0:colleague <http://example.org/#pierre> ;
+  ns0:colleague <http://example.org/#alice> ;
+  ns1:shoe_size "38"^^xsd:int ;
+  ns1:pant_size "40"^^xsd:int ;
+  ns1:occupation "teacher"^^xsd:string ;
+  ns1:married_to "Arthur"^^xsd:string ;
+  ns1:age "32"^^xsd:int ;
+  ns1:name "Margot"^^xsd:string ;
+  ns1:mother "Simone"^^xsd:string .
+
+<http://example.org/#arthur>
+  a ns1:Person ;
+  ns0:father <http://example.org/#alice> ;
+  ns0:father <http://example.org/#pierre> ;
+  ns0:husband <http://example.org/#margot> ;
+  ns1:name "Arthur"^^xsd:string .
+
+<http://example.org/#simon>
+  a ns1:Person ;
+  ns0:child <http://example.org/#margot> ;
+  ns1:name "Simon"^^xsd:string .
+
+<http://example.org/#marie>
+  a ns1:Person ;
+  ns0:child <http://example.org/#margot> ;
+  ns1:name "Marie"^^xsd:string .
+
+<http://example.org/#pierre>
+  a ns1:Person ;
+  ns0:colleague <http://example.org/#margot> ;
+  ns1:name "Pierre"^^xsd:string .
+
+<http://example.org/#alice>
+  a ns1:Person ;
+  ns0:colleague <http://example.org/#margot> ;
+  ns1:name "Alice"^^xsd:string .
+
