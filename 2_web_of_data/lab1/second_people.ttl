@@ -1,0 +1,49 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix hum: <http://example.com/humanSchema/> .
+@base <http://example.com/humans/> .
+
+<margot>
+  a hum:Person ;
+  hum:parentTo <http://example.org/person/alice> ;
+  hum:parentTo <http://example.org/person/pierre> ;
+  hum:marriedTo <http://example.org/person/arthur> ;
+  hum:colleagueWith <http://example.org/person/pierre> ;
+  hum:colleagueWith <http://example.org/person/alice> ;
+  hum:shoeSize "38"^^xsd:int ;
+  hum:pantSize "40"^^xsd:int ;
+  hum:occupation "teacher"^^xsd:string ;
+  hum:marriedTo "Arthur"^^xsd:string ;
+  hum:age "32"^^xsd:int ;
+  hum:name "Margot"^^xsd:string ;
+  hum:childOf "Simone"^^xsd:string .
+
+<arthur>
+  a hum:Person ;
+  hum:father <alice> ;
+  hum:father <pierre> ;
+  hum:marriedTo </margot> ;
+  hum:name "Arthur"^^xsd:string ;
+  hum:marriedTo "Margot"^^xsd:string .
+
+<simon>
+  a hum:Person ;
+  hum:childOf <margot> ;
+  hum:name "Simon"^^xsd:string .
+
+<marie>
+  a hum:Person ;
+  hum:childOf <margot> ;
+  hum:name "Marie"^^xsd:string .
+
+<pierre>
+  a hum:Person ;
+  hum:colleagueWith <margot> ;
+  hum:name "Pierre"^^xsd:string .
+
+<alice>
+  a hum:Person ;
+  hum:colleagueWith <margot> ;
+  hum:name "Alice"^^xsd:string .
+

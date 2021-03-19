@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <http://example.com/descriptors/> .
+
+# Classes declaration
+<Person> a rdfs:Class .
+<Woman> a rdfs:Class ;
+	rdfs:subClassOf <Person> ;
+	rdfs:label "woman"@en ;
+	rdfs:comment "Woman individual"@en .
+<Man> a rdfs:Class ;
+        rdfs:subClassOf <Person> ;
+        rdfs:label "man"@en ;
+        rdfs:comment "Man individual"@en .
+<Occupation> a rdfs:Class ;
+	rdfs:subClassOf <Person> ;
+	rdfs:label "job"@en ;
+	rdfs:comment "Professional occupation"@en .
+<Teacher> a rdfs:Class ;
+	rdfs:subClassOf <Occupation> ;
+	rdfs:label "teacher"@en ;
+	rdfs:comment "Person is employed in the education sector"@en .
+
+# Properties declaration
+<name> a rdf:Property ;
+	rdfs:range xsd:string ;
+	rdfs:label "name"@en ;
+	rdfs:comment "is named"@en .
+<age> a rdf:Property ;
+	rdfs:range xsd:int .
+<pantSize> a rdf:Property ;
+        rdfs:range xsd:int .
+<shoeSize> a rdf:Property ;
+        rdfs:range xsd:int .
+<marriedTo> a rdf:Property ;
+        rdfs:range <Person> ;
+	rdfs:label "is married to"@en .
+<parentTo> a rdf:Property ;
+        rdfs:range <Person> ;
+	rdfs:label "has child"@en .
+<childOf> a rdf:Property ;
+	rdfs:range <Person> ;
+	rdfs:label "has for parent"@en .
+<colleagueWith> a rdf:Property ;
+        rdfs:range <Person> ;
+	rdfs:label "works with"@en .
