@@ -126,10 +126,78 @@
     \end{frame}
     
     \begin{frame}[label=lists]{\large{Graph Convolutional Networks for Text Classification}}
-        \framesubtitle{}
+        \framesubtitle{A 2-Layer Graph Convolutional Network}
+        \begin{figure}[h!]
+          \centering
+          \includegraphics[width=\textwidth]{fibeamer/logo/zut/model.png}
+        \end{figure}
+        \raggedright\tiny{\textbf{Note}: A fixed size sliding window on all documents in the corpus is used to gather co-occurrence statistics.\\
+        \textbf{TF-IDF}: term frequency-inverse document frequency; \textbf{PMI}: point-wise mutual information}
+    \end{frame}
+    
+    \begin{frame}[label=lists]{\large{Graph Convolutional Networks for Text Classification}}
+        \framesubtitle{Datasets}
+        \footnotesize{\begin{center}
+        \begin{tabular}{ c c c c c c c }
+         Name & Content & \# Docs & Split & \# Words & \# Nodes & \# Classes  \\ 
+         \hline
+         20NG & News slips & 18,846 & 60-40 & 42,757 & 61,603 & 20 \\  
+         R8 & Reuters cables & 7,674 & 70-30 & 7,688 & 15,362 & 8 \\ 
+         R52 & Reuters cables & 9,100 & 71-29 & 8,892 & 17992 & 52 \\ 
+         Ohsumed & Medical lit. & 7,400 & 45-55 & 14,157 & 21,557 & 23 \\ 
+         MR & Movie reviews & 10,662 & 67-33 & 18,764 & 29,426 & 2
+        \end{tabular}
+        \end{center}}
+        \clearpage
+        \underline{Embedding size of the first convolutional layer:} 200
+        \\\underline{Window size:} 20
+        \clearpage
+        \underline{The paper's main question:} 
+        \clearpage
+        \centering Can the model achieve satisfactory results in text classification, even with limited labeled data?
+        \clearpage
+    \end{frame}
+    
+    \begin{frame}[label=lists]{\large{Graph Convolutional Networks for Text Classification}}
+        \framesubtitle{Results}
+        \footnotesize{
+        \centering\caption{\textit{Mean test accuracy - Models were run 10 times}}
+        \begin{center}
+        \begin{tabular}{ c c c c c c c }
+         Models & 20NG & R8 & R52 & Ohsumed & MR \\
+         \hline
+         Text GCN & \textcolor{green}{$0.86$} & \textcolor{green}{$0.97$} & \textcolor{green}{$0.94$} & \textcolor{green}{$0.68$} & $0.77$ \\
+         SWEM & $0.85$ & $0.95$ & $0.93$ & $0.63$ & $0.77$ \\
+         TF-IDF + LogReg & $0.83$ & $0.94$ & $0.87$ & $0.55$ & $0.75$ \\
+         CNN & $0.82$ & $0.96$ & $0.88$ & $0.58$ & \textcolor{green}{$0.78$} \\
+         LEAM & $0.82$ & $0.93$ & $0.92$ & $0.59$ & $0.77$ 
+        \end{tabular}
+        \end{center}}
+        \centering"\textbf{Text GCN performs the best and significantly outperforms all baseline models}."\\
         
+        \clearpage
+        \raggedright\tiny{\textbf{Note}: 12 models were omitted from this table. \\\textbf{SWEAM}: Simple Word Embedding Model. \textbf{LEAM}: Label-Embedding Attentive Model.}
+    \end{frame}
+    
+    \begin{frame}[label=lists]{\large{Graph Convolutional Networks for Text Classification}}
+        \framesubtitle{Further results}
+        \centering Text GCN can capture both document-to-word and global word-to-word relations.
+        \clearpage
+        \centering Word nodes capture document label information and act as bridges: label information propagates across the graph.
+        \clearpage
+        \centering Text GCN does not outperform CNN and LSTM on the MR dataset: Text GCN \textit{ignores word order}, a key feature in sentiment analysis.
+        \clearpage
     \end{frame}
 
+    \begin{frame}[label=lists]{\large{Formulas}}
+        TF-IDF:
+        $$\frac{{\# word\,occurrences\,in\,the\,document}}{log({\#\,of\,documents\,that\,contain\,the\,word})}$$
+        PMI:
+        \footnotesize{$${PMI}(i, j) = {log}\frac{p(i, j)}{p(i)p(j)}$$
+        $$p(i, j) = \frac{\#W(i, j)}{\#W}$$
+        $$p(i) = \frac{\#W(i)}{\#W}$$
+        with $\#W(i)$, the number of sliding windows in a corpus that contains word i, $\#W(i, j)$, the number of sliding windows that contain both words i and j, and $\#W$ the total number of sliding windows.}
+    \end{frame}
 
     \subsection{Citations and Bibliography}
     
