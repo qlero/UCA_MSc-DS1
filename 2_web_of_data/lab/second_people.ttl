@@ -4,13 +4,13 @@
 @prefix hum: <http://example.com/humanSchema/> .
 @base <http://example.com/humans/> .
 
-<margot>
+<Margot>
   a hum:Person ;
-  hum:parentTo <http://example.org/person/alice> ;
-  hum:parentTo <http://example.org/person/pierre> ;
-  hum:marriedTo <http://example.org/person/arthur> ;
-  hum:colleagueWith <http://example.org/person/pierre> ;
-  hum:colleagueWith <http://example.org/person/alice> ;
+  hum:parentTo <Alice> , 
+               <Pierre> ;
+  hum:marriedTo <Arthur> ;
+  hum:colleagueWith <Pierre> , 
+                    <Alice> ;
   hum:shoeSize "38"^^xsd:int ;
   hum:pantSize "40"^^xsd:int ;
   hum:occupation "teacher"^^xsd:string ;
@@ -19,31 +19,36 @@
   hum:name "Margot"^^xsd:string ;
   hum:childOf "Simone"^^xsd:string .
 
-<arthur>
+<Arthur>
   a hum:Person ;
-  hum:father <alice> ;
-  hum:father <pierre> ;
+  hum:parentTo <Alice> ,
+               <Pierre> ;
   hum:marriedTo </margot> ;
   hum:name "Arthur"^^xsd:string ;
   hum:marriedTo "Margot"^^xsd:string .
 
-<simon>
+<Simon>
   a hum:Person ;
-  hum:childOf <margot> ;
+  hum:childOf <Margot> ,
+              <Arthur> ;
   hum:name "Simon"^^xsd:string .
 
-<marie>
+<Marie>
   a hum:Person ;
-  hum:childOf <margot> ;
+  hum:childOf <Margot> ,
+              <Arthur> ;
   hum:name "Marie"^^xsd:string .
 
-<pierre>
+<Pierre>
   a hum:Person ;
-  hum:colleagueWith <margot> ;
+  hum:colleagueWith <Margot> ;
   hum:name "Pierre"^^xsd:string .
 
-<alice>
+<Alice>
   a hum:Person ;
-  hum:colleagueWith <margot> ;
+  hum:colleagueWith <Margot> ;
   hum:name "Alice"^^xsd:string .
 
+<Simone>
+  a hum:Person ;
+  hum:parentTo <Margot> .
