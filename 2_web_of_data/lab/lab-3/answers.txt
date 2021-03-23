@@ -1,0 +1,146 @@
+#### Question 1 ####
+
+CONSTRUCT { ?s ?p ?o } WHERE { ?s ?p ?o }
+
+-> Constructs the graph.
+
+#### Question 2 ####
+
+1.
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	select * where { ?x a ?t . filter(strstarts(?t, h:)) }
+
+The query prints all the Subject-Predicate tuples which start with the URI
+h: <http:// ...
+
+We get 21 answers.
+
+2.
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	select * where { ?x ?p ?o . FILTER(CONTAINS(?x, "John")) }
+
+John is of type Person with complete URI:
+
+	<http://www.inria.fr/2007/09/11/humans.rdfs#Person
+
+#### Question 3 ####
+
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#John
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	CONSTRUCT { ?s ?p ?o } where { ?s ?p ?o . FILTER(CONTAINS(?s, "John")) }
+
+#### Question 4 ####
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	select * where { ?x h:hasSpouse ?y }
+
+Prints all the hasSpouse relations in the graph. I.e. All people with a
+spouse.
+
+We get 5 answers.
+
+#### Question 5 ####
+
+1.
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+        select * where { ?x h:shoesize ?y }
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	select ?x ?o where { ?x rdf:type h:Person .
+		             ?x h:shoesize ?o . }
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	select ?x ?o where { ?x a h:Person ; h:shoesize ?o . }
+
+2.
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	select ?x ?o where { ?x a h:Person .	#a is the shortcut for rdf:type
+	                     ?x h:shoesize? ?o . }
+
+3.
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	select ?x ?o ?o2 where { ?x a h:Person .
+	  	           ?x h:shoesize? ?o . filter ( xsd:integer(?o) >= 8 )
+                           ?x h:shirtsize? ?o2 . filter (xsd:integer(?o2) >= 12) }
+
+#### Question 6 ####
+
+1.
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	select ?x where { ?x h:hasChild ?o . }
+
+5 responses, 2 duplicates with Gaston.
+
+2. 
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	select distinct ?x where { ?x h:hasChild ?o . }
+
+4 answers
+
+3.
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	select ?x where { ?x a h:Person . filter not exists { ?x h:hasChild ?o }}
+
+#### Question 7 ####
+
+1.
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	select ?x ?o where {  ?x rdf:type h:Person ;
+                              h:age ?o . filter (?o >=18 ) }
+
+3 answers.
+
+2. 
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+        ask { ?x a h:Person ; 
+                     h:age ?o1 ;
+                     h:name ?o2 . filter(CONTAINS(?o2, "Mark")) .
+               filter ( xsd:integer(?o1) >= 18 ) }
+
+
+
+#### Question 8 ####
+
+
+
+#### Question 9 ####
+
+
+
+#### Question 10 ####
+
+
+
+#### Question 11 ####
+
+
+
+#### Question 12 ####
+
+
+
+#### Question 13 ####
+
+
+
+#### Question 14 ####
+
+
+
+#### Question 15 ####
+
+
+
+#### Question 16 ####
+
