@@ -108,25 +108,182 @@ We get 5 answers.
                      h:name ?o2 . filter(CONTAINS(?o2, "Mark")) .
                filter ( xsd:integer(?o1) >= 18 ) }
 
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	ask { 
+	  ?x h:name "Mark" .
+	  ?x h:age ?age .
+	  filter ( xsd:integer(?age>=18) )
+	}
 
+3.
+
+prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+select ?x ?o (xsd:decimal(?o/2)-xsd:integer(?o/2)!=0 as ?o2)
+where {  
+  ?x h:age ?o .
+}
 
 #### Question 8 ####
 
+1.
 
+prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+CONSTRUCT { ?friend h:hasFriend ?person . }
+WHERE { 
+        ?person h:hasFriend ?friend 
+}
+
+2. 
+
+INSERT { ?friend h:hasFriend ?person . }
+WHERE {
+    ?person h:hasFriend ?friend
+}
+
+
+# will give different results before and after
+select ?person ?friend where {
+    ?person h:hasFriend ?friend
+}
 
 #### Question 9 ####
 
-
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	CONSTRUCT { ?x h:ageIsEven ?o2 . }
+	WHERE {
+	    select ?x ?o (xsd:decimal(?o/2)-xsd:integer(?o/2)!=0 as ?o2)
+	    where {
+	        ?x h:age ?o .
+	    }
+	}
 
 #### Question 10 ####
 
-
+edit the file a la mano.
 
 #### Question 11 ####
 
+1.
 
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+
+	select distinct ?name ?shirt ?name2 ?shirt2 where {
+	  ?x h:shirtsize ?shirt
+	  ?x2 h:shirtsize ?shirt2
+	  ?x h:name ?name
+	  ?x2 h:name ?name2
+	  filter (?shirt = ?shirt2 && ?x!=?x2)
+	}
+
+2.
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+
+	construct { ?x rdfs:seeAlso ?x2 . } 
+	where {
+	  ?x h:shirtsize ?shirt 
+	  ?x2 h:shirtsize ?shirt
+	  filter (?x!=?x2)
+	}
+
+# check relation
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+
+	construct { ?x ?p ?x2 . } 
+	where {
+	  ?x ?p ?x2
+	  ?x h:shirtsize ?shirt 
+	  ?x2 h:shirtsize ?shirt
+	  filter (?x!=?x2)
+	}
+
+3.
+
+	insert { ?x rdfs:seeAlso ?x2 . }
+	where {
+	  ?x h:shirtsize ?shirt
+	  ?x2 h:shirtsize ?shirt
+	  filter (?x!=?x2)
+	}
+
+4.
+
+	select * where {
+	  ?x rdfs:seeAlso ?x2
+	}
+
+	construct {?x  rdfs:seeAlso ?x2} where {
+	  ?x rdfs:seeAlso ?x2
+	}
+
+5. 
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+
+	select distinct ?x ?x2 where {
+	  ?x h:shoesize ?s
+	  ?x2 h:shoesize ?s
+	  filter (?x!=?x2)
+	}
+
+	insert {?x rdfs:seeAlso ?x2} where {
+	  ?x h:shoesize ?s
+	  ?x2 h:shoesize ?s
+	  filter (?x!=?x2)
+	}
+
+6.
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+
+	construct {?x rdfs:seeAlso ?x2} where {
+	  ?x h:shoesize ?s
+	  ?x2 h:shoesize ?s
+	  filter (?x!=?x2)
+	}
+
+7.
+
+	construct {?x rdfs:seeAlso ?x2} where {
+	  ?x rdfs:seeAlso ?x2
+	}
+
+8.
+
+reload and rerun
+
+System -> Reload
 
 #### Question 12 ####
+
+1.
+
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+
+	select (MAX(?size) as ?maxSize) where {
+	  ?x h:shoesize ?size
+	}
+
+2.
+
+prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+
+	select ?name where {
+	  ?x h:name ?name
+	  ?x h:shoesize ?size .
+	}
+	having ( ?size = MAX(?size) ) 
+
+3.
+
+        prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+
+        select (AVG(?size) as ?avgSize) where {
+          ?x h:shoesize ?size
+        }
+
+4.
 
 
 
