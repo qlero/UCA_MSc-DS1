@@ -1,0 +1,237 @@
+#### QUERY THE SCHEMA ITSELF ####
+
+1.
+
+select * where { ?x a rdfs:Class }
+
+2.
+
+select * where { ?x rdfs:subClassOf ?o }
+
+3.
+
+@prefix s: <http://www.inria.fr/2007/09/11/humans.rdfs#> .
+select ?y where { s:shoesize rdfs:label ?y }
+
+@prefix s: <http://www.inria.fr/2007/09/11/humans.rdfs#> .
+select * where { s:shoesize rdfs:label ?y ; rdfs:comment ?z }
+
+@prefix s: <http://www.inria.fr/2007/09/11/humans.rdfs#> .
+select * where { s:shoesize rdfs:label ?y ; rdfs:comment ?z . FILTER (lang(?y) != "en") }
+
+@prefix s: <http://www.inria.fr/2007/09/11/humans.rdfs#> .
+select * where { ?x rdfs:label ?y ; rdfs:comment ?z ; rdfs:label "shoe size"@en . FILTER (lang(?y) != "en") }
+
+4.
+
+@prefix s: <http://www.inria.fr/2007/09/11/humans.rdfs#> .
+select * where { s:Person ?p ?o . FILTER (lang(?o) = 'fr') }
+
+5.
+
+@prefix s: <http://www.inria.fr/2007/09/11/humans.rdfs#> .
+select * where { ?x rdfs:label ?o . FILTER regex(?x, "size") }
+
+@prefix s: <http://www.inria.fr/2007/09/11/humans.rdfs#> .
+select * where { ?x rdfs:label "size"@en .
+                 ?x rdfs:label  ?y }
+
+6.
+
+@prefix s: <http://www.inria.fr/2007/09/11/humans.rdfs#> .
+select * where { ?x ?p s:Person }
+
+7.
+
+select * where { ?x a rdfs:Class ; rdfs:subClassOf ?y }
+
+CONSTRUCT {?x rdfs:subClassOf ?y} where { ?x a rdfs:Class ; rdfs:subClassOf ?y }
+
+8.
+
+CONSTRUCT {?x rdfs:subClassOf ?y ;
+                         rdfs:domain ?d ;
+                         rdfs:range ?r . } where { ?x a rdfs:Class ; rdfs:subClassOf ?y }
+
+
+#### QUERY RDF DATA AUGMENTED BY AN RDFS SCHEMA ####
+
+######## Q1
+
+1.
+
+Load RDF
+
+2.
+
+@prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#> .
+
+select * where {
+  ?x a h:Person
+}
+
+>>> 7 lines ?x = names ?p = rdf:type
+
+3.
+
+reload
+
+4.
+
+>>> 11 lines ?x = properties (hasFriend, shoesize, shirtsize, trousersize,
+>>> hasSpouse, Man, Lecturer, Researcher, Woman) ?p = domain, range,
+>>> subClassOf
+
+5.
+
+When we use the schema in conjunction with the rdf entries, we are able to
+reach a larger number of entries with the same request as we have a richer
+relational structure thanks to the schema. 
+
+e.g. Man is now linked to Person
+
+######## Q2
+
+1.
+
+        @prefix h:<http://www.inria.fr/2007/09/11/humans.rdfs#>
+
+        select ?x ?o where {
+          ?x ?p h:Male .
+          ?x h:hasSpouse ?o .
+        }
+
+-> 1 answer
+
+	@prefix h:<http://www.inria.fr/2007/09/11/humans.rdfs#>
+	@prefix in:<http://www.inria.fr/2007/09/11/humans.rdfs-instances#>
+
+	CONSTRUCT {?x h:hasSpouse ?y} where { ?x h:hasSpouse ?y . ?x a h:Male . }
+
+2.
+
+insert  data {<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Lucas>
+<http://www.inria.fr/2007/09/11/humans.rdfs#hasFather>
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Karl>}
+
+######## Q3
+
+1.
+
+	@prefix h:<http://www.inria.fr/2007/09/11/humans.rdfs#>
+	
+	select ?name ?o where {
+	  ?x ?p h:Lecturer .
+	  ?x rdf:type ?o .
+	  ?x h:name ?name .
+	}
+
+2.
+
+        @prefix h:<http://www.inria.fr/2007/09/11/humans.rdfs#>
+
+        select ?x where {
+          ?x a h:Male .
+          ?x a h:Person .
+        }
+
+######## Q4
+
+        @prefix h:<http://www.inria.fr/2007/09/11/humans.rdfs#>
+
+        select ?x where {
+          ?x h:hasAncestor ?o .
+        }
+
+######## Q5
+
+1.
+
+	@prefix h:<http://www.inria.fr/2007/09/11/humans.rdfs#>
+	
+	select ?x ?p ?o where {
+	  { ?x ?p ?o . filter (?p=h:hasSpouse || ?p=h:hasParent) }
+	}
+
+2.
+
+	@prefix h:<http://www.inria.fr/2007/09/11/humans.rdfs#>
+	
+	CONSTRUCT {?x ?p ?o} where {
+	  { ?x ?p ?o . filter (?p=h:hasSpouse || ?p=h:hasParent) }
+	}
+
+	@prefix h:<http://www.inria.fr/2007/09/11/humans.rdfs#> .
+
+	CONSTRUCT {?x ?p ?o . } where {
+	            {?x ?p ?o . filter (?p=h:hasSpouse)}
+	             UNION
+	             {?x ?p ?o . filter (?p=h:hasParent)} . }
+
+--------
+
+@prefix h:<http://www.inria.fr/2007/09/11/humans.rdfs#>
+
+construct { ?x h:hasSpouse ?y . ?x h:hasChild ?child . ?y h:hasChild ?child  } 
+WHERE { ?x h:hasSpouse ?y
+optional {{?x h:hasChild ?child} union {?y h:hasChild ?child}}}
+
+######## Q6
+
+1.
+
+	@prefix h:<http://www.inria.fr/2007/09/11/humans.rdfs#> .
+	
+	construct {?x1 rdfs:olderThan ?x2 . } 
+	where {
+	  ?x1 h:age ?age1 .
+	  ?x2 h:age ?age2 .
+	  filter (?x1!=?x2 && ?age1 > ?age2) .
+	}
+
+2.
+
+	@prefix h:<http://www.inria.fr/2007/09/11/humans.rdfs#> .
+	
+	CONSTRUCT
+	{
+	 ?p1 h:olderThan ?p2
+	 ?p1 h:age ?a1
+	 ?p2 h:age ?a2
+	}
+	WHERE
+	{
+	 ?p1 h:age ?a1
+	 ?p2 h:age ?a2
+	 FILTER (NOT EXISTS {  ?p3 h:age ?a3  FILTER ((xsd:integer(?a1)>xsd:integer(?a3) && xsd:integer(?a3)>xsd:integer(?a2))) })
+	 FILTER ( xsd:integer(?a1)>xsd:integer(?a2) )
+	}
+
+######## Q7
+
+	@prefix h:<http://www.inria.fr/2007/09/11/humans.rdfs#> .
+	@prefix in:<http://www.inria.fr/2007/09/11/humans.rdfs-instances#>
+
+	select * where {
+	  ?name ?x ?o .
+	  ?x ?p rdf:Property .
+	  filter (regex(?x, "size") && ?name=in:John)
+	}
+
+------
+
+	@prefix h:<http://www.inria.fr/2007/09/11/humans.rdfs#> .
+	select ?x ?p ?o where {
+	?x h:name "John" .
+	?x ?p ?o .
+	?p rdfs:label "size"@en
+	}
+
+######## Q8
+
+        @prefix h:<http://www.inria.fr/2007/09/11/humans.rdfs#> .
+	select * where {
+	?x h:name "Laura"
+	?x ?p ?o
+	{?p rdfs:label ?label} union {?o rdfs:label ?label}
+	filter (lang(?label)="fr")}

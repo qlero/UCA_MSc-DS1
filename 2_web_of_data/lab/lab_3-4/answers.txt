@@ -1,6 +1,6 @@
 #### Question 1 ####
 
-CONSTRUCT { ?s ?p ?o } WHERE { ?s ?p ?o }
+	CONSTRUCT { ?s ?p ?o } WHERE { ?s ?p ?o }
 
 -> Constructs the graph.
 
@@ -135,16 +135,19 @@ WHERE {
 
 2. 
 
-INSERT { ?friend h:hasFriend ?person . }
-WHERE {
-    ?person h:hasFriend ?friend
-}
+        prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	INSERT { ?friend h:hasFriend ?person . }
+	WHERE {
+	    ?person h:hasFriend ?friend
+	}
 
 
 # will give different results before and after
-select ?person ?friend where {
-    ?person h:hasFriend ?friend
-}
+
+        prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	select ?person ?friend where {
+	    ?person h:hasFriend ?friend
+	}
 
 #### Question 9 ####
 
@@ -200,6 +203,7 @@ edit the file a la mano.
 
 3.
 
+        prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
 	insert { ?x rdfs:seeAlso ?x2 . }
 	where {
 	  ?x h:shirtsize ?shirt
@@ -209,6 +213,7 @@ edit the file a la mano.
 
 4.
 
+        prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
 	select * where {
 	  ?x rdfs:seeAlso ?x2
 	}
@@ -245,6 +250,7 @@ edit the file a la mano.
 
 7.
 
+        prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
 	construct {?x rdfs:seeAlso ?x2} where {
 	  ?x rdfs:seeAlso ?x2
 	}
@@ -267,7 +273,7 @@ System -> Reload
 
 2.
 
-prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+	prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
 
 	select ?name where {
 	  ?x h:name ?name
@@ -285,19 +291,86 @@ prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
 
 4.
 
+        prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+
+        select ((SUM(?size)/COUNT(?size)) as ?avgSize) where {
+          ?x h:shoesize ?size
+        }
 
 
 #### Question 13 ####
 
+        prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
 
+        select ?x ?spouse where {
+          ?x h:hasChild ?o ;
+              h:hasSpouse ?spouse .
+        }
 
 #### Question 14 ####
 
+@prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+@prefix in: <http://www.inria.fr/2007/09/11/humans.rdfs-instances#>
 
+INSERT DATA
+{
+  in:TEST h:name "TEST" ;
+     h:hasChild in:A ;
+     h:hasSpouse in:B ;
+     h:shoesize 7 ;
+     h:age 19 ;
+     h:shirtsize 42 .
+}
 
 #### Question 15 ####
 
+        prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+        insert {?x rdfs:seeAlso ?o . } 
+        where {
+          {?x h:hasParent ?o .}
+           UNION {
+           ?x h:hasChild ?o .}
+           UNION {
+           ?x h:hasMother ?o .}
+           UNION {
+           ?x h:hasFather ?o .}
+        }
 
+	CONSTRUCT { ?s rdfs:seeAlso ?o } WHERE { ?s rdfs:seeAlso ?o }
 
 #### Question 16 ####
+
+It constructs a graph of 20 couples, which partners/spouses are referenced in
+the dpegia database.
+
+
+prefix db: <http://dbpedia.org/ontology/>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+construct { ?x h:name ?nx . ?y h:name ?ny . ?x h:hasSpouse ?y }
+where {
+service <http://fr.dbpedia.org/sparql/> {
+select * where {
+?x db:spouse ?y .?x foaf:name ?nx .?y foaf:name ?ny .}
+limit 20} }
+
+
+
+prefix db: <http://dbpedia.org/ontology/>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix h: <http://www.inria.fr/2007/09/11/humans.rdfs#>
+@prefix in: <http://www.inria.fr/2007/09/11/humans.rdfs-instances#>
+
+INSERT { GRAPH <http://www.inria.fr/2007/09/11/humans.rdfs-instances#>  {
+    ?x rdf:type in:Person .
+    ?y rdf:type in:Person .
+    ?x h:name ?nx . 
+    ?y h:name ?ny . 
+    ?x h:hasSpouse ?y }}
+where {
+service <http://fr.dbpedia.org/sparql/> {
+	select * where {
+	?x db:spouse ?y .?x foaf:name ?nx .?y foaf:name ?ny .}
+	limit 20} 
+}
 

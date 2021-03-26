@@ -1,0 +1,37 @@
+select * where {?x a dbo:NaturalPlace} LIMIT 100
+
+select * where {?x a owl:Class}
+
+select ?x where { ?x a yago:WikicatCapitals } LIMIT 100A
+
+DOES NOT WORK
+prefix dbr:<http://dbpedia.org/resource/>
+select ?x where { ?x a dbr:Capital_city } LIMIT 100 
+DOES NOT WORK
+
+WORKS BUT IS NOT SPECIFIC
+prefix dbr:<http://dbpedia.org/resource/>
+select ?x where { ?x ?p dbr:Capital_city } LIMIT 100 
+WORKS BUT IS NOT SPECIFIC
+
+@prefix umb: <http://umbel.org/umbel/rc/> .
+select * where {
+    ?x a umb:PopulatedPlace; 
+    rdfs:label ?y .
+} limit 100
+
+@prefix ont: <http://dbpedia.org/ontology/> .
+select * where {
+    ?x a ont:City; 
+    rdfs:label ?y .
+} limit 100
+
+@prefix ont: <http://dbpedia.org/ontology/> .
+select * where { ?p rdfs:domain ont:City } limit 100
+
+@prefix ont: <http://dbpedia.org/ontology/> .
+select * where { ?x a ont:City ;
+                 ont:crownDependency ?y ;
+                 rdfs:label ?z } limit 100
+
+
