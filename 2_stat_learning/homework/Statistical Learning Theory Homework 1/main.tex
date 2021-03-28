@@ -1329,22 +1329,7 @@ if __name__ == "__main__":
     print("\n#### II.2 - Shape of the dataset ####")
     print_boston_shapes(X_train, X_test, y_train, y_test)
 
-    #II.3 computes w1
-    print("\n#### II.3 - Computing \hat{w}^1 ####")
-    w1 = compute_w1(X_train, y_train, 0.1)
-    print("Shape of w1: ("+str(len(w1))+",)",
-          "Example computed with regularization parameter: 0.1",
-          w1, sep="\n")
-
-    #II.4 predicts based on w1
-    print("\n#### II.4 - Computing predictions with \hat{w}^1 ####")
-    preds_w1 = predict_1(X_test, w1)
-    print("Shape of predictions: ("+str(len(preds_w1))+",)",
-          "First five predictions (using w1 computed in II.3):",
-          preds_w1[:5],
-          sep="\n")
-
-    #II.5 GridSearch for w1
+    #II.3 computes w1    #II.5 GridSearch for w1
     print("\n#### II.5 - Performing a GridSearch for \hat{w}^1 ####")
     split_sizes = list(map(lambda x:x/100, range(10, 42, 2)))
     for divisor, max_range in [(10000, 1000), (1000**2, 1000)]:
