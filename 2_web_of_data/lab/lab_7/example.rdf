@@ -1,0 +1,5 @@
+<http://www.inria.fr/2007/09/11/humans.rdfs#MarriedMan>
+  owl:equivalentClass
+    [ a owl:Restriction; owl:onProperty hasSpouse;
+      owl:allValuesFrom <http://www.inria.fr/2007/09/11/humans.rdfs#Woman> ] ;
+  rdfs:subClassOf <http://inria.fr/2007/09/11/humans.rdfs#Man> .

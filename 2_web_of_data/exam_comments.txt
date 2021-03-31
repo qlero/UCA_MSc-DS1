@@ -1,0 +1,4 @@
+a trip may have different steps/trips/locations
+.ttl : turtle file
+.rdf : owl
+.txt : sparql
