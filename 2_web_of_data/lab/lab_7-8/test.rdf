@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://www.inria.fr/2007/09/11/humans.rdfs#Animal> a owl:Class ;
+    rdfs:label "animal"@en, 
+               "animal"@fr ;
+    rdfs:comment "a living organism characterized by voluntary movement."@en, 
+                 "être vivant doué de sensibilite de mobilité."@fr .

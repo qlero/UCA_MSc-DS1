@@ -1,0 +1,238 @@
+@prefix : <http://www.inria.fr/2007/09/11/humans.rdfs#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix humans: <http://www.inria.fr/2007/09/11/humans.rdfs> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#age
+:age rdf:type owl:AnnotationProperty .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#hasChild
+:hasChild rdf:type owl:AnnotationProperty .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#hasFather
+:hasFather rdf:type owl:AnnotationProperty .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#hasFriend
+:hasFriend rdf:type owl:AnnotationProperty .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#hasMother
+:hasMother rdf:type owl:AnnotationProperty .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#hasParent
+:hasParent rdf:type owl:AnnotationProperty .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#hasSpouse
+:hasSpouse rdf:type owl:AnnotationProperty .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#name
+:name rdf:type owl:AnnotationProperty .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#shirtsize
+:shirtsize rdf:type owl:AnnotationProperty .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#shoesize
+:shoesize rdf:type owl:AnnotationProperty .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#trouserssize
+:trouserssize rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#Lecturer
+:Lecturer rdf:type owl:Class .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#Man
+:Man rdf:type owl:Class .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#Person
+:Person rdf:type owl:Class .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#Researcher
+:Researcher rdf:type owl:Class .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs#Woman
+:Woman rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#Alice
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Alice> rdf:type owl:NamedIndividual ,
+                                                                      :Woman ;
+                                                             :hasFriend <http://www.inria.fr/2007/09/11/humans.rdfs-instances#John> ;
+                                                             :name "Alice" .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#Catherine
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Catherine> rdf:type owl:NamedIndividual ,
+                                                                          :Woman ;
+                                                                 :hasMother <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Laura> .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#David
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#David> rdf:type owl:NamedIndividual ,
+                                                                      :Person ,
+                                                                      :Researcher ;
+                                                             :hasFriend <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Gaston> ;
+                                                             :name "David" .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#Eve
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Eve> rdf:type owl:NamedIndividual ,
+                                                                    :Lecturer ,
+                                                                    :Person ;
+                                                           :hasFriend <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Alice> ;
+                                                           :hasSpouse <http://www.inria.fr/2007/09/11/humans.rdfs-instances#David> ;
+                                                           :name "Eve" .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#Flora
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Flora> rdf:type owl:NamedIndividual ,
+                                                                      :Woman ;
+                                                             :age 95 ;
+                                                             :hasChild <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Pierre> ;
+                                                             :hasSpouse <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Gaston> ;
+                                                             :name "Flora" .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#Gaston
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Gaston> rdf:type owl:NamedIndividual ,
+                                                                       :Man ,
+                                                                       :Researcher ;
+                                                              :age 102 ;
+                                                              :hasChild <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Jack> ,
+                                                                        <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Pierre> ;
+                                                              :name "Gaston" ;
+                                                              :shirtsize 12 ;
+                                                              :shoesize 11 ;
+                                                              :trouserssize 38 .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#Harry
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Harry> rdf:type owl:NamedIndividual ,
+                                                                      :Man ;
+                                                             :hasChild <http://www.inria.fr/2007/09/11/humans.rdfs-instances#John> ;
+                                                             :hasSpouse <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Sophie> ;
+                                                             :name "Harry" .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#Jack
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Jack> rdf:type owl:NamedIndividual ,
+                                                                     :Man ;
+                                                            :hasChild <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Harry> ;
+                                                            :hasFriend <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Alice> ;
+                                                            :name "Jack" .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#Jennifer
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Jennifer> rdf:type owl:NamedIndividual ,
+                                                                         :Woman ;
+                                                                :hasSpouse <http://www.inria.fr/2007/09/11/humans.rdfs-instances#John> ;
+                                                                :name "Jennifer" .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#John
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#John> rdf:type owl:NamedIndividual ,
+                                                                     :Person ;
+                                                            :age 37 ;
+                                                            :hasParent <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Sophie> ;
+                                                            :name "John" ;
+                                                            :shirtsize 12 ;
+                                                            :shoesize 14 ;
+                                                            :trouserssize 44 .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#Karl
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Karl> rdf:type owl:NamedIndividual ,
+                                                                     :Person ;
+                                                            :age 36 ;
+                                                            :hasFriend <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Sophie> ;
+                                                            :hasSpouse <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Catherine> ;
+                                                            :shirtsize 9 ;
+                                                            :shoesize 7 ;
+                                                            :trouserssize 40 .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#Laura
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Laura> rdf:type owl:NamedIndividual ,
+                                                                      :Lecturer ,
+                                                                      :Person ,
+                                                                      :Researcher ;
+                                                             :hasFriend <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Alice> ;
+                                                             :name "Laura" .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#Lucas
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Lucas> rdf:type owl:NamedIndividual ,
+                                                                      :Man ;
+                                                             :age 12 ;
+                                                             :hasMother <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Catherine> ;
+                                                             :name "Lucas" ;
+                                                             :shirtsize 8 ;
+                                                             :shoesize 7 ;
+                                                             :trouserssize 28 .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#Mark
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Mark> rdf:type owl:NamedIndividual ,
+                                                                     :Person ;
+                                                            :age 14 ;
+                                                            :hasFather <http://www.inria.fr/2007/09/11/humans.rdfs-instances#John> ;
+                                                            :name "Mark" ;
+                                                            :shirtsize 9 ;
+                                                            :shoesize 8 ;
+                                                            :trouserssize 36 .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#Pierre
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#Pierre> rdf:type owl:NamedIndividual ,
+                                                                       :Man ;
+                                                              :age 71 ;
+                                                              :name "Pierre" ;
+                                                              :shirtsize 9 ;
+                                                              :shoesize 8 ;
+                                                              :trouserssize 30 .
+
+
+###  http://www.inria.fr/2007/09/11/humans.rdfs-instances#William
+<http://www.inria.fr/2007/09/11/humans.rdfs-instances#William> rdf:type owl:NamedIndividual ,
+                                                                        :Person ;
+                                                               :age 42 ;
+                                                               :hasSpouse <http://www.inria.fr/2007/09/11/humans.rdfs-instances#Laura> ;
+                                                               :name "William" ;
+                                                               :shirtsize 13 ;
+                                                               :shoesize 10 ;
+                                                               :trouserssize 46 .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
